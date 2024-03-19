@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1710866880 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1710867960 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's The World's Most Abused TLDs - Aggressive
@@ -11,8 +11,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 19 Mar 2024 16:48 UTC
-; Version: 2024.0319.1648.22
+; Last modified: 19 Mar 2024 17:06 UTC
+; Version: 2024.0319.1706.18
 ; Syntax: RPZ
 ; Number of latin TLDs: 67
 ;
@@ -83,6 +83,7 @@ $TTL 300
 *.work CNAME .
 *.wtf CNAME .
 *.zip CNAME .
+*.xn--p1acf CNAME .
 *.xn--11b4c3d CNAME .
 *.xn--1ck2e1b CNAME .
 *.xn--1qqw23a CNAME .
@@ -112,7 +113,6 @@ $TTL 300
 *.xn--80asehdb CNAME .
 *.xn--80aswg CNAME .
 *.xn--8y0a063a CNAME .
-*.xn--90a3ac CNAME .
 *.xn--90ae CNAME .
 *.xn--90ais CNAME .
 *.xn--9dbq2a CNAME .
@@ -120,7 +120,6 @@ $TTL 300
 *.xn--9krt00a CNAME .
 *.xn--b4w605ferd CNAME .
 *.xn--bck1b9a5dre4c CNAME .
-*.xn--c1avg CNAME .
 *.xn--c2br7g CNAME .
 *.xn--cck2b3b CNAME .
 *.xn--cckwcxetd CNAME .
@@ -134,8 +133,8 @@ $TTL 300
 *.xn--e1a4c CNAME .
 *.xn--eckvdtc9d CNAME .
 *.xn--efvy88h CNAME .
-*.xn--fct429k CNAME .
 *.xn--fhbei CNAME .
+*.xn--fct429k CNAME .
 *.xn--fiq228c5hs CNAME .
 *.xn--fiq64b CNAME .
 *.xn--fiqs8s CNAME .
@@ -150,14 +149,12 @@ $TTL 300
 *.xn--gecrj9c CNAME .
 *.xn--gk3at1e CNAME .
 *.xn--h2breg3eve CNAME .
-*.xn--h2brj9c8c CNAME .
 *.xn--h2brj9c CNAME .
-*.xn--hxt814e CNAME .
-*.xn--i1b6b1a6a2e CNAME .
-*.xn--imr513n CNAME .
 *.xn--io0a7i CNAME .
-*.xn--j1aef CNAME .
-*.xn--j1amh CNAME .
+*.xn--imr513n CNAME .
+*.xn--i1b6b1a6a2e CNAME .
+*.xn--hxt814e CNAME .
+*.xn--h2brj9c8c CNAME .
 *.xn--j6w193g CNAME .
 *.xn--jlq480n2rg CNAME .
 *.xn--jlq61u9w7b CNAME .
@@ -166,7 +163,6 @@ $TTL 300
 *.xn--kprw13d CNAME .
 *.xn--kpry57d CNAME .
 *.xn--kput3i CNAME .
-*.xn--l1acc CNAME .
 *.xn--lgbbat1ad8j CNAME .
 *.xn--mgb9awbf CNAME .
 *.xn--mgba3a3ejt CNAME .
@@ -177,20 +173,20 @@ $TTL 300
 *.xn--mgbab2bd CNAME .
 *.xn--mgbah1a3hjkrd CNAME .
 *.xn--mgbai9azgqp6j CNAME .
-*.xn--mgbayh7gpa CNAME .
-*.xn--mgbbh1a71e CNAME .
-*.xn--mgbbh1a CNAME .
-*.xn--mgbc0a9azcg CNAME .
-*.xn--mgbca7dzdo CNAME .
-*.xn--mgbcpq6gpa1a CNAME .
-*.xn--mgberp4a5d4ar CNAME .
-*.xn--mgbgu82a CNAME .
-*.xn--mgbi4ecexp CNAME .
-*.xn--mgbpl2fh CNAME .
+*.xn--mix891f CNAME .
+*.xn--mgbx4cd0ab CNAME .
 *.xn--mgbt3dhd CNAME .
 *.xn--mgbtx2b CNAME .
-*.xn--mgbx4cd0ab CNAME .
-*.xn--mix891f CNAME .
+*.xn--mgbpl2fh CNAME .
+*.xn--mgbi4ecexp CNAME .
+*.xn--mgbgu82a CNAME .
+*.xn--mgberp4a5d4ar CNAME .
+*.xn--mgbcpq6gpa1a CNAME .
+*.xn--mgbca7dzdo CNAME .
+*.xn--mgbc0a9azcg CNAME .
+*.xn--mgbbh1a71e CNAME .
+*.xn--mgbbh1a CNAME .
+*.xn--mgbayh7gpa CNAME .
 *.xn--mk1bu44c CNAME .
 *.xn--mxtq1m CNAME .
 *.xn--ngbc5azd CNAME .
@@ -200,37 +196,41 @@ $TTL 300
 *.xn--nqv7f CNAME .
 *.xn--nqv7fs00ema CNAME .
 *.xn--nyqy26a CNAME .
+*.xn--zfr164b CNAME .
+*.xn--ygbi2ammx CNAME .
+*.xn--yfro4i67o CNAME .
+*.xn--xkc2dl3a5ee0h CNAME .
+*.xn--xkc2al3hye2a CNAME .
+*.xn--xhq521b CNAME .
+*.xn--wgbl6a CNAME .
+*.xn--w4rs40l CNAME .
+*.xn--w4r85el8fhu5dnra CNAME .
+*.xn--vuq861b CNAME .
+*.xn--vhquv CNAME .
+*.xn--wgbh1c CNAME .
+*.xn--unup4y CNAME .
+*.xn--tiq49xqyj CNAME .
+*.xn--tckwe CNAME .
+*.xn--t60b56a CNAME .
+*.xn--ses554g CNAME .
+*.xn--s9brj9c CNAME .
+*.xn--rvc1e0am3e CNAME .
+*.xn--rhqv96g CNAME .
+*.xn--rovu88b CNAME .
+*.xn--qcka1pmc CNAME .
+*.xn--q9jyb4c CNAME .
+*.xn--q7ce6a CNAME .
+*.xn--pssy2u CNAME .
+*.xn--pgbs0dh CNAME .
 *.xn--o3cw4h CNAME .
 *.xn--ogbpf8fl CNAME .
 *.xn--otu796d CNAME .
-*.xn--p1acf CNAME .
 *.xn--p1ai CNAME .
-*.xn--pgbs0dh CNAME .
-*.xn--pssy2u CNAME .
-*.xn--q7ce6a CNAME .
-*.xn--q9jyb4c CNAME .
-*.xn--qcka1pmc CNAME .
+*.xn--90a3ac CNAME .
+*.xn--c1avg CNAME .
+*.xn--j1aef CNAME .
+*.xn--j1amh CNAME .
+*.xn--l1acc CNAME .
 *.xn--qxa6a CNAME .
 *.xn--qxam CNAME .
-*.xn--rhqv96g CNAME .
-*.xn--rovu88b CNAME .
-*.xn--rvc1e0am3e CNAME .
-*.xn--s9brj9c CNAME .
-*.xn--ses554g CNAME .
-*.xn--t60b56a CNAME .
-*.xn--tckwe CNAME .
-*.xn--tiq49xqyj CNAME .
-*.xn--unup4y CNAME .
-*.xn--vhquv CNAME .
-*.xn--vuq861b CNAME .
-*.xn--w4r85el8fhu5dnra CNAME .
-*.xn--w4rs40l CNAME .
-*.xn--wgbh1c CNAME .
-*.xn--wgbl6a CNAME .
-*.xn--xhq521b CNAME .
-*.xn--xkc2al3hye2a CNAME .
-*.xn--xkc2dl3a5ee0h CNAME .
 *.xn--y9a3aq CNAME .
-*.xn--yfro4i67o CNAME .
-*.xn--ygbi2ammx CNAME .
-*.xn--zfr164b CNAME .
