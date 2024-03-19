@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1710745200 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1710801660 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 18 Mar 2024 07:00 UTC
-; Version: 2024.0318.0700.54
+; Last modified: 18 Mar 2024 22:41 UTC
+; Version: 2024.0318.2241.01
 ; Syntax: RPZ
-; Number of entries: 5768
+; Number of entries: 5776
 ;
 vpn.ac CNAME .
 *.vpn.ac CNAME .
@@ -1374,6 +1374,8 @@ le-vpn.com CNAME .
 *.le-vpn.com CNAME .
 leekemx.com CNAME .
 *.leekemx.com CNAME .
+let-vpn.com CNAME .
+*.let-vpn.com CNAME .
 dns.lgprk.com CNAME .
 *.dns.lgprk.com CNAME .
 t.lifestylethailand.com CNAME .
@@ -1484,6 +1486,8 @@ myspaceunlock.com CNAME .
 *.myspaceunlock.com CNAME .
 mytunneling.com CNAME .
 *.mytunneling.com CNAME .
+mywebtunnel.com CNAME .
+*.mywebtunnel.com CNAME .
 nanoproxy.com CNAME .
 *.nanoproxy.com CNAME .
 napps-1.com CNAME .
@@ -3214,6 +3218,8 @@ mybestvpn.info CNAME .
 *.mybestvpn.info CNAME .
 myip-proxy.info CNAME .
 *.myip-proxy.info CNAME .
+myproxy.info CNAME .
+*.myproxy.info CNAME .
 mzhlhrfr8z.info CNAME .
 *.mzhlhrfr8z.info CNAME .
 netgeek.info CNAME .
@@ -3224,6 +3230,8 @@ onconnect.info CNAME .
 *.onconnect.info CNAME .
 adguard.onlyfriends.info CNAME .
 *.adguard.onlyfriends.info CNAME .
+onweb.info CNAME .
+*.onweb.info CNAME .
 papervpn.info CNAME .
 *.papervpn.info CNAME .
 pinweb.info CNAME .
