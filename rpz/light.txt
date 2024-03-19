@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1710808080 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1710843900 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -8,8 +8,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 19 Mar 2024 00:28 UTC
-; Version: 2024.0319.0028.40
+; Last modified: 19 Mar 2024 10:25 UTC
+; Version: 2024.0319.1025.33
 ; Syntax: RPZ
 ; Number of entries: 113006
 ;
@@ -535,6 +535,8 @@ analytics.compass.at CNAME .
 *.analytics.compass.at CNAME .
 decoding.at CNAME .
 *.decoding.at CNAME .
+data-dda7d24eb2.derstandard.at CNAME .
+*.data-dda7d24eb2.derstandard.at CNAME .
 adtd.douglas.at CNAME .
 *.adtd.douglas.at CNAME .
 matomo.eurogast.at CNAME .
@@ -93849,6 +93851,8 @@ apptelma-relay.iocnt.net CNAME .
 *.apptelma-relay.iocnt.net CNAME .
 at.iocnt.net CNAME .
 *.at.iocnt.net CNAME .
+at-w-atderstand-relay.iocnt.net CNAME .
+*.at-w-atderstand-relay.iocnt.net CNAME .
 at-w-atkrone-relay.iocnt.net CNAME .
 *.at-w-atkrone-relay.iocnt.net CNAME .
 at-w-atorf-relay.iocnt.net CNAME .
