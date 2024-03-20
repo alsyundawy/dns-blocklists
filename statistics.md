@@ -2,15 +2,23 @@
 #### LIGHT
 ```
  Nr | Included | Dead | Removed | URL/File
-  1 |      87% |   9% |      4% | Denylist Personal
-  2 |      95% |   0% |      5% | Basic Extension
-  3 |      97% |   1% |      2% | Denylist Community non-Aggressive
+  1 |      85% |   9% |      6% | Denylist Personal
+  2 |      53% |  25% |     22% | Extracted Wildcard Rules
+  3 |      95% |   0% |      5% | Native Tracker Apple (iOS, macOS, tvOS)
+  4 |      66% |   0% |     34% | Native Tracker Amazon (Devices, Shopping, Video)
+  5 |      75% |   0% |     25% | Native Tracker Huawei (Devices)
+  6 |     100% |   0% |      0% | Native Tracker LG webOS
+  7 |      17% |   0% |     83% | Native Tracker TikTok (Fingerprinting)
+  8 |      10% |   0% |     90% | Native Tracker Microsoft (Windows, Office, MSN)
+  9 |      69% |   4% |     27% | Denylist Base
+ 10 |      95% |   0% |      5% | Basic Extension
+ 11 |      97% |   1% |      2% | Denylist Community non-Aggressive
 ```
 #### MULTI
 ```
  Nr | Included | Dead | Removed | URL/File
   1 |     100% |   0% |      0% | Predecessor: Multi Light
-  2 |      87% |   9% |      4% | Denylist Personal
+  2 |      88% |   9% |      3% | Denylist Personal
   3 |      53% |  25% |     22% | Extracted Wildcard Rules
   4 |      95% |   0% |      5% | Native Tracker Apple (iOS, macOS, tvOS)
   5 |      66% |   0% |     34% | Native Tracker Amazon (Devices, Shopping, Video)
@@ -32,7 +40,7 @@
 ```
  Nr | Included | Dead | Removed | URL/File
   1 |     100% |   0% |      0% | Predecessor: Multi Normal
-  2 |      88% |   9% |      3% | Denylist Personal
+  2 |      89% |   9% |      2% | Denylist Personal
   3 |      66% |  26% |      8% | Extracted Wildcard Rules
   4 |      95% |   0% |      5% | Native Tracker Apple (iOS, macOS, tvOS)
   5 |      99% |   0% |      1% | Native Tracker Amazon (Devices, Shopping, Video)
@@ -56,7 +64,7 @@
 ```
  Nr | Included | Dead | Removed | URL/File
   1 |     100% |   0% |      0% | Predecessor: Multi Pro
-  2 |      89% |   9% |      2% | Denylist Personal
+  2 |      88% |   9% |      3% | Denylist Personal
   3 |      68% |  26% |      6% | Extracted Wildcard Rules
   4 |      95% |   0% |      5% | Native Tracker Apple (iOS, macOS, tvOS)
   5 |     100% |   0% |      0% | Native Tracker Amazon (Devices, Shopping, Video)
@@ -75,7 +83,7 @@
  18 |      80% |  13% |      7% | EasyList MultiParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
  19 |      84% |  15% |      1% | uBlock MultiParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
  20 |     100% |   0% |      0% | Fake
- 21 |      83% |   9% |      8% | Aggressive Extension
+ 21 |      83% |   8% |      9% | Aggressive Extension
  22 |     100% |   0% |      0% | Native Tracker Vivo (EXPERIMENTAL)
  23 |     100% |   0% |      0% | Native Tracker OPPO/Realme (EXPERIMENTAL)
  24 |      91% |   1% |      8% | Denylist Aggressive
@@ -85,7 +93,7 @@
 ```
  Nr | Included | Dead | Removed | URL/File
   1 |     100% |   0% |      0% | Predecessor: Multi Pro++
-  2 |      89% |   9% |      2% | Denylist Personal
+  2 |      88% |   9% |      3% | Denylist Personal
   3 |      69% |  26% |      5% | Extracted Wildcard Rules
   4 |     100% |   0% |      0% | Native Tracker Apple (iOS, macOS, tvOS)
   5 |     100% |   0% |      0% | Native Tracker Amazon (Devices, Shopping, Video)
@@ -103,7 +111,7 @@
  17 |      80% |  13% |      7% | EasyList MultiParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
  18 |      84% |  15% |      1% | uBlock MultiParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
  19 |     100% |   0% |      0% | Fake
- 20 |      83% |   9% |      8% | Aggressive Extension
+ 20 |      84% |   8% |      8% | Aggressive Extension
  21 |     100% |   0% |      0% | Native Tracker Vivo (EXPERIMENTAL)
  22 |     100% |   0% |      0% | Native Tracker OPPO/Realme (EXPERIMENTAL)
  23 |      94% |   1% |      5% | Denylist Aggressive
@@ -152,6 +160,7 @@
  33 |      21% |  79% |      0% | https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-10-07_donot/domains.txt
  34 |      26% |  74% |      0% | https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-12-16_cytrox/domains.txt
  35 |      11% |  89% |      0% | https://raw.githubusercontent.com/AmnestyTech/investigations/master/2023-03-29_android_campaign/domains.txt
+ 36 |      89% |  10% |      1% | https://filters.adavoid.org/ultimate-security-filter.txt
 ```
 #### TIF
 ```
@@ -175,7 +184,7 @@
  17 |      66% |  31% |      3% | https://raw.githubusercontent.com/matomo-org/referrer-spam-list/master/spammers.txt
  18 |      57% |  43% |      0% | https://www.stopforumspam.com/downloads/toxic_domains_whole.txt
  19 |      77% |  19% |      4% | https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
- 20 |      30% |  69% |      1% | https://hole.cert.pl/domains/domains_hosts.txt
+ 20 |      57% |  43% |      0% | https://hole.cert.pl/domains/v2/domains.txt
  21 |      40% |  58% |      2% | https://hosts.tweedge.net/malicious.txt
  22 |      30% |  70% |      0% | https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/threat/hosts
  23 |      71% |  26% |      3% | https://threatfox.abuse.ch/downloads/hostfile
@@ -191,7 +200,7 @@
  33 |      27% |  73% |      0% | https://dl.red.flag.domains/red.flag.domains.txt
  34 |      23% |  75% |      2% | https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
  35 |      80% |  13% |      7% | https://lists.cyberhost.uk/malware.txt
- 36 |      68% |  32% |      0% | https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADomains.txt
+ 36 |      69% |  31% |      0% | https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADomains.txt
  37 |      86% |  14% |      0% | https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Malware
  38 |      69% |  29% |      2% | https://raw.githubusercontent.com/braveinnovators/ukrainian-security-filter/main/lists/domains.txt
  39 |      71% |  29% |      0% | https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames_Predecessor: Multi Light
@@ -211,4 +220,5 @@
  53 |      21% |  79% |      0% | https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-10-07_donot/domains.txt
  54 |      26% |  74% |      0% | https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-12-16_cytrox/domains.txt
  55 |      11% |  89% |      0% | https://raw.githubusercontent.com/AmnestyTech/investigations/master/2023-03-29_android_campaign/domains.txt
+ 56 |      89% |  10% |      1% | https://filters.adavoid.org/ultimate-security-filter.txt
 ```

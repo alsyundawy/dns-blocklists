@@ -34,6 +34,7 @@ https://easylist-downloads.adblockplus.org/liste_fr.txt
 https://easylist-downloads.adblockplus.org/ruadlist.txt
 https://filters.adavoid.org/ultimate-ad-filter.txt
 https://filters.adavoid.org/ultimate-privacy-filter.txt
+https://filters.adavoid.org/ultimate-security-filter.txt
 https://gamingcommission.be/en/gaming-commission/illegal-games-of-chance/list-of-illegal-gambling-sites
 https://github.com/drsdavidsoft/additional-hosts/raw/master/domains/blacklist/adservers-and-trackers.txt
 https://github.com/drsdavidsoft/additional-hosts/raw/master/domains/blacklist/unwanted-iranian.txt
@@ -41,6 +42,7 @@ https://gitlab.com/quidsup/notrack-annoyance-blocklist/-/raw/master/notrack-anno
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
 https://hole.cert.pl/domains/domains_hosts.txt
+https://hole.cert.pl/domains/v2/domains.txt
 https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
 https://hostfiles.frogeye.fr/multiparty-trackers-hosts.txt
 https://hosts.tweedge.net/malicious.txt
