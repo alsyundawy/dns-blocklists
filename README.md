@@ -44,7 +44,7 @@
 | :blue_book:[Normal](#normal)       | 752563<br>137389     |  |   |  | :green_circle: | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: | |
 | :ledger:[Pro](#pro)              | 890950<br>196677         |  |  | :green_circle: | :green_circle: | :yellow_square: | :yellow_square: | :yellow_square: | :green_circle: | :green_circle: |
 | :orange_book:[Pro++](#proplus)    | 1038460<br>228082 |  | :green_circle: | :green_circle: | :green_circle: | :green_circle: |:yellow_square: | :yellow_square: | :green_circle: | :green_circle: |
-| :closed_book:[Ultimate](#ultimate)    | 1089169<br>259349 | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :yellow_square: | :green_circle: | :green_circle: | :green_circle: |
+| :closed_book:[Ultimate](#ultimate)    | 1149042<br>290048 | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :yellow_square: | :green_circle: | :green_circle: | :green_circle: |
            
 :green_circle: contains the list named in the column caption       
 :yellow_square: partially contains the list named in the column caption       
@@ -159,7 +159,7 @@
          
 ***NOTE:*** *META trackers are blocked in Ultimate. This restricts the use of Facebook/Instagram and Facebook Messenger apps. To use Facebook/Instagram apps with Ultimate, unblock the following domains: [META Tracker](share/facebook.txt)*
        
-**Entries:** *1089169 domains/hosts - 259349 compressed domains*               
+**Entries:** *1149042 domains/hosts - 290048 compressed domains*               
                                                 
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|

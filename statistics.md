@@ -111,7 +111,7 @@
  25 |     100% |   0% |      0% | Native Tracker TikTok Extended (Fingerprinting)
  26 |      92% |   0% |      8% | META Graph Tracker (Facebook, Instagram)
  27 |      86% |  11% |      3% | Ads/Tracking Extension
- 28 |      87% |   4% |      9% | Ultimate Extension
+ 28 |      89% |   4% |      7% | Ultimate Extension
  29 |       0% |   0% |      0% | Denylist Community Ultimate
 ```
 #### TIF.MEDIUM
