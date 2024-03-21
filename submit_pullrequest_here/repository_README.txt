@@ -40,11 +40,11 @@
 #### ***Blocklist version and size overview:***
 | Version | Entries | Pro++ | Pro | Nor<br>mal | Light | [Fake](#fake) | [TIF](#tif) | [Nat<br>ive](#native) | [PopUp<br>Ads](#popupads) | Bug<br>Tracker |
 |:--------|---:|:------:|:-----:|:----:|:----:|:---:|:------:|:----------:|:----:|:----:|
-| :green_book:[Light](#light)             | light_dh<br>light_cp     |  |   |   |  |  |  |  :yellow_square: | | |
-| :blue_book:[Normal](#normal)       | multi_dh<br>multi_cp     |  |   |  | :green_circle: | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: | |
-| :ledger:[Pro](#pro)              | pro_dh<br>pro_cp         |  |  | :green_circle: | :green_circle: | :yellow_square: | :yellow_square: | :yellow_square: | :green_circle: | :green_circle: |
-| :orange_book:[Pro++](#proplus)    | proplus_dh<br>proplus_cp |  | :green_circle: | :green_circle: | :green_circle: | :green_circle: |:yellow_square: | :yellow_square: | :green_circle: | :green_circle: |
-| :closed_book:[Ultimate](#ultimate)    | ultimate_dh<br>ultimate_cp | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :yellow_square: | :green_circle: | :green_circle: | :green_circle: |
+| :green_book:[Light](#light)             | light_dh<br>light_cp     |  |   |   | :green_circle:  |  | :yellow_square: |  :yellow_square: |:yellow_square: | |
+| :blue_book:[Normal](#normal)       | multi_dh<br>multi_cp     |  |   | :green_circle: | :green_circle: |  | :yellow_square: | :yellow_square: | :yellow_square: | |
+| :ledger:[Pro](#pro)              | pro_dh<br>pro_cp         |  | :green_circle: | :green_circle: | :green_circle: |  | :yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
+| :orange_book:[Pro++](#proplus)    | proplus_dh<br>proplus_cp | :green_circle: | :green_circle: | :green_circle: | :green_circle: |  |:yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
+| :closed_book:[Ultimate](#ultimate)    | ultimate_dh<br>ultimate_cp | :green_circle: | :green_circle: | :green_circle: | :green_circle: |  | :yellow_square: | :green_circle: | :green_circle: | :green_circle: |
            
 :green_circle: contains the list named in the column caption       
 :yellow_square: partially contains the list named in the column caption       
@@ -143,13 +143,19 @@
 
 #### :orange_book: ***Multi PRO++ mini*** <a name="proplusmini"></a>
 
-*Size-optimised version for browser adblockers. This list only contains domains from the Pro++ full that have been found on Top 1M lists (Umbrella, Cloudflare, Tranco, Chrome, ...) in the last 12 months. This list can also be used in DNS adblockers if the size of the Pro++ full is not supported.*             
+*Size-optimised version for DNS/Browser adblockers. This list only contains domains from the Pro++ full that have been found on Top 1M lists (Umbrella, Cloudflare, Tranco, Chrome, ...) in the last 12 months.*             
           
 **Entries:** *proplusmini_cp compressed domains*               
                                                 
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](lnkgh_a/pro.plus.mini.txt) [Mirror](lnkgl_a/pro.plus.mini.txt) [Mirror](lnkjd_a/pro.plus.mini.txt) | AdGuard, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave |
+| Adblock | [Link](lnkgh_a/pro.plus.mini.txt) [Mirror](lnkgl_a/pro.plus.mini.txt) [Mirror](lnkjd_a/pro.plus.mini.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam |
+| Unbound | [Link](lnkgh_u/pro.plus.mini.blacklist.conf) [Mirror](lnkgl_u/pro.plus.mini.blacklist.conf) [Mirror](lnkjd_u/pro.plus.mini.blacklist.conf) | Unbound |
+| DNSMasq<br>v2.85- | [Link](lnkgh_m/pro.plus.mini-old.txt) [Mirror](lnkgl_m/pro.plus.mini-old.txt) [Mirror](lnkjd_m/pro.plus.mini-old.txt) | DNSMasq (v2.85 or older) |
+| DNSMasq<br>v2.86+ | [Link](lnkgh_m/pro.plus.mini.txt) [Mirror](lnkgl_m/pro.plus.mini.txt) [Mirror](lnkjd_m/pro.plus.mini.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
+| Wildcard<br>Asterisk | [Link](lnkgh_w/pro.plus.mini.txt) [Mirror](lnkgl_w/pro.plus.mini.txt) [Mirror](lnkjd_w/pro.plus.mini.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Wildcard<br>Domains | [Link](lnkgh_w/pro.plus.mini-onlydomains.txt) [Mirror](lnkgl_w/pro.plus.mini-onlydomains.txt) [Mirror](lnkjd_w/pro.plus.mini-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
+| RPZ | [Link](lnkgh_r/pro.plus.mini.txt) [Mirror](lnkgl_r/pro.plus.mini.txt) [Mirror](lnkjd_r/pro.plus.mini.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 ### :closed_book: ***Multi ULTIMATE*** - **Aggressive protection** <a name="ultimate"></a>
 
@@ -182,7 +188,7 @@
         
 |             | Light | Normal          | Pro            | Pro++          | Ultimate       | TIF<br>TIF medium |
 |:-----------:|:-----:|:---------------:|:--------------:|:--------------:|:--------------:|:--------------:|
-| Included in | :x:   | :yellow_square: | :yellow_square: | :green_circle: | :green_circle: | :green_circle: |
+| Included in | :x:   | :x: | :x: | :x: | :x: | :green_circle: |
 
 :green_circle: yes :yellow_square: partially :x: no
 		
@@ -207,7 +213,7 @@
         
 |             | Light          | Normal         | Pro            | Pro++          | Ultimate       |
 |:-----------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
-| Included in | :x: | :yellow_square: | :green_circle: | :green_circle: | :green_circle: |
+| Included in | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
 
 :green_circle: yes :yellow_square: partially :x: no
 		
@@ -232,7 +238,7 @@
         
 |             | Light           | Normal          | Pro             | Pro++           | Ultimate        |
 |:-----------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|
-| Included in | :x: | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: |
+| Included in | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: |
 
 :green_circle: yes :yellow_square: partially :x: no
               		
@@ -252,7 +258,13 @@
 
 #### :closed_lock_with_key: ***Threat Intelligence Feeds - Medium version*** <a name="tifmedium"></a>
 *A medium version of the Threat Intelligence Feeds list. Designed for Adblockers that have problems with the size of the full TIF list. Contains only important feeds.*         
-         
+        
+|             | Light           | Normal          | Pro             | Pro++           | Ultimate        |
+|:-----------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|
+| Included in | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: |
+
+:green_circle: yes :yellow_square: partially :x: no
+             		
 **Entries:** *tif_m_cp compressed domains*           
          
 | Format | Links | Can be used for |

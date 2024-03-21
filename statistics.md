@@ -2,23 +2,15 @@
 #### LIGHT
 ```
  Nr | Included | Dead | Removed | URL/File
-  1 |      87% |   8% |      5% | Denylist Personal
-  2 |      53% |  25% |     22% | Extracted Wildcard Rules
-  3 |      95% |   0% |      5% | Native Tracker Apple (iOS, macOS, tvOS)
-  4 |      66% |   0% |     34% | Native Tracker Amazon (Devices, Shopping, Video)
-  5 |      75% |   0% |     25% | Native Tracker Huawei (Devices)
-  6 |     100% |   0% |      0% | Native Tracker LG webOS
-  7 |      17% |   0% |     83% | Native Tracker TikTok (Fingerprinting)
-  8 |      10% |   0% |     90% | Native Tracker Microsoft (Windows, Office, MSN)
-  9 |      69% |   4% |     27% | Denylist Base
- 10 |      95% |   0% |      5% | Basic Extension
- 11 |      97% |   1% |      2% | Denylist Community non-Aggressive
+  1 |      85% |   9% |      6% | Denylist Personal
+  2 |      95% |   0% |      5% | Basic Extension
+  3 |      97% |   1% |      2% | Denylist Community non-Aggressive
 ```
 #### MULTI
 ```
  Nr | Included | Dead | Removed | URL/File
   1 |     100% |   0% |      0% | Predecessor: Multi Light
-  2 |      87% |   8% |      5% | Denylist Personal
+  2 |      85% |   9% |      6% | Denylist Personal
   3 |      53% |  25% |     22% | Extracted Wildcard Rules
   4 |      95% |   0% |      5% | Native Tracker Apple (iOS, macOS, tvOS)
   5 |      66% |   0% |     34% | Native Tracker Amazon (Devices, Shopping, Video)
@@ -26,21 +18,20 @@
   7 |     100% |   0% |      0% | Native Tracker LG webOS
   8 |      17% |   0% |     83% | Native Tracker TikTok (Fingerprinting)
   9 |      10% |   0% |     90% | Native Tracker Microsoft (Windows, Office, MSN)
- 10 |      69% |   4% |     27% | Denylist Base
+ 10 |      68% |   5% |     27% | Denylist Base
  11 |      95% |   0% |      5% | Basic Extension
  12 |      97% |   1% |      2% | Denylist Community non-Aggressive
- 13 |     100% |   0% |      0% | Fake Light
- 14 |      71% |  10% |     19% | AdGuard FirstParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads)
- 15 |      69% |  11% |     20% | EasyList FirstParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
- 16 |      84% |  15% |      1% | uBlock FirstParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
- 17 |      77% |  18% |      5% | Analytics/Metrics Extension
- 18 |      96% |   1% |      3% | Balanced Extension
+ 13 |      71% |  10% |     19% | AdGuard FirstParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads)
+ 14 |      69% |  11% |     20% | EasyList FirstParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
+ 15 |      84% |  15% |      1% | uBlock FirstParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
+ 16 |      77% |  18% |      5% | Analytics/Metrics Extension
+ 17 |      96% |   1% |      3% | Balanced Extension
 ```
 #### PRO
 ```
  Nr | Included | Dead | Removed | URL/File
   1 |     100% |   0% |      0% | Predecessor: Multi Normal
-  2 |      88% |   8% |      4% | Denylist Personal
+  2 |      87% |   9% |      4% | Denylist Personal
   3 |      66% |  26% |      8% | Extracted Wildcard Rules
   4 |      95% |   0% |      5% | Native Tracker Apple (iOS, macOS, tvOS)
   5 |      99% |   0% |      1% | Native Tracker Amazon (Devices, Shopping, Video)
@@ -51,20 +42,18 @@
  10 |      75% |   5% |     20% | Denylist Base
  11 |      95% |   0% |      5% | Basic Extension
  12 |      99% |   1% |      0% | Denylist Community non-Aggressive
- 13 |     100% |   0% |      0% | Fake Light
- 14 |      83% |  10% |      7% | AdGuard FirstParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads)
- 15 |      80% |  11% |      9% | EasyList FirstParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
- 16 |      84% |  15% |      1% | uBlock FirstParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
- 17 |      77% |  18% |      5% | Analytics/Metrics Extension
- 18 |      97% |   1% |      2% | Balanced Extension
- 19 |     100% |   0% |      0% | Pop-Up Ads
- 20 |      92% |   1% |      7% | Advanced Extension
+ 13 |      80% |  11% |      9% | EasyList FirstParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
+ 14 |      84% |  15% |      1% | uBlock FirstParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
+ 15 |      77% |  18% |      5% | Analytics/Metrics Extension
+ 16 |      97% |   1% |      2% | Balanced Extension
+ 17 |      82% |  10% |      8% | AdGuard MultiParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads and Trackers)
+ 18 |      93% |   1% |      6% | Advanced Extension
 ```
 #### PRO.PLUS
 ```
  Nr | Included | Dead | Removed | URL/File
   1 |     100% |   0% |      0% | Predecessor: Multi Pro
-  2 |      89% |   8% |      3% | Denylist Personal
+  2 |      88% |   9% |      3% | Denylist Personal
   3 |      68% |  26% |      6% | Extracted Wildcard Rules
   4 |      95% |   0% |      5% | Native Tracker Apple (iOS, macOS, tvOS)
   5 |     100% |   0% |      0% | Native Tracker Amazon (Devices, Shopping, Video)
@@ -72,28 +61,26 @@
   7 |     100% |   0% |      0% | Native Tracker LG webOS
   8 |     100% |   0% |      0% | Native Tracker TikTok (Fingerprinting)
   9 |      77% |   0% |     23% | Native Tracker Microsoft (Windows, Office, MSN)
- 10 |      94% |   5% |      1% | Denylist Base
+ 10 |      93% |   5% |      2% | Denylist Base
  11 |      96% |   0% |      4% | Basic Extension
  12 |      99% |   1% |      0% | Denylist Community non-Aggressive
  13 |      77% |  18% |      5% | Analytics/Metrics Extension
  14 |      97% |   1% |      2% | Balanced Extension
- 15 |     100% |   0% |      0% | Pop-Up Ads
- 16 |      93% |   1% |      6% | Advanced Extension
- 17 |      84% |  10% |      6% | AdGuard MultiParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads and Trackers)
- 18 |      80% |  13% |      7% | EasyList MultiParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
- 19 |      84% |  15% |      1% | uBlock MultiParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
- 20 |     100% |   0% |      0% | Fake
- 21 |      83% |   8% |      9% | Aggressive Extension
- 22 |     100% |   0% |      0% | Native Tracker Vivo (EXPERIMENTAL)
- 23 |     100% |   0% |      0% | Native Tracker OPPO/Realme (EXPERIMENTAL)
- 24 |      91% |   1% |      8% | Denylist Aggressive
- 25 |     100% |   0% |      0% | Denylist Community Aggressive
+ 15 |      84% |  10% |      6% | AdGuard MultiParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads and Trackers)
+ 16 |      94% |   1% |      5% | Advanced Extension
+ 17 |      80% |  13% |      7% | EasyList MultiParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
+ 18 |      84% |  15% |      1% | uBlock MultiParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
+ 19 |      83% |   8% |      9% | Aggressive Extension
+ 20 |     100% |   0% |      0% | Native Tracker Vivo (EXPERIMENTAL)
+ 21 |     100% |   0% |      0% | Native Tracker OPPO/Realme (EXPERIMENTAL)
+ 22 |      91% |   1% |      8% | Denylist Aggressive
+ 23 |     100% |   0% |      0% | Denylist Community Aggressive
 ```
 #### ULTIMATE
 ```
  Nr | Included | Dead | Removed | URL/File
   1 |     100% |   0% |      0% | Predecessor: Multi Pro++
-  2 |      89% |   8% |      3% | Denylist Personal
+  2 |      88% |   9% |      3% | Denylist Personal
   3 |      69% |  26% |      5% | Extracted Wildcard Rules
   4 |     100% |   0% |      0% | Native Tracker Apple (iOS, macOS, tvOS)
   5 |     100% |   0% |      0% | Native Tracker Amazon (Devices, Shopping, Video)
@@ -105,22 +92,20 @@
  11 |      99% |   1% |      0% | Denylist Community non-Aggressive
  12 |      77% |  18% |      5% | Analytics/Metrics Extension
  13 |      97% |   1% |      2% | Balanced Extension
- 14 |     100% |   0% |      0% | Pop-Up Ads
- 15 |      93% |   1% |      6% | Advanced Extension
- 16 |      84% |  10% |      6% | AdGuard MultiParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads and Trackers)
- 17 |      80% |  13% |      7% | EasyList MultiParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
- 18 |      84% |  15% |      1% | uBlock MultiParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
- 19 |     100% |   0% |      0% | Fake
- 20 |      84% |   8% |      8% | Aggressive Extension
- 21 |     100% |   0% |      0% | Native Tracker Vivo (EXPERIMENTAL)
- 22 |     100% |   0% |      0% | Native Tracker OPPO/Realme (EXPERIMENTAL)
- 23 |      94% |   1% |      5% | Denylist Aggressive
- 24 |     100% |   0% |      0% | Denylist Community Aggressive
- 25 |     100% |   0% |      0% | Native Tracker TikTok Extended (Fingerprinting)
- 26 |      92% |   0% |      8% | META Graph Tracker (Facebook, Instagram)
- 27 |      86% |  11% |      3% | Ads/Tracking Extension
- 28 |      89% |   4% |      7% | Ultimate Extension
- 29 |       0% |   0% |      0% | Denylist Community Ultimate
+ 14 |      84% |  10% |      6% | AdGuard MultiParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads and Trackers)
+ 15 |      94% |   1% |      5% | Advanced Extension
+ 16 |      80% |  13% |      7% | EasyList MultiParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
+ 17 |      84% |  15% |      1% | uBlock MultiParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
+ 18 |      84% |   8% |      8% | Aggressive Extension
+ 19 |     100% |   0% |      0% | Native Tracker Vivo (EXPERIMENTAL)
+ 20 |     100% |   0% |      0% | Native Tracker OPPO/Realme (EXPERIMENTAL)
+ 21 |      94% |   1% |      5% | Denylist Aggressive
+ 22 |     100% |   0% |      0% | Denylist Community Aggressive
+ 23 |     100% |   0% |      0% | Pop-Up Ads
+ 24 |     100% |   0% |      0% | Native Tracker TikTok Extended (Fingerprinting)
+ 25 |      92% |   0% |      8% | META Graph Tracker (Facebook, Instagram)
+ 26 |      84% |  12% |      4% | Ultimate Extension
+ 27 |       0% |   0% |      0% | Denylist Community Ultimate
 ```
 #### TIF.MEDIUM
 ```
