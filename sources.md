@@ -41,7 +41,6 @@ https://github.com/drsdavidsoft/additional-hosts/raw/master/domains/blacklist/un
 https://gitlab.com/quidsup/notrack-annoyance-blocklist/-/raw/master/notrack-annoyance.txt
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
-https://hole.cert.pl/domains/domains_hosts.txt
 https://hole.cert.pl/domains/v2/domains.txt
 https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
 https://hostfiles.frogeye.fr/multiparty-trackers-hosts.txt
@@ -92,6 +91,9 @@ https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-10-07_d
 https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-12-16_cytrox/domains.txt
 https://raw.githubusercontent.com/AmnestyTech/investigations/master/2023-03-29_android_campaign/domains.txt
 https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts
+https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt
+https://raw.githubusercontent.com/badmojr/1Hosts/master/mini/adblock.txt
+https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt
 https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/gambling/hosts
 https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/gambling/hosts-VN
 https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/threat/hosts
@@ -191,6 +193,7 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHo
 https://raw.githubusercontent.com/matomo-org/referrer-spam-list/master/spammers.txt
 https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/hosts.txt
 https://raw.githubusercontent.com/migueldemoura/ublock-umatrix-rulesets/master/Hosts/ads-tracking
+https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts
 https://raw.githubusercontent.com/mtxadmin/ublock/master/hosts/_all_bets_are_off
 https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains
 https://raw.githubusercontent.com/nextdns/ddns-domains/main/suffixes
