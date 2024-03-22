@@ -9,15 +9,15 @@
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Expires: 1 day
-! Last modified: 20 Mar 2024 22:10 UTC
-! Version: 2024.0320.2210.46
+! Last modified: 22 Mar 2024 16:16 UTC
+! Version: 2024.0322.1616.01
 ! Syntax: uBlock
-! Number of latin TLDs: 63 - non-latin TLDs: 151
+! Number of latin TLDs: 67 - non-latin TLDs: 151
 !
 ||asia^$doc,domain=~amzn.asia
 ||autos^$doc
 ||bar^$doc,domain=~fap.bar
-||beauty^$doc,domain=~homelab.beauty|~nic.beauty|~vipbj.beauty
+||beauty^$doc,domain=~homelab.beauty|~vipbj.beauty
 ||best^$doc
 ||bid^$doc
 ||bio^$doc
@@ -33,13 +33,15 @@
 ||cyou^$doc,domain=~hammertime.cyou
 ||dad^$doc,domain=~classic.dad|~daily.dad|~dear.dad|~rad.dad
 ||dance^$doc
-||degree^$doc,domain=~nic.degree|~opf.degree|~three60.degree
+||degree^$doc,domain=~opf.degree|~three60.degree
+||discount^$doc,domain=~real.discount
 ||esq^$doc,domain=~erika.esq
 ||fishing^$doc
-||fit^$doc,domain=~appetit.fit|~clubb.fit|~justget.fit|~nic.fit|~pridegym.fit|~thebene.fit|~union.fit
+||fit^$doc,domain=~appetit.fit|~clubb.fit|~justget.fit|~pridegym.fit|~thebene.fit|~union.fit
 ||foo^$doc,domain=~helloworld.foo
 ||fyi^$doc,domain=~canonn.fyi|~iusearchlinux.fyi|~lunar.fyi
 ||ga^$doc,domain=~mmo.ga
+||gdn^$doc,domain=~cst.gdn|~pss.gdn
 ||gq^$doc,domain=~inege.gq|~tvgelive.gq
 ||guru^$doc,domain=~bahn.guru|~crontab.guru|~jav.guru|~webcal.guru
 ||hair^$doc
@@ -56,16 +58,18 @@
 ||monster^$doc,domain=~cloudcdn.monster|~egybest.monster|~fedi.monster|~rollenspiel.monster|~tts.monster|~vipbj.monster|~yts.monster
 ||mov^$doc,domain=~david.mov|~spankbang.mov
 ||name^$doc
+||ooo^$doc,domain=~toast.ooo
 ||phd^$doc,domain=~rafael.phd
 ||prof^$doc,domain=~casey.prof
-||quest^$doc,domain=~amble.quest|~bookshelf.quest|~dice.quest|~dont-panic.quest|~epochal.quest|~federation.quest|~galaxy.quest|~mhn.quest|~mylegendary.quest|~nic.quest|~prometheus.quest|~teacher.quest|~theculture.quest|~toot.quest
+||quest^$doc,domain=~amble.quest|~bookshelf.quest|~dice.quest|~dont-panic.quest|~epochal.quest|~federation.quest|~galaxy.quest|~mhn.quest|~mylegendary.quest|~prometheus.quest|~teacher.quest|~theculture.quest|~toot.quest
 ||rest^$doc,domain=~crystals.rest|~nect.rest
 ||review^$doc
 ||rip^$doc
 ||rodeo^$doc,domain=~raypeat.rodeo
+||sbs^$doc,domain=~ecopulse.sbs|~moae.sbs
 ||skin^$doc
 ||support^$doc
-||surf^$doc,domain=~bloom.surf|~glowing.surf|~kayaking.surf|~nic.surf|~quran.surf|~s-wings.surf
+||surf^$doc,domain=~bloom.surf|~glowing.surf|~kayaking.surf|~quran.surf|~s-wings.surf
 ||tattoo^$doc
 ||tk^$doc,domain=~adistance.tk|~bonzibuddy.tk|~bryla.tk|~bstweaker.tk|~budterence.tk|~censurion.tk|~c-r-t.tk|~cuso.tk|~dlyang.tk|~google.tk|~goshujin.tk|~gotofap.tk|~graph.tk|~kabi.tk|~pube.tk|~sironi.tk|~tokelau-info.tk|~xn--qubec-csa.tk|~zete.tk
 ||tokyo^$doc
