@@ -13,10 +13,10 @@ body:
       multiple: true
       options:
         - AdGuard
+        - AdGuard DNS
         - AdGuard Home
         - Pi-hole
         - uBlock
-        - AdGuard DNS
         - ControlD
         - DNSwarden
         - NextDNS
@@ -49,10 +49,12 @@ body:
         - Multi NORMAL 
         - Multi PRO 
         - Multi PRO++
+        - Multi PRO++ mini
         - Multi ULTIMATE
         - Fake
         - Pop-Up Ads
         - Threat Intelligence Feeds
+        - Threat Intelligence Feeds medium
         - Threat Intelligence Feeds IPs
         - DoH/VPN/TOR/Proxy Bypass
         - DoH Bypass
@@ -62,7 +64,6 @@ body:
         - Most Abused TLDs
         - Anti Piracy
         - Gambling
-        - Personal
         - Native Tracker
     validations:
       required: true
@@ -81,6 +82,6 @@ body:
     attributes:
       label: Why should the domain(s) be unblocked?
       description: |
-        If necessary, please describe the steps to reproduce. You can also add screenshots.
+        Provide as many details as possible to avoid unnecessary enquiries. If necessary, please describe the steps to reproduce. You can also add screenshots.
     validations:
       required: true
