@@ -40,11 +40,11 @@
 #### ***Blocklist version and size overview:***
 | Version | Entries | Pro++ | Pro | Nor<br>mal | Light | [Fake](#fake) | [TIF](#tif) | [Nat<br>ive](#native) | [PopUp<br>Ads](#popupads) | Bug<br>Tracker |
 |:--------|---:|:------:|:-----:|:----:|:----:|:---:|:------:|:----------:|:----:|:----:|
-| :green_book:[Light](#light)             | 239334<br>65388     |  |   |   | :green_circle:  |  | :yellow_square: |  :yellow_square: |:yellow_square: | |
-| :blue_book:[Normal](#normal)       | 739264<br>131590     |  |   | :green_circle: | :green_circle: |  | :yellow_square: | :yellow_square: | :yellow_square: | |
-| :ledger:[Pro](#pro)              | 809467<br>152776         |  | :green_circle: | :green_circle: | :green_circle: |  | :yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
-| :orange_book:[Pro++](#proplus)    | 934056<br>171847 | :green_circle: | :green_circle: | :green_circle: | :green_circle: |  |:yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
-| :closed_book:[Ultimate](#ultimate)    | 1026716<br>218628 | :green_circle: | :green_circle: | :green_circle: | :green_circle: |  | :yellow_square: | :green_circle: | :green_circle: | :green_circle: |
+| :green_book:[Light](#light)             | 234524<br>61262     |  |   |   | :green_circle:  |  | |  :yellow_square: | | |
+| :blue_book:[Normal](#normal)       | 737194<br>130689     |  |   | :green_circle: | :green_circle: |  | :yellow_square: | :yellow_square: | :yellow_square: | |
+| :ledger:[Pro](#pro)              | 805924<br>151525         |  | :green_circle: | :green_circle: | :green_circle: |  | :yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
+| :orange_book:[Pro++](#proplus)    | 933578<br>170932 | :green_circle: | :green_circle: | :green_circle: | :green_circle: |  |:yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
+| :closed_book:[Ultimate](#ultimate)    | 1023424<br>216298 | :green_circle: | :green_circle: | :green_circle: | :green_circle: |  | :yellow_square: | :green_circle: | :green_circle: | :green_circle: |
            
 :green_circle: contains the list named in the column caption       
 :yellow_square: partially contains the list named in the column caption       
@@ -68,7 +68,7 @@
           
 ***NOTE:*** *Does not block error trackers such as Bugsnag, Crashlytics, Firebase, Instabug, Sentry, ... and other app-specific crash trackers. These are only blocked from the Pro version onwards.*
 		  
-**Entries:** *239334 domains/hosts - 65388 compressed domains*                    
+**Entries:** *234524 domains/hosts - 61262 compressed domains*                    
          
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -89,7 +89,7 @@
          
 ***NOTE:*** *Does not block error trackers such as Bugsnag, Crashlytics, Firebase, Instabug, Sentry, ... and other app-specific crash trackers. These are only blocked from the Pro version onwards.*
 		  
-**Entries:** *739264 domains/hosts - 131590 compressed domains*                   
+**Entries:** *737194 domains/hosts - 130689 compressed domains*                   
           
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -107,7 +107,7 @@
       
 *Big broom - Cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tracking, Metrics, Telemetry, Phishing, Malware, Scam, Fake, Coins and other "Crap".*
          
-**Entries:** *809467 domains/hosts - 152776 compressed domains*                   
+**Entries:** *805924 domains/hosts - 151525 compressed domains*                   
            
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -127,13 +127,13 @@
          
 *More aggressive version of the Multi PRO blocklist. It may contain few false positive domains that limit functionality. Therefore it should only be used by experienced users. Furthermore, an admin should be available to unblock incorrectly blocked domains. Reported false positive domains will be removed from the list!*
 
-**Entries:** *934056 domains/hosts - 171847 compressed domains*               
+**Entries:** *933578 domains/hosts - 170932 compressed domains*               
                                                 
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
 | Domains<br>Subdomains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/pro.plus.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.plus.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/domains/pro.plus.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
 | Hosts | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/pro.plus.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.plus.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/hosts/pro.plus.txt) | AdAway, uMatrix, DNS66, GasMask, NetGuard, Hostfile |
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/pro.plus.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/pro.plus.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
 | Unbound | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/unbound/pro.plus.blacklist.conf) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/pro.plus.blacklist.conf) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/unbound/pro.plus.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.plus-old.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/dnsmasq/pro.plus-old.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/dnsmasq/pro.plus-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.plus.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/dnsmasq/pro.plus.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/dnsmasq/pro.plus.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
@@ -145,11 +145,11 @@
 
 *Size-optimised version for DNS/Browser adblockers. This list only contains domains from the Pro++ full that have been found on Top 1M lists (Umbrella, Cloudflare, Tranco, Chrome, ...) in the last 12 months.*             
           
-**Entries:** *92048 compressed domains*               
+**Entries:** *92483 compressed domains*               
                                                 
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.mini.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.mini.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/pro.plus.mini.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.mini.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.mini.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/pro.plus.mini.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
 | Unbound | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/unbound/pro.plus.mini.blacklist.conf) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/pro.plus.mini.blacklist.conf) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/unbound/pro.plus.mini.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.plus.mini-old.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/dnsmasq/pro.plus.mini-old.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/dnsmasq/pro.plus.mini-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.plus.mini.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/dnsmasq/pro.plus.mini.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/dnsmasq/pro.plus.mini.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
@@ -165,7 +165,7 @@
          
 ***NOTE:*** *META trackers are blocked in Ultimate. This restricts the use of Facebook/Instagram and Facebook Messenger apps. To use Facebook/Instagram apps with Ultimate, unblock the following domains: [META Tracker](share/facebook.txt)*
        
-**Entries:** *1026716 domains/hosts - 218628 compressed domains*               
+**Entries:** *1023424 domains/hosts - 216298 compressed domains*               
                                                 
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -192,7 +192,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 		
-**Entries:** *16525 compressed domains*           
+**Entries:** *15805 compressed domains*           
        
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -213,11 +213,11 @@
         
 |             | Light          | Normal         | Pro            | Pro++          | Ultimate       |
 |:-----------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
-| Included in | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
+| Included in | :x: | :yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
 
 :green_circle: yes :yellow_square: partially :x: no
 		
-**Entries:** *76575 compressed domains*           
+**Entries:** *73918 compressed domains*           
        
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -238,11 +238,11 @@
         
 |             | Light           | Normal          | Pro             | Pro++           | Ultimate        |
 |:-----------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|
-| Included in | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: |
+| Included in | :x: | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: |
 
 :green_circle: yes :yellow_square: partially :x: no
               		
-**Entries:** *915802 domains/hosts - 510142 compressed domains*           
+**Entries:** *919184 domains/hosts - 511739 compressed domains*           
          
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -261,11 +261,11 @@
         
 |             | Light           | Normal          | Pro             | Pro++           | Ultimate        |
 |:-----------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|
-| Included in | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: |
+| Included in | :x: | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: |
 
 :green_circle: yes :yellow_square: partially :x: no
              		
-**Entries:** *158915 compressed domains*           
+**Entries:** *167561 compressed domains*           
          
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -299,7 +299,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 		
-**Entries:** *3083 compressed domains*           
+**Entries:** *3084 compressed domains*           
             
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -321,7 +321,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 		
-**Entries:** *1131 domains/hosts - 978 compressed domains*           
+**Entries:** *1132 domains/hosts - 979 compressed domains*           
             
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -470,7 +470,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 		
-**Entries:** *215746 compressed domains*                     
+**Entries:** *216101 compressed domains*                     
             
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|

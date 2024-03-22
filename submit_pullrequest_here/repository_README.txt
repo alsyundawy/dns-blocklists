@@ -40,7 +40,7 @@
 #### ***Blocklist version and size overview:***
 | Version | Entries | Pro++ | Pro | Nor<br>mal | Light | [Fake](#fake) | [TIF](#tif) | [Nat<br>ive](#native) | [PopUp<br>Ads](#popupads) | Bug<br>Tracker |
 |:--------|---:|:------:|:-----:|:----:|:----:|:---:|:------:|:----------:|:----:|:----:|
-| :green_book:[Light](#light)             | light_dh<br>light_cp     |  |   |   | :green_circle:  |  | :yellow_square: |  :yellow_square: |:yellow_square: | |
+| :green_book:[Light](#light)             | light_dh<br>light_cp     |  |   |   | :green_circle:  |  | |  :yellow_square: | | |
 | :blue_book:[Normal](#normal)       | multi_dh<br>multi_cp     |  |   | :green_circle: | :green_circle: |  | :yellow_square: | :yellow_square: | :yellow_square: | |
 | :ledger:[Pro](#pro)              | pro_dh<br>pro_cp         |  | :green_circle: | :green_circle: | :green_circle: |  | :yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
 | :orange_book:[Pro++](#proplus)    | proplus_dh<br>proplus_cp | :green_circle: | :green_circle: | :green_circle: | :green_circle: |  |:yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
@@ -133,7 +133,7 @@
 |:-------|:-----|:----------------|
 | Domains<br>Subdomains | [Link](lnkgh_d/pro.plus.txt) [Mirror](lnkgl_d/pro.plus.txt) [Mirror](lnkjd_d/pro.plus.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
 | Hosts | [Link](lnkgh_h/pro.plus.txt) [Mirror](lnkgl_h/pro.plus.txt) [Mirror](lnkjd_h/pro.plus.txt) | AdAway, uMatrix, DNS66, GasMask, NetGuard, Hostfile |
-| Adblock | [Link](lnkgh_a/pro.plus.txt) [Mirror](lnkgl_a/pro.plus.txt) [Mirror](lnkjd_a/pro.plus.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam |
+| Adblock | [Link](lnkgh_a/pro.plus.txt) [Mirror](lnkgl_a/pro.plus.txt) [Mirror](lnkjd_a/pro.plus.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
 | Unbound | [Link](lnkgh_u/pro.plus.blacklist.conf) [Mirror](lnkgl_u/pro.plus.blacklist.conf) [Mirror](lnkjd_u/pro.plus.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/pro.plus-old.txt) [Mirror](lnkgl_m/pro.plus-old.txt) [Mirror](lnkjd_m/pro.plus-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/pro.plus.txt) [Mirror](lnkgl_m/pro.plus.txt) [Mirror](lnkjd_m/pro.plus.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
@@ -149,7 +149,7 @@
                                                 
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](lnkgh_a/pro.plus.mini.txt) [Mirror](lnkgl_a/pro.plus.mini.txt) [Mirror](lnkjd_a/pro.plus.mini.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam |
+| Adblock | [Link](lnkgh_a/pro.plus.mini.txt) [Mirror](lnkgl_a/pro.plus.mini.txt) [Mirror](lnkjd_a/pro.plus.mini.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
 | Unbound | [Link](lnkgh_u/pro.plus.mini.blacklist.conf) [Mirror](lnkgl_u/pro.plus.mini.blacklist.conf) [Mirror](lnkjd_u/pro.plus.mini.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/pro.plus.mini-old.txt) [Mirror](lnkgl_m/pro.plus.mini-old.txt) [Mirror](lnkjd_m/pro.plus.mini-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/pro.plus.mini.txt) [Mirror](lnkgl_m/pro.plus.mini.txt) [Mirror](lnkjd_m/pro.plus.mini.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
@@ -213,7 +213,7 @@
         
 |             | Light          | Normal         | Pro            | Pro++          | Ultimate       |
 |:-----------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
-| Included in | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
+| Included in | :x: | :yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
 
 :green_circle: yes :yellow_square: partially :x: no
 		
@@ -238,7 +238,7 @@
         
 |             | Light           | Normal          | Pro             | Pro++           | Ultimate        |
 |:-----------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|
-| Included in | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: |
+| Included in | :x: | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: |
 
 :green_circle: yes :yellow_square: partially :x: no
               		
@@ -261,7 +261,7 @@
         
 |             | Light           | Normal          | Pro             | Pro++           | Ultimate        |
 |:-----------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|
-| Included in | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: |
+| Included in | :x: | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: |
 
 :green_circle: yes :yellow_square: partially :x: no
              		
