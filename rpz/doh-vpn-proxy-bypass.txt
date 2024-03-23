@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1711062240 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1711150320 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 21 Mar 2024 23:04 UTC
-; Version: 2024.0321.2304.46
+; Last modified: 22 Mar 2024 23:32 UTC
+; Version: 2024.0322.2332.10
 ; Syntax: RPZ
-; Number of entries: 6168
+; Number of entries: 6174
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -94,6 +94,8 @@ goproxy.asia CNAME .
 *.goproxy.asia CNAME .
 kproxy.asia CNAME .
 *.kproxy.asia CNAME .
+mehide.asia CNAME .
+*.mehide.asia CNAME .
 unblocked.asia CNAME .
 *.unblocked.asia CNAME .
 vpn.asia CNAME .
@@ -1176,6 +1178,8 @@ globalchatinc.com CNAME .
 *.globalchatinc.com CNAME .
 globaltrx.com CNAME .
 *.globaltrx.com CNAME .
+dns.glorydns.com CNAME .
+*.dns.glorydns.com CNAME .
 glype.com CNAME .
 *.glype.com CNAME .
 gobestvpn.com CNAME .
@@ -4476,6 +4480,8 @@ openvpn.net CNAME .
 *.openvpn.net CNAME .
 opera-mini.net CNAME .
 *.opera-mini.net CNAME .
+opera-proxy.net CNAME .
+*.opera-proxy.net CNAME .
 orangeproxy.net CNAME .
 *.orangeproxy.net CNAME .
 ourproxy.net CNAME .
