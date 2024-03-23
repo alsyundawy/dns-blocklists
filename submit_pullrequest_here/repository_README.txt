@@ -28,7 +28,7 @@
 17. [Native Tracker](#native) - *Broadband tracker of devices, services and operating systems*
 18. [Supporter](https://github.com/hagezi/dns-blocklists/stargazers) - *Leave a star (top right)!*
 19. [Recommendation](#recommendation) - [Which version of the lists should I use?](#whatshouldiuse)
-20. [Online DNS Services](#dnsservices) : [AdGuardDNS](#adguarddns) - [ControlD](#controld) - [NextDNS](#nextdns) - [RethinkDNS](#rethinkdns) - [DNSwarden](#dnswarden) - [DNSforge](#dnsforge) - [OpenBLD.net](#openbld)
+20. [Online DNS Services](#dnsservices) : [AdGuardDNS](#adguarddns) - [ControlD](#controld) - [RethinkDNS](#rethinkdns) - [DNSwarden](#dnswarden) - [DNSforge](#dnsforge) - [OpenBLD.net](#openbld)
 21. [About](#about) : [Contact](#contact) - [Groups](#groups) - [Repository](#repository) - [Referral Domains](#referral) - [Support Me](#support)
 22. [Statistics](statistics.md) - [Sources](sources.md) 
 23. [FAQ](https://github.com/hagezi/dns-blocklists/wiki/FAQ) - Frequently Asked Questions
@@ -546,7 +546,7 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 
 *If you don't run your own DNS server on your home network or if you are looking for additional protection for your mobile devices when they are not connected to the home network, then I recommend one of the following DNS services:*
 
-### :round_pushpin: ***AdGuardDNS - limited free/paid*** <a name="adguarddns"></a>        
+### :round_pushpin: ***AdGuardDNS - limited free/paid (Recommended)*** <a name="adguarddns"></a>        
           
 *In [AdGuardDNS](https://adguard-dns.io) you can use my Multi Normal, Pro, Pro++, Ultimate, TIF, Gambling, Anti Piracy, DoH/VPN/TOR/Proxy Bypass, DynDNS list and the Allowlist Referral.*
 
@@ -562,12 +562,6 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 | Pro Plus | `https://freedns.controld.com/x-hagezi-proplus` | `x-hagezi-proplus.freedns.controld.com` |
 | Ultimate | `https://freedns.controld.com/x-hagezi-ultimate` | `x-hagezi-ultimate.freedns.controld.com` |
 | TIF | `https://freedns.controld.com/x-hagezi-tif` | `x-hagezi-tif.freedns.controld.com` |
-
-### :round_pushpin: ***NextDNS - limited free/paid*** <a name="nextdns"></a>        
-
-*In [NextDNS](https://nextdns.io) you can use my Light, Normal, Pro, Pro++ and Ultimate list.*
-               
-*Check out Yokoffing [NextDNS Config Guide](https://github.com/yokoffing/NextDNS-Config) and Techlore Video [The ULTIMATE Guide to Mastering NextDNS!](https://youtu.be/WUG57ynLb8I) for recommended [NextDNS](https://nextdns.io) configuration settings.*
 
 ### :round_pushpin: ***RethinkDNS - free*** <a name="rethinkdns"></a>
 
@@ -617,7 +611,7 @@ Made with :heartbeat: for a safer and cleaner internet.*
 
 *No, they are not just block lists cobbled together from different sources. They have been optimized and extended to efficiently "clean the Internet" in all areas. See also: [Which sources are used for the lists and how are the lists compiled on the basis of these sources?](https://github.com/hagezi/dns-blocklists/wiki/FAQ#sources)*                   
      
-*The results of a test against the 10000 [whotracks.me](https://whotracks.me/websites.html) pages. All pages were opened and fully loaded via batch in Edge with privacy features turned off. Cookies were all accepted. NextDNS was used as the DNS.*
+*The results of a test against the 10000 [whotracks.me](https://whotracks.me/websites.html) pages. All pages were opened and fully loaded via batch in Edge with privacy features turned off. Cookies were all accepted.*
 
 | **List**     | Total queries | Blocked queries | % blocked | % gap to light |
 |-------------:|--------------:|----------------:|----------:|---------------:|
