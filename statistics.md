@@ -2,7 +2,7 @@
 #### LIGHT
 ```
  Nr | Included | Dead | Removed | URL/File
-  1 |      85% |   9% |      6% | Denylist Personal
+  1 |      84% |   9% |      7% | Denylist Personal
   2 |      99% |   0% |      1% | Basic Extension
   3 |      96% |   2% |      2% | Denylist Community non-Aggressive
 ```
@@ -10,7 +10,7 @@
 ```
  Nr | Included | Dead | Removed | URL/File
   1 |     100% |   0% |      0% | Predecessor: Multi Light
-  2 |      85% |   9% |      6% | Denylist Personal
+  2 |      84% |   9% |      7% | Denylist Personal
   3 |      53% |  25% |     22% | Extracted Wildcard Rules
   4 |      95% |   0% |      5% | Native Tracker Apple (iOS, macOS, tvOS)
   5 |      66% |   0% |     34% | Native Tracker Amazon (Devices, Shopping, Video)
@@ -104,7 +104,7 @@
  23 |     100% |   0% |      0% | Pop-Up Ads
  24 |     100% |   0% |      0% | Native Tracker TikTok Extended (Fingerprinting)
  25 |      92% |   0% |      8% | META Graph Tracker (Facebook, Instagram)
- 26 |      84% |  12% |      4% | Ultimate Extension
+ 26 |      85% |   8% |      7% | Ultimate Extension
  27 |       0% |   0% |      0% | Denylist Community Ultimate
 ```
 #### TIF.MEDIUM
