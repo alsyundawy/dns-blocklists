@@ -113,6 +113,7 @@ https://raw.githubusercontent.com/cbuijs/ut1/master/ddos/domains
 https://raw.githubusercontent.com/cbuijs/ut1/master/gambling/domains
 https://raw.githubusercontent.com/cbuijs/ut1/master/warez/domains
 https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt
+https://raw.githubusercontent.com/cenk/nrd/main/nrd-last-10-days.txt
 https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
 https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt
 https://raw.githubusercontent.com/craiu/mobiletrackers/master/list.txt
