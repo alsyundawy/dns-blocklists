@@ -565,7 +565,7 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 
 ***Further additional options to the main lists depending on the use case are:***
       
-- ***Security:*** *In addition to the [Threat Intelligence Feeds](#tif) list, use the [Dynamic DNS](#dyndns), [Badware Hoster](#hoster) and [Most Abused TLDs](#tlds) list to further protect yourself from malicious things.*
+- ***Security:*** *In addition to the [Threat Intelligence Feeds](#tif) list, use the [Dynamic DNS](#dyndns), [Badware Hoster](#hoster), [Most Abused TLDs](#tlds) and [Newly Registered Domains (NRDs)](#nrd) list to further protect yourself from malicious things.*
 - ***Protection of children:*** *Use the [Gambling](#gambling), [Anti Piracy](#piracy), [Safesearch](#safesearch), [DoH/VPN/TOR/Proxy Bypass](#bypass) and [oisd NSFW](https://oisd.nl/setup) lists in addition to block gambling, piracy, no safesearch engines, DNS bypassing, porn, shock and adult sites.*
 
 ---
