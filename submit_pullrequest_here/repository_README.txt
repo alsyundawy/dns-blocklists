@@ -28,7 +28,7 @@
 17. [Native Tracker](#native) - *Broadband tracker of devices, services and operating systems*
 18. [Supporter](https://github.com/hagezi/dns-blocklists/stargazers) - *Leave a star (top right)!*
 19. [Recommendation](#recommendation) - [Which version of the lists should I use?](#whatshouldiuse)
-20. [Online DNS Services](#dnsservices) : [AdGuardDNS](#adguarddns) - [ControlD](#controld) - [RethinkDNS](#rethinkdns) - [DNSwarden](#dnswarden) - [DNSforge](#dnsforge) - [OpenBLD.net](#openbld)
+20. [Online DNS Services](#dnsservices) : [AdGuardDNS](#adguarddns) (Recommended) - [ControlD](#controld) - [RethinkDNS](#rethinkdns) - [DNSwarden](#dnswarden) - [DNSforge](#dnsforge) - [OpenBLD.net](#openbld)
 21. [About](#about) : [Contact](#contact) - [Groups](#groups) - [Repository](#repository) - [Referral Domains](#referral) - [Support Me](#support)
 22. [Statistics](statistics.md) - [Sources](sources.md) 
 23. [FAQ](https://github.com/hagezi/dns-blocklists/wiki/FAQ) - Frequently Asked Questions
@@ -428,7 +428,7 @@
 | AdGuard | [Link](lnkgh_a/spam-tlds.txt) [Mirror](lnkgl_a/spam-tlds.txt) [Mirror](lnkjd_a/spam-tlds.txt) | AdGuard, AdGuard Home |
 | uBlock  | [Link](lnkgh_a/spam-tlds-ublock.txt) [Mirror](lnkgl_a/spam-tlds-ublock.txt) [Mirror](lnkjd_a/spam-tlds-ublock.txt) | uBlock, AdBlock Plus |
 | AdBlock  | [Link](lnkgh_a/spam-tlds-adblock.txt) [Mirror](lnkgl_a/spam-tlds-adblock.txt) [Mirror](lnkjd_a/spam-tlds-adblock.txt) | Pi-hole, AdBlock, TechnitiumDNS<br>*Contains only spam TLDs that do not have any exclusions.* |
-| AdBlock<br>(Aggressive) | [Link](lnkgh_a/spam-tlds-adblock-aggressive.txt) [Mirror](lnkgl_a/spam-tlds-adblock-aggressive.txt) [Mirror](lnkjd_a/spam-tlds-adblock-aggressive.txt) | Pi-hole, AdBlock, TechnitiumDNS<br>*Contains all spam TLDs, corresponds to the AdGuard and uBlock version without exclusions.* |
+| AdBlock<br>(Aggressive)<br><br>Allowlist | [Link](lnkgh_a/spam-tlds-adblock-aggressive.txt) [Mirror](lnkgl_a/spam-tlds-adblock-aggressive.txt) [Mirror](lnkjd_a/spam-tlds-adblock-aggressive.txt)<br><br><br>[Link](lnkgh_a/spam-tlds-adblock-allow.txt) [Mirror](lnkgl_a/spam-tlds-adblock-allow.txt) [Mirror](lnkjd_a/spam-tlds-adblock-allow.txt) | Pi-hole, AdBlock, TechnitiumDNS |
 | RPZ | [Link](lnkgh_r/spam-tlds-rpz.txt) [Mirror](lnkgl_r/spam-tlds-rpz.txt) [Mirror](lnkjd_r/spam-tlds-rpz.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound<br>*Contains only spam TLDs that do not have any exclusions.* |
 | RPZ<br>(Aggressive) | [Link](lnkgh_r/spam-tlds-rpz-aggressive.txt) [Mirror](lnkgl_r/spam-tlds-rpz-aggressive.txt) [Mirror](lnkjd_r/spam-tlds-rpz-aggressive.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound<br>*Contains all spam TLDs, corresponds to the AdGuard and uBlock version without exclusions.* |
 
@@ -548,7 +548,7 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 
 ### :round_pushpin: ***AdGuardDNS - limited free/paid (Recommended)*** <a name="adguarddns"></a>        
           
-*In [AdGuardDNS](https://adguard-dns.io) you can use my Multi Normal, Pro, Pro++, Ultimate, TIF, Gambling, Anti Piracy, DoH/VPN/TOR/Proxy Bypass, DynDNS list and the Allowlist Referral.*
+*In [AdGuardDNS](https://adguard-dns.io) you can use my Multi Normal, Pro, Pro++, Ultimate, TIF, Gambling, Anti Piracy, DoH/VPN/TOR/Proxy Bypass, DynDNS list and the Allowlist Referral. Coming soon: Badware Hoster, Most Abused TLDs.*
 
 ### :round_pushpin: ***ControlD - free/paid*** <a name="controld"></a>
 

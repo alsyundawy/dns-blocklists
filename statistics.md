@@ -25,7 +25,7 @@
  14 |      68% |  12% |     20% | EasyList FirstParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
  15 |      84% |  15% |      1% | uBlock FirstParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
  16 |      77% |  18% |      5% | Analytics/Metrics Extension
- 17 |      96% |   1% |      3% | Balanced Extension
+ 17 |     100% |   0% |      0% | Balanced Extension
 ```
 #### PRO
 ```
@@ -44,7 +44,7 @@
  12 |      98% |   2% |      0% | Denylist Community non-Aggressive
  13 |      79% |  12% |      9% | EasyList FirstParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
  14 |      77% |  18% |      5% | Analytics/Metrics Extension
- 15 |      96% |   1% |      3% | Balanced Extension
+ 15 |     100% |   0% |      0% | Balanced Extension
  16 |      81% |  11% |      8% | AdGuard MultiParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads and Trackers)
  17 |      84% |  15% |      1% | uBlock MultiParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
  18 |      92% |   2% |      6% | Advanced Extension
@@ -54,7 +54,7 @@
  Nr | Included | Dead | Removed | URL/File
   1 |     100% |   0% |      0% | Predecessor: Multi Pro
   2 |      88% |   9% |      3% | Denylist Personal
-  3 |      69% |  26% |      5% | Extracted Wildcard Rules
+  3 |      68% |  26% |      6% | Extracted Wildcard Rules
   4 |      95% |   0% |      5% | Native Tracker Apple (iOS, macOS, tvOS)
   5 |     100% |   0% |      0% | Native Tracker Amazon (Devices, Shopping, Video)
   6 |     100% |   0% |      0% | Native Tracker Huawei (Devices)
@@ -65,12 +65,12 @@
  11 |     100% |   0% |      0% | Basic Extension
  12 |      98% |   2% |      0% | Denylist Community non-Aggressive
  13 |      77% |  18% |      5% | Analytics/Metrics Extension
- 14 |      96% |   1% |      3% | Balanced Extension
+ 14 |     100% |   0% |      0% | Balanced Extension
  15 |      83% |  11% |      6% | AdGuard MultiParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads and Trackers)
  16 |      84% |  15% |      1% | uBlock MultiParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
- 17 |      92% |   2% |      6% | Advanced Extension
+ 17 |      93% |   2% |      5% | Advanced Extension
  18 |      79% |  14% |      7% | EasyList MultiParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
- 19 |      86% |   9% |      5% | Aggressive Extension
+ 19 |      85% |  10% |      5% | Aggressive Extension
  20 |     100% |   0% |      0% | Native Tracker Vivo (EXPERIMENTAL)
  21 |     100% |   0% |      0% | Native Tracker OPPO/Realme (EXPERIMENTAL)
  22 |      90% |   2% |      8% | Denylist Aggressive
@@ -91,12 +91,12 @@
  10 |     100% |   0% |      0% | Basic Extension
  11 |      98% |   2% |      0% | Denylist Community non-Aggressive
  12 |      77% |  18% |      5% | Analytics/Metrics Extension
- 13 |      97% |   1% |      2% | Balanced Extension
+ 13 |     100% |   0% |      0% | Balanced Extension
  14 |      83% |  11% |      6% | AdGuard MultiParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads and Trackers)
  15 |      84% |  15% |      1% | uBlock MultiParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
- 16 |      92% |   2% |      6% | Advanced Extension
+ 16 |      93% |   2% |      5% | Advanced Extension
  17 |      79% |  14% |      7% | EasyList MultiParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
- 18 |      86% |   9% |      5% | Aggressive Extension
+ 18 |      85% |  10% |      5% | Aggressive Extension
  19 |     100% |   0% |      0% | Native Tracker Vivo (EXPERIMENTAL)
  20 |     100% |   0% |      0% | Native Tracker OPPO/Realme (EXPERIMENTAL)
  21 |      93% |   2% |      5% | Denylist Aggressive
@@ -104,7 +104,7 @@
  23 |     100% |   0% |      0% | Pop-Up Ads
  24 |     100% |   0% |      0% | Native Tracker TikTok Extended (Fingerprinting)
  25 |      92% |   0% |      8% | META Graph Tracker (Facebook, Instagram)
- 26 |      86% |  11% |      3% | Ultimate Extension
+ 26 |      84% |  12% |      4% | Ultimate Extension
  27 |       0% |   0% |      0% | Denylist Community Ultimate
 ```
 #### TIF.MEDIUM
@@ -112,7 +112,7 @@
  Nr | Included | Dead | Removed | URL/File
   1 |      88% |   8% |      4% | Denylist Community Threat Intelligence Feeds
   2 |     100% |   0% |      0% | Fake
-  3 |      57% |  40% |      3% | https://phishing-filter.pages.dev/phishing-filter-hosts.txt
+  3 |      58% |  40% |      2% | https://phishing-filter.pages.dev/phishing-filter-hosts.txt
   4 |      64% |  35% |      1% | https://raw.githubusercontent.com/phishfort/phishfort-lists/master/blacklists/hotlist.json
   5 |      30% |  70% |      0% | https://phishing.army/download/phishing_army_blocklist_extended.txt
   6 |     100% |   0% |      0% | https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
@@ -123,9 +123,9 @@
  11 |      56% |  42% |      2% | https://raw.githubusercontent.com/marco-acorte/antispam-it/main/antispam-it.txt
  12 |      66% |  31% |      3% | https://raw.githubusercontent.com/matomo-org/referrer-spam-list/master/spammers.txt
  13 |      77% |  19% |      4% | https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
- 14 |      40% |  58% |      2% | https://hosts.tweedge.net/malicious.txt
+ 14 |      39% |  58% |      3% | https://hosts.tweedge.net/malicious.txt
  15 |      71% |  26% |      3% | https://threatfox.abuse.ch/downloads/hostfile
- 16 |      84% |  15% |      1% | https://urlhaus-filter.pages.dev/urlhaus-filter-hosts.txt
+ 16 |      83% |  15% |      2% | https://urlhaus-filter.pages.dev/urlhaus-filter-hosts.txt
  17 |      99% |   0% |      1% | https://urlhaus.abuse.ch/downloads/hostfile
  18 |      31% |  69% |      0% | https://vn-badsite-filter.pages.dev/vn-badsite-filter-hosts.txt
  19 |      64% |  36% |      0% | https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
@@ -155,7 +155,7 @@
   2 |      88% |   8% |      4% | Denylist Community Threat Intelligence Feeds
   3 |     100% |   0% |      0% | Fake
   4 |     100% |   0% |      0% | Fake++ (Problematic Online Shops)
-  5 |      57% |  40% |      3% | https://phishing-filter.pages.dev/phishing-filter-hosts.txt
+  5 |      58% |  40% |      2% | https://phishing-filter.pages.dev/phishing-filter-hosts.txt
   6 |      17% |  83% |      0% | https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/hosts.txt
   7 |      64% |  35% |      1% | https://raw.githubusercontent.com/phishfort/phishfort-lists/master/blacklists/hotlist.json
   8 |      30% |  70% |      0% | https://phishing.army/download/phishing_army_blocklist_extended.txt
@@ -171,10 +171,10 @@
  18 |      57% |  43% |      0% | https://www.stopforumspam.com/downloads/toxic_domains_whole.txt
  19 |      77% |  19% |      4% | https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
  20 |      58% |  42% |      0% | https://hole.cert.pl/domains/v2/domains.txt
- 21 |      40% |  58% |      2% | https://hosts.tweedge.net/malicious.txt
+ 21 |      39% |  58% |      3% | https://hosts.tweedge.net/malicious.txt
  22 |      30% |  70% |      0% | https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/threat/hosts
  23 |      71% |  26% |      3% | https://threatfox.abuse.ch/downloads/hostfile
- 24 |      84% |  15% |      1% | https://urlhaus-filter.pages.dev/urlhaus-filter-hosts.txt
+ 24 |      83% |  15% |      2% | https://urlhaus-filter.pages.dev/urlhaus-filter-hosts.txt
  25 |      99% |   0% |      1% | https://urlhaus.abuse.ch/downloads/hostfile
  26 |      31% |  69% |      0% | https://vn-badsite-filter.pages.dev/vn-badsite-filter-hosts.txt
  27 |      64% |  36% |      0% | https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt

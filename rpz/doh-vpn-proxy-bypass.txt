@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1711150320 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1711231800 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 22 Mar 2024 23:32 UTC
-; Version: 2024.0322.2332.10
+; Last modified: 23 Mar 2024 22:10 UTC
+; Version: 2024.0323.2210.37
 ; Syntax: RPZ
-; Number of entries: 6174
+; Number of entries: 6178
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -2652,6 +2652,8 @@ wiseghostapp.com CNAME .
 *.wiseghostapp.com CNAME .
 wlvpn.com CNAME .
 *.wlvpn.com CNAME .
+workdigi.com CNAME .
+*.workdigi.com CNAME .
 workingvpn.com CNAME .
 *.workingvpn.com CNAME .
 workstudyplay.com CNAME .
@@ -2690,6 +2692,8 @@ younblocked.com CNAME .
 *.younblocked.com CNAME .
 youproxytube.com CNAME .
 *.youproxytube.com CNAME .
+yourcheat.com CNAME .
+*.yourcheat.com CNAME .
 youtube-unblocker.com CNAME .
 *.youtube-unblocker.com CNAME .
 youtubebyclick.com CNAME .
@@ -3222,8 +3226,6 @@ adguard.lista.my.id CNAME .
 *.adguard.lista.my.id CNAME .
 dns.lista.my.id CNAME .
 *.dns.lista.my.id CNAME .
-uf-dns.lista.my.id CNAME .
-*.uf-dns.lista.my.id CNAME .
 dns.mikrotikrumahan.my.id CNAME .
 *.dns.mikrotikrumahan.my.id CNAME .
 id.terra.my.id CNAME .
@@ -3538,6 +3540,8 @@ vpnanonym.info CNAME .
 *.vpnanonym.info CNAME .
 vpnapp.info CNAME .
 *.vpnapp.info CNAME .
+vpnfree.info CNAME .
+*.vpnfree.info CNAME .
 vpnproxy.info CNAME .
 *.vpnproxy.info CNAME .
 webypass.info CNAME .

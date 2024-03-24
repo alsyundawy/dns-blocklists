@@ -28,7 +28,7 @@
 17. [Native Tracker](#native) - *Broadband tracker of devices, services and operating systems*
 18. [Supporter](https://github.com/hagezi/dns-blocklists/stargazers) - *Leave a star (top right)!*
 19. [Recommendation](#recommendation) - [Which version of the lists should I use?](#whatshouldiuse)
-20. [Online DNS Services](#dnsservices) : [AdGuardDNS](#adguarddns) - [ControlD](#controld) - [RethinkDNS](#rethinkdns) - [DNSwarden](#dnswarden) - [DNSforge](#dnsforge) - [OpenBLD.net](#openbld)
+20. [Online DNS Services](#dnsservices) : [AdGuardDNS](#adguarddns) (Recommended) - [ControlD](#controld) - [RethinkDNS](#rethinkdns) - [DNSwarden](#dnswarden) - [DNSforge](#dnsforge) - [OpenBLD.net](#openbld)
 21. [About](#about) : [Contact](#contact) - [Groups](#groups) - [Repository](#repository) - [Referral Domains](#referral) - [Support Me](#support)
 22. [Statistics](statistics.md) - [Sources](sources.md) 
 23. [FAQ](https://github.com/hagezi/dns-blocklists/wiki/FAQ) - Frequently Asked Questions
@@ -40,11 +40,11 @@
 #### ***Blocklist version and size overview:***
 | Version | Entries | Pro++ | Pro | Nor<br>mal | Light | [Fake](#fake) | [TIF](#tif) | [Nat<br>ive](#native) | [PopUp<br>Ads](#popupads) | Bug<br>Tracker |
 |:--------|---:|:------:|:-----:|:----:|:----:|:---:|:------:|:----------:|:----:|:----:|
-| :green_book:[Light](#light)             | 240714<br>62895     |  |   |   | :green_circle:  |  | |  :yellow_square: | | |
-| :blue_book:[Normal](#normal)       | 744162<br>132212     |  |   | :green_circle: | :green_circle: |  | :yellow_square: | :yellow_square: | :yellow_square: | |
-| :ledger:[Pro](#pro)              | 810532<br>155048         |  | :green_circle: | :green_circle: | :green_circle: |  | :yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
-| :orange_book:[Pro++](#proplus)    | 957694<br>177200 | :green_circle: | :green_circle: | :green_circle: | :green_circle: |  |:yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
-| :closed_book:[Ultimate](#ultimate)    | 1045240<br>222709 | :green_circle: | :green_circle: | :green_circle: | :green_circle: |  | :yellow_square: | :green_circle: | :green_circle: | :green_circle: |
+| :green_book:[Light](#light)             | 238137<br>62999     |  |   |   | :green_circle:  |  | |  :yellow_square: | | |
+| :blue_book:[Normal](#normal)       | 727280<br>130030     |  |   | :green_circle: | :green_circle: |  | :yellow_square: | :yellow_square: | :yellow_square: | |
+| :ledger:[Pro](#pro)              | 812614<br>153315         |  | :green_circle: | :green_circle: | :green_circle: |  | :yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
+| :orange_book:[Pro++](#proplus)    | 953488<br>174695 | :green_circle: | :green_circle: | :green_circle: | :green_circle: |  |:yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
+| :closed_book:[Ultimate](#ultimate)    | 1041914<br>220270 | :green_circle: | :green_circle: | :green_circle: | :green_circle: |  | :yellow_square: | :green_circle: | :green_circle: | :green_circle: |
            
 :green_circle: contains the list named in the column caption       
 :yellow_square: partially contains the list named in the column caption       
@@ -68,7 +68,7 @@
           
 ***NOTE:*** *Does not block error trackers such as Bugsnag, Crashlytics, Firebase, Instabug, Sentry, ... and other app-specific crash trackers. These are only blocked from the Pro version onwards.*
 		  
-**Entries:** *240714 domains/hosts - 62895 compressed domains*                    
+**Entries:** *238137 domains/hosts - 62999 compressed domains*                    
          
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -89,7 +89,7 @@
          
 ***NOTE:*** *Does not block error trackers such as Bugsnag, Crashlytics, Firebase, Instabug, Sentry, ... and other app-specific crash trackers. These are only blocked from the Pro version onwards.*
 		  
-**Entries:** *744162 domains/hosts - 132212 compressed domains*                   
+**Entries:** *727280 domains/hosts - 130030 compressed domains*                   
           
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -107,7 +107,7 @@
       
 *Big broom - Cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tracking, Metrics, Telemetry, Phishing, Malware, Scam, Fake, Coins and other "Crap".*
          
-**Entries:** *810532 domains/hosts - 155048 compressed domains*                   
+**Entries:** *812614 domains/hosts - 153315 compressed domains*                   
            
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -127,7 +127,7 @@
          
 *More aggressive version of the Multi PRO blocklist. It may contain few false positive domains that limit functionality. Therefore it should only be used by experienced users. Furthermore, an admin should be available to unblock incorrectly blocked domains. Reported false positive domains will be removed from the list!*
 
-**Entries:** *957694 domains/hosts - 177200 compressed domains*               
+**Entries:** *953488 domains/hosts - 174695 compressed domains*               
                                                 
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -145,7 +145,7 @@
 
 *Size-optimised version for DNS/Browser adblockers. This list only contains domains from the Pro++ full that have been found on Top 1M lists (Umbrella, Cloudflare, Tranco, Chrome, ...) in the last 12 months.*             
           
-**Entries:** *99198 compressed domains*               
+**Entries:** *95997 compressed domains*               
                                                 
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -165,7 +165,7 @@
          
 ***NOTE:*** *META trackers are blocked in Ultimate. This restricts the use of Facebook/Instagram and Facebook Messenger apps. To use Facebook/Instagram apps with Ultimate, unblock the following domains: [META Tracker](share/facebook.txt)*
        
-**Entries:** *1045240 domains/hosts - 222709 compressed domains*               
+**Entries:** *1041914 domains/hosts - 220270 compressed domains*               
                                                 
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -192,7 +192,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 		
-**Entries:** *15810 compressed domains*           
+**Entries:** *15821 compressed domains*           
        
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -217,7 +217,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 		
-**Entries:** *73933 compressed domains*           
+**Entries:** *74161 compressed domains*           
        
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -242,7 +242,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
               		
-**Entries:** *926274 domains/hosts - 515130 compressed domains*           
+**Entries:** *929720 domains/hosts - 516798 compressed domains*           
          
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -265,7 +265,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
              		
-**Entries:** *169204 compressed domains*           
+**Entries:** *169787 compressed domains*           
          
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -299,7 +299,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 		
-**Entries:** *3087 compressed domains*           
+**Entries:** *3089 compressed domains*           
             
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -321,7 +321,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 		
-**Entries:** *1133 domains/hosts - 980 compressed domains*           
+**Entries:** *1132 domains/hosts - 979 compressed domains*           
             
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -428,7 +428,7 @@
 | AdGuard | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/spam-tlds.txt) | AdGuard, AdGuard Home |
 | uBlock  | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-ublock.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/spam-tlds-ublock.txt) | uBlock, AdBlock Plus |
 | AdBlock  | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-adblock.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/spam-tlds-adblock.txt) | Pi-hole, AdBlock, TechnitiumDNS<br>*Contains only spam TLDs that do not have any exclusions.* |
-| AdBlock<br>(Aggressive) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock-aggressive.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-adblock-aggressive.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/spam-tlds-adblock-aggressive.txt) | Pi-hole, AdBlock, TechnitiumDNS<br>*Contains all spam TLDs, corresponds to the AdGuard and uBlock version without exclusions.* |
+| AdBlock<br>(Aggressive)<br><br>Allowlist | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock-aggressive.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-adblock-aggressive.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/spam-tlds-adblock-aggressive.txt)<br><br><br>[Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock-allow.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-adblock-allow.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/spam-tlds-adblock-allow.txt) | Pi-hole, AdBlock, TechnitiumDNS |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/spam-tlds-rpz.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/rpz/spam-tlds-rpz.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/rpz/spam-tlds-rpz.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound<br>*Contains only spam TLDs that do not have any exclusions.* |
 | RPZ<br>(Aggressive) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/spam-tlds-rpz-aggressive.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/rpz/spam-tlds-rpz-aggressive.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/rpz/spam-tlds-rpz-aggressive.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound<br>*Contains all spam TLDs, corresponds to the AdGuard and uBlock version without exclusions.* |
 
@@ -445,7 +445,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 		
-**Entries:** *9955 compressed domains*                     
+**Entries:** *9958 compressed domains*                     
             
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -470,7 +470,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 		
-**Entries:** *223637 compressed domains*                     
+**Entries:** *216928 compressed domains*                     
             
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -548,7 +548,7 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 
 ### :round_pushpin: ***AdGuardDNS - limited free/paid (Recommended)*** <a name="adguarddns"></a>        
           
-*In [AdGuardDNS](https://adguard-dns.io) you can use my Multi Normal, Pro, Pro++, Ultimate, TIF, Gambling, Anti Piracy, DoH/VPN/TOR/Proxy Bypass, DynDNS list and the Allowlist Referral.*
+*In [AdGuardDNS](https://adguard-dns.io) you can use my Multi Normal, Pro, Pro++, Ultimate, TIF, Gambling, Anti Piracy, DoH/VPN/TOR/Proxy Bypass, DynDNS list and the Allowlist Referral. Coming soon: Badware Hoster, Most Abused TLDs.*
 
 ### :round_pushpin: ***ControlD - free/paid*** <a name="controld"></a>
 
