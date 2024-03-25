@@ -280,8 +280,9 @@
 
 #### :closed_lock_with_key: ***Threat Intelligence Feeds - IPs*** <a name="tifips"></a>
       
-**An IPv4 list in [plain IP format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/tif.txt) and [AdGuard Home format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif-ips.txt) are also available as an extension to the TIF list.**
-               
+*An IPv4 list in [plain IP format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/tif.txt) for firewalls and [AdGuard Home format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif-ips.txt) are also available as an extension to the TIF list.*               
+*If the IP list is used in AdGuard Home, all domains that would resolve to the blocked IP are blocked.*
+                            
 **Expires:** *24 hours (update frequency)*
       
 ---
@@ -367,7 +368,8 @@
 
 #### :outbox_tray: ***Encrypted DNS Servers IPs*** <a name="bypass_ips"></a>
       
-**An IPv4 list in [plain IP format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/doh.txt) and [AdGuard Home format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-ips.txt) are also available.**
+*An IPv4 list in [plain IP format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/doh.txt) for firewalls and [AdGuard Home format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-ips.txt) are also available.*                    
+*If the IP list is used in AdGuard Home, all domains that would resolve to the blocked IP are blocked.*
                
 **Expires:** *Updated regularly*
  
