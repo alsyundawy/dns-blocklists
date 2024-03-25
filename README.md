@@ -19,7 +19,7 @@
 8. [Pop-Up Ads](#popupads) - *Protects against annoying pop-up ads!*
 9. [Threat Intelligence Feeds](#tif) - *Increases security significantly! (Recommended)* : [Full](#tif) - [Medium](#tifmedium) - [IPs](#tifips)
 10. [Newly Registered Domains](#nrd) - *Favoured by threat actors to launch malicious campaigns!*
-11. [DoH/VPN/TOR/Proxy Bypass](#bypass) - *Prevent methods to bypass your DNS!* : [Full](#bypass_all) - [DoH only](#bypass_dns)
+11. [DoH/VPN/TOR/Proxy Bypass](#bypass) - *Prevent methods to bypass your DNS!* : [Full](#bypass_all) - [DoH only](#bypass_dns) - [DoH IPs](#bypass_ips)
 12. [Safesearch not supported](#safesearch) - *Prevent the use of search engines that do not support safesearch!*
 13. [Dynamic DNS](#dyndns) - *Protects against the malicious use of dynamic DNS services!*
 14. [Badware Hoster](#hoster) - *Protects against the malicious use of free host services!*
@@ -349,7 +349,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 		
-**Entries:** *1131 domains/hosts - 978 compressed domains*           
+**Entries:** *1125 domains/hosts - 972 compressed domains*           
             
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -365,6 +365,12 @@
 
 **Expires:** *Updated regularly*
 
+#### :outbox_tray: ***Encrypted DNS Servers IPs*** <a name="bypass_ips"></a>
+      
+**An IPv4 list in [plain IP format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/doh.txt) and [AdGuard Home format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-ips.txt) are also available.**
+               
+**Expires:** *Updated regularly*
+ 
 ---
 
 ### :mag: ***Safesearch not supported - Prevent the use of search engines that do not support safesearch!*** <a name="safesearch"></a>
