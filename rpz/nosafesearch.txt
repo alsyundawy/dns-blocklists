@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1711249260 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1711409400 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's safesearch not supported DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 24 Mar 2024 03:01 UTC
-; Version: 2024.0324.0301.00
+; Last modified: 25 Mar 2024 23:30 UTC
+; Version: 2024.0325.2330.53
 ; Syntax: RPZ
-; Number of entries: 484
+; Number of entries: 478
 ;
 perplexity.ai CNAME .
 *.perplexity.ai CNAME .
@@ -49,8 +49,6 @@ searx.ch CNAME .
 *.searx.ch CNAME .
 sx.catgirl.cloud CNAME .
 *.sx.catgirl.cloud CNAME .
-search.kokomo.cloud CNAME .
-*.search.kokomo.cloud CNAME .
 whoogle-search--replitcomreside.repl.co CNAME .
 *.whoogle-search--replitcomreside.repl.co CNAME .
 search.0xgingi.com CNAME .
@@ -83,8 +81,6 @@ gibiru.com CNAME .
 *.gibiru.com CNAME .
 gigablast.com CNAME .
 *.gigablast.com CNAME .
-hmsearx.h0meserver.com CNAME .
-*.hmsearx.h0meserver.com CNAME .
 search.jigsaw-security.com CNAME .
 *.search.jigsaw-security.com CNAME .
 kagi.com CNAME .
@@ -463,8 +459,6 @@ searx.lavatech.top CNAME .
 *.searx.lavatech.top CNAME .
 search.aol.co.uk CNAME .
 *.search.aol.co.uk CNAME .
-myprivatesrx.us CNAME .
-*.myprivatesrx.us CNAME .
 searx.wegeeks.win CNAME .
 *.searx.wegeeks.win CNAME .
 searx.work CNAME .
