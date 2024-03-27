@@ -29,7 +29,7 @@
 18. [Native Tracker](#native) - *Broadband tracker of devices, services and operating systems*
 19. [Supporter](https://github.com/hagezi/dns-blocklists/stargazers) - *Leave a star (top right)!*
 20. [Recommendation](#recommendation) - [Which version of the lists should I use?](#whatshouldiuse)
-21. [Online DNS Services](#dnsservices) : [AdGuardDNS](#adguarddns) (Recommended) - [ControlD](#controld) - [RethinkDNS](#rethinkdns) - [DNSwarden](#dnswarden) - [DNSforge](#dnsforge) - [OpenBLD.net](#openbld)
+21. [Online DNS Services](#dnsservices) : [AdGuardDNS](#adguarddns) - [ControlD](#controld) - [RethinkDNS](#rethinkdns) - [DNSwarden](#dnswarden) - [DNSforge](#dnsforge) - [OpenBLD.net](#openbld)
 22. [About](#about) : [Contact](#contact) - [Groups](#groups) - [Repository](#repository) - [Referral Domains](#referral) - [Support Me](#support)
 23. [Statistics](statistics.md) - [Sources](sources.md) 
 24. [FAQ](https://github.com/hagezi/dns-blocklists/wiki/FAQ) - Frequently Asked Questions
@@ -582,7 +582,7 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 
 *If you don't run your own DNS server on your home network or if you are looking for additional protection for your mobile devices when they are not connected to the home network, then I recommend one of the following DNS services:*
 
-### :round_pushpin: ***AdGuardDNS - limited free/paid (Recommended)*** <a name="adguarddns"></a>        
+### :round_pushpin: ***AdGuardDNS - limited free/paid*** <a name="adguarddns"></a>        
           
 *In [AdGuardDNS](https://adguard-dns.io) you can use my Multi Normal, Pro, Pro++, Ultimate, TIF, Gambling, Anti Piracy, DoH/VPN/TOR/Proxy Bypass, DynDNS list and the Allowlist Referral. Coming soon: Badware Hoster, Most Abused TLDs.*
 

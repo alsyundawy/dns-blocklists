@@ -129,6 +129,7 @@ https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Other%20domains%
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/SerboCroatianList.txt
 https://raw.githubusercontent.com/DandelionSprout/Swedish-List-for-Adblock-Plus/main/Swedish%20List%20for%20Adblock%20Plus.txt
 https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-domains.txt
+https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-ipv4.txt
 https://raw.githubusercontent.com/drb-ra/C2IntelFeeds/master/feeds/IPC2s-30day.csv
 https://raw.githubusercontent.com/drb-ra/C2IntelFeeds/master/feeds/IPC2s.csv
 https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
