@@ -579,7 +579,7 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 
 ### :department_store: ***Online DNS Services*** <a name="dnsservices"></a>        
 
-*If you don't run your own DNS server on your home network or if you are looking for additional protection for your mobile devices when they are not connected to the home network, then you can use one of the following DNS services (alphabetical order):*
+*If you don't run your own DNS server on your home network or if you are looking for additional protection for your mobile devices when they are not connected to the home network, then you can use one of the following DNS services:*
 
 #### :department_store: ***AdGuardDNS - limited free/paid*** <a name="adguarddns"></a>        
           
