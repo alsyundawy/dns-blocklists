@@ -581,11 +581,11 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 
 *If you don't run your own DNS server on your home network or if you are looking for additional protection for your mobile devices when they are not connected to the home network, then you can use one of the following DNS services (alphabetical order):*
 
-### :round_pushpin: ***AdGuardDNS - limited free/paid*** <a name="adguarddns"></a>        
+#### :department_store: ***AdGuardDNS - limited free/paid*** <a name="adguarddns"></a>        
           
 *In [AdGuardDNS](https://adguard-dns.io) you can use my Multi Normal, Pro, Pro++, Ultimate, TIF, Gambling, Anti Piracy, DoH/VPN/TOR/Proxy Bypass, DynDNS, Badware Hoster, Most Abused TLDs list and the Allowlist Referral.*
 
-### :round_pushpin: ***ControlD - free/paid*** <a name="controld"></a>
+#### :department_store: ***ControlD - free/paid*** <a name="controld"></a>
 
 *In [ControlD](https://controld.com/free-dns) you can use [my blocklists](https://docs.controld.com/docs/free-dns):*
 
@@ -598,13 +598,13 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 | Ultimate | `https://freedns.controld.com/x-hagezi-ultimate` | `x-hagezi-ultimate.freedns.controld.com` | 76.76.2.45<br>76.76.10.45<br>2606:1a40::45<br>2606:1a40:1::45 |
 | TIF | `https://freedns.controld.com/x-hagezi-tif` | `x-hagezi-tif.freedns.controld.com` | 76.76.2.46<br>76.76.10.46<br>2606:1a40::46<br>2606:1a40:1::46 |
 
-### :round_pushpin: ***NextDNS - limited free/paid*** <a name="nextdns"></a>        
+#### :department_store: ***NextDNS - limited free/paid*** <a name="nextdns"></a>        
 
 *In [NextDNS](https://nextdns.io) you can use my Light, Normal, Pro, Pro++ and Ultimate list.*
                
 *Check out Yokoffing [NextDNS Config Guide](https://github.com/yokoffing/NextDNS-Config) and Techlore Video [The ULTIMATE Guide to Mastering NextDNS!](https://youtu.be/WUG57ynLb8I) for recommended [NextDNS](https://nextdns.io) configuration settings.*
 
-### :round_pushpin: ***RethinkDNS - free*** <a name="rethinkdns"></a>
+#### :department_store: ***RethinkDNS - free*** <a name="rethinkdns"></a>
 
 *In [RethinkDNS](https://rethinkdns.com) you can use my Light, Normal, Pro, Pro++, Ultimate and TIF list.*
               
@@ -618,7 +618,7 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 | Pro plus + TIF | `https://sky.rethinkdns.com/1:AAoACAgA` | `1-aafaacaiaa.max.rethinkdns.com` | 
 | Ultimate + TIF | `https://sky.rethinkdns.com/1:gAgACABA` | `1-qaeaacaaia.max.rethinkdns.com` | 
             
-### :round_pushpin: ***DNSwarden - free*** <a name="dnswarden"></a>
+#### :department_store: ***DNSwarden - free*** <a name="dnswarden"></a>
 
 *In [DNSwarden](https://dnswarden.com/customfilter.html) you can use my Light, Normal, Pro, Pro++, Ultimate and TIF list.*
 
@@ -630,11 +630,11 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 | Pro plus + TIF | `https://dns.dnswarden.com/0000000000000000000000o` | `0000000000000000000000o.dns.dnswarden.com` |
 | Ultimate + TIF | `https://dns.dnswarden.com/0000000000000000000000804` | `0000000000000000000000804.dns.dnswarden.com` |
 
-### :round_pushpin: ***DNSforge (Germany) - free*** <a name="dnsforge"></a>
+#### :department_store: ***DNSforge (Germany) - free*** <a name="dnsforge"></a>
 
 *[DNSforge](https://dnsforge.de/) use my Multi Light blocklist in addition to other blocklists.*
           
-### :round_pushpin: ***OpenBLD.net - free*** <a name="openbld"></a>
+#### :department_store: ***OpenBLD.net - free*** <a name="openbld"></a>
 
 *[OpenBLD.net](https://openbld.net) use my Multi Pro blocklist in addition to other blocklists.*
 
