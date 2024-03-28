@@ -29,7 +29,7 @@
 18. [Native Tracker](#native) - *Broadband tracker of devices, services and operating systems*
 19. [Supporter](https://github.com/hagezi/dns-blocklists/stargazers) - *Leave a star (top right)!*
 20. [Recommendation](#recommendation) - [Which version of the lists should I use?](#whatshouldiuse)
-21. [Online DNS Services](#dnsservices) : [AdGuardDNS](#adguarddns) - [ControlD](#controld) - [RethinkDNS](#rethinkdns) - [DNSwarden](#dnswarden) - [DNSforge](#dnsforge) - [OpenBLD.net](#openbld)
+21. [Online DNS Services](#dnsservices)
 22. [About](#about) : [Contact](#contact) - [Groups](#groups) - [Repository](#repository) - [Referral Domains](#referral) - [Support Me](#support)
 23. [Statistics](statistics.md) - [Sources](sources.md) 
 24. [FAQ](https://github.com/hagezi/dns-blocklists/wiki/FAQ) - Frequently Asked Questions
@@ -579,11 +579,11 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 
 ### :department_store: ***Online DNS Services*** <a name="dnsservices"></a>        
 
-*If you don't run your own DNS server on your home network or if you are looking for additional protection for your mobile devices when they are not connected to the home network, then I recommend one of the following DNS services:*
+*If you don't run your own DNS server on your home network or if you are looking for additional protection for your mobile devices when they are not connected to the home network, then you can use one of the following DNS services (alphabetical order):*
 
 ### :round_pushpin: ***AdGuardDNS - limited free/paid*** <a name="adguarddns"></a>        
           
-*In [AdGuardDNS](https://adguard-dns.io) you can use my Multi Normal, Pro, Pro++, Ultimate, TIF, Gambling, Anti Piracy, DoH/VPN/TOR/Proxy Bypass, DynDNS list and the Allowlist Referral. Coming soon: Badware Hoster, Most Abused TLDs.*
+*In [AdGuardDNS](https://adguard-dns.io) you can use my Multi Normal, Pro, Pro++, Ultimate, TIF, Gambling, Anti Piracy, DoH/VPN/TOR/Proxy Bypass, DynDNS, Badware Hoster, Most Abused TLDs list and the Allowlist Referral.*
 
 ### :round_pushpin: ***ControlD - free/paid*** <a name="controld"></a>
 
@@ -597,6 +597,12 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 | Pro Plus | `https://freedns.controld.com/x-hagezi-proplus` | `x-hagezi-proplus.freedns.controld.com` | 76.76.2.42<br>76.76.10.42<br>2606:1a40::42<br>2606:1a40:1::42 |
 | Ultimate | `https://freedns.controld.com/x-hagezi-ultimate` | `x-hagezi-ultimate.freedns.controld.com` | 76.76.2.45<br>76.76.10.45<br>2606:1a40::45<br>2606:1a40:1::45 |
 | TIF | `https://freedns.controld.com/x-hagezi-tif` | `x-hagezi-tif.freedns.controld.com` | 76.76.2.46<br>76.76.10.46<br>2606:1a40::46<br>2606:1a40:1::46 |
+
+### :round_pushpin: ***NextDNS - limited free/paid*** <a name="nextdns"></a>        
+
+*In [NextDNS](https://nextdns.io) you can use my Light, Normal, Pro, Pro++ and Ultimate list.*
+               
+*Check out Yokoffing [NextDNS Config Guide](https://github.com/yokoffing/NextDNS-Config) and Techlore Video [The ULTIMATE Guide to Mastering NextDNS!](https://youtu.be/WUG57ynLb8I) for recommended [NextDNS](https://nextdns.io) configuration settings.*
 
 ### :round_pushpin: ***RethinkDNS - free*** <a name="rethinkdns"></a>
 
