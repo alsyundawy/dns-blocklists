@@ -45,9 +45,9 @@
  13 |      78% |  12% |     10% | EasyList FirstParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
  14 |      77% |  18% |      5% | Analytics/Metrics Extension
  15 |     100% |   0% |      0% | Balanced Extension
- 16 |      82% |  10% |      8% | AdGuard MultiParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads and Trackers)
+ 16 |      81% |  11% |      8% | AdGuard MultiParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads and Trackers)
  17 |      85% |  14% |      1% | uBlock MultiParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
- 18 |      95% |   0% |      5% | Advanced Extension
+ 18 |      94% |   0% |      6% | Advanced Extension
 ```
 #### PRO.PLUS
 ```
@@ -68,9 +68,9 @@
  14 |     100% |   0% |      0% | Balanced Extension
  15 |      83% |  11% |      6% | AdGuard MultiParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads and Trackers)
  16 |      84% |  15% |      1% | uBlock MultiParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
- 17 |      96% |   0% |      4% | Advanced Extension
+ 17 |      95% |   0% |      5% | Advanced Extension
  18 |      79% |  14% |      7% | EasyList MultiParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
- 19 |      86% |   9% |      5% | Aggressive Extension
+ 19 |      87% |   8% |      5% | Aggressive Extension
  20 |     100% |   0% |      0% | Native Tracker Vivo (EXPERIMENTAL)
  21 |     100% |   0% |      0% | Native Tracker OPPO/Realme (EXPERIMENTAL)
  22 |      90% |   2% |      8% | Denylist Aggressive
@@ -90,13 +90,13 @@
   9 |      93% |   6% |      1% | Denylist Base
  10 |     100% |   0% |      0% | Basic Extension
  11 |      99% |   1% |      0% | Denylist Community non-Aggressive
- 12 |      81% |  18% |      1% | Analytics/Metrics Extension
+ 12 |      77% |  18% |      5% | Analytics/Metrics Extension
  13 |     100% |   0% |      0% | Balanced Extension
  14 |      83% |  11% |      6% | AdGuard MultiParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads and Trackers)
  15 |      84% |  15% |      1% | uBlock MultiParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
- 16 |      97% |   0% |      3% | Advanced Extension
+ 16 |      95% |   0% |      5% | Advanced Extension
  17 |      79% |  14% |      7% | EasyList MultiParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
- 18 |      86% |   9% |      5% | Aggressive Extension
+ 18 |      87% |   8% |      5% | Aggressive Extension
  19 |     100% |   0% |      0% | Native Tracker Vivo (EXPERIMENTAL)
  20 |     100% |   0% |      0% | Native Tracker OPPO/Realme (EXPERIMENTAL)
  21 |      93% |   2% |      5% | Denylist Aggressive
@@ -104,7 +104,7 @@
  23 |     100% |   0% |      0% | Pop-Up Ads
  24 |     100% |   0% |      0% | Native Tracker TikTok Extended (Fingerprinting)
  25 |      92% |   0% |      8% | META Graph Tracker (Facebook, Instagram)
- 26 |      84% |  12% |      4% | Ultimate Extension
+ 26 |      86% |  11% |      3% | Ultimate Extension
  27 |       0% |   0% |      0% | Denylist Community Ultimate
 ```
 #### TIF.MEDIUM
@@ -138,7 +138,7 @@
  26 |      69% |  29% |      2% | https://raw.githubusercontent.com/braveinnovators/ukrainian-security-filter/main/lists/domains.txt
  27 |      71% |  28% |      1% | https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames_Predecessor: Multi Light
  28 |      85% |  14% |      1% | https://raw.githubusercontent.com/elliotwutingfeng/Ukrainian-EMA-blocklist/main/urls-pihole.txt
- 29 |      40% |  58% |      2% | https://rescure.me/rescure_domain_blacklist.txt
+ 29 |      38% |  61% |      1% | https://rescure.me/rescure_domain_blacklist.txt
  30 |      31% |  69% |      0% | https://zonefiles.io/f/compromised/domains/live/
  31 |      91% |   9% |      0% | https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
  32 |      74% |  24% |      2% | https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts
@@ -196,9 +196,9 @@
  43 |      41% |  58% |      1% | https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt
  44 |      31% |  69% |      0% | https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt
  45 |      76% |  20% |      4% | https://raw.githubusercontent.com/ttc-cert/TTC-CERT_blocklist_recommended/master/domain_blocklist_recommended.txt
- 46 |      40% |  58% |      2% | https://rescure.me/rescure_domain_blacklist.txt
+ 46 |      38% |  61% |      1% | https://rescure.me/rescure_domain_blacklist.txt
  47 |      57% |  42% |      1% | https://threatview.io/Downloads/DOMAIN-High-Confidence-Feed.txt
- 48 |      29% |  71% |      0% | https://www.usom.gov.tr/url-list.txt
+ 48 |      70% |  30% |      0% | https://www.usom.gov.tr/url-list.txt
  49 |      31% |  69% |      0% | https://zonefiles.io/f/compromised/domains/live/
  50 |      91% |   9% |      0% | https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
  51 |      74% |  24% |      2% | https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts
