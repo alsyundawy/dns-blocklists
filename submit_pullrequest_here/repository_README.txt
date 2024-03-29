@@ -587,8 +587,10 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 
 #### :department_store: ***ControlD - free/paid*** <a name="controld"></a>
 
-*In [ControlD](https://controld.com/free-dns) you can use [my blocklists](https://docs.controld.com/docs/free-dns):*
-
+*In [ControlD](https://controld.com) you can use my Light, Normal, Pro, Pro++, Ultimate and TIF list.*
+             
+***Free:***
+                 
 | Blocklists | DNS-over-HTTPS | DNS-over-TLS/QUIC | Legacy DNS |
 |:-----------|:---------------|:-------------|:-------------|
 | Light | `https://freedns.controld.com/x-hagezi-light` | `x-hagezi-light.freedns.controld.com` | 76.76.2.37<br>76.76.10.37<br>2606:1a40::37<br>2606:1a40:1::37 |
@@ -597,7 +599,11 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 | Pro Plus | `https://freedns.controld.com/x-hagezi-proplus` | `x-hagezi-proplus.freedns.controld.com` | 76.76.2.42<br>76.76.10.42<br>2606:1a40::42<br>2606:1a40:1::42 |
 | Ultimate | `https://freedns.controld.com/x-hagezi-ultimate` | `x-hagezi-ultimate.freedns.controld.com` | 76.76.2.45<br>76.76.10.45<br>2606:1a40::45<br>2606:1a40:1::45 |
 | TIF | `https://freedns.controld.com/x-hagezi-tif` | `x-hagezi-tif.freedns.controld.com` | 76.76.2.46<br>76.76.10.46<br>2606:1a40::46<br>2606:1a40:1::46 |
-
+           
+***Paid:***
+            
+*Check out Yokoffing [ControlD Config Guide](https://github.com/yokoffing/Control-D-Config) for recommended [ControlD](https://controld.com) configuration settings.*
+       
 #### :department_store: ***NextDNS - limited free/paid*** <a name="nextdns"></a>        
 
 *In [NextDNS](https://nextdns.io) you can use my Light, Normal, Pro, Pro++ and Ultimate list.*
@@ -606,7 +612,7 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 
 #### :department_store: ***RethinkDNS - free*** <a name="rethinkdns"></a>
 
-*In [RethinkDNS](https://rethinkdns.com) you can use my Light, Normal, Pro, Pro++, Ultimate and TIF list.*
+*In [RethinkDNS](https://rethinkdns.com) you can use my Light, Normal, Pro, Pro++, Ultimate, TIF, DynDNS and Badware Hoster list.*
               
 ***NOTE:*** *The lists in RethinkDNS are only updated once a week.*
                  
@@ -637,7 +643,11 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 #### :department_store: ***OpenBLD.net - free*** <a name="openbld"></a>
 
 *[OpenBLD.net](https://openbld.net) use my Multi Pro blocklist in addition to other blocklists.*
+         
+#### :department_store: ***RobinGroppe.de (Germany) - free*** <a name="robingroppe"></a>
 
+*[RobinGroppe.de DNS](https://www.robingroppe.de/serverzeug/dns-server) offers a free German DNS server without logging to block malware, phishing and other threats. It uses my TIF list.*
+                
 ---
 
 ### :loudspeaker: ***About*** <a name="about"></a>
