@@ -11,7 +11,7 @@
  Nr | Included | Dead | Removed | URL/File
   1 |     100% |   0% |      0% | Predecessor: Multi Light
   2 |      84% |   9% |      7% | Denylist Personal
-  3 |      53% |  25% |     22% | Extracted Wildcard Rules
+  3 |      54% |  25% |     21% | Extracted Wildcard Rules
   4 |      95% |   0% |      5% | Native Tracker Apple (iOS, macOS, tvOS)
   5 |      66% |   0% |     34% | Native Tracker Amazon (Devices, Shopping, Video)
   6 |      75% |   0% |     25% | Native Tracker Huawei (Devices)
@@ -32,7 +32,7 @@
  Nr | Included | Dead | Removed | URL/File
   1 |     100% |   0% |      0% | Predecessor: Multi Normal
   2 |      87% |   9% |      4% | Denylist Personal
-  3 |      66% |  26% |      8% | Extracted Wildcard Rules
+  3 |      68% |  26% |      6% | Extracted Wildcard Rules
   4 |      95% |   0% |      5% | Native Tracker Apple (iOS, macOS, tvOS)
   5 |      99% |   0% |      1% | Native Tracker Amazon (Devices, Shopping, Video)
   6 |     100% |   0% |      0% | Native Tracker Huawei (Devices)
@@ -45,7 +45,7 @@
  13 |      78% |  12% |     10% | EasyList FirstParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
  14 |      77% |  18% |      5% | Analytics/Metrics Extension
  15 |     100% |   0% |      0% | Balanced Extension
- 16 |      81% |  11% |      8% | AdGuard MultiParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads and Trackers)
+ 16 |      82% |  10% |      8% | AdGuard MultiParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads and Trackers)
  17 |      85% |  14% |      1% | uBlock MultiParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
  18 |      94% |   0% |      6% | Advanced Extension
 ```
@@ -54,7 +54,7 @@
  Nr | Included | Dead | Removed | URL/File
   1 |     100% |   0% |      0% | Predecessor: Multi Pro
   2 |      88% |   9% |      3% | Denylist Personal
-  3 |      68% |  26% |      6% | Extracted Wildcard Rules
+  3 |      69% |  27% |      4% | Extracted Wildcard Rules
   4 |      95% |   0% |      5% | Native Tracker Apple (iOS, macOS, tvOS)
   5 |     100% |   0% |      0% | Native Tracker Amazon (Devices, Shopping, Video)
   6 |     100% |   0% |      0% | Native Tracker Huawei (Devices)
@@ -67,7 +67,7 @@
  13 |      77% |  18% |      5% | Analytics/Metrics Extension
  14 |     100% |   0% |      0% | Balanced Extension
  15 |      83% |  11% |      6% | AdGuard MultiParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads and Trackers)
- 16 |      84% |  15% |      1% | uBlock MultiParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
+ 16 |      85% |  14% |      1% | uBlock MultiParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
  17 |      95% |   0% |      5% | Advanced Extension
  18 |      79% |  14% |      7% | EasyList MultiParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
  19 |      87% |   8% |      5% | Aggressive Extension
@@ -81,7 +81,7 @@
  Nr | Included | Dead | Removed | URL/File
   1 |     100% |   0% |      0% | Predecessor: Multi Pro++
   2 |      88% |   9% |      3% | Denylist Personal
-  3 |      69% |  26% |      5% | Extracted Wildcard Rules
+  3 |      70% |  27% |      3% | Extracted Wildcard Rules
   4 |     100% |   0% |      0% | Native Tracker Apple (iOS, macOS, tvOS)
   5 |     100% |   0% |      0% | Native Tracker Amazon (Devices, Shopping, Video)
   6 |     100% |   0% |      0% | Native Tracker Huawei (Devices)
@@ -93,7 +93,7 @@
  12 |      77% |  18% |      5% | Analytics/Metrics Extension
  13 |     100% |   0% |      0% | Balanced Extension
  14 |      83% |  11% |      6% | AdGuard MultiParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads and Trackers)
- 15 |      84% |  15% |      1% | uBlock MultiParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
+ 15 |      85% |  14% |      1% | uBlock MultiParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
  16 |      95% |   0% |      5% | Advanced Extension
  17 |      79% |  14% |      7% | EasyList MultiParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
  18 |      87% |   8% |      5% | Aggressive Extension
@@ -110,7 +110,7 @@
 #### TIF.MEDIUM
 ```
  Nr | Included | Dead | Removed | URL/File
-  1 |      88% |   8% |      4% | Denylist Community Threat Intelligence Feeds
+  1 |      90% |   7% |      3% | Denylist Community Threat Intelligence Feeds
   2 |     100% |   0% |      0% | Fake
   3 |      58% |  40% |      2% | https://phishing-filter.pages.dev/phishing-filter-hosts.txt
   4 |      65% |  34% |      1% | https://raw.githubusercontent.com/phishfort/phishfort-lists/master/blacklists/hotlist.json
@@ -125,7 +125,7 @@
  13 |      78% |  18% |      4% | https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
  14 |      39% |  57% |      4% | https://hosts.tweedge.net/malicious.txt
  15 |      71% |  25% |      4% | https://threatfox.abuse.ch/downloads/hostfile
- 16 |      85% |  14% |      1% | https://urlhaus-filter.pages.dev/urlhaus-filter-hosts.txt
+ 16 |      84% |  14% |      2% | https://urlhaus-filter.pages.dev/urlhaus-filter-hosts.txt
  17 |      99% |   0% |      1% | https://urlhaus.abuse.ch/downloads/hostfile
  18 |      31% |  69% |      0% | https://vn-badsite-filter.pages.dev/vn-badsite-filter-hosts.txt
  19 |      64% |  36% |      0% | https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
@@ -152,7 +152,7 @@
 ```
  Nr | Included | Dead | Removed | URL/File
   1 |      95% |   5% |      0% | Denylist Malware
-  2 |      88% |   8% |      4% | Denylist Community Threat Intelligence Feeds
+  2 |      90% |   7% |      3% | Denylist Community Threat Intelligence Feeds
   3 |     100% |   0% |      0% | Fake
   4 |     100% |   0% |      0% | Fake++ (Problematic Online Shops)
   5 |      58% |  40% |      2% | https://phishing-filter.pages.dev/phishing-filter-hosts.txt
@@ -170,11 +170,11 @@
  17 |      66% |  31% |      3% | https://raw.githubusercontent.com/matomo-org/referrer-spam-list/master/spammers.txt
  18 |      58% |  42% |      0% | https://www.stopforumspam.com/downloads/toxic_domains_whole.txt
  19 |      78% |  18% |      4% | https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
- 20 |      59% |  41% |      0% | https://hole.cert.pl/domains/v2/domains.txt
+ 20 |      60% |  40% |      0% | https://hole.cert.pl/domains/v2/domains.txt
  21 |      39% |  57% |      4% | https://hosts.tweedge.net/malicious.txt
  22 |      30% |  70% |      0% | https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/threat/hosts
  23 |      71% |  25% |      4% | https://threatfox.abuse.ch/downloads/hostfile
- 24 |      85% |  14% |      1% | https://urlhaus-filter.pages.dev/urlhaus-filter-hosts.txt
+ 24 |      84% |  14% |      2% | https://urlhaus-filter.pages.dev/urlhaus-filter-hosts.txt
  25 |      99% |   0% |      1% | https://urlhaus.abuse.ch/downloads/hostfile
  26 |      31% |  69% |      0% | https://vn-badsite-filter.pages.dev/vn-badsite-filter-hosts.txt
  27 |      64% |  36% |      0% | https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
@@ -184,7 +184,7 @@
  31 |      81% |  18% |      1% | https://botvrij.eu/data/ioclist.domain
  32 |      56% |  41% |      3% | https://botvrij.eu/data/ioclist.hostname
  33 |      27% |  73% |      0% | https://dl.red.flag.domains/red.flag.domains.txt
- 34 |      44% |  51% |      5% | https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
+ 34 |      55% |  39% |      6% | https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
  35 |      85% |  10% |      5% | https://lists.cyberhost.uk/malware.txt
  36 |      70% |  30% |      0% | https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADomains.txt
  37 |      85% |  15% |      0% | https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Malware
@@ -196,9 +196,9 @@
  43 |      41% |  58% |      1% | https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt
  44 |      31% |  69% |      0% | https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt
  45 |      76% |  20% |      4% | https://raw.githubusercontent.com/ttc-cert/TTC-CERT_blocklist_recommended/master/domain_blocklist_recommended.txt
- 46 |      38% |  61% |      1% | https://rescure.me/rescure_domain_blacklist.txt
- 47 |      57% |  42% |      1% | https://threatview.io/Downloads/DOMAIN-High-Confidence-Feed.txt
- 48 |      70% |  30% |      0% | https://www.usom.gov.tr/url-list.txt
+ 46 |      37% |  62% |      1% | https://rescure.me/rescure_domain_blacklist.txt
+ 47 |      91% |   8% |      1% | https://threatview.io/Downloads/DOMAIN-High-Confidence-Feed.txt
+ 48 |      82% |  18% |      0% | https://www.usom.gov.tr/url-list.txt
  49 |      31% |  69% |      0% | https://zonefiles.io/f/compromised/domains/live/
  50 |      91% |   9% |      0% | https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
  51 |      74% |  24% |      2% | https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts

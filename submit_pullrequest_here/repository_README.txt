@@ -669,14 +669,14 @@ Made with :heartbeat: for a safer and cleaner internet.*
 
 #### :email: Contact <a name="contact"></a>
 
-| Telegram | Discord | Reddit | Mail |
-|:---------:|:--------:|:------:|:-----:|
-| [@hagezi](https://t.me/hagezi) | hagezi | [u/hagezi](https://www.reddit.com/user/hagezi) | hagezi@protonmail.com |
+| Telegram | Mail |
+|:--------:|:----:|
+| [@hagezi](https://t.me/hagezi) | hagezi@protonmail.com |
 
 #### :family: Groups <a name="groups"></a>
 
 | Telegram | Discord |
-|:---------:|:-----:|
+|:---------:|:------:|
 [Link](https://t.me/hagezi_g) | [CipherOps' Pi-hole & AdGuard Home](https://discord.gg/jg9CKkhC7M) |
 
 #### :octocat: Repository <a name="repository"></a>
