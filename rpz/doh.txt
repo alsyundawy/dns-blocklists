@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1711447080 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1711753980 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 26 Mar 2024 09:58 UTC
-; Version: 2024.0326.0958.14
+; Last modified: 29 Mar 2024 23:13 UTC
+; Version: 2024.0329.2313.29
 ; Syntax: RPZ
-; Number of entries: 1942
+; Number of entries: 1940
 ;
 shield.afixer.app CNAME .
 *.shield.afixer.app CNAME .
@@ -220,8 +220,6 @@ alidns.com CNAME .
 *.alidns.com CNAME .
 httpdns-sc.aliyuncs.com CNAME .
 *.httpdns-sc.aliyuncs.com CNAME .
-chaos.altendorfme.com CNAME .
-*.chaos.altendorfme.com CNAME .
 dns.alvosec.com CNAME .
 *.dns.alvosec.com CNAME .
 doh.dns.apple.com CNAME .
@@ -798,6 +796,8 @@ n0.eu CNAME .
 *.n0.eu CNAME .
 dns.skrep.eu CNAME .
 *.dns.skrep.eu CNAME .
+unasw.eu CNAME .
+*.unasw.eu CNAME .
 zougloub.eu CNAME .
 *.zougloub.eu CNAME .
 dns.expert CNAME .
@@ -908,8 +908,6 @@ dns.ningkelle.id CNAME .
 *.dns.ningkelle.id CNAME .
 doh.this.web.id CNAME .
 *.doh.this.web.id CNAME .
-doh.zephyrus.id CNAME .
-*.doh.zephyrus.id CNAME .
 doh.iucc.ac.il CNAME .
 *.doh.iucc.ac.il CNAME .
 ag.hostme.co.il CNAME .

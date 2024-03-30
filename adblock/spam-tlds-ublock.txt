@@ -9,8 +9,8 @@
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Expires: 1 day
-! Last modified: 28 Mar 2024 22:35 UTC
-! Version: 2024.0328.2235.28
+! Last modified: 30 Mar 2024 02:30 UTC
+! Version: 2024.0330.0230.10
 ! Syntax: uBlock
 ! Number of latin TLDs: 74 - non-latin TLDs: 151
 !
@@ -45,7 +45,7 @@
 ||ga^$doc,domain=~mmo.ga
 ||gdn^$doc,domain=~cst.gdn|~pss.gdn
 ||gq^$doc,domain=~tvgelive.gq
-||guru^$doc,domain=~bahn.guru|~crontab.guru|~jav.guru|~webcal.guru
+||guru^$doc,domain=~bahn.guru|~crontab.guru|~greenlight.guru|~jav.guru|~webcal.guru
 ||hair^$doc
 ||haus^$doc
 ||homes^$doc
@@ -70,7 +70,7 @@
 ||rip^$doc,domain=~medium.rip
 ||rodeo^$doc,domain=~raypeat.rodeo
 ||sbs^$doc,domain=~ecopulse.sbs|~moae.sbs
-||services^$doc
+||services^$doc,domain=~tesla.services
 ||skin^$doc
 ||support^$doc
 ||surf^$doc,domain=~bloom.surf|~glowing.surf|~kayaking.surf|~quran.surf|~s-wings.surf
