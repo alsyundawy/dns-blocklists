@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1711840500 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1711923420 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 30 Mar 2024 23:15 UTC
-; Version: 2024.0330.2315.23
+; Last modified: 31 Mar 2024 22:17 UTC
+; Version: 2024.0331.2217.51
 ; Syntax: RPZ
-; Number of entries: 19562
+; Number of entries: 19564
 ;
 altadefinizione.ac CNAME .
 *.altadefinizione.ac CNAME .
@@ -1445,6 +1445,8 @@ t1.chfs.ch CNAME .
 *.t1.chfs.ch CNAME .
 cpasbien.ch CNAME .
 *.cpasbien.ch CNAME .
+open.demonoid.ch CNAME .
+*.open.demonoid.ch CNAME .
 open-tracker.demonoid.ch CNAME .
 *.open-tracker.demonoid.ch CNAME .
 open-v6.demonoid.ch CNAME .
