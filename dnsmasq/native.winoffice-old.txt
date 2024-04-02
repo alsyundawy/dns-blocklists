@@ -4,11 +4,12 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 7 days
-# Last modified: 18 Mar 2024 07:36 UTC
-# Version: 2024.0318.0736.34
+# Last modified: 01 Apr 2024 22:46 UTC
+# Version: 2024.0401.2246.45
 # Syntax: DNSMasq v2.85 or older (IDN2 compatible)
-# Number of entries: 97
+# Number of entries: 101
 #
+server=/in.appcenter.ms/
 server=/nexusrules.live.com/
 server=/auc-visio-telemetry.officeapps.live.com/
 server=/brc-visio-telemetry.officeapps.live.com/
@@ -82,7 +83,9 @@ server=/events-sandbox.data.microsoft.com/
 server=/vortex.data.microsoft.com/
 server=/vortex-win.data.microsoft.com/
 server=/vortex-win-sandbox.data.microsoft.com/
+server=/oca.microsoft.com/
 server=/watson.officeint.microsoft.com/
+server=/telecommandsvc.microsoft.com/
 server=/telemetry.microsoft.com/
 server=/telemetry.urs.microsoft.com/
 server=/watson.microsoft.com/
@@ -92,6 +95,7 @@ server=/events-sandbox.data.msn.com/
 server=/measure.office.com/
 server=/measure.office.net/
 server=/hubblecontent.osi.office.net/
+server=/config.edge.skype.com/
 server=/events.data.trafficmanager.net/
 server=/legacywatson.trafficmanager.net/
 server=/o365diagtelemetry.trafficmanager.net/
