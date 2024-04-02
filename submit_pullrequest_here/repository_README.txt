@@ -16,7 +16,7 @@
 5. [Multi pro++](#proplus) - *Sweeper: Maximum protection (more aggressive)* : [Full](#proplus) - [Mini](#proplusmini)
 6. [Multi ultimate](#ultimate) - *Ultimate Sweeper: Aggressive protection*
 7. [Fake](#fake) - *Protects against internet scams, traps & fakes!*
-8. [Pop-Up Ads](#popupads) - *Protects against annoying pop-up ads!*
+8. [Pop-Up Ads](#popupads) - *Protects against annoying and malicious pop-up ads!*
 9. [Threat Intelligence Feeds](#tif) - *Increases security significantly! (Recommended)* : [Full](#tif) - [Medium](#tifmedium) - [IPs](#tifips)
 10. [Newly Registered Domains](#nrd) - *Favoured by threat actors to launch malicious campaigns!*
 11. [DoH/VPN/TOR/Proxy Bypass](#bypass) - *Prevent methods to bypass your DNS!* : [Full](#bypass_all) - [DoH only](#bypass_dns) - [DoH IPs](#bypass_ips)
@@ -45,7 +45,7 @@
 | :blue_book:[Normal](#normal)       | multi_dh<br>multi_cp     |  |   | :green_circle: | :green_circle: |  | :yellow_square: | :yellow_square: | :yellow_square: | |
 | :ledger:[Pro](#pro)              | pro_dh<br>pro_cp         |  | :green_circle: | :green_circle: | :green_circle: |  | :yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
 | :orange_book:[Pro++](#proplus)    | proplus_dh<br>proplus_cp | :green_circle: | :green_circle: | :green_circle: | :green_circle: |  |:yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
-| :closed_book:[Ultimate](#ultimate)    | ultimate_dh<br>ultimate_cp | :green_circle: | :green_circle: | :green_circle: | :green_circle: |  | :yellow_square: | :green_circle: | :green_circle: | :green_circle: |
+| :closed_book:[Ultimate](#ultimate)    | ultimate_dh<br>ultimate_cp | :green_circle: | :green_circle: | :green_circle: | :green_circle: |  | :yellow_square: | :green_circle: | :yellow_square: | :green_circle: |
            
 :green_circle: contains the list named in the column caption       
 :yellow_square: partially contains the list named in the column caption       
@@ -172,7 +172,7 @@
 |:-------|:-----|:----------------|
 | Domains<br>Subdomains | [Link](lnkgh_d/ultimate.txt) [Mirror](lnkgl_d/ultimate.txt) [Mirror](lnkjd_d/ultimate.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
 | Hosts | [Link](lnkgh_h/ultimate.txt) [Mirror](lnkgl_h/ultimate.txt) [Mirror](lnkjd_h/ultimate.txt) | AdAway, uMatrix, DNS66, GasMask, NetGuard, Hostfile |
-| Adblock | [Link](lnkgh_a/ultimate.txt) [Mirror](lnkgl_a/ultimate.txt) [Mirror](lnkjd_a/ultimate.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam |
+| Adblock | [Link](lnkgh_a/ultimate.txt) [Mirror](lnkgl_a/ultimate.txt) [Mirror](lnkjd_a/ultimate.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
 | Unbound | [Link](lnkgh_u/ultimate.blacklist.conf) [Mirror](lnkgl_u/ultimate.blacklist.conf) [Mirror](lnkjd_u/ultimate.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/ultimate-old.txt) [Mirror](lnkgl_m/ultimate-old.txt) [Mirror](lnkjd_m/ultimate-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/ultimate.txt) [Mirror](lnkgl_m/ultimate.txt) [Mirror](lnkjd_m/ultimate.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
@@ -209,12 +209,12 @@
 
 ---
 
-### :tada: ***Pop-Up Ads - Protects against annoying pop-up ads!*** <a name="popupads"></a>
-*A blocklist for blocking pop-up ads.*         
+### :tada: ***Pop-Up Ads - Protects against annoying and malicious pop-up ads!*** <a name="popupads"></a>
+*A blocklist for annoying and malicious blocking pop-up ads.*         
         
-|             | Light          | Normal         | Pro            | Pro++          | Ultimate       |
-|:-----------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
-| Included in | :x: | :yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
+|             | Light          | Normal         | Pro            | Pro++          | Ultimate       | TIF      |
+|:-----------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------:|
+| Included in | :x: | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: |
 
 :green_circle: yes :yellow_square: partially :x: no
 		
@@ -249,7 +249,7 @@
 |:-------|:-----|:----------------|
 | Domains<br>Subdomains | [Link](lnkgh_d/tif.txt) [Mirror](lnkgl_d/tif.txt) [Mirror](lnkjd_d/tif.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
 | Hosts | [Link](lnkgh_h/tif.txt) [Mirror](lnkgl_h/tif.txt) [Mirror](lnkjd_h/tif.txt) | AdAway, uMatrix, DNS66, GasMask, NetGuard, Hostfile |
-| Adblock | [Link](lnkgh_a/tif.txt) [Mirror](lnkgl_a/tif.txt) [Mirror](lnkjd_a/tif.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam |
+| Adblock | [Link](lnkgh_a/tif.txt) [Mirror](lnkgl_a/tif.txt) [Mirror](lnkjd_a/tif.txt) | Pi-hole, ~~AdGuard~~ (too big for iOS!), AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam |
 | Unbound | [Link](lnkgh_u/tif.blacklist.conf) [Mirror](lnkgl_u/tif.blacklist.conf) [Mirror](lnkjd_u/tif.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/tif-old.txt) [Mirror](lnkgl_m/tif-old.txt) [Mirror](lnkjd_m/tif-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/tif.txt) [Mirror](lnkgl_m/tif.txt) [Mirror](lnkjd_m/tif.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
