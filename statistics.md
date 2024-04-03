@@ -103,8 +103,9 @@
  22 |     100% |   0% |      0% | Denylist Community Aggressive
  23 |     100% |   0% |      0% | Native Tracker TikTok Extended (Fingerprinting)
  24 |      92% |   0% |      8% | META Graph Tracker (Facebook, Instagram)
- 25 |      87% |  10% |      3% | Ultimate Extension
- 26 |       0% |   0% |      0% | Denylist Community Ultimate
+ 25 |     100% |   0% |      0% | native.xiaomi.txt
+ 26 |      87% |  10% |      3% | Ultimate Extension
+ 27 |       0% |   0% |      0% | Denylist Community Ultimate
 ```
 #### TIF.MEDIUM
 ```
