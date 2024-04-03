@@ -4,8 +4,8 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 7 days
-# Last modified: 01 Apr 2024 22:46 UTC
-# Version: 2024.0401.2246.45
+# Last modified: 02 Apr 2024 22:30 UTC
+# Version: 2024.0402.2230.42
 # Syntax: DNSMasq v2.85 or older (IDN2 compatible)
 # Number of entries: 101
 #
@@ -83,6 +83,7 @@ server=/events-sandbox.data.microsoft.com/
 server=/vortex.data.microsoft.com/
 server=/vortex-win.data.microsoft.com/
 server=/vortex-win-sandbox.data.microsoft.com/
+server=/api.edgeoffer.microsoft.com/
 server=/oca.microsoft.com/
 server=/watson.officeint.microsoft.com/
 server=/telecommandsvc.microsoft.com/
@@ -95,7 +96,6 @@ server=/events-sandbox.data.msn.com/
 server=/measure.office.com/
 server=/measure.office.net/
 server=/hubblecontent.osi.office.net/
-server=/config.edge.skype.com/
 server=/events.data.trafficmanager.net/
 server=/legacywatson.trafficmanager.net/
 server=/o365diagtelemetry.trafficmanager.net/

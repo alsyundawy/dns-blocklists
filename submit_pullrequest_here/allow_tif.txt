@@ -1,4 +1,4 @@
-# Domains to be removed from the tif list.
+# Domains to be removed from the tif and tif medium list.
 #
 # RULES:
 #  - One domain per line. Wildcard patterns are allowed, e.g. *.example.org / aa-*.example.com / example.*
@@ -9,6 +9,9 @@
 #  - Please ensure that there is a blank line before and after the inserted text block.
 
 # BEGIN
+
+# https://github.com/hagezi/dns-blocklists/issues/2436
+keen.com
 
 # Not malicious, analytics, moved to normal lists
 analytics.arpae.it
