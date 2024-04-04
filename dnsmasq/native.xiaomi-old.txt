@@ -4,10 +4,10 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 7 days
-# Last modified: 03 Apr 2024 07:58 UTC
-# Version: 2024.0403.0758.57
+# Last modified: 04 Apr 2024 18:58 UTC
+# Version: 2024.0404.1858.09
 # Syntax: DNSMasq v2.85 or older (IDN2 compatible)
-# Number of entries: 364
+# Number of entries: 360
 #
 server=/api.cupid.ptqy.gitv.tv/
 server=/config.kuyun.com/
@@ -25,10 +25,6 @@ server=/mis.g.mi.com/
 server=/in.tv.global.mi.com/
 server=/hd.mi.com/
 server=/a.hl.mi.com/
-server=/ot.io.mi.com/
-server=/ots.io.mi.com/
-server=/ott.io.mi.com/
-server=/sg-urc.io.mi.com/
 server=/idm.iot.mi.com/
 server=/pandora.mi.com/
 server=/adx.tv.mi.com/
@@ -266,7 +262,7 @@ server=/dev.staging.api.developer.n.xiaomi.com/
 server=/test.lbs.n.xiaomi.com/
 server=/logs.n.xiaomi.com/
 server=/mon.n.xiaomi.com/
-server=/account.preview.n.xiaomi.net/
+server=/api.account.preview.n.xiaomi.net/
 server=/micloudevents.preview.n.xiaomi.com/
 server=/report.n.xiaomi.com/
 server=/staging.api.zhuti.n.xiaomi.com/
@@ -311,7 +307,6 @@ server=/monitor.pandora.xiaomi.com/
 server=/netcheck.pandora.xiaomi.com/
 server=/ottl7-l2.pandora.xiaomi.com/
 server=/media.pre.pandora.xiaomi.com/
-server=/redirect.pandora.xiaomi.com/
 server=/rtmpott.pandora.xiaomi.com/
 server=/bsp.sasdc.pandora.xiaomi.com/
 server=/shop.pandora.xiaomi.com/
@@ -357,7 +352,8 @@ server=/userid.xiaomi.com/
 server=/p.www.xiaomi.com/
 server=/stat.www.xiaomi.com/
 server=/xiazai.xiaomi.com/
-server=/admin.xmpush.xiaomi.com/
+server=/console.admin.xmpush.xiaomi.com/
+server=/test.admin.xmpush.xiaomi.com/
 server=/c3.api.xmpush.xiaomi.com/
 server=/i.api.xmpush.xiaomi.com/
 server=/lg.api.xmpush.xiaomi.com/
