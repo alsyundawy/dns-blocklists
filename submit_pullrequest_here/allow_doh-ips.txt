@@ -1,0 +1,16 @@
+# IPs to be removed from the DoH IP list.
+#
+# RULES:
+#  - One IP per line
+#  - The IP should not already be included
+#  - If necessary, please leave a comment before the added IPs. Comments must start with #.
+#  - Please insert IPs under the comment BEGIN. 
+#  - Please ensure that there is a blank line before and after the inserted text block.
+
+# BEGIN
+
+# https://github.com/hagezi/dns-blocklists/issues/2455
+# cname.vercel-dns.com, breaks a lot of sites
+76.76.21
+
+# END
