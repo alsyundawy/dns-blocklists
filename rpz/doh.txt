@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1712221320 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1712269020 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 04 Apr 2024 09:02 UTC
-; Version: 2024.0404.0902.33
+; Last modified: 04 Apr 2024 22:17 UTC
+; Version: 2024.0404.2217.47
 ; Syntax: RPZ
-; Number of entries: 1934
+; Number of entries: 1928
 ;
 shield.afixer.app CNAME .
 *.shield.afixer.app CNAME .
@@ -1454,14 +1454,8 @@ jurre-home.duckdns.org CNAME .
 *.jurre-home.duckdns.org CNAME .
 krtekvpn.duckdns.org CNAME .
 *.krtekvpn.duckdns.org CNAME .
-osefcorp.duckdns.org CNAME .
-*.osefcorp.duckdns.org CNAME .
-punono.duckdns.org CNAME .
-*.punono.duckdns.org CNAME .
 tuandns.duckdns.org CNAME .
 *.tuandns.duckdns.org CNAME .
-tungdnsne.duckdns.org CNAME .
-*.tungdnsne.duckdns.org CNAME .
 ueni.dyndns.org CNAME .
 *.ueni.dyndns.org CNAME .
 arashi.eu.org CNAME .
