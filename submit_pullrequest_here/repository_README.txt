@@ -567,10 +567,12 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 - *Use [Ultimate](#ultimate) if Pro++ is not enough for you.*
 - *Use [Ultimate](#ultimate) with [1Hosts Pro*](https://github.com/badmojr/1Hosts#1hosts-pro) if Ultimate alone is not enough. You will have to unblock a lot yourself.*
 
-\* *NOTE: The [1Hosts](https://github.com/badmojr/1Hosts) lists are currently only maintained irregularly, see also: [Competing Demands Causing Maintenance Slowdown](https://github.com/badmojr/1Hosts/issues/1307)*
+***\* NOTE:*** *The [1Hosts](https://github.com/badmojr/1Hosts) lists are currently only maintained irregularly, see also: [Competing Demands Causing Maintenance Slowdown](https://github.com/badmojr/1Hosts/issues/1307)*
 
 *:bulb: Another recommendation is to combine the main lists with the [Threat Intelligence Feeds](https://github.com/hagezi/dns-blocklists#tif) list if possible. For Adblockers that have problems with the size of the full TIF list there is a smaller [medium](https://github.com/hagezi/dns-blocklists#tifmedium) version. If you use AdGuard Home or AdGuard DNS, I also recommend using the [Dandelion Sprout's Anti-Malware List](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt). There is also an [IPv4 list](https://github.com/hagezi/dns-blocklists#tifips) that can be used additionally to the TIF or TIF medium list.*
-
+           
+***NOTE (NextDNS users):*** *The TIF is not available in NextDNS, the security features should be used instead. Furthermore, I recommend that NextDNS users also use the [OISD](https://oisd.nl/) list, which also contains some TIF sources that are not covered by the security features.*
+                                 
 ***Further additional options to the main lists depending on the use case are:***
       
 - ***Security:*** *In addition to the [Threat Intelligence Feeds](#tif) list, use the [Dynamic DNS](#dyndns), [Badware Hoster](#hoster), [Most Abused TLDs](#tlds) and [Newly Registered Domains (NRDs)](#nrd) list to further protect yourself from malicious things.*

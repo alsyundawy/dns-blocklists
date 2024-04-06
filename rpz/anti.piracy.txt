@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1712269200 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1712355600 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 04 Apr 2024 22:20 UTC
-; Version: 2024.0404.2220.43
+; Last modified: 05 Apr 2024 22:20 UTC
+; Version: 2024.0405.2220.24
 ; Syntax: RPZ
-; Number of entries: 19446
+; Number of entries: 19406
 ;
 altadefinizione.ac CNAME .
 *.altadefinizione.ac CNAME .
@@ -1037,8 +1037,6 @@ eurostreaming.camp CNAME .
 *.eurostreaming.camp CNAME .
 eurostreaming.capital CNAME .
 *.eurostreaming.capital CNAME .
-streamingcommunity.capital CNAME .
-*.streamingcommunity.capital CNAME .
 cb01.cards CNAME .
 *.cb01.cards CNAME .
 cineblog01.cards CNAME .
@@ -1441,6 +1439,8 @@ open-tracker.demonoid.ch CNAME .
 *.open-tracker.demonoid.ch CNAME .
 open-v6.demonoid.ch CNAME .
 *.open-v6.demonoid.ch CNAME .
+public.demonoid.ch CNAME .
+*.public.demonoid.ch CNAME .
 extratorrents.ch CNAME .
 *.extratorrents.ch CNAME .
 eztv.ch CNAME .
@@ -5645,8 +5645,6 @@ put-locker.com CNAME .
 *.put-locker.com CNAME .
 putlocker.com CNAME .
 *.putlocker.com CNAME .
-putlocker9.com CNAME .
-*.putlocker9.com CNAME .
 putlockerfilms.com CNAME .
 *.putlockerfilms.com CNAME .
 putlockers2.com CNAME .
@@ -5725,8 +5723,6 @@ rarefilmm.com CNAME .
 *.rarefilmm.com CNAME .
 rarelust.com CNAME .
 *.rarelust.com CNAME .
-rarlinks.com CNAME .
-*.rarlinks.com CNAME .
 rawlayer.com CNAME .
 *.rawlayer.com CNAME .
 real-debrid.com CNAME .
@@ -6067,8 +6063,6 @@ softlay.com CNAME .
 *.softlay.com CNAME .
 softreflex.com CNAME .
 *.softreflex.com CNAME .
-softsapk.com CNAME .
-*.softsapk.com CNAME .
 softsclub.com CNAME .
 *.softsclub.com CNAME .
 softserialskey.com CNAME .
@@ -6269,8 +6263,6 @@ techanywhere.com CNAME .
 *.techanywhere.com CNAME .
 techbigs.com CNAME .
 *.techbigs.com CNAME .
-techmediatune.com CNAME .
-*.techmediatune.com CNAME .
 teentorrents.com CNAME .
 *.teentorrents.com CNAME .
 milanesitracker.tekcities.com CNAME .
@@ -6285,8 +6277,6 @@ telechargementz.com CNAME .
 *.telechargementz.com CNAME .
 telechargerjeuxtorrent.com CNAME .
 *.telechargerjeuxtorrent.com CNAME .
-tennistorrents.com CNAME .
-*.tennistorrents.com CNAME .
 tenvoi.com CNAME .
 *.tenvoi.com CNAME .
 tetrasoftbd.com CNAME .
@@ -6385,8 +6375,6 @@ timenai.com CNAME .
 *.timenai.com CNAME .
 timepassbd.com CNAME .
 *.timepassbd.com CNAME .
-tinboxtorrent.com CNAME .
-*.tinboxtorrent.com CNAME .
 tracker.tiny-vps.com CNAME .
 *.tracker.tiny-vps.com CNAME .
 tioanime.com CNAME .
@@ -6587,8 +6575,6 @@ torrentquest.com CNAME .
 *.torrentquest.com CNAME .
 torrents.com CNAME .
 *.torrents.com CNAME .
-torrents-heaven.com CNAME .
-*.torrents-heaven.com CNAME .
 torrents-proxy.com CNAME .
 *.torrents-proxy.com CNAME .
 torrents-time.com CNAME .
@@ -7767,8 +7753,6 @@ yts.digital CNAME .
 *.yts.digital CNAME .
 kinox.direct CNAME .
 *.kinox.direct CNAME .
-tantifilm.direct CNAME .
-*.tantifilm.direct CNAME .
 cb01.directory CNAME .
 *.cb01.directory CNAME .
 eurostreaming.directory CNAME .
@@ -7823,8 +7807,6 @@ gbwhatsapp.download CNAME .
 *.gbwhatsapp.download CNAME .
 lookmovie.download CNAME .
 *.lookmovie.download CNAME .
-streamingcommunity.download CNAME .
-*.streamingcommunity.download CNAME .
 wawacity.download CNAME .
 *.wawacity.download CNAME .
 forum.wawa-mania.ec CNAME .
@@ -9797,8 +9779,6 @@ ilgeniodellostreaming.lat CNAME .
 *.ilgeniodellostreaming.lat CNAME .
 pirateproxy.lat CNAME .
 *.pirateproxy.lat CNAME .
-streamingcommunity.lat CNAME .
-*.streamingcommunity.lat CNAME .
 tantifilm.lat CNAME .
 *.tantifilm.lat CNAME .
 yts.lat CNAME .
@@ -10925,8 +10905,6 @@ pirateproxy.name CNAME .
 *.pirateproxy.name CNAME .
 qoob.name CNAME .
 *.qoob.name CNAME .
-socceron.name CNAME .
-*.socceron.name CNAME .
 streamingcommunity.name CNAME .
 *.streamingcommunity.name CNAME .
 mamahd.unblocked.name CNAME .
@@ -12117,8 +12095,6 @@ torrents.ohys.net CNAME .
 *.torrents.ohys.net CNAME .
 tracker.ohys.net CNAME .
 *.tracker.ohys.net CNAME .
-oitbd.net CNAME .
-*.oitbd.net CNAME .
 onceddl.net CNAME .
 *.onceddl.net CNAME .
 onepace.net CNAME .
@@ -12589,8 +12565,6 @@ torrent-tracks.net CNAME .
 *.torrent-tracks.net CNAME .
 torrent-windows.net CNAME .
 *.torrent-windows.net CNAME .
-torrent69.net CNAME .
-*.torrent69.net CNAME .
 torrentai.net CNAME .
 *.torrentai.net CNAME .
 torrentbd.net CNAME .
@@ -14287,8 +14261,6 @@ polishsource.org CNAME .
 *.polishsource.org CNAME .
 polishtracker.org CNAME .
 *.polishtracker.org CNAME .
-public.popcorn-tracker.org CNAME .
-*.public.popcorn-tracker.org CNAME .
 share.popgo.org CNAME .
 *.share.popgo.org CNAME .
 pornbay.org CNAME .
@@ -14501,8 +14473,6 @@ subsplease.org CNAME .
 *.subsplease.org CNAME .
 sumotracker.org CNAME .
 *.sumotracker.org CNAME .
-suntor.org CNAME .
-*.suntor.org CNAME .
 supertorrents.org CNAME .
 *.supertorrents.org CNAME .
 suprbay.org CNAME .
@@ -14515,8 +14485,6 @@ swetracker.org CNAME .
 *.swetracker.org CNAME .
 swetv.org CNAME .
 *.swetv.org CNAME .
-pirate.t-1.org CNAME .
-*.pirate.t-1.org CNAME .
 t-pb.org CNAME .
 *.t-pb.org CNAME .
 tracker.t-rb.org CNAME .
@@ -16003,8 +15971,6 @@ seasonvar.ru CNAME .
 *.seasonvar.ru CNAME .
 servandroidkino.ru CNAME .
 *.servandroidkino.ru CNAME .
-sharereactor.ru CNAME .
-*.sharereactor.ru CNAME .
 shopdoc.ru CNAME .
 *.shopdoc.ru CNAME .
 smart-os.ru CNAME .
@@ -16103,8 +16069,6 @@ ssp2.myflixer.run CNAME .
 *.ssp2.myflixer.run CNAME .
 popcornflix.run CNAME .
 *.popcornflix.run CNAME .
-streamingcommunity.run CNAME .
-*.streamingcommunity.run CNAME .
 tantifilm.run CNAME .
 *.tantifilm.run CNAME .
 123movies.sale CNAME .
@@ -18693,8 +18657,6 @@ vm3268418.24ssd.had.wf CNAME .
 *.vm3268418.24ssd.had.wf CNAME .
 ilgeniodellostreaming.wf CNAME .
 *.ilgeniodellostreaming.wf CNAME .
-pirateproxy.wf CNAME .
-*.pirateproxy.wf CNAME .
 psa.wf CNAME .
 *.psa.wf CNAME .
 nyaa.tracker.wf CNAME .
@@ -19269,8 +19231,6 @@ neuf.xyz CNAME .
 *.neuf.xyz CNAME .
 nsw2u.xyz CNAME .
 *.nsw2u.xyz CNAME .
-nzbgrabit.xyz CNAME .
-*.nzbgrabit.xyz CNAME .
 opentracker.xyz CNAME .
 *.opentracker.xyz CNAME .
 p4pirate.xyz CNAME .

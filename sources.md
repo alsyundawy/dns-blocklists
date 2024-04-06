@@ -3,6 +3,7 @@
 ```
 http://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip
 https://abpvn.com/android/abpvn.txt
+https://adguardteam.github.io/AdGuardSDNSFilter/Filters/adguard_popup_filter.txt
 https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 https://azorult-tracker.net/api/list/domain?format=plain
 https://botvrij.eu/data/ioclist.domain
@@ -161,6 +162,7 @@ https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter.txt
 https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_domains.txt
 https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_ips.txt
 https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antidynamicdns.txt
+https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/adblock/scams_light.txt
 https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/adblock/scams.txt
 https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 https://raw.githubusercontent.com/jiayiming/jCleanList/master/jCleanList_all.txt
@@ -201,6 +203,7 @@ https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/malware
 https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/phishing/domains
 https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/publicite/domains
 https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/vpn/domains
+https://raw.githubusercontent.com/oo12/SMBBB/master/blocklist.txt
 https://raw.githubusercontent.com/phishfort/phishfort-lists/master/blacklists/hotlist.json
 https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADomains.txt
 https://raw.githubusercontent.com/privacy-protection-tools/anti-ad/master/anti-ad-domains.txt
