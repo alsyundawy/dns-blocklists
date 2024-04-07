@@ -319,8 +319,6 @@
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
 | Adblock | [Link](lnkgh_a/nrds.30.txt) [Mirror](lnkgl_a/nrds.30.txt) [Mirror](lnkjd_a/nrds.30.txt) | Pi-hole, ~~AdGuard~~ (too big!), AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam |
-| DNSMasq<br>v2.85- | [Link](lnkgh_m/nrds.30-old.txt) [Mirror](lnkgl_m/nrds.30-old.txt) [Mirror](lnkjd_m/nrds.30-old.txt) | DNSMasq (v2.85 or older) |
-| DNSMasq<br>v2.86+ | [Link](lnkgh_m/nrds.30.txt) [Mirror](lnkgl_m/nrds.30.txt) [Mirror](lnkjd_m/nrds.30.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/nrds.30.txt) [Mirror](lnkgl_w/nrds.30.txt) [Mirror](lnkjd_w/nrds.30.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/nrds.30-onlydomains.txt) [Mirror](lnkgl_w/nrds.30-onlydomains.txt) [Mirror](lnkjd_w/nrds.30-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
             
