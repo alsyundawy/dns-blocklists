@@ -18,7 +18,7 @@
 7. [Fake](#fake) - *Protects against internet scams, traps & fakes!*
 8. [Pop-Up Ads](#popupads) - *Protects against annoying and malicious pop-up ads!*
 9. [Threat Intelligence Feeds](#tif) - *Increases security significantly! (Recommended)* : [Full](#tif) - [Medium](#tifmedium) - [IPs](#tifips)
-10. [Newly Registered Domains](#nrd) - *Favoured by threat actors to launch malicious campaigns!*
+10. [Newly Registered Domains](#nrd) - *Favoured by threat actors to launch malicious campaigns!* : [10 days](#nrd10) - [30 days](#nrd30)
 11. [DoH/VPN/TOR/Proxy Bypass](#bypass) - *Prevent methods to bypass your DNS!* : [Full](#bypass_all) - [DoH only](#bypass_dns) - [DoH IPs](#bypass_ips)
 12. [Safesearch not supported](#safesearch) - *Prevent the use of search engines that do not support safesearch!*
 13. [Dynamic DNS](#dyndns) - *Protects against the malicious use of dynamic DNS services!*
@@ -249,7 +249,7 @@
 |:-------|:-----|:----------------|
 | Domains<br>Subdomains | [Link](lnkgh_d/tif.txt) [Mirror](lnkgl_d/tif.txt) [Mirror](lnkjd_d/tif.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
 | Hosts | [Link](lnkgh_h/tif.txt) [Mirror](lnkgl_h/tif.txt) [Mirror](lnkjd_h/tif.txt) | AdAway, uMatrix, DNS66, GasMask, NetGuard, Hostfile |
-| Adblock | [Link](lnkgh_a/tif.txt) [Mirror](lnkgl_a/tif.txt) [Mirror](lnkjd_a/tif.txt) | Pi-hole, ~~AdGuard~~ (too big for iOS!), AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam |
+| Adblock | [Link](lnkgh_a/tif.txt) [Mirror](lnkgl_a/tif.txt) [Mirror](lnkjd_a/tif.txt) | Pi-hole, ~~AdGuard~~ (too big!), AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam |
 | Unbound | [Link](lnkgh_u/tif.blacklist.conf) [Mirror](lnkgl_u/tif.blacklist.conf) [Mirror](lnkjd_u/tif.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/tif-old.txt) [Mirror](lnkgl_m/tif-old.txt) [Mirror](lnkjd_m/tif-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/tif.txt) [Mirror](lnkgl_m/tif.txt) [Mirror](lnkjd_m/tif.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
@@ -288,7 +288,7 @@
 ---
 
 ### :new: ***Newly Registered Domains (NRDs)*** <a name="nrd"></a>
-*A blocklist for blocking domains registered in the last 10 days. These domains are known to be favoured by threat actors to launch malicious campaigns.*         
+*A blocklist for blocking domains registered in the last 10 or 30 days. These domains are known to be favoured by threat actors to launch malicious campaigns.*         
             
 ***NOTE:*** *It may contain few false positive domains that limit functionality. Therefore it should only be used by experienced users. Furthermore, an admin should be available to unblock incorrectly blocked domains.*
                   
@@ -297,19 +297,33 @@
 | Included in | :x: | :x: | :x: | :x: | :x: | :yellow_square: |
 
 :green_circle: yes :yellow_square: partially :x: no
-              		
-**Entries:** *nrd_cp domains*           
+
+#### :new: ***Domains registered in the last 10 days*** <a name="nrd10"></a>
+
+**Entries:** *nrd10_cp domains*           
          
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](lnkgh_a/nrds.10.txt) [Mirror](lnkgl_a/nrds.10.txt) [Mirror](lnkjd_a/nrds.10.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam |
+| Adblock | [Link](lnkgh_a/nrds.10.txt) [Mirror](lnkgl_a/nrds.10.txt) [Mirror](lnkjd_a/nrds.10.txt) | Pi-hole, ~~AdGuard~~ (too big!), AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam |
 | Unbound | [Link](lnkgh_u/nrds.10.blacklist.conf) [Mirror](lnkgl_u/nrds.10.blacklist.conf) [Mirror](lnkjd_u/nrds.10.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/nrds.10-old.txt) [Mirror](lnkgl_m/nrds.10-old.txt) [Mirror](lnkjd_m/nrds.10-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/nrds.10.txt) [Mirror](lnkgl_m/nrds.10.txt) [Mirror](lnkjd_m/nrds.10.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/nrds.10.txt) [Mirror](lnkgl_w/nrds.10.txt) [Mirror](lnkjd_w/nrds.10.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/nrds.10-onlydomains.txt) [Mirror](lnkgl_w/nrds.10-onlydomains.txt) [Mirror](lnkjd_w/nrds.10-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](lnkgh_r/nrds.10.txt) [Mirror](lnkgl_r/nrds.10.txt) [Mirror](lnkjd_r/nrds.10.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
+                     
+#### :new: ***Domains registered in the last 30 days*** <a name="nrd30"></a>
 
+**Entries:** *nrd30_cp domains*           
+         
+| Format | Links | Can be used for |
+|:-------|:-----|:----------------|
+| Adblock | [Link](lnkgh_a/nrds.30.txt) [Mirror](lnkgl_a/nrds.30.txt) [Mirror](lnkjd_a/nrds.30.txt) | Pi-hole, ~~AdGuard~~ (too big!), AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam |
+| DNSMasq<br>v2.85- | [Link](lnkgh_m/nrds.30-old.txt) [Mirror](lnkgl_m/nrds.30-old.txt) [Mirror](lnkjd_m/nrds.30-old.txt) | DNSMasq (v2.85 or older) |
+| DNSMasq<br>v2.86+ | [Link](lnkgh_m/nrds.30.txt) [Mirror](lnkgl_m/nrds.30.txt) [Mirror](lnkjd_m/nrds.30.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
+| Wildcard<br>Asterisk | [Link](lnkgh_w/nrds.30.txt) [Mirror](lnkgl_w/nrds.30.txt) [Mirror](lnkjd_w/nrds.30.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Wildcard<br>Domains | [Link](lnkgh_w/nrds.30-onlydomains.txt) [Mirror](lnkgl_w/nrds.30-onlydomains.txt) [Mirror](lnkjd_w/nrds.30-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
+            
 **Expires:** *24 hours (update frequency)*
 
 ---
