@@ -34,7 +34,7 @@ body:
     attributes:
       label: ControlD users
       description: |
-        If you are using ControlD, make sure that the Block Response in the profile settings is not set to Custom or Branded to ensure that the problem is not caused by this function! 
+        If you are using ControlD, make sure that the Block Response in the profile settings is not set to Custom or Branded to ensure that the problem is not caused by this feature! 
       options:
         - label: IMPORTANT - I assure that I have not set the Block Response in ControlD to Custom or Branded and can confirm that the problem still occurs.
           required: false
@@ -44,7 +44,7 @@ body:
       description: |
         If you use NextDNS, make sure that the block page is disabled in the settings to ensure that the problem is not caused by this feature!
       options:
-        - label: IMPORTANT - I can assure that I disabled the blocking page in NextDNS and can confirm that the problem still occurs.
+        - label: IMPORTANT - I can assure that I disabled the block page in NextDNS and can confirm that the problem still occurs.
           required: false
   
   - type: dropdown
