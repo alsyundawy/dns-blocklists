@@ -5,10 +5,10 @@
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Expires: 1 day
-! Last modified: 07 Apr 2024 23:36 UTC
-! Version: 2024.0407.2336.10
+! Last modified: 08 Apr 2024 06:45 UTC
+! Version: 2024.0408.0645.11
 ! Syntax: AdBlock
-! Number of entries: 57898
+! Number of entries: 57903
 !
 ||0-02.net^
 ||0008d6ba2e.com^
@@ -276,6 +276,7 @@
 ||nex.163.com^
 ||temp.163.com^
 ||yaolu.yuedu.163.com^
+||m.analytics.126.net.163jiasu.com^
 ||163ns.com^
 ||ac.dun.163yun.com^
 ||1680660.com^
@@ -2984,6 +2985,7 @@
 ||adobecorp.data.adobedc.net^
 ||adobemobiledev.data.adobedc.net^
 ||data.em.officedepot.com.data.adobedc.net^
+||data.em.viking.com.data.adobedc.net^
 ||esdk.data.adobedc.net^
 ||edge.adobedc.net^
 ||metric.adobeio.com^
@@ -4248,7 +4250,7 @@
 ||chartboost.com.akamaized.net^
 ||mdp-appconf-eu.heytapdl.com.akamaized.net^
 ||adsfs-id.heytapimg.com.akamaized.net^
-||ads.projectagoraservices.com.akamaized.net^
+||projectagoraservices.com.akamaized.net^
 ||smartadserver.com.akamaized.net^
 ||stat-track.com.akamaized.net^
 ||freewheel-mtgx-tv.akamaized.net^
@@ -6323,7 +6325,6 @@
 ||askingpoint.com^
 ||events.askjdhaa.com^
 ||piwik.asklepios.com^
-||pixel.ad.asklocala.com^
 ||askme4date.com^
 ||dabu.askmediagroup.com^
 ||fimserve.askmen.com^
@@ -6571,6 +6572,7 @@
 ||microlearning.att.com^
 ||networkingexchange.att.com^
 ||pages.att.com^
+||pre-metrics.att.com^
 ||resources.att.com^
 ||site.att.com^
 ||smetrics.att.com^
@@ -7479,6 +7481,8 @@
 ||adl.bankofthewest.com^
 ||analytics.bankofthewest.com^
 ||banner.cz^
+||edayo.banner-ad-nex.com^
+||js.banner-ad-nex.com^
 ||banneradsday.com^
 ||bannerboo.com^
 ||bannerbridge.net^
@@ -8321,6 +8325,7 @@
 ||bidderyaldose.top^
 ||biddingx.com^
 ||creative.bidease.com^
+||ssp-track-us.bidease.com^
 ||track-resource.bidease.com^
 ||track-us.bidease.com^
 ||bideo-blog.com^
@@ -10665,6 +10670,7 @@
 ||cbpslot.com^
 ||analytics.cbre.com^
 ||loansales.cbre.com^
+||vantage-analytics.cbre.com^
 ||webstats.cbre.com^
 ||analytics.cbreesi.com^
 ||saa.cbs.com^
@@ -14374,7 +14380,6 @@
 ||metric.geravd.com.br^
 ||ghanaconsulate.com.pk^
 ||matomo.gji.com.au^
-||google-analytics.com.com^
 ||metrics.gq.com.au^
 ||contacto.gtc.com.gt^
 ||gulenturizm.com.tr^
@@ -14518,7 +14523,6 @@
 ||nobeta.com.br^
 ||nordesterep.com.br^
 ||analytics.ntlc.com.vn^
-||prod-s11-analytics.nubank.com.br^
 ||nuffnang.com.my^
 ||observadorregional.com.br^
 ||metrics.olhardigital.com.br^
@@ -15982,6 +15986,7 @@
 ||ssc.cvent.com^
 ||cvlb.dev^
 ||metrics.cvs.com^
+||photo-metrics.cvs.com^
 ||smetrics.cvs.com^
 ||cvtbdap.xyz^
 ||axp.cw39.com^
@@ -16394,6 +16399,7 @@
 ||api-js.datadome.co^
 ||dd.nytimes.com.first-party-js.datadome.co^
 ||dd.leboncoin.fr.first-party-js.datadome.co^
+||dd.stoiximan.gr.first-party-js.datadome.co^
 ||datadrivenpromotion.com^
 ||datafeedfile.com^
 ||click.datafilteringsite.com^
@@ -20350,6 +20356,7 @@
 ||edgeio.com^
 ||ma1226-r.analytics.edgekey.net^
 ||advertising-cdn.dpgmedia.cloud.edgekey.net^
+||s2.adform.net.cn-v1.edgekey.net^
 ||ds-m.addthisedge.com.edgekey.net^
 ||v1.addthisedge.com.edgekey.net^
 ||adobetag.com.edgekey.net^
@@ -20368,7 +20375,6 @@
 ||adx-dre.op.dbankcloud.com.edgekey.net^
 ||events-dre.op.dbankcloud.com.edgekey.net^
 ||analytics.dealmoon.com.edgekey.net^
-||analytics.fbgcdn.com.edgekey.net^
 ||flashtalking.com.edgekey.net^
 ||analytics.gmc.com.edgekey.net^
 ||ibeat-analytics.com.edgekey.net^
@@ -20399,6 +20405,7 @@
 ||i.socdm.com.edgekey.net^
 ||smetrics.td.com.edgekey.net^
 ||san.valueclick.com.edgekey.net^
+||analytics.walkme.com.edgekey.net^
 ||video-ads.rubiconproject.com-v1.edgekey.net^
 ||akstat.io.edgekey.net^
 ||dable.io.edgekey.net^
@@ -20420,7 +20427,6 @@
 ||analytics.edgepetrol.com^
 ||deep.edgequery.io^
 ||analytics.edgesuite.net^
-||analytics.edmentum.com.edgesuite.net^
 ||demdex.hm.com.edgesuite.net^
 ||video-ads-module.ad-tech.nbcuni.com.edgesuite.net^
 ||analytics.pangle-ads.com.edgesuite.net^
@@ -20883,7 +20889,6 @@
 ||tracking.emoneyadvisor.com^
 ||emoneyspace.com^
 ||tracking.emons.de^
-||cdn.emoryday-analytics.com^
 ||emotionalfriendship.com^
 ||emotionallycosmeticshardly.com^
 ||emotionallyhemisphere.com^
@@ -21773,6 +21778,7 @@
 ||explosivegleameddesigner.com^
 ||expmediadirect1.com^
 ||click-v4.expoclknu.com^
+||alx-api.exponea.com^
 ||amway-api.exponea.com^
 ||api.exponea.com^
 ||api-bho.exponea.com^
@@ -21783,7 +21789,7 @@
 ||gnt-api.exponea.com^
 ||hoff-api.exponea.com^
 ||lner-api.exponea.com^
-||mallgroup-api.exponea.com^
+||neoengage-va-api.exponea.com^
 ||notino-api.exponea.com^
 ||nxi-api.exponea.com^
 ||raisin-api.exponea.com^
@@ -25567,9 +25573,9 @@
 ||gnar.grammarly.com^
 ||metrics.grammarly.io^
 ||treatment.grammarly.com^
-||preprod-analytics.grammarlyaws.com^
-||prod-analytics.grammarlyaws.com^
-||qa-analytics.grammarlyaws.com^
+||analytics.preprod-analytics.grammarlyaws.com^
+||analytics.prod-analytics.grammarlyaws.com^
+||analytics.qa-analytics.grammarlyaws.com^
 ||gramotherwise.com^
 ||granatelocknut.top^
 ||smetrics.grandandtoy.com^
@@ -28885,6 +28891,7 @@
 ||elevate-analytics.instructure.com^
 ||instrumentsponge.com^
 ||instrumenttactics.com^
+||indata.instytut-pollster.pl^
 ||insultoccupyamazed.com^
 ||insurads.com^
 ||telemetry.insureon.com^
@@ -32714,7 +32721,6 @@
 ||lognormal.net^
 ||metric.logramascontucocina.com^
 ||analytics.logrhythm.com^
-||contentlogrhythm.telemetry.logrhythm.com^
 ||logrocket.io^
 ||api.logrocket.com^
 ||app.logrocket.com^
@@ -34229,7 +34235,6 @@
 ||meligh.com^
 ||melimeloparis.ro^
 ||analytics.melio.com^
-||api-analytics.melio.com^
 ||melit-zoy.com^
 ||mellonidolon.com^
 ||mellowads.com^
@@ -39446,6 +39451,7 @@
 ||pasbstbovc.com^
 ||ma.pasco.com^
 ||pascualpecked.top^
+||pase-analytics.com^
 ||paslsa.com^
 ||analytics.pason.com^
 ||pass8heal.com^
@@ -43914,7 +43920,6 @@
 ||analytics.ringcentral.eu^
 ||data.em.ringcentral.com^
 ||som.ringcentral.com^
-||us-analytics.ringcentral.com^
 ||analytics.ringdna.net^
 ||tdf.ringier.ch^
 ||analytics.ringostat.net^
@@ -45553,7 +45558,6 @@
 ||es1-s2s.sensic.net^
 ||es1preprod-s2s.sensic.net^
 ||fc-id.sensic.net^
-||it-config.sensic.net^
 ||localhost.sensic.net^
 ||nl-config.sensic.net^
 ||pl-config.sensic.net^
@@ -50064,7 +50068,6 @@
 ||theweatherspace.com^
 ||thewebup.com^
 ||analytics.thewhiskyexchange.com^
-||fb.analytics.thewhitecompany.com^
 ||smetrics.thewhitecompany.com^
 ||thewhizmarketing.com^
 ||thewhizproducts.com^
@@ -53999,7 +54002,12 @@
 ||asia-prt-stsdk.vivoglobal.com^
 ||asia-stsdk.vivoglobal.com^
 ||onrt-stsdk.vivoglobal.com^
+||pnrt-stsdk.vivoglobal.com^
+||ru-monitor-stsdk.vivoglobal.com^
 ||ru-onrt-stsdk.vivoglobal.com^
+||ru-ort-stsdk.vivoglobal.com^
+||ru-pnrt-stsdk.vivoglobal.com^
+||ru-stsdk.vivoglobal.com^
 ||stsdk.vivoglobal.com^
 ||analytics.vivun.com^
 ||vivuple.xyz^
@@ -54533,7 +54541,6 @@
 ||analytics.washingtonpost.com^
 ||metrics.washingtonpost.com^
 ||pwapi.washingtonpost.com^
-||red-analytics.washingtonpost.com^
 ||smetrics.washingtonpost.com^
 ||washpottelly.website^
 ||analytics.wask.co^
@@ -55573,7 +55580,6 @@
 ||globalbanking.wolterskluwer.com^
 ||smetrics.wolterskluwer.com^
 ||stat.wolterskluwer.com^
-||na.telemetry.wolterskluwer.com^
 ||tm-marketing.wolterskluwer.com^
 ||trackinglrus.wolterskluwer.com^
 ||know.wolterskluwerlr.com^
@@ -56068,7 +56074,6 @@
 ||telemetry.do.xcal.tv^
 ||analytics.eu-1.xcal.tv^
 ||telemetry.xcal.tv^
-||meta-hotels.analytics.xcaret.com^
 ||xccadc.com^
 ||xcdn.ovh^
 ||xcec.ru^

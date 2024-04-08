@@ -41,7 +41,7 @@
 #### ***Blocklist version and size overview:***
 | Version | Entries | Pro++ | Pro | Nor<br>mal | Light | [Fake](#fake) | [TIF](#tif) | [Nat<br>ive](#native) | [PopUp<br>Ads](#popupads) | Bug<br>Tracker |
 |:--------|---:|:------:|:-----:|:----:|:----:|:---:|:------:|:----------:|:----:|:----:|
-| :green_book:[Light](#light)             | 123589<br>57898     |  |   |   | :green_circle:  |  | |  :yellow_square: | | |
+| :green_book:[Light](#light)             | 123361<br>57903     |  |   |   | :green_circle:  |  | |  :yellow_square: | | |
 | :blue_book:[Normal](#normal)       | 383556<br>132670     |  |   | :green_circle: | :green_circle: |  | :yellow_square: | :yellow_square: | :yellow_square: | |
 | :ledger:[Pro](#pro)              | 432606<br>151010         |  | :green_circle: | :green_circle: | :green_circle: |  | :yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
 | :orange_book:[Pro++](#proplus)    | 543042<br>174358 | :green_circle: | :green_circle: | :green_circle: | :green_circle: |  |:yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
@@ -69,12 +69,12 @@
           
 ***NOTE:*** *Does not block error trackers such as Bugsnag, Crashlytics, Firebase, Instabug, Sentry, ... and other app-specific crash trackers. These are only blocked from the Pro version onwards.*
 		  
-**Entries:** *123589 domains/hosts - 57898 compressed domains*                    
+**Entries:** *123361 domains/hosts - 57903 compressed domains*                    
          
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
 | Domains<br>Subdomains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/light.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/light.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/domains/light.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
-| Hosts | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/light.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/light.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/hosts/light.txt) | AdAway, uMatrix, DNS66, GasMask, NetGuard, Hostfile |
+| Hosts | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/light.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/light.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/hosts/light.txt) | AdAway, uMatrix, DNS66, GasMask, NetGuard, Hostfile, Windows |
 | Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/light.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/light.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
 | Unbound | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/unbound/light.blacklist.conf) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/light.blacklist.conf) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/unbound/light.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/light-old.txt) [Mirror](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/dnsmasq/light-old.txt) [Mirror](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/dnsmasq/light-old.txt) | DNSMasq (v2.85 or older) |

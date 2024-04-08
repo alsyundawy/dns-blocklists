@@ -74,7 +74,7 @@
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
 | Domains<br>Subdomains | [Link](lnkgh_d/light.txt) [Mirror](lnkgl_d/light.txt) [Mirror](lnkjd_d/light.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
-| Hosts | [Link](lnkgh_h/light.txt) [Mirror](lnkgl_h/light.txt) [Mirror](lnkjd_h/light.txt) | AdAway, uMatrix, DNS66, GasMask, NetGuard, Hostfile |
+| Hosts | [Link](lnkgh_h/light.txt) [Mirror](lnkgl_h/light.txt) [Mirror](lnkjd_h/light.txt) | AdAway, uMatrix, DNS66, GasMask, NetGuard, Hostfile, Windows |
 | Adblock | [Link](lnkgh_a/light.txt) [Mirror](lnkgl_a/light.txt) [Mirror](lnkjd_a/light.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
 | Unbound | [Link](lnkgh_u/light.blacklist.conf) [Mirror](lnkgl_u/light.blacklist.conf) [Mirror](lnkjd_u/light.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/light-old.txt) [Mirror](lnkgl_m/light-old.txt) [Mirror](lnkjd_m/light-old.txt) | DNSMasq (v2.85 or older) |
