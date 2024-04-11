@@ -522,7 +522,7 @@
             
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](lnkgh_a/gambling.txt) [Mirror](lnkgl_a/gambling.txt) [Mirror](lnkjd_a/gambling.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
+| Adblock | [Link](lnkgh_a/gambling.txt) [Mirror](lnkgl_a/gambling.txt) [Mirror](lnkjd_a/gambling.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam |
 | Unbound | [Link](lnkgh_u/gambling.blacklist.conf) [Mirror](lnkgl_u/gambling.blacklist.conf) [Mirror](lnkjd_u/gambling.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/gambling-old.txt) [Mirror](lnkgl_m/gambling-old.txt) [Mirror](lnkjd_m/gambling-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/gambling.txt) [Mirror](lnkgl_m/gambling.txt) [Mirror](lnkjd_m/gambling.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |

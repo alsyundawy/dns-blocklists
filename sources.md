@@ -315,6 +315,7 @@ https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-unit
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-uscert.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-various.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-volexity.txt
+https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-yarix.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-yoroi.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-zscaler.txt
 https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dynamic

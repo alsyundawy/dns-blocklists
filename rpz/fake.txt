@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1712702760 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1712789640 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -8,8 +8,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 09 Apr 2024 22:46 UTC
-; Version: 2024.0409.2246.52
+; Last modified: 10 Apr 2024 22:54 UTC
+; Version: 2024.0410.2254.03
 ; Syntax: RPZ
 ; Number of entries: 63496
 ;
@@ -77,6 +77,8 @@ geopro.app CNAME .
 *.geopro.app CNAME .
 immediate-connect.app CNAME .
 *.immediate-connect.app CNAME .
+pdfmaster.app CNAME .
+*.pdfmaster.app CNAME .
 presale-amswallet.replit.app CNAME .
 *.presale-amswallet.replit.app CNAME .
 ledgerliveapps.web.app CNAME .
@@ -4377,6 +4379,8 @@ aroxcapital.com CNAME .
 *.aroxcapital.com CNAME .
 arpinlogi.com CNAME .
 *.arpinlogi.com CNAME .
+arpizolestoreonline.com CNAME .
+*.arpizolestoreonline.com CNAME .
 arpviagra.com CNAME .
 *.arpviagra.com CNAME .
 arraabella.com CNAME .
@@ -10255,8 +10259,6 @@ cialisbnb.com CNAME .
 *.cialisbnb.com CNAME .
 cialisbne.com CNAME .
 *.cialisbne.com CNAME .
-cialisbox.com CNAME .
-*.cialisbox.com CNAME .
 cialisbph.com CNAME .
 *.cialisbph.com CNAME .
 cialisbrm.com CNAME .
@@ -10351,8 +10353,6 @@ cialisdtab.com CNAME .
 *.cialisdtab.com CNAME .
 cialisdtk.com CNAME .
 *.cialisdtk.com CNAME .
-cialisdva.com CNAME .
-*.cialisdva.com CNAME .
 cialisdx.com CNAME .
 *.cialisdx.com CNAME .
 cialisdxt.com CNAME .
@@ -21741,8 +21741,6 @@ kamagra007.com CNAME .
 *.kamagra007.com CNAME .
 kamagra10.com CNAME .
 *.kamagra10.com CNAME .
-kamagra1s1.com CNAME .
-*.kamagra1s1.com CNAME .
 kamagra2019.com CNAME .
 *.kamagra2019.com CNAME .
 kamagra24h.com CNAME .
@@ -21771,8 +21769,6 @@ kamagrabst.com CNAME .
 *.kamagrabst.com CNAME .
 kamagrabulgaria.com CNAME .
 *.kamagrabulgaria.com CNAME .
-kamagraby6.com CNAME .
-*.kamagraby6.com CNAME .
 kamagrachef.com CNAME .
 *.kamagrachef.com CNAME .
 kamagracom.com CNAME .
@@ -27579,6 +27575,8 @@ oncanadapharmacy.com CNAME .
 *.oncanadapharmacy.com CNAME .
 oncloud-sneakers.com CNAME .
 *.oncloud-sneakers.com CNAME .
+oncloud-turkey.com CNAME .
+*.oncloud-turkey.com CNAME .
 onclouddeutschland.com CNAME .
 *.onclouddeutschland.com CNAME .
 onclouddeutschlande.com CNAME .
@@ -32145,8 +32143,6 @@ rebateustools.com CNAME .
 *.rebateustools.com CNAME .
 recetasplus.com CNAME .
 *.recetasplus.com CNAME .
-recialisdo.com CNAME .
-*.recialisdo.com CNAME .
 recuirud.com CNAME .
 *.recuirud.com CNAME .
 recustomer.com CNAME .
@@ -53151,6 +53147,8 @@ hunterbootsschweiz.net CNAME .
 *.hunterbootsschweiz.net CNAME .
 huntergummistiefelschweiz.net CNAME .
 *.huntergummistiefelschweiz.net CNAME .
+hurican.net CNAME .
+*.hurican.net CNAME .
 hydroxychloroquine.net CNAME .
 *.hydroxychloroquine.net CNAME .
 hydroxychloroquine200mg.net CNAME .
@@ -53283,6 +53281,8 @@ kinozeit.net CNAME .
 *.kinozeit.net CNAME .
 klangplan.net CNAME .
 *.klangplan.net CNAME .
+klempner-notdienst.net CNAME .
+*.klempner-notdienst.net CNAME .
 kohle24.net CNAME .
 *.kohle24.net CNAME .
 kopakamagra.net CNAME .
