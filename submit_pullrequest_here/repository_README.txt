@@ -14,7 +14,7 @@
 3. [Multi normal](#normal) - *Broom: All-round protection*
 4. [Multi pro](#pro) - *Big broom: Extended protection (Recommended)*
 5. [Multi pro++](#proplus) - *Sweeper: Maximum protection (more aggressive)* : [Full](#proplus) - [Mini](#proplusmini)
-6. [Multi ultimate](#ultimate) - *Ultimate Sweeper: Aggressive protection*
+6. [Multi ultimate](#ultimate) - *Ultimate Sweeper: Aggressive protection* : [Full](#ultimate) - [Mini](#ultimatemini)
 7. [Fake](#fake) - *Protects against internet scams, traps & fakes!*
 8. [Pop-Up Ads](#popupads) - *Protects against annoying and malicious pop-up ads!*
 9. [Threat Intelligence Feeds](#tif) - *Increases security significantly! (Recommended)* : [Full](#tif) - [Medium](#tifmedium) - [IPs](#tifips)
@@ -179,8 +179,22 @@
 | Wildcard<br>Asterisk | [Link](lnkgh_w/ultimate.txt) [Mirror](lnkgl_w/ultimate.txt) [Mirror](lnkjd_w/ultimate.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/ultimate-onlydomains.txt) [Mirror](lnkgl_w/ultimate-onlydomains.txt) [Mirror](lnkjd_w/ultimate-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](lnkgh_r/ultimate.txt) [Mirror](lnkgl_r/ultimate.txt) [Mirror](lnkjd_r/ultimate.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
-                         
-**Expires:** *24 hours (update frequency)*
+
+### :closed_book: ***Multi Ultimate mini*** <a name="ultimatemini"></a>
+
+*Size-optimised version for DNS/Browser adblockers. This list only contains domains from the Ultimate full that have been found on Top 1M lists (Umbrella, Cloudflare, Tranco, Chrome, ...) in the last 12 months.*             
+          
+**Entries:** *ultimatemini_cp compressed domains*               
+                                                
+| Format | Links | Can be used for |
+|:-------|:-----|:----------------|
+| Adblock | [Link](lnkgh_a/ultimate.mini.txt) [Mirror](lnkgl_a/ultimate.mini.txt) [Mirror](lnkjd_a/ultimate.mini.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
+| Unbound | [Link](lnkgh_u/ultimate.mini.blacklist.conf) [Mirror](lnkgl_u/ultimate.mini.blacklist.conf) [Mirror](lnkjd_u/ultimate.mini.blacklist.conf) | Unbound |
+| DNSMasq<br>v2.85- | [Link](lnkgh_m/ultimate.mini-old.txt) [Mirror](lnkgl_m/ultimate.mini-old.txt) [Mirror](lnkjd_m/ultimate.mini-old.txt) | DNSMasq (v2.85 or older) |
+| DNSMasq<br>v2.86+ | [Link](lnkgh_m/ultimate.mini.txt) [Mirror](lnkgl_m/ultimate.mini.txt) [Mirror](lnkjd_m/ultimate.mini.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
+| Wildcard<br>Asterisk | [Link](lnkgh_w/ultimate.mini.txt) [Mirror](lnkgl_w/ultimate.mini.txt) [Mirror](lnkjd_w/ultimate.mini.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Wildcard<br>Domains | [Link](lnkgh_w/ultimate.mini-onlydomains.txt) [Mirror](lnkgl_w/ultimate.mini-onlydomains.txt) [Mirror](lnkjd_w/ultimate.mini-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
+| RPZ | [Link](lnkgh_r/ultimate.mini.txt) [Mirror](lnkgl_r/ultimate.mini.txt) [Mirror](lnkjd_r/ultimate.mini.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 ---
 
