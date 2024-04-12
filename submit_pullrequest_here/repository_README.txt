@@ -122,7 +122,7 @@
 | Wildcard<br>Domains | [Link](lnkgh_w/pro-onlydomains.txt) [Mirror](lnkgl_w/pro-onlydomains.txt) [Mirror](lnkjd_w/pro-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](lnkgh_r/pro.txt) [Mirror](lnkgl_r/pro.txt) [Mirror](lnkjd_r/pro.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
-#### :closed_book: ***Multi Pro mini*** <a name="promini"></a>
+#### :ledger: ***Multi PRO mini*** <a name="promini"></a>
 
 *Size-optimised version for DNS/Browser adblockers. This list only contains domains from the Pro full that have been found on Top 1M lists (Umbrella, Cloudflare, Tranco, Chrome, ...) in the last 12 months.*             
           
@@ -196,7 +196,7 @@
 | Wildcard<br>Domains | [Link](lnkgh_w/ultimate-onlydomains.txt) [Mirror](lnkgl_w/ultimate-onlydomains.txt) [Mirror](lnkjd_w/ultimate-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](lnkgh_r/ultimate.txt) [Mirror](lnkgl_r/ultimate.txt) [Mirror](lnkjd_r/ultimate.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
-#### :closed_book: ***Multi Ultimate mini*** <a name="ultimatemini"></a>
+#### :closed_book: ***Multi ULTIMATE mini*** <a name="ultimatemini"></a>
 
 *Size-optimised version for DNS/Browser adblockers. This list only contains domains from the Ultimate full that have been found on Top 1M lists (Umbrella, Cloudflare, Tranco, Chrome, ...) in the last 12 months.*             
           
