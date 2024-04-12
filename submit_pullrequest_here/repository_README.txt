@@ -12,7 +12,7 @@
 1. [Overview](#overview)
 2. [Multi light](#light) - *Hand brush: Light protection*
 3. [Multi normal](#normal) - *Broom: All-round protection*
-4. [Multi pro](#pro) - *Big broom: Extended protection (Recommended)*
+4. [Multi pro](#pro) - *Big broom: Extended protection (Recommended)* : [Full](#pro) - [Mini](#promini)
 5. [Multi pro++](#proplus) - *Sweeper: Maximum protection (more aggressive)* : [Full](#proplus) - [Mini](#proplusmini)
 6. [Multi ultimate](#ultimate) - *Ultimate Sweeper: Aggressive protection* : [Full](#ultimate) - [Mini](#ultimatemini)
 7. [Fake](#fake) - *Protects against internet scams, traps & fakes!*
@@ -121,6 +121,22 @@
 | Wildcard<br>Asterisk | [Link](lnkgh_w/pro.txt) [Mirror](lnkgl_w/pro.txt) [Mirror](lnkjd_w/pro.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/pro-onlydomains.txt) [Mirror](lnkgl_w/pro-onlydomains.txt) [Mirror](lnkjd_w/pro-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](lnkgh_r/pro.txt) [Mirror](lnkgl_r/pro.txt) [Mirror](lnkjd_r/pro.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
+
+#### :closed_book: ***Multi Pro mini*** <a name="promini"></a>
+
+*Size-optimised version for DNS/Browser adblockers. This list only contains domains from the Pro full that have been found on Top 1M lists (Umbrella, Cloudflare, Tranco, Chrome, ...) in the last 12 months.*             
+          
+**Entries:** *promini_cp compressed domains*               
+                                                
+| Format | Links | Can be used for |
+|:-------|:-----|:----------------|
+| Adblock | [Link](lnkgh_a/pro.mini.txt) [Mirror](lnkgl_a/pro.mini.txt) [Mirror](lnkjd_a/pro.mini.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
+| Unbound | [Link](lnkgh_u/pro.mini.blacklist.conf) [Mirror](lnkgl_u/pro.mini.blacklist.conf) [Mirror](lnkjd_u/pro.mini.blacklist.conf) | Unbound |
+| DNSMasq<br>v2.85- | [Link](lnkgh_m/pro.mini-old.txt) [Mirror](lnkgl_m/pro.mini-old.txt) [Mirror](lnkjd_m/pro.mini-old.txt) | DNSMasq (v2.85 or older) |
+| DNSMasq<br>v2.86+ | [Link](lnkgh_m/pro.mini.txt) [Mirror](lnkgl_m/pro.mini.txt) [Mirror](lnkjd_m/pro.mini.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
+| Wildcard<br>Asterisk | [Link](lnkgh_w/pro.mini.txt) [Mirror](lnkgl_w/pro.mini.txt) [Mirror](lnkjd_w/pro.mini.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Wildcard<br>Domains | [Link](lnkgh_w/pro.mini-onlydomains.txt) [Mirror](lnkgl_w/pro.mini-onlydomains.txt) [Mirror](lnkjd_w/pro.mini-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
+| RPZ | [Link](lnkgh_r/pro.mini.txt) [Mirror](lnkgl_r/pro.mini.txt) [Mirror](lnkjd_r/pro.mini.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 ### :orange_book: ***Multi PRO++*** - **Maximum protection** <a name="proplus"></a>
 
