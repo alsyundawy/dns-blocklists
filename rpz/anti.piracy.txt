@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1712788140 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1712874480 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -8,8 +8,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 10 Apr 2024 22:29 UTC
-; Version: 2024.0410.2229.18
+; Last modified: 11 Apr 2024 22:28 UTC
+; Version: 2024.0411.2228.13
 ; Syntax: RPZ
 ; Number of entries: 19402
 ;
@@ -4211,8 +4211,6 @@ greetingsonlinebd.com CNAME .
 *.greetingsonlinebd.com CNAME .
 tracker.grepler.com CNAME .
 *.tracker.grepler.com CNAME .
-grimbooter.com CNAME .
-*.grimbooter.com CNAME .
 grimhosting.com CNAME .
 *.grimhosting.com CNAME .
 storage.groupees.com CNAME .
@@ -5627,6 +5625,8 @@ tracker.pterclub.com CNAME .
 *.tracker.pterclub.com CNAME .
 bt.ptlsp.com CNAME .
 *.bt.ptlsp.com CNAME .
+trackers.ptlsp.com CNAME .
+*.trackers.ptlsp.com CNAME .
 publicdomaintorrents.com CNAME .
 *.publicdomaintorrents.com CNAME .
 punkoiska.com CNAME .

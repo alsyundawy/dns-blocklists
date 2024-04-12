@@ -282,10 +282,12 @@ https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-clus
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-cyble.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-cyfirma.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-dfir.txt
+https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-domains.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-esentire.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-eset.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-fortinet.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-group-ib.txt
+https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-hp.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-ibm.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-ic3.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-infoblox.txt
