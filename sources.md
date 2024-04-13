@@ -281,6 +281,7 @@ https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-clea
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-cluster25.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-cyble.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-cyfirma.txt
+https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-deepinstinct.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-dfir.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-domains.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-esentire.txt
