@@ -65,7 +65,8 @@
 | :orange_book:[Pro++](#proplus)     | :orange_book::orange_book::orange_book::orange_book::orange_book::orange_book:              | Balanced/Aggressive |
 | :closed_book:[Ultimate](#ultimate) | :closed_book::closed_book::closed_book::closed_book::closed_book::closed_book::closed_book: | Aggressive |
 
-### :bulb: ***For a recommendation, see:*** *[Which version of the lists should I use?](https://github.com/hagezi/dns-blocklists/wiki/FAQ#whatshouldiuse)*
+> [!TIP]
+> ***For a recommendation, see:*** *[Which version of the lists should I use?](https://github.com/hagezi/dns-blocklists/wiki/FAQ#whatshouldiuse)*
 
 ---
 
@@ -190,7 +191,7 @@
 > [!NOTE]
 > *Stricter version of the Multi PRO++ blocklist. It may contain false positive domains that limit functionality. Therefore it should only be used by experienced users. Furthermore, an admin should be available to unblock incorrectly blocked domains. Reported false positive domains will be removed from the list!*
 
-> [!NOTE]
+> [!WARNING]
 > *META trackers are blocked in Ultimate. This restricts the use of Facebook/Instagram and Facebook Messenger apps. To use Facebook/Instagram apps with Ultimate, unblock the following domains: [META Tracker](share/facebook.txt)*
 
 **Entries:** *564010 domains/hosts - 184591 compressed domains*
@@ -329,7 +330,7 @@
 
 *IPv4 lists in [plain IP format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/tif.txt) for firewalls and [AdGuard Home format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif-ips.txt) are also available as an extension to the TIF list.*
 
-> [!NOTE]
+> [!TIP]
 > *If the IP list is used in AdGuard Home, all domains that would resolve to the blocked IP are blocked.*
 
 **Expires:** *24 hours (update frequency)*
@@ -436,7 +437,7 @@
 
 *IPv4 lists in [plain IP format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/doh.txt) for firewalls and [AdGuard Home format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-ips.txt) are also available.*
 
-> [!NOTE]
+> [!TIP]
 > *If the IP list is used in AdGuard Home, all domains that would resolve to the blocked IP are blocked.*
 
 **Expires:** *Updated regularly*
@@ -640,14 +641,12 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 - *Use [Pro](#pro) if an admin is available who could unblock something if necessary. My personal recommendation for almost problem-free adblocking.*
 - *Use [Pro++](#proplus) if you are an experienced user, know what you are doing and privacy is important to you. This is an aggressive list and you may need to unblock things more often.*
 - *Use [Ultimate](#ultimate) if Pro++ is not enough for you.*
-- *Use [Ultimate](#ultimate) with [1Hosts Pro*](https://github.com/badmojr/1Hosts#1hosts-pro) if Ultimate alone is not enough. You will have to unblock a lot yourself.*
+- *Use [Ultimate](#ultimate) with [1Hosts Pro](https://github.com/badmojr/1Hosts#1hosts-pro) if Ultimate alone is not enough. You will have to unblock a lot yourself.*
 
-> [!NOTE]
-> *\* The [1Hosts](https://github.com/badmojr/1Hosts) lists are currently only maintained irregularly, see also: [Competing Demands Causing Maintenance Slowdown](https://github.com/badmojr/1Hosts/issues/1307)*
+> [!IMPORTANT]
+> *Another recommendation is to combine the main lists with the [Threat Intelligence Feeds](https://github.com/hagezi/dns-blocklists#tif) list if possible. For Adblockers that have problems with the size of the full TIF list, there is a smaller [medium](https://github.com/hagezi/dns-blocklists#tifmedium) version. If you use AdGuard Home or AdGuard DNS, I also recommend using the [Dandelion Sprout's Anti-Malware List](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt). There is also an [IPv4 list](https://github.com/hagezi/dns-blocklists#tifips) that can be used in addition to the TIF or TIF medium list.*
 
-*:bulb: Another recommendation is to combine the main lists with the [Threat Intelligence Feeds](https://github.com/hagezi/dns-blocklists#tif) list if possible. For Adblockers that have problems with the size of the full TIF list, there is a smaller [medium](https://github.com/hagezi/dns-blocklists#tifmedium) version. If you use AdGuard Home or AdGuard DNS, I also recommend using the [Dandelion Sprout's Anti-Malware List](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt). There is also an [IPv4 list](https://github.com/hagezi/dns-blocklists#tifips) that can be used in addition to the TIF or TIF medium list.*
-
-> [!NOTE]
+> [!TIP]
 > ***NextDNS users:*** *The TIF is not available in NextDNS, the security features should be used instead. Furthermore, I recommend that NextDNS users also use the [OISD](https://oisd.nl/) list, which also contains some TIF sources that are not covered by the security features.*
 
 ***Further additional options to the main lists depending on the use case are:***
