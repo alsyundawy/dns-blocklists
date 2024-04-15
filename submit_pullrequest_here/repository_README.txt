@@ -647,7 +647,7 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 > *Another recommendation is to combine the main lists with the [Threat Intelligence Feeds](https://github.com/hagezi/dns-blocklists#tif) list if possible. For Adblockers that have problems with the size of the full TIF list, there is a smaller [medium](https://github.com/hagezi/dns-blocklists#tifmedium) version. If you use AdGuard Home or AdGuard DNS, I also recommend using the [Dandelion Sprout's Anti-Malware List](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt). There is also an [IPv4 list](https://github.com/hagezi/dns-blocklists#tifips) that can be used in addition to the TIF or TIF medium list.*
 
 > [!TIP]
-> ***NextDNS users:*** *The TIF is not available in NextDNS, the security features should be used instead. Furthermore, I recommend that NextDNS users also use the [OISD](https://oisd.nl/) list, which also contains some TIF sources that are not covered by the security features.*
+> ***NextDNS users:*** *The [Threat Intelligence Feeds](https://github.com/hagezi/dns-blocklists#tif) list is not available in NextDNS, the security features should be used instead. Furthermore, I recommend that NextDNS users also use the [OISD](https://oisd.nl/) list, which also contains some TIF sources that are not covered by the security features.*
 
 ***Further additional options to the main lists depending on the use case are:***
 
@@ -791,13 +791,13 @@ If these are blocked, the first hit links from search results, for example, no l
 
 ---
 
-#### :stars: Contributors <a name="contributors"></a>
+### :clap: Contributors <a name="contributors"></a>
 
 <p align="left"><a href="https://github.com/hagezi/dns-blocklists/graphs/contributors"><img src="https://contrib.rocks/image?repo=hagezi/dns-blocklists&max=50" /></a></p>
 
 ---
 
-#### :stars: Stargazers <a name="stargazers"></a>
+### :stars: Stargazers <a name="stargazers"></a>
 
 [![Star History Chart](https://api.star-history.com/svg?repos=hagezi/dns-blocklists&type=Date)](https://star-history.com/#hagezi/dns-blocklists&Date)
 
