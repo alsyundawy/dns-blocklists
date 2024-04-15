@@ -4,10 +4,10 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 1 day
-# Last modified: 15 Apr 2024 00:35 UTC
-# Version: 2024.0415.0035.04
+# Last modified: 15 Apr 2024 07:22 UTC
+# Version: 2024.0415.0722.31
 # Syntax: Domains Wildcard (without subdomains)
-# Number of entries: 71048
+# Number of entries: 71153
 #
 *.0.org
 *.0.to
@@ -2864,6 +2864,23 @@
 *.rpx.a8.net
 *.rws.a8.net
 *.statics.a8.net
+*.www11.a8.net
+*.www12.a8.net
+*.www13.a8.net
+*.www14.a8.net
+*.www15.a8.net
+*.www16.a8.net
+*.www17.a8.net
+*.www18.a8.net
+*.www19.a8.net
+*.www21.a8.net
+*.www22.a8.net
+*.www23.a8.net
+*.www24.a8.net
+*.www25.a8.net
+*.www26.a8.net
+*.www27.a8.net
+*.www28.a8.net
 *.a81004c24d.com
 *.a83g4qa2z.com
 *.a8723.com
@@ -3670,6 +3687,7 @@
 *.dlx.addthis.com
 *.edge.addthis.com
 *.m.addthis.com
+*.optout.addthis.com
 *.s3.addthis.com
 *.s5.addthis.com
 *.s9.addthis.com
@@ -3748,6 +3766,7 @@
 *.ads.adfox.ru
 *.banners.adfox.net
 *.banners.adfox.ru
+*.v.adfox.ru
 *.adfpoint.com
 *.adframesrc.com
 *.adfreewatch.info
@@ -3817,6 +3836,7 @@
 *.adinc.kr
 *.adincube.com
 *.adinfinitum.in
+*.adinfinitum.network
 *.adinfinity.com
 *.adinfuse.com
 *.adingo.jp
@@ -3992,6 +4012,7 @@
 *.admiredexcrete.com
 *.admissiblecontradictthrone.com
 *.admission.net
+*.cdn.admitad.com
 *.admitad-connect.com
 *.admix.in
 *.admixer.com
@@ -4300,6 +4321,7 @@
 *.adsame.com
 *.cr.adsappier.com
 *.adsassure.com
+*.adsaxis.com
 *.adsb4track.com
 *.adsb4trk.com
 *.adsbar.online
@@ -5318,6 +5340,7 @@
 *.airbornefrench.com
 *.airborneold.com
 *.api.airbrake.io
+*.ssljscdn.airbrake.io
 *.core.airbridge.io
 *.sdk.airbridge.io
 *.analytics.airbushelicopters.com
@@ -6976,6 +6999,7 @@
 *.track.aniview.com
 *.track1.aniview.com
 *.vast.aniview.com
+*.wlplay.aniview.com
 *.wlplayer.aniview.com
 *.wltg1.aniview.com
 *.wltrack.aniview.com
@@ -7466,25 +7490,39 @@
 *.api2.appsflyer.com
 *.attr.appsflyer.com
 *.banner.appsflyer.com
+*.biz.appsflyer.com
 *.cdn.appsflyer.com
 *.cdnappicons.appsflyer.com
+*.cdnappiconstest.appsflyer.com
 *.creatives-cdn.appsflyer.com
 *.dls2s.appsflyer.com
 *.dlsdk.appsflyer.com
 *.dynamic-config-api.appsflyer.com
 *.dynamic-report-api.appsflyer.com
 *.pgg4a0.emailer.appsflyer.com
+*.emailstats.appsflyer.com
 *.emailtracking.appsflyer.com
 *.engagements.appsflyer.com
 *.events.appsflyer.com
+*.content.experience.appsflyer.com
+*.data.experience.appsflyer.com
+*.fs.appsflyer.com
 *.fvalid.appsflyer.com
+*.fvalid2.appsflyer.com
 *.gcd-s2s.appsflyer.com
 *.gcdsdk.appsflyer.com
+*.go.appsflyer.com
+*.help.appsflyer.com
 *.hq1.appsflyer.com
 *.impression.appsflyer.com
 *.inapps.appsflyer.com
+*.info.appsflyer.com
 *.launches.appsflyer.com
+*.learn.appsflyer.com
+*.lp.appsflyer.com
 *.monitorsdk.appsflyer.com
+*.mos.appsflyer.com
+*.namespaces-haproxy-alb.appsflyer.com
 *.onelink.appsflyer.com
 *.register.appsflyer.com
 *.s2s.appsflyer.com
@@ -7492,13 +7530,18 @@
 *.sandbox-events.appsflyer.com
 *.sdk.appsflyer.com
 *.sdk-services.appsflyer.com
+*.sfmcaf.appsflyer.com
 *.skadsdk.appsflyer.com
 *.stats.appsflyer.com
+*.status.appsflyer.com
 *.t.appsflyer.com
 *.track.appsflyer.com
+*.url1883.appsflyer.com
 *.validate.appsflyer.com
 *.wa.appsflyer.com
 *.websdk.appsflyer.com
+*.websdk-dev.appsflyer.com
+*.websdk-dev2.appsflyer.com
 *.websdk-stg.appsflyer.com
 *.appsflyersdk.com
 *.appsget.monster
@@ -10419,8 +10462,7 @@
 *.bigcattracks.com
 *.bigclicks.com
 *.axp.bigcountryhomepage.com
-*.analytics-cf.bigcrunch.com
-*.dev-analytics-cf.bigcrunch.com
+*.bigcrunch.com
 *.bigdick.com
 *.bigdis2008.com
 *.bigeagle.biz
@@ -10979,6 +11021,8 @@
 *.metrics.bluecolored.de
 *.blueconic.com
 *.blueconic.net
+*.cdn.bluecore.com
+*.onsitestats.bluecore.com
 *.somni.bluecrossma.com
 *.telemetry.bluedot.io
 *.blueduckredapple.com
@@ -14070,7 +14114,9 @@
 *.metrics.gov.ciscospark.com
 *.cisdwomasozv.com
 *.cisfazpisju.com
+*.app.cision.com
 *.publish.ne.cision.com
+*.prapi.cision.com
 *.cisiwa.site
 *.ciststoquets.space
 *.cisviqodbk.com
@@ -15981,6 +16027,7 @@
 *.clumsyflint.com
 *.cluodlfare.com
 *.clusterdamages.top
+*.cdn.clustrmaps.com
 *.www2.clustrmaps.com
 *.www3.clustrmaps.com
 *.www4.clustrmaps.com
@@ -16099,17 +16146,28 @@
 *.cnzz.net
 *.c.cnzz.com
 *.ei.cnzz.com
+*.q.gds.cnzz.com
+*.z.gds.cnzz.com
 *.gxbr.cnzz.com
 *.hm2.cnzz.com
+*.hqs10.cnzz.com
+*.hqs2.cnzz.com
+*.hzs1.cnzz.com
 *.hzs10.cnzz.com
 *.hzs14.cnzz.com
+*.hzs15.cnzz.com
 *.hzs17.cnzz.com
+*.hzs19.cnzz.com
+*.hzs22.cnzz.com
 *.hzs7.cnzz.com
+*.hzvs2.cnzz.com
 *.icon.cnzz.com
 *.new.cnzz.com
 *.pcookie.cnzz.com
 *.pw.cnzz.com
+*.q.cnzz.com
 *.q1.cnzz.com
+*.q11.cnzz.com
 *.q14.cnzz.com
 *.s102.cnzz.com
 *.s104.cnzz.com
@@ -16140,6 +16198,7 @@
 *.v1.cnzz.com
 *.v12.cnzz.com
 *.w.cnzz.com
+*.z.cnzz.com
 *.z1.cnzz.com
 *.z11.cnzz.com
 *.z12.cnzz.com
@@ -23650,6 +23709,7 @@
 *.a.dynatrace.com
 *.bf.dynatrace.com
 *.js-cdn.dynatrace.com
+*.dlt-beacon.dynatrace-managed.com
 *.dynip.org
 *.dynnamn.ru
 *.analytics.covesmart.dynoanalytics.xyz
@@ -28778,6 +28838,7 @@
 *.gakz.hit.gemius.pl
 *.galt.hit.gemius.pl
 *.galv.hit.gemius.pl
+*.gamd.hit.gemius.pl
 *.garo.hit.gemius.pl
 *.gars.hit.gemius.pl
 *.gask.hit.gemius.pl
@@ -28792,13 +28853,16 @@
 *.gders.hit.gemius.pl
 *.gdesk.hit.gemius.pl
 *.gdetr.hit.gemius.pl
+*.gdeua.hit.gemius.pl
 *.gemadhu.hit.gemius.pl
 *.gg.hit.gemius.pl
+*.ghmhu.hit.gemius.pl
 *.ghmpl.hit.gemius.pl
 *.ghmrs.hit.gemius.pl
 *.ghmsk.hit.gemius.pl
 *.ghmtr.hit.gemius.pl
 *.goldbach.hit.gemius.pl
+*.googlecm.hit.gemius.pl
 *.hr.hit.gemius.pl
 *.hu.hit.gemius.pl
 *.huadn.hit.gemius.pl
@@ -33483,6 +33547,7 @@
 *.impactmobile.com
 *.impactpress.ro
 *.adn.impactradius.com
+*.partners-hotwire-com.impactradius.com
 *.impactradius-event.com
 *.impactradius-go.com
 *.impactradius-tag.com
@@ -33936,6 +34001,7 @@
 *.glance.inmobi.com
 *.glance-internal.inmobi.com
 *.idsp.inmobi.com
+*.s.iff.inmobi.com
 *.imces.inmobi.com
 *.mcg-ads.inmobi.com
 *.pulse.inmobi.com
@@ -37568,6 +37634,7 @@
 *.leanlab.co
 *.api.leanplum.com
 *.dev.leanplum.com
+*.assets.prod.leanplum.com
 *.leanunderstatement.com
 *.leanwhitepinafo.org
 *.ad.leap.app
@@ -38275,6 +38342,7 @@
 *.lithosdynam.digital
 *.2qbjhhcl4u87btjbo7dh8vi2n.litix.io
 *.ccjnhnqfnvsr3otokvf59ns52.litix.io
+*.ec83cce4c209447a2af3d62f2.litix.io
 *.litpluming.com
 *.littlecdn.com
 *.littlecutecats.com
@@ -39818,6 +39886,8 @@
 *.marecreateddew.com
 *.analytics.marera.net
 *.mareswimming.com
+*.atenea.marfeel.com
+*.b.marfeel.com
 *.bc.marfeel.com
 *.cosmos.marfeel.com
 *.marfeelcache.com
@@ -42086,6 +42156,8 @@
 *.analytics.indicative-prod.mparticle.com
 *.analytics.indicative-qa.mparticle.com
 *.nativesdks.mparticle.com
+*.pixels.mparticle.com
+*.s2s.mparticle.com
 *.tracking-nativesdks.mparticle.com
 *.mpartner.digital
 *.mpay69.biz
@@ -42763,6 +42835,7 @@
 *.myvisitors.se
 *.smetrics.myvue.com
 *.axp.mywabashvalley.com
+*.easypdfcombine.dl.myway.com
 *.hp.myway.com
 *.speedbar.myway.com
 *.mywebsavior.com
@@ -42862,6 +42935,9 @@
 *.metric.12345678.nahamstore.com
 *.nahgvfhs.xyz
 *.nahnoji.cz
+*.nginxborder-server.naiadsystems.com
+*.sea1b-ls.naiadsystems.com
+*.sea1c-ls.naiadsystems.com
 *.naiantcapling.com
 *.naifshinnied.top
 *.naiglipu.xyz
@@ -47922,6 +47998,7 @@
 *.online-casino.de
 *.stats.online-convert.com
 *.online-dn.com
+*.a-sac.aa.online-metrix.net
 *.d.aa.online-metrix.net
 *.e.aa.online-metrix.net
 *.eu-aa.online-metrix.net
@@ -48242,6 +48319,7 @@
 *.analytics.optimumnutrition.com
 *.a.optinmonster.com
 *.api.optinmonster.com
+*.app.optinmonster.com
 *.matomo.optis.xyz
 *.matomo.optisigns.com
 *.matomo.optisignsapp.com
@@ -50360,6 +50438,7 @@
 *.pkoqeg.com
 *.pkudawbkcl.com
 *.pkyjuc.cn
+*.api.placed.com
 *.placedesleads.com
 *.ea.placedestendances.com
 *.placeiq.com
@@ -51758,6 +51837,7 @@
 *.proudlysurly.com
 *.proveattractionplays.com
 *.provedonefoldonefoldhastily.com
+*.upx.provenpixel.com
 *.provenshoutmidst.com
 *.proverbbeaming.com
 *.proverbcarpersuasive.com
@@ -53243,6 +53323,7 @@
 *.redsquare.rambler.ru
 *.scnt.rambler.ru
 *.scounter.rambler.ru
+*.profile.ssp.rambler.ru
 *.subscriptions.rambler.ru
 *.sync.rambler.ru
 *.top100.rambler.ru
@@ -55210,7 +55291,9 @@
 *.analytics.rubensteintech.com
 *.rubestdealfinder.com
 *.ads.rubiconproject.com
-*.stats.aws.rubiconproject.com
+*.aws.rubiconproject.com
+*.beacon-iad2.rubiconproject.com
+*.beacon-iad3.rubiconproject.com
 *.beacon-nf.rubiconproject.com
 *.cca-fra2.rubiconproject.com
 *.cca-iad2.rubiconproject.com
@@ -56210,6 +56293,8 @@
 *.smetrics.seabourn.com
 *.analytics.apps.seabroadnet.com
 *.a1.seadform.net
+*.asia.seadform.net
+*.server.seadform.net
 *.seafooddiscouragelavishness.com
 *.analytics.seagate.com
 *.drive.seagate.com
@@ -59125,9 +59210,15 @@
 *.springify.io
 *.springmetrics.com
 *.springraptureimprove.com
-*.s.update.morgdog.springserve.com
+*.bc-ssb-iad.springserve.com
+*.cdn.springserve.com
+*.morgdog.springserve.com
+*.sps.springserve.com
 *.vid.springserve.com
+*.vid-io.springserve.com
 *.vid-io-dub.springserve.com
+*.vid-io-iad.springserve.com
+*.vid-io-sin.springserve.com
 *.matomo.springtrack.de
 *.sprinklecontent.com
 *.sprinkletxt.com
@@ -59249,6 +59340,7 @@
 *.analytics.srvnw.com
 *.srvpcn.com
 *.srvsynd.com
+*.hades.srvtrck.com
 *.js.srvtrck.com
 *.srwww1.com
 *.srzpsbf.xyz
@@ -60797,6 +60889,7 @@
 *.event-logger.tagboard.com
 *.tagcash.com
 *.tagclick-cdn.com
+*.serverside4285.tagcommander.com
 *.tagdeliver.com
 *.tagdelivery.com
 *.iqmetrics.tagesspiegel.de
@@ -61065,6 +61158,7 @@
 *.analytics.tapsi.cab
 *.api.tapstream.com
 *.cdn.tapstream.com
+*.reporting.tapstream.com
 *.report.taptapdada.com
 *.taptapnetworks.com
 *.taptica.com
@@ -63328,7 +63422,9 @@
 *.alch.treas.jp
 *.treasonemphasis.com
 *.treasureantennadonkey.com
+*.cdn.treasuredata.com
 *.in.treasuredata.com
+*.packages.treasuredata.com
 *.treasureralludednook.com
 *.collector.treatwell.com
 *.treatyintegrationornament.com
@@ -65169,6 +65265,7 @@
 *.usa.cc
 *.analytics.usaa.com
 *.usabilitytools.com
+*.api.usabilla.com
 *.w.usabilla.com
 *.usachoice.net
 *.analytics.usacs.com
@@ -65509,6 +65606,7 @@
 *.valueclickmedia.com
 *.aml.valuecommerce.com
 *.ad.jp.ap.valuecommerce.com
+*.ck.jp.ap.valuecommerce.com
 *.ad.jp.ap.g.valuecommerce.com
 *.trj.valuecommerce.com
 *.valuedpulverizelegitimate.com
@@ -66022,7 +66120,13 @@
 *.videoplayerhub.com
 *.videoplaza.com
 *.be-rtl.videoplaza.tv
+*.de-videovalis.videoplaza.tv
 *.es-plus.videoplaza.tv
+*.es-sunicontent.videoplaza.tv
+*.mx-sunmedia.videoplaza.tv
+*.service.videoplaza.tv
+*.ssp.videoplaza.tv
+*.vp.videoplaza.tv
 *.za-mc.videoplaza.tv
 *.videopotok.pro
 *.videoprodavec.ru
@@ -70457,7 +70561,7 @@
 *.zd0.top
 *.gurgle.zdbb.net
 *.ns.zdbb.net
-*.cdn.static.zdbb.net
+*.static.zdbb.net
 *.tracksrv.zdf.de
 *.zdf3q.xyz
 *.a.zdg.de
@@ -70672,6 +70776,7 @@
 *.zickukoo.com
 *.zidapi.xyz
 *.zief.pl
+*.dsar.ziffdavis.com
 *.m.optout.ziffdavis.com
 *.static.ziffdavis.com
 *.analytics.ziftsolutions.com

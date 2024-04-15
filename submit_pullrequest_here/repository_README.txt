@@ -776,6 +776,12 @@ If these are blocked, the first hit links from search results, for example, no l
 
 ---
 
+#### :stars: Contributors <a name="contributors"></a>
+
+<p align="left"><a href="https://github.com/hagezi/dns-blocklists/graphs/contributors"><img src="https://contrib.rocks/image?repo=hagezi/dns-blocklists&max=50" /></a></p>
+
+---
+
 #### :stars: Stargazers <a name="stargazers"></a>
 
 [![Star History Chart](https://api.star-history.com/svg?repos=hagezi/dns-blocklists&type=Date)](https://star-history.com/#hagezi/dns-blocklists&Date)
