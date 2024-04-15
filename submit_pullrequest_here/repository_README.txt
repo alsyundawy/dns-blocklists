@@ -73,7 +73,8 @@
 
 *Hand brush - Cleans the Internet and protects your privacy! Blocks Ads, Tracking, Metrics and some Badware.*
 
-***NOTE:*** *Does not block error trackers such as Bugsnag, Crashlytics, Firebase, Instabug, Sentry, ... and other app-specific crash trackers. These are only blocked from the Pro version onwards.*
+> [!NOTE]
+> *Does not block error trackers such as Bugsnag, Crashlytics, Firebase, Instabug, Sentry, ... and other app-specific crash trackers. These are only blocked from the Pro version onwards.*
 
 **Entries:** *light_dh domains/hosts - light_cp compressed domains*
 
@@ -94,7 +95,8 @@
 
 *Broom - Cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tracking, Metrics, Telemetry, Phishing, Malware, Scam, Fake, Coins and other "Crap".*
 
-***NOTE:*** *Does not block error trackers such as Bugsnag, Crashlytics, Firebase, Instabug, Sentry, ... and other app-specific crash trackers. These are only blocked from the Pro version onwards.*
+> [!NOTE]
+> *Does not block error trackers such as Bugsnag, Crashlytics, Firebase, Instabug, Sentry, ... and other app-specific crash trackers. These are only blocked from the Pro version onwards.*
 
 **Entries:** *multi_dh domains/hosts - multi_cp compressed domains*
 
@@ -148,7 +150,8 @@
 
 *Sweeper - Aggressive cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tracking, Metrics, Telemetry, Phishing, Malware, Scam, Fake, Coins and other "Crap".*
 
-*More aggressive version of the Multi PRO blocklist. It may contain a few false positive domains that limit functionality. Therefore it should only be used by experienced users. Furthermore, an admin should be available to unblock incorrectly blocked domains. Reported false positive domains will be removed from the list!*
+> [!NOTE]
+> *More aggressive version of the Multi PRO blocklist. It may contain a few false positive domains that limit functionality. Therefore it should only be used by experienced users. Furthermore, an admin should be available to unblock incorrectly blocked domains. Reported false positive domains will be removed from the list!*
 
 **Entries:** *proplus_dh domains/hosts - proplus_cp compressed domains*
 
@@ -184,9 +187,11 @@
 
 *Ultimate Sweeper - Strictly cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tracking, Metrics, Telemetry, Phishing, Malware, Scam, Free Hoster, Fake, Coins and other "Crap".*
 
-*Stricter version of the Multi PRO++ blocklist. It may contain false positive domains that limit functionality. Therefore it should only be used by experienced users. Furthermore, an admin should be available to unblock incorrectly blocked domains. Reported false positive domains will be removed from the list!*
+> [!NOTE]
+> *Stricter version of the Multi PRO++ blocklist. It may contain false positive domains that limit functionality. Therefore it should only be used by experienced users. Furthermore, an admin should be available to unblock incorrectly blocked domains. Reported false positive domains will be removed from the list!*
 
-***NOTE:*** *META trackers are blocked in Ultimate. This restricts the use of Facebook/Instagram and Facebook Messenger apps. To use Facebook/Instagram apps with Ultimate, unblock the following domains: [META Tracker](share/facebook.txt)*
+> [!NOTE]
+> *META trackers are blocked in Ultimate. This restricts the use of Facebook/Instagram and Facebook Messenger apps. To use Facebook/Instagram apps with Ultimate, unblock the following domains: [META Tracker](share/facebook.txt)*
 
 **Entries:** *ultimate_dh domains/hosts - ultimate_cp compressed domains*
 
@@ -323,7 +328,9 @@
 #### :closed_lock_with_key: ***Threat Intelligence Feeds - IPs*** <a name="tifips"></a>
 
 *IPv4 lists in [plain IP format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/tif.txt) for firewalls and [AdGuard Home format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif-ips.txt) are also available as an extension to the TIF list.*
-*If the IP list is used in AdGuard Home, all domains that would resolve to the blocked IP are blocked.*
+
+> [!NOTE]
+> *If the IP list is used in AdGuard Home, all domains that would resolve to the blocked IP are blocked.*
 
 **Expires:** *24 hours (update frequency)*
 
@@ -333,7 +340,8 @@
 
 *A blocklist for blocking domains registered in the last 10 or 30 days. These domains are known to be favoured by threat actors to launch malicious campaigns.*
 
-***NOTE:*** *It may contain a few false positive domains that limit functionality. Therefore it should only be used by experienced users. Furthermore, an admin should be available to unblock incorrectly blocked domains.*
+> [!NOTE]
+> *It may contain a few false positive domains that limit functionality. Therefore it should only be used by experienced users. Furthermore, an admin should be available to unblock incorrectly blocked domains.*
 
 |             | Light           | Normal          | Pro             | Pro++           | Ultimate        | TIF   |
 |:-----------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:| :---: |
@@ -371,7 +379,10 @@
 
 ### :outbox_tray: ***DoH/VPN/TOR/Proxy Bypass - Prevent methods to bypass your DNS!*** <a name="bypass"></a>
 
-*Prevent methods to bypass your DNS. To ensure the bootstrap is your DNS server you must redirect or block standard DNS outbound (TCP/UDP 53) and block all DNS over TLS (TCP 853) outbound.*
+*Prevent methods to bypass your DNS.*
+
+> [!NOTE]
+> *To ensure the bootstrap is your DNS server you must redirect or block standard DNS outbound (TCP/UDP 53) and block all DNS over TLS (TCP 853) outbound.*
 
 ***The block list exists in two versions:***
 
@@ -424,7 +435,9 @@
 #### :outbox_tray: ***Encrypted DNS Servers IPs*** <a name="bypass_ips"></a>
 
 *IPv4 lists in [plain IP format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/doh.txt) for firewalls and [AdGuard Home format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-ips.txt) are also available.*
-*If the IP list is used in AdGuard Home, all domains that would resolve to the blocked IP are blocked.*
+
+> [!NOTE]
+> *If the IP list is used in AdGuard Home, all domains that would resolve to the blocked IP are blocked.*
 
 **Expires:** *Updated regularly*
 
@@ -629,11 +642,13 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 - *Use [Ultimate](#ultimate) if Pro++ is not enough for you.*
 - *Use [Ultimate](#ultimate) with [1Hosts Pro*](https://github.com/badmojr/1Hosts#1hosts-pro) if Ultimate alone is not enough. You will have to unblock a lot yourself.*
 
-***\* NOTE:*** *The [1Hosts](https://github.com/badmojr/1Hosts) lists are currently only maintained irregularly, see also: [Competing Demands Causing Maintenance Slowdown](https://github.com/badmojr/1Hosts/issues/1307)*
+> [!NOTE]
+> *\* The [1Hosts](https://github.com/badmojr/1Hosts) lists are currently only maintained irregularly, see also: [Competing Demands Causing Maintenance Slowdown](https://github.com/badmojr/1Hosts/issues/1307)*
 
 *:bulb: Another recommendation is to combine the main lists with the [Threat Intelligence Feeds](https://github.com/hagezi/dns-blocklists#tif) list if possible. For Adblockers that have problems with the size of the full TIF list, there is a smaller [medium](https://github.com/hagezi/dns-blocklists#tifmedium) version. If you use AdGuard Home or AdGuard DNS, I also recommend using the [Dandelion Sprout's Anti-Malware List](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt). There is also an [IPv4 list](https://github.com/hagezi/dns-blocklists#tifips) that can be used in addition to the TIF or TIF medium list.*
 
-***NOTE (NextDNS users):*** *The TIF is not available in NextDNS, the security features should be used instead. Furthermore, I recommend that NextDNS users also use the [OISD](https://oisd.nl/) list, which also contains some TIF sources that are not covered by the security features.*
+> [!NOTE]
+> ***NextDNS users:*** *The TIF is not available in NextDNS, the security features should be used instead. Furthermore, I recommend that NextDNS users also use the [OISD](https://oisd.nl/) list, which also contains some TIF sources that are not covered by the security features.*
 
 ***Further additional options to the main lists depending on the use case are:***
 
@@ -679,7 +694,8 @@ Therefore, I* ***additionally*** *recommend the use of a browser content blocker
 
 *In [RethinkDNS](https://rethinkdns.com) you can use my Light, Normal, Pro, Pro++, Ultimate, TIF, DynDNS and Badware Hoster lists.*
 
-***NOTE:*** *The lists in RethinkDNS are only updated once a week.*
+> [!NOTE]
+> *The lists in RethinkDNS are only updated once a week.*
 
 | Blocklists | DNS-over-HTTPS | DNS-over-TLS/QUIC |
 |:-----------|:---------------|:-------------|
