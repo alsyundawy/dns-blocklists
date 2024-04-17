@@ -2,7 +2,7 @@
 #### LIGHT
 ```
  Nr | Included | Dead | Removed | URL/File
-  1 |      84% |   9% |      7% | Denylist Personal
+  1 |      85% |   9% |      6% | Denylist Personal
   2 |      99% |   0% |      1% | Basic Extension
   3 |      96% |   2% |      2% | Denylist Community non-Aggressive
 ```
