@@ -264,6 +264,9 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 
+> [!NOTE]
+> *In the combination of the Pro or higher lists and additionally the Threat Intelligence Feeds list, all domains from the Pop-Up Ads list are included. This means that if you use the Pro or higher and also the TIF full, you no longer need to add this list separately.*
+
 **Entries:** *popupads_cp compressed domains*
 
 | Format | Links | Can be used for |
