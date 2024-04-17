@@ -331,7 +331,8 @@
 *IPv4 lists in [plain IP format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/tif.txt) for firewalls and [AdGuard Home format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif-ips.txt) are also available as an extension to the TIF list.*
 
 > [!TIP]
-> *If the IP list is used in AdGuard Home, all domains that would resolve to the blocked IP are blocked.*
+> *If the IP list is used in AdGuard Home, all domains that would resolve to the blocked IP are blocked. To prevent the blocked domains from being resolved via IPv6, it is necessary to deactivate resolving via IPv6 in AdGuard Home:*                        
+> `Settings > DNS settings > DNS server configuration > Disable resolving of IPv6 addresses`
 
 **Expires:** *24 hours (update frequency)*
 
@@ -438,7 +439,8 @@
 *IPv4 lists in [plain IP format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/doh.txt) for firewalls and [AdGuard Home format](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-ips.txt) are also available.*
 
 > [!TIP]
-> *If the IP list is used in AdGuard Home, all domains that would resolve to the blocked IP are blocked.*
+> *If the IP list is used in AdGuard Home, all domains that would resolve to the blocked IP are blocked. To prevent the blocked domains from being resolved via IPv6, it is necessary to deactivate resolving via IPv6 in AdGuard Home:*                   
+> `Settings > DNS settings > DNS server configuration > Disable resolving of IPv6 addresses`
 
 **Expires:** *Updated regularly*
 
