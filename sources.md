@@ -304,6 +304,7 @@ https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-mcaf
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-meta.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-misc.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-mvt.txt
+https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-positivetech.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-proofpoint.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-recordedfuture.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-sekoia.txt

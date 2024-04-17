@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1713219600 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1713306300 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 15 Apr 2024 22:20 UTC
-; Version: 2024.0415.2220.42
+; Last modified: 16 Apr 2024 22:25 UTC
+; Version: 2024.0416.2225.28
 ; Syntax: RPZ
 ; Number of entries: 6312
 ;
@@ -766,6 +766,8 @@ doh.bt.com CNAME .
 *.doh.bt.com CNAME .
 btguard.com CNAME .
 *.btguard.com CNAME .
+bubbleset.com CNAME .
+*.bubbleset.com CNAME .
 buffered.com CNAME .
 *.buffered.com CNAME .
 bulletvpn.com CNAME .
@@ -3814,8 +3816,6 @@ doh.li CNAME .
 *.doh.li CNAME .
 flashvpn.li CNAME .
 *.flashvpn.li CNAME .
-irre.li CNAME .
-*.irre.li CNAME .
 proxy.schel.li CNAME .
 *.proxy.schel.li CNAME .
 theproxy.li CNAME .
