@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1713306420 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1713393300 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 16 Apr 2024 22:27 UTC
-; Version: 2024.0416.2227.28
+; Last modified: 17 Apr 2024 22:35 UTC
+; Version: 2024.0417.2235.47
 ; Syntax: RPZ
-; Number of entries: 2924
+; Number of entries: 2928
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -507,6 +507,8 @@ dyn-o-saur.com CNAME .
 *.dyn-o-saur.com CNAME .
 dynalias.com CNAME .
 *.dynalias.com CNAME .
+dynamai.com CNAME .
+*.dynamai.com CNAME .
 dynamic-m.com CNAME .
 *.dynamic-m.com CNAME .
 dyndns.com CNAME .
@@ -1091,6 +1093,8 @@ mynetgear.com CNAME .
 *.mynetgear.com CNAME .
 myonlineportal.com CNAME .
 *.myonlineportal.com CNAME .
+myq-see.com CNAME .
+*.myq-see.com CNAME .
 mysaol.com CNAME .
 *.mysaol.com CNAME .
 mysecondarydns.com CNAME .
