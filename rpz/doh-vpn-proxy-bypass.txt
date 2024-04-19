@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1713393180 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1713480000 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 17 Apr 2024 22:33 UTC
-; Version: 2024.0417.2233.46
+; Last modified: 18 Apr 2024 22:40 UTC
+; Version: 2024.0418.2240.25
 ; Syntax: RPZ
 ; Number of entries: 6318
 ;
@@ -1424,6 +1424,8 @@ jetbean.com CNAME .
 *.jetbean.com CNAME .
 jetproxy.com CNAME .
 *.jetproxy.com CNAME .
+jetssh.com CNAME .
+*.jetssh.com CNAME .
 jfalling.com CNAME .
 *.jfalling.com CNAME .
 vpn.jogjacloud.com CNAME .
@@ -3072,6 +3074,8 @@ n0.eu CNAME .
 *.n0.eu CNAME .
 nenam.eu CNAME .
 *.nenam.eu CNAME .
+ninjaproxy.eu CNAME .
+*.ninjaproxy.eu CNAME .
 onlineproxy.eu CNAME .
 *.onlineproxy.eu CNAME .
 privacyprotector.eu CNAME .
@@ -3976,8 +3980,6 @@ ltlxvxjjmvhn.me CNAME .
 *.ltlxvxjjmvhn.me CNAME .
 dns.mihanentalpo.me CNAME .
 *.dns.mihanentalpo.me CNAME .
-dgca.myds.me CNAME .
-*.dgca.myds.me CNAME .
 p99nxpivfscyverz.me CNAME .
 *.p99nxpivfscyverz.me CNAME .
 privateproxy.me CNAME .
@@ -5954,8 +5956,6 @@ sundalandia.pp.ua CNAME .
 *.sundalandia.pp.ua CNAME .
 virga.pp.ua CNAME .
 *.virga.pp.ua CNAME .
-zxcvb.pp.ua CNAME .
-*.zxcvb.pp.ua CNAME .
 adguard.aa4.co.uk CNAME .
 *.adguard.aa4.co.uk CNAME .
 binhexsolutions.co.uk CNAME .
