@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1713565620 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1713652320 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 19 Apr 2024 22:27 UTC
-; Version: 2024.0419.2227.22
+; Last modified: 20 Apr 2024 22:32 UTC
+; Version: 2024.0420.2232.19
 ; Syntax: RPZ
-; Number of entries: 6320
+; Number of entries: 6336
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -132,6 +132,8 @@ ad.tzockt.beer CNAME .
 *.ad.tzockt.beer CNAME .
 dns.schlagheck.berlin CNAME .
 *.dns.schlagheck.berlin CNAME .
+croxyproxy.best CNAME .
+*.croxyproxy.best CNAME .
 dns.doh.best CNAME .
 *.dns.doh.best CNAME .
 supervpn.best CNAME .
@@ -270,6 +272,8 @@ openvpn.cc CNAME .
 *.openvpn.cc CNAME .
 proxify.cc CNAME .
 *.proxify.cc CNAME .
+proxysite.cc CNAME .
+*.proxysite.cc CNAME .
 seedboxes.cc CNAME .
 *.seedboxes.cc CNAME .
 theproxy.cc CNAME .
@@ -1952,6 +1956,8 @@ psiphon3.com CNAME .
 *.psiphon3.com CNAME .
 ptoserver.com CNAME .
 *.ptoserver.com CNAME .
+publicdnsserver.com CNAME .
+*.publicdnsserver.com CNAME .
 dns.pumpkinvrar.com CNAME .
 *.dns.pumpkinvrar.com CNAME .
 pupilproxy.com CNAME .
@@ -2232,6 +2238,8 @@ surf100.com CNAME .
 *.surf100.com CNAME .
 surfbouncer.com CNAME .
 *.surfbouncer.com CNAME .
+surfcovertly.com CNAME .
+*.surfcovertly.com CNAME .
 surfeasy.com CNAME .
 *.surfeasy.com CNAME .
 surfly.com CNAME .
@@ -2434,6 +2442,8 @@ unblockedarabic.com CNAME .
 *.unblockedarabic.com CNAME .
 unblockedbay.com CNAME .
 *.unblockedbay.com CNAME .
+unblockedbrowser.com CNAME .
+*.unblockedbrowser.com CNAME .
 unblockedme.com CNAME .
 *.unblockedme.com CNAME .
 unblockedrussian.com CNAME .
@@ -2686,6 +2696,8 @@ wiseghostapp.com CNAME .
 *.wiseghostapp.com CNAME .
 wlvpn.com CNAME .
 *.wlvpn.com CNAME .
+wobti.com CNAME .
+*.wobti.com CNAME .
 workdigi.com CNAME .
 *.workdigi.com CNAME .
 workingvpn.com CNAME .
@@ -3106,6 +3118,8 @@ us.rslvr.eu CNAME .
 *.us.rslvr.eu CNAME .
 dns.skrep.eu CNAME .
 *.dns.skrep.eu CNAME .
+ukwebproxy.eu CNAME .
+*.ukwebproxy.eu CNAME .
 unasw.eu CNAME .
 *.unasw.eu CNAME .
 unblockfacebook.eu CNAME .
@@ -3564,6 +3578,8 @@ proxysan.info CNAME .
 *.proxysan.info CNAME .
 proxythis.info CNAME .
 *.proxythis.info CNAME .
+public-dns.info CNAME .
+*.public-dns.info CNAME .
 redproxy.info CNAME .
 *.redproxy.info CNAME .
 redus.info CNAME .
@@ -4316,6 +4332,8 @@ dns.cmrg.net CNAME .
 *.dns.cmrg.net CNAME .
 dns1.conne.net CNAME .
 *.dns1.conne.net CNAME .
+cool-proxy.net CNAME .
+*.cool-proxy.net CNAME .
 doh.cox.net CNAME .
 *.doh.cox.net CNAME .
 dot.cox.net CNAME .
@@ -5404,10 +5422,8 @@ unblockweb.org CNAME .
 *.unblockweb.org CNAME .
 unblockyouku.org CNAME .
 *.unblockyouku.org CNAME .
-anycast.uncensoreddns.org CNAME .
-*.anycast.uncensoreddns.org CNAME .
-unicast.uncensoreddns.org CNAME .
-*.unicast.uncensoreddns.org CNAME .
+uncensoreddns.org CNAME .
+*.uncensoreddns.org CNAME .
 uradoori.org CNAME .
 *.uradoori.org CNAME .
 url10.org CNAME .
