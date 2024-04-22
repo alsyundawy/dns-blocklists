@@ -9,10 +9,10 @@
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Expires: 1 day
-! Last modified: 19 Apr 2024 22:00 UTC
-! Version: 2024.0419.2200.42
+! Last modified: 22 Apr 2024 06:27 UTC
+! Version: 2024.0422.0627.31
 ! Syntax: uBlock
-! Number of latin TLDs: 74 - non-latin TLDs: 151
+! Number of latin TLDs: 92 - non-latin TLDs: 151
 !
 ||asia^$doc,domain=~amzn.asia|~dbankcloud.asia
 ||autos^$doc
@@ -32,9 +32,11 @@
 ||cfd^$doc,domain=~frcoal.cfd|~freedium.cfd
 ||charity^$doc
 ||christmas^$doc
+||coupons^$doc
 ||cyou^$doc,domain=~hammertime.cyou
 ||dad^$doc,domain=~classic.dad|~daily.dad|~dear.dad|~rad.dad
 ||dance^$doc
+||date^$doc
 ||degree^$doc,domain=~opf.degree|~three60.degree
 ||directory^$doc,domain=~passkeys.directory
 ||discount^$doc,domain=~real.discount
@@ -45,12 +47,15 @@
 ||fyi^$doc,domain=~canonn.fyi|~iusearchlinux.fyi|~lunar.fyi
 ||ga^$doc,domain=~mmo.ga
 ||gdn^$doc,domain=~cst.gdn|~pss.gdn
+||giving^$doc
 ||gq^$doc,domain=~tvgelive.gq
 ||guru^$doc,domain=~bahn.guru|~crontab.guru|~greenlight.guru|~jav.guru|~webcal.guru
 ||hair^$doc
 ||haus^$doc
 ||homes^$doc
+||ink^$doc
 ||life^$doc,domain=~2ch.life|~akamaicdn.life|~circles.life|~digitalcitizen.life|~iboost.life|~lifetime.life|~loveinfaith.life|~stepone.life|~yiff.life
+||llp^$doc
 ||loan^$doc
 ||loans^$doc
 ||lol^$doc,domain=~browser.lol|~objection.lol
@@ -60,20 +65,31 @@
 ||ml^$doc,domain=~aire.ml|~beatbump.ml|~debula.ml|~fedi.ml|~fmhy.ml|~ghostcloud.ml|~google.ml|~info-matin.ml|~lemmygrad.ml|~lemmy.ml|~lingva.ml|~loma.ml|~mastodon.ml|~melody.ml|~nothingprivate.ml|~precure.ml|~prompt.ml
 ||mom^$doc
 ||monster^$doc,domain=~cloudcdn.monster|~egybest.monster|~fedi.monster|~rollenspiel.monster|~tts.monster|~vipbj.monster|~yts.monster
+||motorcycles^$doc
 ||mov^$doc,domain=~david.mov|~spankbang.mov
 ||name^$doc
+||navy^$doc
+||nf^$doc
 ||ooo^$doc,domain=~toast.ooo
 ||phd^$doc,domain=~rafael.phd
 ||prof^$doc,domain=~casey.prof
+||promo^$doc
 ||quest^$doc,domain=~amble.quest|~bookshelf.quest|~dice.quest|~dont-panic.quest|~epochal.quest|~federation.quest|~galaxy.quest|~mhn.quest|~mylegendary.quest|~prometheus.quest|~teacher.quest|~theculture.quest|~toot.quest
+||rehab^$doc
 ||rest^$doc,domain=~crystals.rest|~nect.rest
 ||review^$doc
 ||rip^$doc,domain=~medium.rip
+||rocks^$doc
 ||rodeo^$doc,domain=~raypeat.rodeo
+||rugby^$doc
+||run^$doc
+||sale^$doc
 ||sbs^$doc,domain=~ecopulse.sbs|~moae.sbs
+||sew^$doc
 ||skin^$doc
 ||support^$doc
 ||surf^$doc,domain=~bloom.surf|~glowing.surf|~kayaking.surf|~quran.surf|~s-wings.surf
+||sz^$doc
 ||tattoo^$doc
 ||tk^$doc,domain=~adistance.tk|~bonzibuddy.tk|~bryla.tk|~bstweaker.tk|~budterence.tk|~censurion.tk|~c-r-t.tk|~cuso.tk|~google.tk|~goshujin.tk|~gotofap.tk|~graph.tk|~kabi.tk|~pube.tk|~sironi.tk|~tokelau-info.tk|~xn--qubec-csa.tk|~zete.tk
 ||today^$doc
@@ -83,10 +99,12 @@
 ||uno^$doc
 ||voto^$doc
 ||website^$doc,domain=~tilde.website
+||wf^$doc
 ||wiki^$doc,domain=~bg3.wiki|~burnout.wiki|~datei.wiki|~kodi.wiki|~minecraft.wiki|~namu.wiki|~notifiarr.wiki|~osrs.wiki|~rs.wiki|~runescape.wiki
 ||work^$doc,domain=~elphago.work|~frame.work
 ||wtf^$doc,domain=~akko.wtf|~myip.wtf|~plooshiesaresocute.wtf|~tigress.wtf
 ||yachts^$doc
+||you^$doc
 ||zip^$doc,domain=~community.zip|~financialstatement.zip|~lemmy.zip|~redecanaistv.zip|~redecanais.zip|~url.zip
 ||рус^$doc
 ||कॉम^$doc

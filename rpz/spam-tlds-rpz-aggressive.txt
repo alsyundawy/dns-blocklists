@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1713564000 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1713767220 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's The World's Most Abused TLDs - Aggressive
@@ -11,10 +11,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 19 Apr 2024 22:00 UTC
-; Version: 2024.0419.2200.42
+; Last modified: 22 Apr 2024 06:27 UTC
+; Version: 2024.0422.0627.31
 ; Syntax: RPZ
-; Number of latin TLDs: 74
+; Number of latin TLDs: 92
 ;
 *.asia CNAME .
 *.autos CNAME .
@@ -34,9 +34,11 @@ $TTL 300
 *.cfd CNAME .
 *.charity CNAME .
 *.christmas CNAME .
+*.coupons CNAME .
 *.cyou CNAME .
 *.dad CNAME .
 *.dance CNAME .
+*.date CNAME .
 *.degree CNAME .
 *.directory CNAME .
 *.discount CNAME .
@@ -47,12 +49,15 @@ $TTL 300
 *.fyi CNAME .
 *.ga CNAME .
 *.gdn CNAME .
+*.giving CNAME .
 *.gq CNAME .
 *.guru CNAME .
 *.hair CNAME .
 *.haus CNAME .
 *.homes CNAME .
+*.ink CNAME .
 *.life CNAME .
+*.llp CNAME .
 *.loan CNAME .
 *.loans CNAME .
 *.lol CNAME .
@@ -62,20 +67,31 @@ $TTL 300
 *.ml CNAME .
 *.mom CNAME .
 *.monster CNAME .
+*.motorcycles CNAME .
 *.mov CNAME .
 *.name CNAME .
+*.navy CNAME .
+*.nf CNAME .
 *.ooo CNAME .
 *.phd CNAME .
 *.prof CNAME .
+*.promo CNAME .
 *.quest CNAME .
+*.rehab CNAME .
 *.rest CNAME .
 *.review CNAME .
 *.rip CNAME .
+*.rocks CNAME .
 *.rodeo CNAME .
+*.rugby CNAME .
+*.run CNAME .
+*.sale CNAME .
 *.sbs CNAME .
+*.sew CNAME .
 *.skin CNAME .
 *.support CNAME .
 *.surf CNAME .
+*.sz CNAME .
 *.tattoo CNAME .
 *.tk CNAME .
 *.today CNAME .
@@ -85,10 +101,12 @@ $TTL 300
 *.uno CNAME .
 *.voto CNAME .
 *.website CNAME .
+*.wf CNAME .
 *.wiki CNAME .
 *.work CNAME .
 *.wtf CNAME .
 *.yachts CNAME .
+*.you CNAME .
 *.zip CNAME .
 *.xn--p1acf CNAME .
 *.xn--11b4c3d CNAME .
