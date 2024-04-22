@@ -125,7 +125,7 @@
  12 |      54% |  44% |      2% | https://raw.githubusercontent.com/marco-acorte/antispam-it/main/antispam-it.txt
  13 |      65% |  31% |      4% | https://raw.githubusercontent.com/matomo-org/referrer-spam-list/master/spammers.txt
  14 |      74% |  19% |      7% | https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
- 15 |      94% |   4% |      2% | https://raw.githubusercontent.com/jarelllama/emerging-threats-pihole/main/malicious.txt
+ 15 |      94% |   4% |      2% | https://raw.githubusercontent.com/jarelllama/Emerging-Threats/main/malicious.txt
  16 |      39% |  57% |      4% | https://hosts.tweedge.net/malicious.txt
  17 |      72% |  24% |      4% | https://threatfox.abuse.ch/downloads/hostfile
  18 |      84% |  15% |      1% | https://urlhaus-filter.pages.dev/urlhaus-filter-hosts.txt
@@ -141,7 +141,7 @@
  28 |      68% |  30% |      2% | https://raw.githubusercontent.com/braveinnovators/ukrainian-security-filter/main/lists/domains.txt
  29 |      71% |  28% |      1% | https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames_light.txt
  30 |      18% |  81% |      1% | https://raw.githubusercontent.com/elliotwutingfeng/Ukrainian-EMA-blocklist/main/urls-pihole.txt
- 31 |      58% |  40% |      2% | https://rescure.me/rescure_domain_blacklist.txt
+ 31 |      37% |  60% |      3% | https://rescure.me/rescure_domain_blacklist.txt
  32 |      31% |  69% |      0% | https://zonefiles.io/f/compromised/domains/live/
  33 |      90% |   9% |      1% | https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
  34 |      74% |  24% |      2% | https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts
@@ -177,7 +177,7 @@
  21 |      56% |  44% |      0% | https://www.stopforumspam.com/downloads/toxic_domains_whole.txt
  22 |      74% |  19% |      7% | https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
  23 |      58% |  42% |      0% | https://hole.cert.pl/domains/v2/domains.txt
- 24 |      94% |   4% |      2% | https://raw.githubusercontent.com/jarelllama/emerging-threats-pihole/main/malicious.txt
+ 24 |      94% |   4% |      2% | https://raw.githubusercontent.com/jarelllama/Emerging-Threats/main/malicious.txt
  25 |      39% |  57% |      4% | https://hosts.tweedge.net/malicious.txt
  26 |      31% |  69% |      0% | https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/threat/hosts
  27 |      72% |  24% |      4% | https://threatfox.abuse.ch/downloads/hostfile
@@ -203,7 +203,7 @@
  47 |      40% |  59% |      1% | https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt
  48 |      31% |  69% |      0% | https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt
  49 |      75% |  21% |      4% | https://raw.githubusercontent.com/ttc-cert/TTC-CERT_blocklist_recommended/master/domain_blocklist_recommended.txt
- 50 |      58% |  40% |      2% | https://rescure.me/rescure_domain_blacklist.txt
+ 50 |      37% |  60% |      3% | https://rescure.me/rescure_domain_blacklist.txt
  51 |      56% |  43% |      1% | https://threatview.io/Downloads/DOMAIN-High-Confidence-Feed.txt
  52 |      28% |  72% |      0% | https://www.usom.gov.tr/url-list.txt
  53 |      31% |  69% |      0% | https://zonefiles.io/f/compromised/domains/live/

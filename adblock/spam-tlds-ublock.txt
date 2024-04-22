@@ -9,16 +9,18 @@
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Expires: 1 day
-! Last modified: 22 Apr 2024 06:27 UTC
-! Version: 2024.0422.0627.31
+! Last modified: 22 Apr 2024 09:06 UTC
+! Version: 2024.0422.0906.00
 ! Syntax: uBlock
-! Number of latin TLDs: 92 - non-latin TLDs: 151
+! Number of latin TLDs: 104 - non-latin TLDs: 151
 !
+||africa^$doc
 ||asia^$doc,domain=~amzn.asia|~dbankcloud.asia
 ||autos^$doc
 ||bar^$doc,domain=~fap.bar
 ||beauty^$doc,domain=~homelab.beauty|~vipbj.beauty
 ||best^$doc
+||bet^$doc
 ||bid^$doc
 ||bio^$doc
 ||biz^$doc,domain=~beiniz.biz|~bonial.biz|~cloudns.biz|~cyberciti.biz|~dzeta.biz|~epson.biz|~luckysbarbershop.biz|~movabletype.biz|~panasonic.biz|~slussen.biz|~yoox.biz
@@ -38,9 +40,11 @@
 ||dance^$doc
 ||date^$doc
 ||degree^$doc,domain=~opf.degree|~three60.degree
+||digital^$doc
 ||directory^$doc,domain=~passkeys.directory
 ||discount^$doc,domain=~real.discount
 ||esq^$doc,domain=~erika.esq
+||finance^$doc
 ||fishing^$doc
 ||fit^$doc,domain=~appetit.fit|~clubb.fit|~justget.fit|~pridegym.fit|~thebene.fit|~union.fit
 ||foo^$doc,domain=~helloworld.foo
@@ -53,12 +57,17 @@
 ||hair^$doc
 ||haus^$doc
 ||homes^$doc
+||icu^$doc
 ||ink^$doc
+||kim^$doc
+||lat^$doc
 ||life^$doc,domain=~2ch.life|~akamaicdn.life|~circles.life|~digitalcitizen.life|~iboost.life|~lifetime.life|~loveinfaith.life|~stepone.life|~yiff.life
 ||llp^$doc
 ||loan^$doc
 ||loans^$doc
 ||lol^$doc,domain=~browser.lol|~objection.lol
+||love^$doc
+||ltd^$doc
 ||makeup^$doc,domain=~bird.makeup
 ||market^$doc,domain=~digiseller.market|~otto.market|~plati.market
 ||men^$doc
@@ -68,9 +77,10 @@
 ||motorcycles^$doc
 ||mov^$doc,domain=~david.mov|~spankbang.mov
 ||name^$doc
-||navy^$doc
 ||nf^$doc
+||okinawa^$doc
 ||ooo^$doc,domain=~toast.ooo
+||pet^$doc
 ||phd^$doc,domain=~rafael.phd
 ||prof^$doc,domain=~casey.prof
 ||promo^$doc
@@ -79,7 +89,6 @@
 ||rest^$doc,domain=~crystals.rest|~nect.rest
 ||review^$doc
 ||rip^$doc,domain=~medium.rip
-||rocks^$doc
 ||rodeo^$doc,domain=~raypeat.rodeo
 ||rugby^$doc
 ||run^$doc
@@ -87,7 +96,7 @@
 ||sbs^$doc,domain=~ecopulse.sbs|~moae.sbs
 ||sew^$doc
 ||skin^$doc
-||support^$doc
+||st^$doc
 ||surf^$doc,domain=~bloom.surf|~glowing.surf|~kayaking.surf|~quran.surf|~s-wings.surf
 ||sz^$doc
 ||tattoo^$doc
@@ -97,10 +106,13 @@
 ||top^$doc,domain=~1stream.top|~ambr.top|~arjun.top|~audioforyou.top|~awavenue.top|~caitlin.top|~castlevania.top|~chillx.top|~corriente.top|~gdtot.top|~magocoro.top|~mastodon.top|~nicenature.top|~pdcdn1.top|~pegelinux.top|~pressplay.top|~reminder.top|~reyhub.top|~shucks.top|~strims.top|~suiten.top|~techblog.top|~thedesk.top|~vsdb.top
 ||trade^$doc,domain=~composer.trade|~kite.trade
 ||uno^$doc
+||vip^$doc
 ||voto^$doc
+||wang^$doc
 ||website^$doc,domain=~tilde.website
 ||wf^$doc
 ||wiki^$doc,domain=~bg3.wiki|~burnout.wiki|~datei.wiki|~kodi.wiki|~minecraft.wiki|~namu.wiki|~notifiarr.wiki|~osrs.wiki|~rs.wiki|~runescape.wiki
+||win^$doc
 ||work^$doc,domain=~elphago.work|~frame.work
 ||wtf^$doc,domain=~akko.wtf|~myip.wtf|~plooshiesaresocute.wtf|~tigress.wtf
 ||yachts^$doc

@@ -295,7 +295,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** *1107665 domains/hosts - 629783 compressed domains*
+**Entries:** *1107948 domains/hosts - 629985 compressed domains*
 
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -319,7 +319,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** *184806 compressed domains*
+**Entries:** *184854 compressed domains*
 
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -358,7 +358,7 @@
 
 #### :new: ***Domains registered in the last 10 days*** <a name="nrd10"></a>
 
-**Entries:** *1027952 domains*
+**Entries:** *928049 domains*
 
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -372,7 +372,7 @@
 
 #### :new: ***Domains registered in the last 30 days*** <a name="nrd30"></a>
 
-**Entries:** *3019746 domains*
+**Entries:** *2921485 domains*
 
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
