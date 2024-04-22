@@ -5,7 +5,7 @@ on:
       - labeled
 jobs:
   add-comment:
-    if: github.event.label.name == 'scam'
+    if: github.event.label.name == 'scam/phishing'
     runs-on: ubuntu-latest
     permissions:
       issues: write
@@ -14,4 +14,4 @@ jobs:
         uses: peter-evans/close-issue@v3
         with:
           issue-number: ${{ github.event.issue.number }}
-          comment: Thanks, ping @durablenapkin @jarelllama @iam-py-test for adding to the scam list.
+          comment: Thank you, ping @durablenapkin @jarelllama @iam-py-test for checking and possibly including the domain(s).
