@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1713652560 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1713739620 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 20 Apr 2024 22:36 UTC
-; Version: 2024.0420.2236.22
+; Last modified: 21 Apr 2024 22:47 UTC
+; Version: 2024.0421.2247.23
 ; Syntax: RPZ
-; Number of entries: 19720
+; Number of entries: 19722
 ;
 altadefinizione.ac CNAME .
 *.altadefinizione.ac CNAME .
@@ -11617,6 +11617,8 @@ datascene.net CNAME .
 *.datascene.net CNAME .
 ddlbase.net CNAME .
 *.ddlbase.net CNAME .
+www.ddlseries.net CNAME .
+*.www.ddlseries.net CNAME .
 houniao.ddns.net CNAME .
 *.houniao.ddns.net CNAME .
 ddgu.ddos-guard.net CNAME .

@@ -163,6 +163,7 @@ https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter.txt
 https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_domains.txt
 https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_ips.txt
 https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antidynamicdns.txt
+https://raw.githubusercontent.com/jarelllama/emerging-threats-pihole/main/malicious.txt
 https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/adblock/scams_light.txt
 https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/adblock/scams.txt
 https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
