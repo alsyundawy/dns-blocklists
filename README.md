@@ -358,7 +358,7 @@
 
 #### :new: ***Domains registered in the last 10 days*** <a name="nrd10"></a>
 
-**Entries:** *927960 domains*
+**Entries:** *1027952 domains*
 
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
@@ -372,7 +372,7 @@
 
 #### :new: ***Domains registered in the last 30 days*** <a name="nrd30"></a>
 
-**Entries:** *2919759 domains*
+**Entries:** *3019746 domains*
 
 | Format | Links | Can be used for |
 |:-------|:-----|:----------------|
