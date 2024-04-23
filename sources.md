@@ -199,6 +199,7 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHo
 https://raw.githubusercontent.com/matomo-org/referrer-spam-list/master/spammers.txt
 https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/hosts.txt
 https://raw.githubusercontent.com/migueldemoura/ublock-umatrix-rulesets/master/Hosts/ads-tracking
+https://raw.githubusercontent.com/MikhailKasimov/validin-phish-feed/main/validin-phish-feed.txt
 https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts
 https://raw.githubusercontent.com/mtxadmin/ublock/master/hosts/_all_bets_are_off
 https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad2.txt
@@ -305,6 +306,7 @@ https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-malw
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-mandiant.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-mcafee.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-meta.txt
+https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-microsoft.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-misc.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-mvt.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-positivetech.txt
@@ -340,6 +342,7 @@ https://raw.githubusercontent.com/SM443/Pi-hole-Torrent-Blocklist/main/all-torre
 https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt
 https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt
 https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt
+https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/malware/azorult.txt
 https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/suspicious/anonymous_web_proxy.txt
 https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/suspicious/blockchain_dns.txt
 https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/suspicious/dns_tunneling_service.txt
