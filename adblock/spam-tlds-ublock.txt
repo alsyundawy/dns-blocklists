@@ -9,10 +9,10 @@
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Expires: 1 day
-! Last modified: 22 Apr 2024 12:04 UTC
-! Version: 2024.0422.1204.51
+! Last modified: 23 Apr 2024 18:18 UTC
+! Version: 2024.0423.1818.19
 ! Syntax: uBlock
-! Number of latin TLDs: 104 - non-latin TLDs: 151
+! Number of latin TLDs: 103 - non-latin TLDs: 151
 !
 ||africa^$doc
 ||asia^$doc,domain=~amzn.asia|~dbankcloud.asia
@@ -96,7 +96,7 @@
 ||sbs^$doc,domain=~ecopulse.sbs|~moae.sbs
 ||sew^$doc
 ||skin^$doc
-||st^$doc,domain=~avito.st|~google.st
+||st^$doc,domain=~avito.st|~google.st|~selfh.st
 ||surf^$doc,domain=~bloom.surf|~glowing.surf|~kayaking.surf|~quran.surf|~s-wings.surf
 ||sz^$doc
 ||tattoo^$doc
@@ -106,12 +106,11 @@
 ||top^$doc,domain=~1stream.top|~ambr.top|~arjun.top|~audioforyou.top|~awavenue.top|~caitlin.top|~castlevania.top|~chillx.top|~corriente.top|~gdtot.top|~magocoro.top|~mastodon.top|~nicenature.top|~pdcdn1.top|~pegelinux.top|~pressplay.top|~reminder.top|~reyhub.top|~shucks.top|~strims.top|~suiten.top|~techblog.top|~thedesk.top|~vsdb.top
 ||trade^$doc,domain=~composer.trade|~kite.trade
 ||uno^$doc
-||vip^$doc,domain=~18comic.vip
 ||voto^$doc
 ||wang^$doc
 ||website^$doc,domain=~tilde.website
 ||wf^$doc
-||wiki^$doc,domain=~bg3.wiki|~burnout.wiki|~datei.wiki|~kodi.wiki|~minecraft.wiki|~namu.wiki|~notifiarr.wiki|~osrs.wiki|~rs.wiki|~runescape.wiki
+||wiki^$doc,domain=~bg3.wiki|~burnout.wiki|~datei.wiki|~fallout.wiki|~getindie.wiki|~kodi.wiki|~minecraft.wiki|~namu.wiki|~notifiarr.wiki|~osrs.wiki|~rs.wiki|~runescape.wiki
 ||win^$doc
 ||work^$doc,domain=~elphago.work|~frame.work
 ||wtf^$doc,domain=~akko.wtf|~myip.wtf|~plooshiesaresocute.wtf|~tigress.wtf
