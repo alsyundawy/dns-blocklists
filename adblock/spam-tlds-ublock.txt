@@ -9,8 +9,8 @@
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Expires: 1 day
-! Last modified: 23 Apr 2024 18:18 UTC
-! Version: 2024.0423.1818.19
+! Last modified: 25 Apr 2024 09:50 UTC
+! Version: 2024.0425.0950.24
 ! Syntax: uBlock
 ! Number of latin TLDs: 103 - non-latin TLDs: 151
 !
@@ -38,7 +38,7 @@
 ||cyou^$doc,domain=~hammertime.cyou
 ||dad^$doc,domain=~classic.dad|~daily.dad|~dear.dad|~rad.dad
 ||dance^$doc
-||date^$doc
+||date^$doc,domain=~endoflife.date
 ||degree^$doc,domain=~opf.degree|~three60.degree
 ||digital^$doc
 ||directory^$doc,domain=~passkeys.directory
@@ -116,7 +116,7 @@
 ||wtf^$doc,domain=~akko.wtf|~myip.wtf|~plooshiesaresocute.wtf|~tigress.wtf
 ||yachts^$doc
 ||you^$doc
-||zip^$doc,domain=~community.zip|~financialstatement.zip|~lemmy.zip|~redecanaistv.zip|~redecanais.zip|~url.zip
+||zip^$doc,domain=~community.zip|~financialstatement.zip|~lemmy.zip|~redecanaistv.zip|~redecanais.zip|~umowa.zip|~url.zip
 ||рус^$doc
 ||कॉम^$doc
 ||セール^$doc
