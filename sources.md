@@ -10,6 +10,11 @@ https://botvrij.eu/data/ioclist.domain
 https://botvrij.eu/data/ioclist.hostname
 https://botvrij.eu/data/ioclist.ip-dst
 https://builtwith.com/dl/builtwith-top1m.zip
+https://cpdbl.net/lists/blocklistde-all.list
+https://cpdbl.net/lists/bruteforce.list
+https://cpdbl.net/lists/etknown.list
+https://cpdbl.net/lists/sslblock.list
+https://cpdbl.net/lists/talos.list
 https://danger.rulez.sk/projects/bruteforceblocker/blist.php
 https://dl.red.flag.domains/red.flag.domains.txt
 https://downloads.majestic.com/majestic_million.csv
@@ -341,7 +346,7 @@ https://raw.githubusercontent.com/SM443/Pi-hole-Torrent-Blocklist/main/all-torre
 https://raw.githubusercontent.com/SM443/Pi-hole-Torrent-Blocklist/main/all-torrent-websites.txt
 https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt
 https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt
-https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt
+https://raw.githubusercontent.com/stamparm/ipsum/master/levels/3.txt
 https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/malware/azorult.txt
 https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/suspicious/anonymous_web_proxy.txt
 https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/suspicious/blockchain_dns.txt

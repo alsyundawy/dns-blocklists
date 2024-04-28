@@ -9,8 +9,8 @@
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Expires: 1 day
-! Last modified: 27 Apr 2024 03:23 UTC
-! Version: 2024.0427.0323.56
+! Last modified: 27 Apr 2024 23:07 UTC
+! Version: 2024.0427.2307.39
 ! Syntax: uBlock
 ! Number of latin TLDs: 103 - non-latin TLDs: 151
 !
@@ -80,7 +80,7 @@
 ||nf^$doc,domain=~google.com.nf
 ||okinawa^$doc
 ||ooo^$doc,domain=~toast.ooo
-||pet^$doc
+||pet^$doc,domain=~kuma.pet
 ||phd^$doc,domain=~rafael.phd
 ||prof^$doc,domain=~casey.prof
 ||promo^$doc
@@ -96,7 +96,7 @@
 ||sbs^$doc,domain=~ecopulse.sbs|~moae.sbs
 ||sew^$doc
 ||skin^$doc
-||st^$doc,domain=~avito.st|~google.st|~selfh.st
+||st^$doc,domain=~avito.st|~bpa.st|~google.st|~selfh.st
 ||surf^$doc,domain=~bloom.surf|~glowing.surf|~kayaking.surf|~quran.surf|~s-wings.surf
 ||sz^$doc
 ||tattoo^$doc
