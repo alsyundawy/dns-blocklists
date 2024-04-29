@@ -1,0 +1,112 @@
+# Title: HaGeZi's Windows/Office Tracker DNS Blocklist
+# Description: Blocks Windows/Office native broadband tracker that track your activity.
+# Homepage: https://github.com/hagezi/dns-blocklists
+# License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
+# Issues: https://github.com/hagezi/dns-blocklists/issues
+# Expires: 7 days
+# Last modified: 02 Apr 2024 22:30 UTC
+# Version: 2024.0402.2230.42
+# Syntax: DNSMasq v2.85 or older (IDN2 compatible)
+# Number of entries: 101
+#
+server=/in.appcenter.ms/
+server=/nexusrules.live.com/
+server=/auc-visio-telemetry.officeapps.live.com/
+server=/brc-visio-telemetry.officeapps.live.com/
+server=/cac-visio-telemetry.officeapps.live.com/
+server=/dec-visio-telemetry.officeapps.live.com/
+server=/euc-excel-telemetry.officeapps.live.com/
+server=/euc-onenote-telemetry.officeapps.live.com/
+server=/euc-powerpoint-telemetry.officeapps.live.com/
+server=/euc-visio-telemetry.officeapps.live.com/
+server=/euc-word-telemetry.officeapps.live.com/
+server=/eurffc-word-telemetry.officeapps.live.com/
+server=/eurppc-excel-telemetry.officeapps.live.com/
+server=/eurppc-powerpoint-telemetry.officeapps.live.com/
+server=/eurppc-word-telemetry.officeapps.live.com/
+server=/excel-telemetry.officeapps.live.com/
+server=/ffc-word-telemetry.officeapps.live.com/
+server=/frc-visio-telemetry.officeapps.live.com/
+server=/inc-visio-telemetry.officeapps.live.com/
+server=/nexus.officeapps.live.com/
+server=/nexusrules.officeapps.live.com/
+server=/noc-visio-telemetry.officeapps.live.com/
+server=/pgteu1-excel-telemetry-vip.officeapps.live.com/
+server=/pgteu1-powerpoint-telemetry-vip.officeapps.live.com/
+server=/pgteu1-word-telemetry-vip.officeapps.live.com/
+server=/pgteu2-excel-telemetry-vip.officeapps.live.com/
+server=/pgteu2-powerpoint-telemetry-vip.officeapps.live.com/
+server=/pgteu2-word-telemetry-vip.officeapps.live.com/
+server=/pgteu3-excel-telemetry-vip.officeapps.live.com/
+server=/pgteu3-powerpoint-telemetry-vip.officeapps.live.com/
+server=/pgteu3-word-telemetry-vip.officeapps.live.com/
+server=/pgteu4-excel-telemetry-vip.officeapps.live.com/
+server=/pgteu4-powerpoint-telemetry-vip.officeapps.live.com/
+server=/pgtus1-excel-telemetry-vip.officeapps.live.com/
+server=/pgtus1-powerpoint-telemetry-vip.officeapps.live.com/
+server=/pgtus1-word-telemetry-vip.officeapps.live.com/
+server=/pgtus2-excel-telemetry-vip.officeapps.live.com/
+server=/pgtus2-powerpoint-telemetry-vip.officeapps.live.com/
+server=/pgtus2-word-telemetry-vip.officeapps.live.com/
+server=/pgtus3-excel-telemetry-vip.officeapps.live.com/
+server=/pgtus3-powerpoint-telemetry-vip.officeapps.live.com/
+server=/pgtus3-word-telemetry-vip.officeapps.live.com/
+server=/pgtus4-excel-telemetry-vip.officeapps.live.com/
+server=/pgtus4-powerpoint-telemetry-vip.officeapps.live.com/
+server=/pgtus4-word-telemetry-vip.officeapps.live.com/
+server=/pgtus5-excel-telemetry-vip.officeapps.live.com/
+server=/pgtus5-powerpoint-telemetry-vip.officeapps.live.com/
+server=/pgtus5-word-telemetry-vip.officeapps.live.com/
+server=/pgtus6-excel-telemetry-vip.officeapps.live.com/
+server=/pgtus6-powerpoint-telemetry-vip.officeapps.live.com/
+server=/pgtus6-word-telemetry-vip.officeapps.live.com/
+server=/powerpoint-telemetry.officeapps.live.com/
+server=/ppc-excel-telemetry.officeapps.live.com/
+server=/ppc-onenote-telemetry.officeapps.live.com/
+server=/ppc-powerpoint-telemetry.officeapps.live.com/
+server=/ppc-word-telemetry.officeapps.live.com/
+server=/sgtus1-excel-telemetry-vip.officeapps.live.com/
+server=/sgtus1-powerpoint-telemetry-vip.officeapps.live.com/
+server=/sgtus1-word-telemetry-vip.officeapps.live.com/
+server=/tgtus1-excel-telemetry-vip.officeapps.live.com/
+server=/tgtus1-powerpoint-telemetry-vip.officeapps.live.com/
+server=/tgtus1-word-telemetry-vip.officeapps.live.com/
+server=/ukc-onenote-telemetry.officeapps.live.com/
+server=/ukc-visio-telemetry.officeapps.live.com/
+server=/usc-onenote-telemetry.officeapps.live.com/
+server=/usc-visio-telemetry.officeapps.live.com/
+server=/visio-telemetry.officeapps.live.com/
+server=/word-telemetry.officeapps.live.com/
+server=/pipe.aria.microsoft.com/
+server=/events.data.microsoft.com/
+server=/events-sandbox.data.microsoft.com/
+server=/vortex.data.microsoft.com/
+server=/vortex-win.data.microsoft.com/
+server=/vortex-win-sandbox.data.microsoft.com/
+server=/api.edgeoffer.microsoft.com/
+server=/oca.microsoft.com/
+server=/watson.officeint.microsoft.com/
+server=/telecommandsvc.microsoft.com/
+server=/telemetry.microsoft.com/
+server=/telemetry.urs.microsoft.com/
+server=/watson.microsoft.com/
+server=/events.data.msn.cn/
+server=/events.data.msn.com/
+server=/events-sandbox.data.msn.com/
+server=/measure.office.com/
+server=/measure.office.net/
+server=/hubblecontent.osi.office.net/
+server=/events.data.trafficmanager.net/
+server=/legacywatson.trafficmanager.net/
+server=/o365diagtelemetry.trafficmanager.net/
+server=/office-events-data.trafficmanager.net/
+server=/self-events-data.trafficmanager.net/
+server=/teams-events-data.trafficmanager.net/
+server=/win-global-asimov-leafs-events-data.trafficmanager.net/
+server=/activity.windows.com/
+server=/ceuswatcab01.blob.core.windows.net/
+server=/ceuswatcab02.blob.core.windows.net/
+server=/eaus2watcab01.blob.core.windows.net/
+server=/eaus2watcab02.blob.core.windows.net/
+server=/weus2watcab01.blob.core.windows.net/
+server=/weus2watcab02.blob.core.windows.net/

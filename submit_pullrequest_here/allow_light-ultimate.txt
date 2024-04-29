@@ -1,0 +1,492 @@
+# Unblocking for all lists (relaxed, balanced, aggressive and strict)
+# Domains to be removed from the light, normal, pro, pro++ and ultimate list. Also from the fake, popupads and tif list.
+#
+# RULES:
+#  - One domain per line. Wildcard patterns are allowed, e.g. *.example.org / aa-*.example.com / example.*
+#  - The domain/pattern should not already be included
+#  - If necessary, please leave a comment before the added domains/pattern. Comments must start with #.
+#  - If this fixes an issue, please refer to the corresponding issue (issue URL) in the comment.
+#  - Please insert domains/pattern under the comment BEGIN. 
+#  - Please ensure that there is a blank line before and after the inserted text block.
+
+# BEGIN
+
+# Online book store
+lastoriamilitare.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2562
+cdn.wolf-327b.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2563
+rockmods.net
+
+# https://github.com/hagezi/dns-blocklists/issues/2559
+yts.mx
+
+# https://github.com/hagezi/dns-blocklists/issues/2560
+track.passportshipping.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2561
+filecr.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2552
+tidio.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2551
+tubestatic.usco1621-b.com
+
+# Unsubscribe
+api.webengage.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2535
+track.cubyn.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2532
+search.nosto.com
+
+# Feedback
+response.questback.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2529
+edge.xero.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2527
+sm.pcmag.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2524
+lma.npaw.com
+interceptor.npaw.com
+
+# Entech Remote Tools
+entechremote.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2519
+analyze.neiki.dev
+
+# Project makeover game files download
+abstatic.pmosvc.io
+
+# https://github.com/hagezi/dns-blocklists/issues/2516
+feed.nobaraproject.org
+custom.getbeamer.com
+
+# Adblock-Detection/CMP on seznam.cz, mapy.cz and novinky.cz
+h.seznam.cz
+
+# https://github.com/hagezi/dns-blocklists/issues/2513
+fast.appcues.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2511
+a2zapk.com
+
+# Video download links ssyoutube.one
+genyoutube.online
+
+# Grafana Docs
+docs.grafana.org
+
+# Register IDM
+registeridm.com
+
+# Xiaomi Theme store
+thm.market.intl.xiaomi.com
+api.zhuti.intl.xiaomi.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2499
+d335luupugsy2.cloudfront.net
+
+# https://github.com/hagezi/dns-blocklists/issues/2502
+ambientsleepingpill.com
+
+# Reset password in MLBB game
+sctrack.sendcloud.net
+
+# https://github.com/hagezi/dns-blocklists/issues/2486
+tracker.raspberrypi.org
+
+# https://github.com/hagezi/dns-blocklists/issues/2485
+tracker.superbits.org
+
+# Microsoft Cloud
+*.cloud.microsoft
+
+# https://github.com/hagezi/dns-blocklists/issues/2483
+pissmail.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2480
+ymstat.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2476
+best.aliexpress.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2471
+browser.lol
+
+# https://github.com/hagezi/dns-blocklists/issues/2469
+*.chnu.edu.ua
+cream-dream.com.ua
+
+# Medical site
+sprosivracha.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2465
+hazardwatch.gov.au
+
+# Fix offline toilet seat - https://github.com/hagezi/dns-blocklists/issues/2437#issuecomment-2037817295
+*.io.mi.com
+
+# https://github.com/easylist/easylist/issues/18542
+medlemskap.fagforbundet.no
+
+# https://github.com/hagezi/dns-blocklists/issues/2451
+aafp.org
+
+# https://github.com/hagezi/dns-blocklists/issues/2448
+*.cookieinformation.com
+
+# Real-time Geolocation & Reverse IP Lookup REST API 
+api.ipapi.com
+
+# Maps in China apps
+restapi.amap.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2426
+*.mediatek.com
+
+# FP/not malicious
+cert.home4four.com
+media.mc-svc-d.it
+
+# NSFW
+abgay.org
+
+# Weather extension
+badge.weatherextension.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2418
+greenlight.guru
+
+# https://github.com/hagezi/dns-blocklists/issues/2415
+ohay.tv
+
+# Images in Mails - ecm1._domainkey.volkswagen-partner.de
+*.g.shortest-route.com
+
+# Verification doesn't work in Chinese Version of Douyin (Tiktok)
+vcs.snssdk.com
+verify.snssdk.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2408
+virgocx.ca
+
+# https://github.com/hagezi/dns-blocklists/issues/2407
+ransomware.live
+
+# Insurance
+mutua.es
+
+# Network devices
+ruijie.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2388
+ro.blox.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2385
+imgs.elainemedia.net
+
+# Recover deleted instagram account via sms
+ig.me
+
+# https://github.com/hagezi/dns-blocklists/issues/2384
+1passwordservices.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2382
+advgo.net
+
+# https://github.com/hagezi/dns-blocklists/issues/2379
+hqbang.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2378
+api-gtm.grubhub.com
+
+# Association of energy retailers and traders
+assoperatori.it
+
+# https://github.com/hagezi/dns-blocklists/issues/2376
+dailycamera.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2310
+*.ramses.nu
+
+# Breaks apkpure
+winudf.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2371
+interactivebrokers.com.au
+
+# Crypto mining pool
+coinminerz.com
+
+# Padovanews
+padovanews.it
+
+# https://github.com/hagezi/dns-blocklists/issues/2368
+jarvis.testbook.com
+
+# Payment site
+*.services.zam.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2367
+joxi.net
+
+# Node used by electrum bitcoin wallet
+electrum.hsmiths.com
+
+# Lidl App/Mails
+image.mail.lidlplus.de
+
+# https://github.com/hagezi/dns-blocklists/issues/2358
+intercom-clicks.com
+
+# Unsubscribe from emails
+track.spe.zyngamail.com
+ampsp.webengage.co
+
+# Partially breaks mail.ru
+trk.mail.ru
+
+# https://github.com/hagezi/dns-blocklists/issues/2355
+account-api.playpiknik.com
+
+# Homeassistant Bring integration
+api.getbring.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2347
+mx1.1984.is
+mx2.1984.is
+ns1.1984.is
+ns2.1984.is
+ns1.1984hosting.com
+ns2.1984hosting.com
+
+# SpreadShop
+myspreadshop.nl
+
+# https://github.com/hagezi/dns-blocklists/issues/2337
+api.thecut.co
+
+# https://github.com/hagezi/dns-blocklists/issues/2336
+api.mumuglobal.com
+store-api.mumuglobal.com
+
+# API for Developers
+api.bigdatacloud.net
+
+# https://github.com/hagezi/dns-blocklists/issues/2332
+androeed.ae
+androeed.cn
+androeed.de
+androeed.es
+androeed.ru
+androeed.store
+
+# https://github.com/hagezi/dns-blocklists/issues/2330
+cf.aliyun.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2325
+lookmovie2.to
+
+# Password reset
+ponf.linkedin.com
+
+# Disney Magic Kingdom
+a314.gameloft.com
+201205igp.gameloft.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2316
+vsfind.aps.contentstore.onmobile.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2315
+mkt%.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2314
+cmp.setupcmp.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2312
+*.userlike.com
+
+# https://mcr.microsoft.com
+*.mscr.io
+
+# https://github.com/hagezi/dns-blocklists/issues/2311
+starwank.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2308
+429men.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2298
+launchgiftcards.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2297
+xyoss.g.com.cn
+
+# Breaks Itau banking app
+itauunibanco2.us-4.evergage.com
+
+# Not malicious
+exposave.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2292
+lp.constantcontactpages.com/
+
+# https://github.com/hagezi/dns-blocklists/issues/2289
+track.roadie.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2287
+*.api.nj.partypoker.com
+*-api.nj.partypoker.com
+
+# Legit
+antiwar.com
+
+# Breaks picnic.nl
+bestelling.picnic.nl
+picnic.slgnt.eu
+picnic.slgnt.eu.cdn.cloudflare.net
+
+# CBS news videos
+saa.cbsi.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2282
+code.metalocator.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2281
+trk.bc.flxprogram.com
+
+# Bank push notifications
+pushmarketing.sberbank-tele.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2279
+10duke.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2280
+hs-sites.com
+
+# Picsart AI features
+optifyr.com
+analytics.picsart.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2276
+pcmatic.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2275
+parentalcontrol.eset.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2268
+capi.samsungcloud.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2252
+coinlocally.com
+
+# Newsletter Referral
+static.newsletter2go.com
+api.newsletter2go.com
+
+# NSFW
+brazzers.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2237
+# Legit adult site
+fapnado.xxx
+fapnado.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2235
+veteranstoday.com
+
+# Pacific Northwest’s Authority on Medical and Cosmetic Skin Care
+frontierdermatology.com
+
+# Necessary to access the customer service of Free
+s.free.fr
+
+# Tool to monitor website performance
+gtmetrix.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2234
+auction.co.kr
+
+# AnimeSuge is a free streaming anime website
+animesuge.to
+
+# Referral - https://github.com/hagezi/dns-blocklists/issues/2222 
+*.tr.strumentimusicali.net
+*.trk.musvccustom.net
+
+# YELP
+yelp.co.uk
+
+# Required for Mobile Games Online Daily Quests etc... (Mergedragon)
+time.servogram.io
+
+# Game Shop
+play-asia.com
+
+# Breaks Pi Network app
+*.minepi.com
+
+# Regular gambling site
+888casino.com
+
+# Former address of a large digital goods store in the CIS
+plati.ru
+
+# Indian Startup
+chargebee.com
+
+# Boostrap - front-end framework
+getbootstrap.com
+
+# WPS Office Cloud Storage and Cloud API
+kingsoft-office-service.com # Storage Subdomains
+cloudservice*.kingsoft-office-service.com
+movip.wps.com # API
+
+# https://github.com/hagezi/dns-blocklists/issues/2205
+tcelectronic.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2204
+naturalnews.com
+
+# Battlefield community
+bf-games.net
+
+# https://github.com/hagezi/dns-blocklists/issues/2200
+hyperfollow.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2191
+funarbe.org.br
+
+# Blocks the licence window via which you can accept the licence
+static.mobilelegends.com
+static.mobilelegends.com.wsoversea.com # CNAME
+
+# https://github.com/hagezi/dns-blocklists/issues/2190
+minghui.org
+www.minghui.org
+big5.minghui.org
+en.minghui.org
+fr.minghui.org
+jp.minghui.org
+library.minghui.org
+media.minghui.org
+package.minghui.org
+photo.minghui.org
+projectshield.en.minghui.org
+qikan.minghui.org
+ru.minghui.org
+search.minghui.org
+searchb5.minghui.org
+vn.minghui.org
+zhoubao.minghui.org
+
+# END

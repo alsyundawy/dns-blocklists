@@ -1,0 +1,55 @@
+name: 'Release and Purge'
+
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    if: contains(github.event.head_commit.message, 'release')
+    permissions:
+      contents: write
+    steps:
+      - name: Set up NodeJS LTS
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 20
+          fetch-tags: 'true'
+      - name: Create a Release
+        uses: List-KR/semver-release@2.1.3
+  jsdelivrpurge:
+    name: Purge jsDelivr cache
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+    steps:
+      - name: Set up NodeJS LTS
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 20
+          fetch-tags: 'true'
+      - name: Run jsDelivr-Purge
+        uses: List-KR/jsdelivr-purge@5.6.0
+    needs: release
+  workflowcleanup:
+    name: Cleanup
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cleanup workflow runs
+        uses: GitRML/delete-workflow-runs@main
+        with:
+          retain_days: 1
+          keep_minimum_runs: 1
+    needs: [release, jsdelivrpurge]
+    

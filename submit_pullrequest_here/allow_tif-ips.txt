@@ -1,0 +1,85 @@
+# IPs to be removed from the tif IP list.
+#
+# RULES:
+#  - One IP per line
+#  - The IP should not already be included
+#  - If necessary, please leave a comment before the added IPs. Comments must start with #.
+#  - Please insert IPs under the comment BEGIN. 
+#  - Please ensure that there is a blank line before and after the inserted text block.
+
+# BEGIN
+
+# https://github.com/hagezi/dns-blocklists/issues/2514
+185.11.73.55
+
+# https://github.com/hagezi/das-blocklists/issues/2467
+52.217.123.96
+
+# https://github.com/hagezi/dns-blocklists/issues/2458
+101.6.15.130
+
+# https://github.com/hagezi/dns-blocklists/issues/2331
+# https://github.com/hagezi/dns-blocklists/issues/2171
+188.114.96
+188.114.97
+188.114.96.0
+188.114.97.0
+
+# https://github.com/hagezi/dns-blocklists/issues/2303
+16.182.108.104
+52.216.112.189
+52.216.38.136
+52.216.53.168
+52.217.102.214
+52.217.111.222
+52.217.116.224
+52.217.168.112
+52.217.168.48
+52.217.171.48
+52.217.202.96
+52.217.204.32
+52.217.225.8
+52.217.229.176
+54.231.162.136
+54.231.199.232
+54.231.231.32
+
+# ocsp.digicert.com
+192.229.221.95
+
+# https://github.com/hagezi/dns-blocklists/issues/2291
+185.199.109.133
+185.199.110.133
+185.199.111.133
+185.199.108.133
+
+# https://github.com/hagezi/dns-blocklists/issues/2263 
+157.90.161.227
+
+# https://github.com/hagezi/dns-blocklists/issues/2259
+76.76.21
+
+# https://github.com/hagezi/dns-blocklists/issues/2246
+88.99.170.43
+
+# https://github.com/hagezi/dns-blocklists/issues/2245
+172.67.34.170
+104.20.68.143
+172.67.34.170
+
+# https://github.com/hagezi/dns-blocklists/issues/2244
+52.217.112
+52.217.114
+
+# https://github.com/hagezi/dns-blocklists/issues/2242
+87.230.98.74
+
+# https://github.com/hagezi/dns-blocklists/issues/2174
+104.110.191.185
+104.110.191.177
+
+# https://github.com/hagezi/dns-blocklists/issues/2164
+# Youtube 142.250.74.0/24 subnet
+142.250.74
+
+# END

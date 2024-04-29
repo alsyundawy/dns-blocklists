@@ -1,0 +1,32 @@
+{
+  "group": {
+    "group": "Apple Private Relay",
+    "action": {
+      "do": 1,
+      "status": 1
+    }
+  },
+  "rules": [
+    {
+      "PK": "mask*.icloud.com",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "doh.dns.apple.com",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "doh.dns.apple.com.v.aaplimg.com",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    }
+  ]
+}
