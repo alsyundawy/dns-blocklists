@@ -11,6 +11,18 @@
 
 # BEGIN
 
+# Internet provider
+*.planet.net
+
+# https://github.com/hagezi/dns-blocklists/issues/2577
+app.mailjet.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2576
+backstory.ebay.*
+
+# CNAME for insights.infoblox.com and more
+*.lookbookhq.com
+
 # Online book store
 lastoriamilitare.com
 
