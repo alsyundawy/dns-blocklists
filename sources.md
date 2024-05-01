@@ -213,7 +213,6 @@ https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/malware
 https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/phishing/domains
 https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/publicite/domains
 https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/vpn/domains
-https://raw.githubusercontent.com/oo12/SMBBB/master/blocklist.txt
 https://raw.githubusercontent.com/phishfort/phishfort-lists/master/blacklists/hotlist.json
 https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADomains.txt
 https://raw.githubusercontent.com/privacy-protection-tools/anti-ad/master/anti-ad-domains.txt
@@ -413,6 +412,7 @@ https://www.data.gouv.fr/fr/datasets/r/d2d9df6d-1cd2-41a8-96f5-684cb3057ecb
 https://www.domcop.com/files/top/top10milliondomains.csv.zip
 https://www.i-dont-care-about-cookies.eu/abp/
 https://www.stopforumspam.com/downloads/toxic_domains_whole.txt
+https://www.talosintelligence.com/documents/ip-blacklist
 https://www.threatsourcing.com/dnall.txt
 https://www.trustedshops.de/fake-shops/
 https://www.usom.gov.tr/url-list.txt
