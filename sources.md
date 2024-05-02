@@ -158,7 +158,6 @@ https://raw.githubusercontent.com/elliotwutingfeng/SpamdexingSites/main/blocklis
 https://raw.githubusercontent.com/elliotwutingfeng/ThreatFox-IOC-IPs/main/ips.txt
 https://raw.githubusercontent.com/elliotwutingfeng/Ukrainian-EMA-blocklist/main/urls-pihole.txt
 https://raw.githubusercontent.com/elliotwutingfeng/USOM-Blocklists/main/ips.txt
-https://raw.githubusercontent.com/emrekeles/Turkish-Bet-Hosts/main/adguard/filter.txt
 https://raw.githubusercontent.com/Entree3k/Pi-hole-Block-List/master/Piracy%20List
 https://raw.githubusercontent.com/examplecode/ad-rules-for-xbrowser/master/core-rule-cn.txt
 https://raw.githubusercontent.com/finnish-easylist-addition/finnish-easylist-addition/gh-pages/Finland_adb.txt

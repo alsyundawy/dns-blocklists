@@ -11,7 +11,7 @@
  Nr | Included | Dead | Removed | URL/File
   1 |     100% |   0% |      0% | Predecessor: Multi Light
   2 |      83% |  10% |      7% | Denylist Personal
-  3 |      55% |  24% |     21% | Extracted Wildcard Rules
+  3 |      54% |  25% |     21% | Extracted Wildcard Rules
   4 |      95% |   0% |      5% | Native Tracker Apple (iOS, macOS, tvOS)
   5 |      62% |   0% |     38% | Native Tracker Amazon (Devices, Shopping, Video)
   6 |      75% |   0% |     25% | Native Tracker Huawei (Devices)
@@ -21,8 +21,8 @@
  10 |      67% |   5% |     28% | Denylist Base
  11 |      99% |   0% |      1% | Basic Extension
  12 |      94% |   4% |      2% | Denylist Community non-Aggressive
- 13 |      75% |  11% |     14% | AdGuard FirstParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads)
- 14 |      72% |  12% |     16% | EasyList FirstParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
+ 13 |      74% |  12% |     14% | AdGuard FirstParty (DNS, Base, Regional, Annoyances, Mobile, Spyware, Social, disguised Ads)
+ 14 |      71% |  13% |     16% | EasyList FirstParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
  15 |      82% |  17% |      1% | uBlock FirstParty (Filters, Annoyances, Badware, Privacy, Resource Abuse, Extras)
  16 |      77% |  18% |      5% | Analytics/Metrics Extension
  17 |      96% |   1% |      3% | Balanced Extension
@@ -32,7 +32,7 @@
  Nr | Included | Dead | Removed | URL/File
   1 |     100% |   0% |      0% | Predecessor: Multi Normal
   2 |      86% |  10% |      4% | Denylist Personal
-  3 |      69% |  25% |      6% | Extracted Wildcard Rules
+  3 |      68% |  26% |      6% | Extracted Wildcard Rules
   4 |      95% |   0% |      5% | Native Tracker Apple (iOS, macOS, tvOS)
   5 |      99% |   0% |      1% | Native Tracker Amazon (Devices, Shopping, Video)
   6 |     100% |   0% |      0% | Native Tracker Huawei (Devices)
@@ -123,21 +123,21 @@
   7 |      99% |   0% |      1% | https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/adblock/scams_light.txt
   8 |      79% |  20% |      1% | https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
   9 |      30% |  70% |      0% | https://raw.githubusercontent.com/elliotwutingfeng/GlobalAntiScamOrg-blocklist/main/global-anti-scam-org-scam-urls-pihole.txt
- 10 |      58% |  42% |      0% | https://raw.githubusercontent.com/elliotwutingfeng/SpamdexingSites/main/blocklist.txt
+ 10 |      57% |  43% |      0% | https://raw.githubusercontent.com/elliotwutingfeng/SpamdexingSites/main/blocklist.txt
  11 |      47% |  50% |      3% | https://raw.githubusercontent.com/marco-acorte/antispam-it/main/antispam-it.txt
  12 |      64% |  32% |      4% | https://raw.githubusercontent.com/matomo-org/referrer-spam-list/master/spammers.txt
  13 |      73% |  21% |      6% | https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
  14 |      95% |   4% |      1% | https://raw.githubusercontent.com/jarelllama/Emerging-Threats/main/malicious.txt
- 15 |      37% |  60% |      3% | https://hosts.tweedge.net/malicious.txt
+ 15 |      38% |  59% |      3% | https://hosts.tweedge.net/malicious.txt
  16 |      39% |  57% |      4% | https://threatfox.abuse.ch/downloads/hostfile
  17 |      81% |  18% |      1% | https://urlhaus-filter.pages.dev/urlhaus-filter-hosts.txt
- 18 |     100% |   0% |      0% | https://urlhaus.abuse.ch/downloads/hostfile
+ 18 |      99% |   0% |      1% | https://urlhaus.abuse.ch/downloads/hostfile
  19 |      27% |  73% |      0% | https://vn-badsite-filter.pages.dev/vn-badsite-filter-hosts.txt
  20 |      63% |  37% |      0% | https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
  21 |      55% |  43% |      2% | https://github.com/scafroglia93/blocklists
- 22 |      76% |  20% |      4% | https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/week.csv
+ 22 |      76% |  21% |      3% | https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/week.csv
  23 |      80% |  18% |      2% | https://botvrij.eu/data/ioclist.domain
- 24 |      57% |  39% |      4% | https://botvrij.eu/data/ioclist.hostname
+ 24 |      58% |  38% |      4% | https://botvrij.eu/data/ioclist.hostname
  25 |      24% |  76% |      0% | https://dl.red.flag.domains/red.flag.domains.txt
  26 |      73% |  23% |      4% | https://lists.cyberhost.uk/malware.txt
  27 |      55% |  43% |      2% | https://raw.githubusercontent.com/braveinnovators/ukrainian-security-filter/main/lists/domains.txt
@@ -166,34 +166,34 @@
   8 |      52% |  47% |      1% | https://raw.githubusercontent.com/phishfort/phishfort-lists/master/blacklists/hotlist.json
   9 |      31% |  69% |      0% | https://phishing.army/download/phishing_army_blocklist_extended.txt
  10 |      37% |  63% |      0% | https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/phishing/domains
- 11 |      80% |  20% |      0% | https://raw.githubusercontent.com/MikhailKasimov/validin-phish-feed/main/validin-phish-feed.txt
+ 11 |      79% |  21% |      0% | https://raw.githubusercontent.com/MikhailKasimov/validin-phish-feed/main/validin-phish-feed.txt
  12 |     100% |   0% |      0% | https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
  13 |      99% |   0% |      1% | https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/adblock/scams.txt
  14 |      99% |   0% |      1% | https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/adblock/scams_light.txt
- 15 |      54% |  46% |      0% | https://raw.githubusercontent.com/scamsniffer/scam-database/main/blacklist/domains.json
+ 15 |      53% |  47% |      0% | https://raw.githubusercontent.com/scamsniffer/scam-database/main/blacklist/domains.json
  16 |      79% |  20% |      1% | https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
  17 |      30% |  70% |      0% | https://raw.githubusercontent.com/elliotwutingfeng/GlobalAntiScamOrg-blocklist/main/global-anti-scam-org-scam-urls-pihole.txt
- 18 |      58% |  42% |      0% | https://raw.githubusercontent.com/elliotwutingfeng/SpamdexingSites/main/blocklist.txt
+ 18 |      57% |  43% |      0% | https://raw.githubusercontent.com/elliotwutingfeng/SpamdexingSites/main/blocklist.txt
  19 |      47% |  50% |      3% | https://raw.githubusercontent.com/marco-acorte/antispam-it/main/antispam-it.txt
  20 |      64% |  32% |      4% | https://raw.githubusercontent.com/matomo-org/referrer-spam-list/master/spammers.txt
- 21 |      57% |  43% |      0% | https://www.stopforumspam.com/downloads/toxic_domains_whole.txt
+ 21 |      56% |  44% |      0% | https://www.stopforumspam.com/downloads/toxic_domains_whole.txt
  22 |      73% |  21% |      6% | https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
- 23 |      52% |  48% |      0% | https://hole.cert.pl/domains/v2/domains.txt
+ 23 |      51% |  49% |      0% | https://hole.cert.pl/domains/v2/domains.txt
  24 |      95% |   4% |      1% | https://raw.githubusercontent.com/jarelllama/Emerging-Threats/main/malicious.txt
- 25 |      37% |  60% |      3% | https://hosts.tweedge.net/malicious.txt
+ 25 |      38% |  59% |      3% | https://hosts.tweedge.net/malicious.txt
  26 |      31% |  69% |      0% | https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/threat/hosts
  27 |      39% |  57% |      4% | https://threatfox.abuse.ch/downloads/hostfile
  28 |      81% |  18% |      1% | https://urlhaus-filter.pages.dev/urlhaus-filter-hosts.txt
- 29 |     100% |   0% |      0% | https://urlhaus.abuse.ch/downloads/hostfile
+ 29 |      99% |   0% |      1% | https://urlhaus.abuse.ch/downloads/hostfile
  30 |      27% |  73% |      0% | https://vn-badsite-filter.pages.dev/vn-badsite-filter-hosts.txt
  31 |      63% |  37% |      0% | https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
  32 |      55% |  43% |      2% | https://github.com/scafroglia93/blocklists
- 33 |      76% |  20% |      4% | https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/week.csv
+ 33 |      76% |  21% |      3% | https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/week.csv
  34 |      36% |  64% |      0% | https://azorult-tracker.net/api/list/domain?format=plain
  35 |      80% |  18% |      2% | https://botvrij.eu/data/ioclist.domain
- 36 |      57% |  39% |      4% | https://botvrij.eu/data/ioclist.hostname
+ 36 |      58% |  38% |      4% | https://botvrij.eu/data/ioclist.hostname
  37 |      24% |  76% |      0% | https://dl.red.flag.domains/red.flag.domains.txt
- 38 |      71% |  11% |     18% | https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
+ 38 |      70% |  12% |     18% | https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
  39 |      73% |  23% |      4% | https://lists.cyberhost.uk/malware.txt
  40 |      68% |  32% |      0% | https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADomains.txt
  41 |      80% |  17% |      3% | https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Malware
@@ -204,13 +204,13 @@
  46 |      37% |  63% |      0% | https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/malware/domains
  47 |      39% |  60% |      1% | https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt
  48 |      28% |  72% |      0% | https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt
- 49 |      76% |  20% |      4% | https://raw.githubusercontent.com/ttc-cert/TTC-CERT_blocklist_recommended/master/domain_blocklist_recommended.txt
+ 49 |      75% |  21% |      4% | https://raw.githubusercontent.com/ttc-cert/TTC-CERT_blocklist_recommended/master/domain_blocklist_recommended.txt
  50 |      37% |  61% |      2% | https://rescure.me/rescure_domain_blacklist.txt
- 51 |      53% |  46% |      1% | https://threatview.io/Downloads/DOMAIN-High-Confidence-Feed.txt
+ 51 |      99% |   0% |      1% | https://threatview.io/Downloads/DOMAIN-High-Confidence-Feed.txt
  52 |      29% |  71% |      0% | https://www.usom.gov.tr/url-list.txt
  53 |      28% |  72% |      0% | https://zonefiles.io/f/compromised/domains/live/
  54 |      28% |  72% |      0% | https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/malware/azorult.txt
- 55 |      39% |  60% |      1% | https://www.threatsourcing.com/dnall.txt
+ 55 |      38% |  61% |      1% | https://www.threatsourcing.com/dnall.txt
  56 |      89% |  11% |      0% | https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
  57 |      73% |  25% |      2% | https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts
  58 |      14% |  86% |      0% | https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt
