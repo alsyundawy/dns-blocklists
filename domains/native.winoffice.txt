@@ -4,10 +4,10 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 7 days
-# Last modified: 02 Apr 2024 22:30 UTC
-# Version: 2024.0402.2230.42
+# Last modified: 03 May 2024 11:24 UTC
+# Version: 2024.0503.1124.40
 # Syntax: Domains (including possible subdomains)
-# Number of entries: 241
+# Number of entries: 248
 #
 in.appcenter.ms
 nexusrules.live.com
@@ -25,6 +25,7 @@ eurppc-excel-telemetry.officeapps.live.com
 eurppc-powerpoint-telemetry.officeapps.live.com
 eurppc-word-telemetry.officeapps.live.com
 excel-telemetry.officeapps.live.com
+ffc-excel-telemetry.officeapps.live.com
 ffc-word-telemetry.officeapps.live.com
 frc-visio-telemetry.officeapps.live.com
 inc-visio-telemetry.officeapps.live.com
@@ -93,6 +94,7 @@ server7.pipe.aria.microsoft.com
 server8.pipe.aria.microsoft.com
 tb.pipe.aria.microsoft.com
 us.pipe.aria.microsoft.com
+azurewatson.microsoft.com
 events.data.microsoft.com
 adhs.events.data.microsoft.com
 apac.events.data.microsoft.com
@@ -152,7 +154,6 @@ mobile.events-sandbox.data.microsoft.com
 vortex.data.microsoft.com
 vortex-win.data.microsoft.com
 au.vortex-win.data.microsoft.com
-de.vortex-win.data.microsoft.com
 eu.vortex-win.data.microsoft.com
 uk.vortex-win.data.microsoft.com
 us.vortex-win.data.microsoft.com
@@ -181,6 +182,8 @@ telecommand.telemetry.microsoft.com
 watson.telemetry.microsoft.com
 telemetry.urs.microsoft.com
 watson.microsoft.com
+cab.watson.microsoft.com
+survey.watson.microsoft.com
 events.data.msn.cn
 events.data.msn.com
 browser.events.data.msn.cn
@@ -189,8 +192,11 @@ events-sandbox.data.msn.com
 measure.office.com
 measure.office.net
 fp.measure.office.com
+ce2617d2a3a1a6b03e6b908e5fde808f.fp.measure.office.com
 config.fp.measure.office.com
 graph-next.fp.measure.office.com
+ns1.fp.measure.office.com
+ns2.fp.measure.office.com
 upload.fp.measure.office.com
 upload2.fp.measure.office.com
 nel.measure.office.net
@@ -208,6 +214,7 @@ visioonline.nel.measure.office.net
 wordonline.nel.measure.office.net
 nelsdf.measure.office.net
 exo.nelsdf.measure.office.net
+m365cdn.nelsdf.measure.office.net
 powerpointonline.nelsdf.measure.office.net
 sdwan.measure.office.com
 wan.measure.office.com

@@ -9,8 +9,8 @@
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Expires: 1 day
-! Last modified: 02 May 2024 22:35 UTC
-! Version: 2024.0502.2235.52
+! Last modified: 03 May 2024 13:57 UTC
+! Version: 2024.0503.1357.41
 ! Syntax: uBlock
 ! Number of latin TLDs: 103 - non-latin TLDs: 151
 !
@@ -40,7 +40,7 @@
 ||dance^$doc
 ||date^$doc,domain=~endoflife.date
 ||degree^$doc,domain=~opf.degree|~three60.degree
-||digital^$doc
+||digital^$doc,domain=~cariad.digital
 ||directory^$doc,domain=~passkeys.directory
 ||discount^$doc,domain=~real.discount
 ||esq^$doc,domain=~erika.esq
@@ -110,7 +110,7 @@
 ||wang^$doc
 ||website^$doc,domain=~tilde.website
 ||wf^$doc
-||wiki^$doc,domain=~bg3.wiki|~burnout.wiki|~datei.wiki|~fallout.wiki|~getindie.wiki|~kodi.wiki|~mediaclients.wiki|~minecraft.wiki|~namu.wiki|~notifiarr.wiki|~osrs.wiki|~rs.wiki|~runescape.wiki
+||wiki^$doc,domain=~bg3.wiki|~burnout.wiki|~datei.wiki|~fallout.wiki|~getindie.wiki|~kodi.wiki|~mediaclients.wiki|~minecraft.wiki|~modding.wiki|~namu.wiki|~notifiarr.wiki|~osrs.wiki|~rs.wiki|~runescape.wiki
 ||win^$doc
 ||work^$doc,domain=~elphago.work|~frame.work
 ||wtf^$doc,domain=~akko.wtf|~myip.wtf|~plooshiesaresocute.wtf|~tigress.wtf
