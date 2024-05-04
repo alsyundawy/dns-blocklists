@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1714724100 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1714777320 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 03 May 2024 08:15 UTC
-; Version: 2024.0503.0815.37
+; Last modified: 03 May 2024 23:02 UTC
+; Version: 2024.0503.2302.11
 ; Syntax: RPZ
-; Number of entries: 6324
+; Number of entries: 6306
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -1120,8 +1120,6 @@ dns.gamban.com CNAME .
 *.dns.gamban.com CNAME .
 gamers-nor.com CNAME .
 *.gamers-nor.com CNAME .
-gamingssh.com CNAME .
-*.gamingssh.com CNAME .
 gclouddns.com CNAME .
 *.gclouddns.com CNAME .
 geekproxy.com CNAME .
@@ -5160,18 +5158,6 @@ getlantern.org CNAME .
 *.getlantern.org CNAME .
 getoutline.org CNAME .
 *.getoutline.org CNAME .
-alpha.y.glenwaverleychurches.org CNAME .
-*.alpha.y.glenwaverleychurches.org CNAME .
-beta.y.glenwaverleychurches.org CNAME .
-*.beta.y.glenwaverleychurches.org CNAME .
-delta.y.glenwaverleychurches.org CNAME .
-*.delta.y.glenwaverleychurches.org CNAME .
-epsilon.y.glenwaverleychurches.org CNAME .
-*.epsilon.y.glenwaverleychurches.org CNAME .
-kappa.y.glenwaverleychurches.org CNAME .
-*.kappa.y.glenwaverleychurches.org CNAME .
-lambda.y.glenwaverleychurches.org CNAME .
-*.lambda.y.glenwaverleychurches.org CNAME .
 dns.api.globus.org CNAME .
 *.dns.api.globus.org CNAME .
 dns.api.preview.globus.org CNAME .
@@ -5534,8 +5520,6 @@ coe01.dnscry.pt CNAME .
 *.coe01.dnscry.pt CNAME .
 cvt01.dnscry.pt CNAME .
 *.cvt01.dnscry.pt CNAME .
-dfw01.dnscry.pt CNAME .
-*.dfw01.dnscry.pt CNAME .
 dtw01.dnscry.pt CNAME .
 *.dtw01.dnscry.pt CNAME .
 dus01.dnscry.pt CNAME .
@@ -6236,8 +6220,6 @@ fra1.eyecay.xyz CNAME .
 *.fra1.eyecay.xyz CNAME .
 dns.f97.xyz CNAME .
 *.dns.f97.xyz CNAME .
-free-proxy.xyz CNAME .
-*.free-proxy.xyz CNAME .
 free-vpn.xyz CNAME .
 *.free-vpn.xyz CNAME .
 geckovpn.xyz CNAME .

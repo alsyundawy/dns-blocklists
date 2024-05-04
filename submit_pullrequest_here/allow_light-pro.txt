@@ -29,15 +29,8 @@ data-*.derstandard.at
 data-dda7d24eb2.derstandard.at
 at-w-atderstand-relay.iocnt.net
 relay-client-c03.iocnt.net
-imagesrv.adition.com
+### imagesrv.adition.com
 px.staticfiles.at
-
-# War Gaming Tile
-track.wargaming-aff.com
-
-# Sponsored Tilings on Opera Startpage
-# Does only load when clicked once unblocked
-adlanding.admarketplace.net.akadns.net
 
 # https://github.com/hagezi/dns-blocklists/issues/2260
 webhook.logentries.com
@@ -63,5 +56,11 @@ ad3.adfarm1.adition.com
 # Breaks on-demand videos of Mediaset programs from smart TVs
 # Because it is a disguised, popular CNAME tracker, it is not unblocked in the aggressive lists.
 mediasetitalia01.wt-eu02.net
+
+# https://github.com/hagezi/dns-blocklists/issues/1183
+### ad.71i.de
+data*.sportdeutschland.tv
+sportdeu-relay.iocnt.net
+relay-client-c03.iocnt.net
 
 # END
