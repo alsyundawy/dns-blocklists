@@ -800,7 +800,7 @@ If these are blocked, the first hit links from search results, for example, no l
 
 ### :clap: Contributors <a name="contributors"></a>
 
-<p align="left"><a href="https://github.com/hagezi/dns-blocklists/graphs/contributors"><img src="https://contrib.rocks/image?repo=hagezi/dns-blocklists&max=50" /></a></p>
+<p align="left"><a href="https://github.com/hagezi/dns-blocklists/graphs/contributors"><img src="https://contrib.rocks/image?repo=hagezi/dns-blocklists&max=10" /></a></p>
 
 ---
 
