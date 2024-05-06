@@ -9,8 +9,8 @@
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Expires: 1 day
-! Last modified: 05 May 2024 22:42 UTC
-! Version: 2024.0505.2242.38
+! Last modified: 06 May 2024 12:51 UTC
+! Version: 2024.0506.1251.19
 ! Syntax: uBlock
 ! Number of latin TLDs: 103 - non-latin TLDs: 151
 !
@@ -41,7 +41,7 @@
 ||date^$doc,domain=~endoflife.date
 ||degree^$doc,domain=~opf.degree|~three60.degree
 ||digital^$doc,domain=~cariad.digital
-||directory^$doc,domain=~passkeys.directory
+||directory^$doc,domain=~2fa.directory|~passkeys.directory
 ||discount^$doc,domain=~real.discount
 ||esq^$doc,domain=~erika.esq
 ||finance^$doc
