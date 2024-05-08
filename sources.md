@@ -117,8 +117,14 @@ https://raw.githubusercontent.com/braveinnovators/ukrainian-security-filter/main
 https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
 https://raw.githubusercontent.com/cbuijs/accomplist/master/chris/nrd-30-days.list
 https://raw.githubusercontent.com/cbuijs/accomplist/master/chris/nrd-7-days.list
+https://raw.githubusercontent.com/cbuijs/ut1/master/cryptojacking/domains
 https://raw.githubusercontent.com/cbuijs/ut1/master/ddos/domains
 https://raw.githubusercontent.com/cbuijs/ut1/master/gambling/domains
+https://raw.githubusercontent.com/cbuijs/ut1/master/malware/domains
+https://raw.githubusercontent.com/cbuijs/ut1/master/phishing/domains
+https://raw.githubusercontent.com/cbuijs/ut1/master/publicite/domains
+https://raw.githubusercontent.com/cbuijs/ut1/master/stalkerware/domains
+https://raw.githubusercontent.com/cbuijs/ut1/master/vpn/domains
 https://raw.githubusercontent.com/cbuijs/ut1/master/warez/domains
 https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt
 https://raw.githubusercontent.com/cenk/nrd/main/nrd-last-10-days.txt
@@ -208,10 +214,6 @@ https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts
 https://raw.githubusercontent.com/mtxadmin/ublock/master/hosts/_all_bets_are_off
 https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad2.txt
 https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt
-https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/malware/domains
-https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/phishing/domains
-https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/publicite/domains
-https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/vpn/domains
 https://raw.githubusercontent.com/phishfort/phishfort-lists/master/blacklists/hotlist.json
 https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADomains.txt
 https://raw.githubusercontent.com/privacy-protection-tools/anti-ad/master/anti-ad-domains.txt
