@@ -9,8 +9,8 @@
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Expires: 1 day
-! Last modified: 07 May 2024 07:37 UTC
-! Version: 2024.0507.0737.21
+! Last modified: 09 May 2024 15:24 UTC
+! Version: 2024.0509.1524.13
 ! Syntax: uBlock
 ! Number of latin TLDs: 106 - non-latin TLDs: 151
 !
@@ -19,11 +19,11 @@
 ||autos^$doc
 ||bar^$doc,domain=~fap.bar
 ||beauty^$doc,domain=~homelab.beauty|~vipbj.beauty
-||best^$doc
+||best^$doc,domain=~epg.best
 ||bet^$doc
 ||bid^$doc
 ||bio^$doc
-||biz^$doc,domain=~beiniz.biz|~bonial.biz|~cloudns.biz|~cyberciti.biz|~dzeta.biz|~epson.biz|~luckysbarbershop.biz|~movabletype.biz|~panasonic.biz|~slussen.biz|~yoox.biz
+||biz^$doc,domain=~beiniz.biz|~bonial.biz|~cloudns.biz|~cyberciti.biz|~dzeta.biz|~epson.biz|~iimwf.biz|~luckysbarbershop.biz|~movabletype.biz|~panasonic.biz|~slussen.biz|~yoox.biz
 ||boats^$doc
 ||bond^$doc
 ||boston^$doc
@@ -92,11 +92,11 @@
 ||rip^$doc,domain=~medium.rip
 ||rodeo^$doc,domain=~raypeat.rodeo
 ||rugby^$doc
-||run^$doc
+||run^$doc,domain=~winget.run
 ||sale^$doc
 ||sbs^$doc,domain=~ecopulse.sbs|~moae.sbs
 ||sew^$doc
-||shop^$doc,domain=~terminal.shop
+||shop^$doc,domain=~11ts.shop|~terminal.shop
 ||skin^$doc
 ||st^$doc,domain=~avito.st|~bpa.st|~google.st|~selfh.st
 ||store^$doc
