@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1715302500 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1715347860 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 10 May 2024 00:55 UTC
-; Version: 2024.0510.0055.31
+; Last modified: 10 May 2024 13:31 UTC
+; Version: 2024.0510.1331.20
 ; Syntax: RPZ
-; Number of entries: 131124
+; Number of entries: 131114
 ;
 smetrics.abbott CNAME .
 *.smetrics.abbott CNAME .
@@ -259,8 +259,8 @@ tru.am CNAME .
 *.tru.am CNAME .
 track.vbet.am CNAME .
 *.track.vbet.am CNAME .
-us-east-1.paa-reporting-advertising.amazon CNAME .
-*.us-east-1.paa-reporting-advertising.amazon CNAME .
+paa-reporting-advertising.amazon CNAME .
+*.paa-reporting-advertising.amazon CNAME .
 avo.app CNAME .
 *.avo.app CNAME .
 analytics.basecamp.app CNAME .
@@ -4363,6 +4363,8 @@ mlstx.cn CNAME .
 *.mlstx.cn CNAME .
 mlumlio.cn CNAME .
 *.mlumlio.cn CNAME .
+mmgap.cn CNAME .
+*.mmgap.cn CNAME .
 mnfse.cn CNAME .
 *.mnfse.cn CNAME .
 mnhncf.cn CNAME .
@@ -5159,8 +5161,8 @@ ucdn.adgebra.co CNAME .
 *.ucdn.adgebra.co CNAME .
 sa.adidas.co CNAME .
 *.sa.adidas.co CNAME .
-cdn.adimo.co CNAME .
-*.cdn.adimo.co CNAME .
+adimo.co CNAME .
+*.adimo.co CNAME .
 api-ao.adison.co CNAME .
 *.api-ao.adison.co CNAME .
 api-ao-list.adison.co CNAME .
@@ -6065,8 +6067,6 @@ smartad.10010.com CNAME .
 *.smartad.10010.com CNAME .
 1001namen.com CNAME .
 *.1001namen.com CNAME .
-1008691.com CNAME .
-*.1008691.com CNAME .
 10090dfs.com CNAME .
 *.10090dfs.com CNAME .
 xml-v4.100conversions.com CNAME .
@@ -7973,6 +7973,8 @@ analytics.888sport.com CNAME .
 *.88lm12.com CNAME .
 88lm13.com CNAME .
 *.88lm13.com CNAME .
+88lm15.com CNAME .
+*.88lm15.com CNAME .
 88p2p.com CNAME .
 *.88p2p.com CNAME .
 8911101.com CNAME .
@@ -10157,6 +10159,8 @@ ordt.adsafeprotected.com CNAME .
 *.ordt.adsafeprotected.com CNAME .
 orfw.adsafeprotected.com CNAME .
 *.orfw.adsafeprotected.com CNAME .
+orpixel.adsafeprotected.com CNAME .
+*.orpixel.adsafeprotected.com CNAME .
 orvideo.adsafeprotected.com CNAME .
 *.orvideo.adsafeprotected.com CNAME .
 sgfw.adsafeprotected.com CNAME .
@@ -11203,8 +11207,6 @@ agatarainpro.com CNAME .
 *.agatarainpro.com CNAME .
 agazejagless.com CNAME .
 *.agazejagless.com CNAME .
-agcbiocareers.com CNAME .
-*.agcbiocareers.com CNAME .
 agcdn.com CNAME .
 *.agcdn.com CNAME .
 ageaskedfurther.com CNAME .
@@ -31543,6 +31545,8 @@ analytics.elv.com CNAME .
 *.analytics.elv.com CNAME .
 om.elvenar.com CNAME .
 *.om.elvenar.com CNAME .
+elvirassb.com CNAME .
+*.elvirassb.com CNAME .
 elxont.com CNAME .
 *.elxont.com CNAME .
 elynsgroup.com CNAME .
@@ -47321,8 +47325,6 @@ knucklygingely.com CNAME .
 *.knucklygingely.com CNAME .
 knzuwpl.com CNAME .
 *.knzuwpl.com CNAME .
-af.ko-tube.com CNAME .
-*.af.ko-tube.com CNAME .
 koahoocom.com CNAME .
 *.koahoocom.com CNAME .
 koakoucaisho.com CNAME .
@@ -56823,8 +56825,6 @@ notify.nuviad.com CNAME .
 *.notify.nuviad.com CNAME .
 cnt.nuvid.com CNAME .
 *.cnt.nuvid.com CNAME .
-nuviewlifesciencescareers.com CNAME .
-*.nuviewlifesciencescareers.com CNAME .
 nuvon.com CNAME .
 *.nuvon.com CNAME .
 nvchhzg.com CNAME .
@@ -84145,8 +84145,6 @@ analytics.weightwatchers.com CNAME .
 *.analytics.weightwatchers.com CNAME .
 knapia.weightwatchers.com CNAME .
 *.knapia.weightwatchers.com CNAME .
-weinsteincounseling.com CNAME .
-*.weinsteincounseling.com CNAME .
 badjs.weixinbridge.com CNAME .
 *.badjs.weixinbridge.com CNAME .
 huatuo.weiyun.com CNAME .
@@ -89361,6 +89359,8 @@ stats.code-it-studio.de CNAME .
 *.stats.code-it-studio.de CNAME .
 matomo.codesmarter.de CNAME .
 *.matomo.codesmarter.de CNAME .
+darkbastard.com.de CNAME .
+*.darkbastard.com.de CNAME .
 utiq.come-on.de CNAME .
 *.utiq.come-on.de CNAME .
 stats.computecmedia.de CNAME .
@@ -91871,8 +91871,6 @@ openads.es CNAME .
 *.openads.es CNAME .
 paintnet.es CNAME .
 *.paintnet.es CNAME .
-posicionamientonatural.es CNAME .
-*.posicionamientonatural.es CNAME .
 analytics.prensaiberica.es CNAME .
 *.analytics.prensaiberica.es CNAME .
 analytics-cdn.prensaiberica.es CNAME .
@@ -104077,6 +104075,8 @@ d20kfqepj430zj.cloudfront.net CNAME .
 *.d20kfqepj430zj.cloudfront.net CNAME .
 d20nuqz94uw3np.cloudfront.net CNAME .
 *.d20nuqz94uw3np.cloudfront.net CNAME .
+d20pexcm9ot6hj.cloudfront.net CNAME .
+*.d20pexcm9ot6hj.cloudfront.net CNAME .
 d20tam5f2v19bf.cloudfront.net CNAME .
 *.d20tam5f2v19bf.cloudfront.net CNAME .
 d20tk7ygz8ugsj.cloudfront.net CNAME .
@@ -105633,8 +105633,6 @@ divekcl7q9fxi.cloudfront.net CNAME .
 *.divekcl7q9fxi.cloudfront.net CNAME .
 diz4z73aymwyp.cloudfront.net CNAME .
 *.diz4z73aymwyp.cloudfront.net CNAME .
-dj4odketdva9s.cloudfront.net CNAME .
-*.dj4odketdva9s.cloudfront.net CNAME .
 djm080u34wfc5.cloudfront.net CNAME .
 *.djm080u34wfc5.cloudfront.net CNAME .
 djnaivalj34ub.cloudfront.net CNAME .
@@ -113125,8 +113123,6 @@ ver-pelis.net CNAME .
 *.ver-pelis.net CNAME .
 analytics.eu1.verimatrixcloud.net CNAME .
 *.analytics.eu1.verimatrixcloud.net CNAME .
-vfocus.net CNAME .
-*.vfocus.net CNAME .
 wt.viagogo.net CNAME .
 *.wt.viagogo.net CNAME .
 vid123.net CNAME .
@@ -115539,8 +115535,6 @@ jav99.org CNAME .
 *.jav99.org CNAME .
 adserve.jbs.org CNAME .
 *.adserve.jbs.org CNAME .
-jcedu.org CNAME .
-*.jcedu.org CNAME .
 mktg.jeffersonhealth.org CNAME .
 *.mktg.jeffersonhealth.org CNAME .
 trk.jeffersonhealth.org CNAME .
@@ -116571,8 +116565,6 @@ clarity.com.pk CNAME .
 *.clarity.com.pk CNAME .
 ghanaconsulate.com.pk CNAME .
 *.ghanaconsulate.com.pk CNAME .
-dasp.org.pk CNAME .
-*.dasp.org.pk CNAME .
 simorgh.org.pk CNAME .
 *.simorgh.org.pk CNAME .
 resonance.pk CNAME .
@@ -131107,8 +131099,6 @@ collabsolutions.co.za CNAME .
 *.collabsolutions.co.za CNAME .
 metrics.fnb.co.za CNAME .
 *.metrics.fnb.co.za CNAME .
-imbueautoworx.co.za CNAME .
-*.imbueautoworx.co.za CNAME .
 itomedia.co.za CNAME .
 *.itomedia.co.za CNAME .
 ad.itweb.co.za CNAME .
