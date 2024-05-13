@@ -363,12 +363,8 @@
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
 | Adblock | [Link](lnkgh_a/nrds.10.txt) [Mirror](lnkgl_a/nrds.10.txt) [Mirror](lnkjd_a/nrds.10.txt) | Pi-hole, ~~AdGuard~~ (too big!), AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam |
-| Unbound | [Link](lnkgh_u/nrds.10.blacklist.conf) [Mirror](lnkgl_u/nrds.10.blacklist.conf) [Mirror](lnkjd_u/nrds.10.blacklist.conf) | Unbound |
-| DNSMasq<br>v2.85- | [Link](lnkgh_m/nrds.10-old.txt) [Mirror](lnkgl_m/nrds.10-old.txt) [Mirror](lnkjd_m/nrds.10-old.txt) | DNSMasq (v2.85 or older) |
-| DNSMasq<br>v2.86+ | [Link](lnkgh_m/nrds.10.txt) [Mirror](lnkgl_m/nrds.10.txt) [Mirror](lnkjd_m/nrds.10.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/nrds.10.txt) [Mirror](lnkgl_w/nrds.10.txt) [Mirror](lnkjd_w/nrds.10.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/nrds.10-onlydomains.txt) [Mirror](lnkgl_w/nrds.10-onlydomains.txt) [Mirror](lnkjd_w/nrds.10-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
-| RPZ | [Link](lnkgh_r/nrds.10.txt) [Mirror](lnkgl_r/nrds.10.txt) [Mirror](lnkjd_r/nrds.10.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound RPZ |
 
 #### :new: ***Domains registered in the last 30 days*** <a name="nrd30"></a>
 
