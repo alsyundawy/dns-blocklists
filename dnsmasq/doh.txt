@@ -5,10 +5,10 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 7 days
-# Last modified: 11 May 2024 23:21 UTC
-# Version: 2024.0511.2321.28
+# Last modified: 12 May 2024 23:13 UTC
+# Version: 2024.0512.2313.38
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 1076
+# Number of entries: 1083
 #
 local=/ns.00dani.me/
 local=/cdn.0ms.dev/
@@ -126,6 +126,12 @@ local=/dns.belnet.be/
 local=/dns.benpro.fr/
 local=/ns3.bit-trail.nl/
 local=/dns.bitdefender.net/
+local=/fra-dns.bitdefender.net/
+local=/iow-dns.bitdefender.net/
+local=/lon-dns.bitdefender.net/
+local=/nvi-dns.bitdefender.net/
+local=/ore-dns.bitdefender.net/
+local=/tky-dns.bitdefender.net/
 local=/dns.bitservices.io/
 local=/dns-tls.bitwiseshift.net/
 local=/2.dnscrypt-cert.blahdns.com/
@@ -454,6 +460,7 @@ local=/dns.api.integration.globuscs.info/
 local=/dns.api.sandbox.globuscs.info/
 local=/dns.api.staging.globuscs.info/
 local=/dns.api.test.globuscs.info/
+local=/dns.glorydns.com/
 local=/dns.gnb09.id/
 local=/privacydns.go6lab.si/
 local=/dns.goldplate.org/

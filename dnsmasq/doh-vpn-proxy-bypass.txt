@@ -5,10 +5,10 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 7 days
-# Last modified: 11 May 2024 23:20 UTC
-# Version: 2024.0511.2320.24
+# Last modified: 12 May 2024 23:12 UTC
+# Version: 2024.0512.2312.32
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 3139
+# Number of entries: 3145
 #
 local=/ns.00dani.me/
 local=/cdn.0ms.dev/
@@ -318,6 +318,12 @@ local=/biip.info/
 local=/ns3.bit-trail.nl/
 local=/bit123.biz/
 local=/dns.bitdefender.net/
+local=/fra-dns.bitdefender.net/
+local=/iow-dns.bitdefender.net/
+local=/lon-dns.bitdefender.net/
+local=/nvi-dns.bitdefender.net/
+local=/ore-dns.bitdefender.net/
+local=/tky-dns.bitdefender.net/
 local=/bitping.com/
 local=/dns.bitservices.io/
 local=/dns-tls.bitwiseshift.net/
@@ -1091,6 +1097,7 @@ local=/dns.api.integration.globuscs.info/
 local=/dns.api.sandbox.globuscs.info/
 local=/dns.api.staging.globuscs.info/
 local=/dns.api.test.globuscs.info/
+local=/dns.glorydns.com/
 local=/glype.com/
 local=/dns.gnb09.id/
 local=/privacydns.go6lab.si/
@@ -2042,7 +2049,6 @@ local=/proxyen.com/
 local=/proxyer.net/
 local=/proxyfactory.io/
 local=/proxyfish.com/
-local=/proxyfor.eu/
 local=/proxyfort.com/
 local=/proxyfree.org/
 local=/proxygate.com/
