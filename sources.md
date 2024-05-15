@@ -391,7 +391,6 @@ https://raw.githubusercontent.com/Yuki2718/adblock/master/japanese/jp-annoyances
 https://raw.githubusercontent.com/Yuki2718/adblock/master/japanese/jp-filters.txt
 https://raw.githubusercontent.com/Yuki2718/adblock/master/japanese/jp-paranoid.txt
 https://raw.githubusercontent.com/zakird/crux-top-lists/main/data/global/current.csv.gz
-https://redlist.redstout.com/redlist.txt
 https://rescure.me/rescure_blacklist.txt
 https://rescure.me/rescure_domain_blacklist.txt
 https://ressources.anj.fr/blocage_sites_illegaux/blocage_sites_illegaux.csv

@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1715699160 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1715785740 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 14 May 2024 15:06 UTC
-; Version: 2024.0514.1506.49
+; Last modified: 15 May 2024 15:09 UTC
+; Version: 2024.0515.1509.17
 ; Syntax: RPZ
-; Number of entries: 19336
+; Number of entries: 19342
 ;
 altadefinizione.ac CNAME .
 *.altadefinizione.ac CNAME .
@@ -103,6 +103,8 @@ voirfilms.al CNAME .
 *.voirfilms.al CNAME .
 zone-telechargement.al CNAME .
 *.zone-telechargement.al CNAME .
+www.1337x.am CNAME .
+*.www.1337x.am CNAME .
 bittorrent.am CNAME .
 *.bittorrent.am CNAME .
 boerse.am CNAME .
@@ -11099,6 +11101,8 @@ xn--80aejjrnhcji.4files.net CNAME .
 *.4watch.net CNAME .
 5moviesfree.net CNAME .
 *.5moviesfree.net CNAME .
+61626c.net CNAME .
+*.61626c.net CNAME .
 6movies.net CNAME .
 *.6movies.net CNAME .
 7mag.net CNAME .
@@ -15135,6 +15139,8 @@ thepiratebay.press CNAME .
 *.123movies4u.pro CNAME .
 123moviesfull.pro CNAME .
 *.123moviesfull.pro CNAME .
+123moviesto.pro CNAME .
+*.123moviesto.pro CNAME .
 altadefinizione.pro CNAME .
 *.altadefinizione.pro CNAME .
 aovivo.pro CNAME .
