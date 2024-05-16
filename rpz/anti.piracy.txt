@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1715785740 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1715814420 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 15 May 2024 15:09 UTC
-; Version: 2024.0515.1509.17
+; Last modified: 15 May 2024 23:07 UTC
+; Version: 2024.0515.2307.50
 ; Syntax: RPZ
-; Number of entries: 19342
+; Number of entries: 19384
 ;
 altadefinizione.ac CNAME .
 *.altadefinizione.ac CNAME .
@@ -127,6 +127,8 @@ yts.am CNAME .
 *.yts.am CNAME .
 1337x.app CNAME .
 *.1337x.app CNAME .
+5play.app CNAME .
+*.5play.app CNAME .
 aeroinsta.app CNAME .
 *.aeroinsta.app CNAME .
 aeromods.app CNAME .
@@ -1495,6 +1497,8 @@ futemax.cl CNAME .
 *.futemax.cl CNAME .
 multicanais.cl CNAME .
 *.multicanais.cl CNAME .
+altadefinizione.claims CNAME .
+*.altadefinizione.claims CNAME .
 cb01.cleaning CNAME .
 *.cb01.cleaning CNAME .
 01streaming.click CNAME .
@@ -2323,6 +2327,8 @@ opentracker.acgnx.com CNAME .
 *.opentracker.acgnx.com CNAME .
 acgnxtracker.com CNAME .
 *.acgnxtracker.com CNAME .
+acgsou.com CNAME .
+*.acgsou.com CNAME .
 open.acgtracker.com CNAME .
 *.open.acgtracker.com CNAME .
 acidwarez.com CNAME .
@@ -2529,6 +2535,8 @@ apkdone.com CNAME .
 *.apkdone.com CNAME .
 apkhouse.com CNAME .
 *.apkhouse.com CNAME .
+apkity.com CNAME .
+*.apkity.com CNAME .
 apklub.com CNAME .
 *.apklub.com CNAME .
 apkmaniafull.com CNAME .
@@ -2543,20 +2551,30 @@ apkmod9.com CNAME .
 *.apkmod9.com CNAME .
 apkmodea.com CNAME .
 *.apkmodea.com CNAME .
+apkmodget.com CNAME .
+*.apkmodget.com CNAME .
 apkmody.com CNAME .
 *.apkmody.com CNAME .
 apkmolo.com CNAME .
 *.apkmolo.com CNAME .
 apkneom.com CNAME .
 *.apkneom.com CNAME .
+apkpurew.com CNAME .
+*.apkpurew.com CNAME .
 apkrabi.com CNAME .
 *.apkrabi.com CNAME .
+apkremix.com CNAME .
+*.apkremix.com CNAME .
 apkspure.com CNAME .
 *.apkspure.com CNAME .
 apksum.com CNAME .
 *.apksum.com CNAME .
 apksunny.com CNAME .
 *.apksunny.com CNAME .
+apktg.com CNAME .
+*.apktg.com CNAME .
+apkwind.com CNAME .
+*.apkwind.com CNAME .
 applenetbd.com CNAME .
 *.applenetbd.com CNAME .
 appnee.com CNAME .
@@ -2649,6 +2667,8 @@ aurora-raws.com CNAME .
 *.aurora-raws.com CNAME .
 aussietorrents.com CNAME .
 *.aussietorrents.com CNAME .
+autobitx.com CNAME .
+*.autobitx.com CNAME .
 autocadbmjes.com CNAME .
 *.autocadbmjes.com CNAME .
 autocadbnaqk.com CNAME .
@@ -5009,6 +5029,8 @@ moddroid.com CNAME .
 *.moddroid.com CNAME .
 moddude.com CNAME .
 *.moddude.com CNAME .
+modfyp.com CNAME .
+*.modfyp.com CNAME .
 modhihe.com CNAME .
 *.modhihe.com CNAME .
 mods-app.com CNAME .
@@ -5109,6 +5131,8 @@ mt-fun.com CNAME .
 *.mt-fun.com CNAME .
 mtbsl.com CNAME .
 *.mtbsl.com CNAME .
+multiapkclub.com CNAME .
+*.multiapkclub.com CNAME .
 multicanais.com CNAME .
 *.multicanais.com CNAME .
 murmurs.com CNAME .
@@ -8865,6 +8889,8 @@ cineblog01.in CNAME .
 *.cineblog01.in CNAME .
 cinemay.in CNAME .
 *.cinemay.in CNAME .
+apkpure.co.in CNAME .
+*.apkpure.co.in CNAME .
 comix-load.in CNAME .
 *.comix-load.in CNAME .
 data-load.in CNAME .
@@ -9323,6 +9349,8 @@ apkfolks.io CNAME .
 *.apkfolks.io CNAME .
 apkhome.io CNAME .
 *.apkhome.io CNAME .
+apkloo.io CNAME .
+*.apkloo.io CNAME .
 apkmods.io CNAME .
 *.apkmods.io CNAME .
 apktodo.io CNAME .
@@ -9433,6 +9461,8 @@ magnetoo.io CNAME .
 *.magnetoo.io CNAME .
 moddroid.io CNAME .
 *.moddroid.io CNAME .
+modilimitado.io CNAME .
+*.modilimitado.io CNAME .
 movieninja.io CNAME .
 *.movieninja.io CNAME .
 movierulz.io CNAME .
@@ -10305,6 +10335,8 @@ aarsen.me CNAME .
 *.aarsen.me CNAME .
 aliez.me CNAME .
 *.aliez.me CNAME .
+aloanime.me CNAME .
+*.aloanime.me CNAME .
 alphaomega.me CNAME .
 *.alphaomega.me CNAME .
 altadefinizione.me CNAME .
@@ -10731,6 +10763,8 @@ uwatchfree.mn CNAME .
 *.uwatchfree.mn CNAME .
 altadefinizione.mobi CNAME .
 *.altadefinizione.mobi CNAME .
+apkmody.mobi CNAME .
+*.apkmody.mobi CNAME .
 cb01.mobi CNAME .
 *.cb01.mobi CNAME .
 cmovies.mobi CNAME .
@@ -12139,6 +12173,8 @@ nullphp.net CNAME .
 *.nullphp.net CNAME .
 nyaa.net CNAME .
 *.nyaa.net CNAME .
+nyapk.net CNAME .
+*.nyapk.net CNAME .
 nzbget.net CNAME .
 *.nzbget.net CNAME .
 nzbid.net CNAME .
@@ -14955,6 +14991,8 @@ www.opnsports.com.pk CNAME .
 *.www.opnsports.com.pk CNAME .
 watchmovies1.com.pk CNAME .
 *.watchmovies1.com.pk CNAME .
+gbapp.pk CNAME .
+*.gbapp.pk CNAME .
 movies123.pk CNAME .
 *.movies123.pk CNAME .
 playit.pk CNAME .
@@ -15739,6 +15777,8 @@ bit-torrent.ru CNAME .
 *.bit-torrent.ru CNAME .
 bithumen.ru CNAME .
 *.bithumen.ru CNAME .
+api.bitumconference.ru CNAME .
+*.api.bitumconference.ru CNAME .
 blacktorrent.ru CNAME .
 *.blacktorrent.ru CNAME .
 boxset.ru CNAME .
@@ -17193,6 +17233,8 @@ putlockertv.to CNAME .
 *.putlockertv.to CNAME .
 rainierland.to CNAME .
 *.rainierland.to CNAME .
+www.rarbg.to CNAME .
+*.www.rarbg.to CNAME .
 rarbggo.to CNAME .
 *.rarbggo.to CNAME .
 rarbgo.to CNAME .
