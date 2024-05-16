@@ -220,6 +220,7 @@ https://raw.githubusercontent.com/privacy-protection-tools/anti-ad/master/anti-a
 https://raw.githubusercontent.com/RandomAdversary/Macedonian-adBlock-Filters/master/Filters
 https://raw.githubusercontent.com/realodix/adblockid/main/dist/adblockid.adfl.txt
 https://raw.githubusercontent.com/realodix/adblockid/master/src/adservers.adfl
+https://raw.githubusercontent.com/ReverendRetro/Domain-Blocklists/main/Domain-Blocklist
 https://raw.githubusercontent.com/rodanmaharjan/ThreatIntelligence/main/Agent_Tesla.txt
 https://raw.githubusercontent.com/rodanmaharjan/ThreatIntelligence/main/APT%20Groups/APT10%20C2%20IOC%20URLs.txt
 https://raw.githubusercontent.com/rodanmaharjan/ThreatIntelligence/main/APT%20Groups/APT_21_Hammer_Panda.txt

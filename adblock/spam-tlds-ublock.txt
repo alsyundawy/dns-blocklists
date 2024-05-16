@@ -9,12 +9,13 @@
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Expires: 1 day
-! Last modified: 16 May 2024 06:12 UTC
-! Version: 2024.0516.0612.08
+! Last modified: 16 May 2024 15:13 UTC
+! Version: 2024.0516.1513.35
 ! Syntax: uBlock
-! Number of latin TLDs: 107 - non-latin TLDs: 151
+! Number of latin TLDs: 109 - non-latin TLDs: 151
 !
 ||africa^$doc
+||agency^$doc,domain=~baam.agency|~battlefield.agency|~robotzebra.agency|~uphotel.agency|~ws.agency
 ||asia^$doc,domain=~amzn.asia|~dbankcloud.asia
 ||autos^$doc
 ||bar^$doc,domain=~fap.bar
@@ -87,6 +88,7 @@
 ||prof^$doc,domain=~casey.prof
 ||promo^$doc
 ||quest^$doc,domain=~amble.quest|~bookshelf.quest|~dice.quest|~dont-panic.quest|~epochal.quest|~federation.quest|~galaxy.quest|~mhn.quest|~mylegendary.quest|~prometheus.quest|~teacher.quest|~theculture.quest|~toot.quest
+||red^$doc
 ||rehab^$doc
 ||rest^$doc,domain=~crystals.rest|~nect.rest
 ||review^$doc
