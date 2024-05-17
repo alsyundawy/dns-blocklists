@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1714777440 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1715901900 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 03 May 2024 23:04 UTC
-; Version: 2024.0503.2304.23
+; Last modified: 16 May 2024 23:25 UTC
+; Version: 2024.0516.2325.08
 ; Syntax: RPZ
-; Number of entries: 2900
+; Number of entries: 2904
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -563,6 +563,8 @@ echoparklake.com CNAME .
 *.echoparklake.com CNAME .
 effers.com CNAME .
 *.effers.com CNAME .
+eiresol.com CNAME .
+*.eiresol.com CNAME .
 elchemi.com CNAME .
 *.elchemi.com CNAME .
 empresastaylor.com CNAME .
@@ -1907,6 +1909,8 @@ clienturl.net CNAME .
 *.clienturl.net CNAME .
 cloudns.net CNAME .
 *.cloudns.net CNAME .
+cloudxns.net CNAME .
+*.cloudxns.net CNAME .
 computersforpeace.net CNAME .
 *.computersforpeace.net CNAME .
 ctproduction.net CNAME .
