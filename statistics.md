@@ -104,14 +104,14 @@
  17 |     100% |   0% |      0% | Native Tracker OPPO/Realme (EXPERIMENTAL)
  18 |     100% |   0% |      0% | Native Tracker Xiaomi (Devices)
  19 |      91% |   8% |      1% | Advanced Extension
- 20 |     100% |   0% |      0% | Denylist Community Advanced
+ 20 |      83% |   0% |     17% | Denylist Community Advanced
  21 |      78% |  15% |      7% | EasyList MultiParty (List, Privacy, Regional, Annoyances, FanBoy, AntiAdBlock, AntiCV, Extras)
  22 |      83% |   9% |      8% | Aggressive Extension
  23 |      91% |   3% |      6% | Denylist Aggressive
  24 |     100% |   0% |      0% | Denylist Community Aggressive
  25 |     100% |   0% |      0% | Native Tracker TikTok Extended (Fingerprinting)
  26 |      92% |   0% |      8% | META Graph Tracker (Facebook, Instagram)
- 27 |      87% |   7% |      6% | Ultimate Extension
+ 27 |      87% |   6% |      7% | Ultimate Extension
  28 |     100% |   0% |      0% | Denylist Community Ultimate
 ```
 #### TIF.MEDIUM
