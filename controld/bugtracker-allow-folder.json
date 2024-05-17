@@ -8,28 +8,14 @@
   },
   "rules": [
     {
-      "PK": "instabug.com",
+      "PK": "crashlytics*-pa.googleapis.com",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": "firebase*.googleapis.com",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "signalfx.com",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "sentry.io",
+      "PK": "sentry.*",
       "action": {
         "do": 1,
         "status": 1
@@ -43,35 +29,7 @@
       }
     },
     {
-      "PK": "firebasecrashlytics*.googleapis.com",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "appdynamics.com",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "notify-bugs-*.rtl.de",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "cronitor.io",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "bugly.*",
+      "PK": "crashes.*",
       "action": {
         "do": 1,
         "status": 1
@@ -85,7 +43,7 @@
       }
     },
     {
-      "PK": "new-sentry.*",
+      "PK": "crashlytics.*",
       "action": {
         "do": 1,
         "status": 1
@@ -99,14 +57,7 @@
       }
     },
     {
-      "PK": "loganalytics.io",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "crashlytics.com",
+      "PK": "crash-stats.mozilla.org",
       "action": {
         "do": 1,
         "status": 1
@@ -120,14 +71,28 @@
       }
     },
     {
-      "PK": "buglife.com",
+      "PK": "*sentry.1passwordservices.com",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": "bugsnag.com",
+      "PK": "crash-stats.mozilla.com",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "reports.proton.me",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "apps-errors.*",
       "action": {
         "do": 1,
         "status": 1
@@ -169,14 +134,7 @@
       }
     },
     {
-      "PK": "crash*.zhihu.com",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "sentry-cdn.com",
+      "PK": "crash.*",
       "action": {
         "do": 1,
         "status": 1
@@ -184,62 +142,6 @@
     },
     {
       "PK": "errorception.com",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "crashlytics*-pa.googleapis.com",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "sentry.*",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "crashes.*",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "crashlytics.*",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "*sentry.1passwordservices.com",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "reports.proton.me",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "apps-errors.*",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "crash.*",
       "action": {
         "do": 1,
         "status": 1
@@ -260,7 +162,35 @@
       }
     },
     {
+      "PK": "instabug.com",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "firebase*.googleapis.com",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "signalfx.com",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "ravenjs.com",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "sentry.io",
       "action": {
         "do": 1,
         "status": 1
@@ -274,7 +204,42 @@
       }
     },
     {
+      "PK": "firebasecrashlytics*.googleapis.com",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "appdynamics.com",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "crashlogs.*",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "notify-bugs-*.rtl.de",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "cronitor.io",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "bugly.*",
       "action": {
         "do": 1,
         "status": 1
@@ -295,7 +260,21 @@
       }
     },
     {
+      "PK": "new-sentry.*",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "bug.*",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "loganalytics.io",
       "action": {
         "do": 1,
         "status": 1
@@ -309,14 +288,42 @@
       }
     },
     {
-      "PK": "crash-stats.mozilla.com",
+      "PK": "crashlytics.com",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": "crash-stats.mozilla.org",
+      "PK": "buglife.com",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "bugsnag.com",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "crash*.zhihu.com",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "sentry-cdn.com",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "errors.*",
       "action": {
         "do": 1,
         "status": 1
