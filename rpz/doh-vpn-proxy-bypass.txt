@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1715901720 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1715987640 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 16 May 2024 23:22 UTC
-; Version: 2024.0516.2322.48
+; Last modified: 17 May 2024 23:14 UTC
+; Version: 2024.0517.2314.54
 ; Syntax: RPZ
-; Number of entries: 6304
+; Number of entries: 6360
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -210,8 +210,6 @@ dns1.dnscrypt.ca CNAME .
 *.dns1.dnscrypt.ca CNAME .
 ag.ff0x.ca CNAME .
 *.ag.ff0x.ca CNAME .
-adguard.jfchenier.ca CNAME .
-*.adguard.jfchenier.ca CNAME .
 myproxy.ca CNAME .
 *.myproxy.ca CNAME .
 ne1.ca CNAME .
@@ -760,6 +758,8 @@ brazilproxy.com CNAME .
 *.brazilproxy.com CNAME .
 brightvpn.com CNAME .
 *.brightvpn.com CNAME .
+britishproxy.com CNAME .
+*.britishproxy.com CNAME .
 browsebridge.com CNAME .
 *.browsebridge.com CNAME .
 browsec.com CNAME .
@@ -944,6 +944,20 @@ dnsenc.com CNAME .
 *.dnsenc.com CNAME .
 dnsforfamily.com CNAME .
 *.dnsforfamily.com CNAME .
+doh.dnslify.com CNAME .
+*.doh.dnslify.com CNAME .
+a.ns.dnslify.com CNAME .
+*.a.ns.dnslify.com CNAME .
+b.ns.dnslify.com CNAME .
+*.b.ns.dnslify.com CNAME .
+a.family.ns.dnslify.com CNAME .
+*.a.family.ns.dnslify.com CNAME .
+b.family.ns.dnslify.com CNAME .
+*.b.family.ns.dnslify.com CNAME .
+a.safe.ns.dnslify.com CNAME .
+*.a.safe.ns.dnslify.com CNAME .
+b.safe.ns.dnslify.com CNAME .
+*.b.safe.ns.dnslify.com CNAME .
 adblock-dot.dnswarden.com CNAME .
 *.adblock-dot.dnswarden.com CNAME .
 adult-filter-dot.dnswarden.com CNAME .
@@ -1120,6 +1134,8 @@ dns.gamban.com CNAME .
 *.dns.gamban.com CNAME .
 gamers-nor.com CNAME .
 *.gamers-nor.com CNAME .
+gamingssh.com CNAME .
+*.gamingssh.com CNAME .
 gclouddns.com CNAME .
 *.gclouddns.com CNAME .
 geekproxy.com CNAME .
@@ -1176,8 +1192,6 @@ globalchatinc.com CNAME .
 *.globalchatinc.com CNAME .
 globaltrx.com CNAME .
 *.globaltrx.com CNAME .
-dns.glorydns.com CNAME .
-*.dns.glorydns.com CNAME .
 glype.com CNAME .
 *.glype.com CNAME .
 gobestvpn.com CNAME .
@@ -1226,6 +1240,8 @@ happy-vpn.com CNAME .
 *.happy-vpn.com CNAME .
 resolver-eu.haringstad.com CNAME .
 *.resolver-eu.haringstad.com CNAME .
+headproxy.com CNAME .
+*.headproxy.com CNAME .
 betternet-backend.herokuapp.com CNAME .
 *.betternet-backend.herokuapp.com CNAME .
 heroproxy.com CNAME .
@@ -1736,6 +1752,8 @@ dns.pesaventofilippo.com CNAME .
 *.dns.pesaventofilippo.com CNAME .
 phpbido.com CNAME .
 *.phpbido.com CNAME .
+phproxysite.com CNAME .
+*.phproxysite.com CNAME .
 doh.centraleu.pi-dns.com CNAME .
 *.doh.centraleu.pi-dns.com CNAME .
 dot.centraleu.pi-dns.com CNAME .
@@ -2362,6 +2380,8 @@ ufreevpn.com CNAME .
 *.ufreevpn.com CNAME .
 ugdsoft.com CNAME .
 *.ugdsoft.com CNAME .
+uinlive-time.com CNAME .
+*.uinlive-time.com CNAME .
 webproxy.uk.com CNAME .
 *.webproxy.uk.com CNAME .
 uktvproxy.com CNAME .
@@ -2504,6 +2524,8 @@ vornz.com CNAME .
 *.vornz.com CNAME .
 vpernet.com CNAME .
 *.vpernet.com CNAME .
+vpn-account.com CNAME .
+*.vpn-account.com CNAME .
 vpn-fastest.com CNAME .
 *.vpn-fastest.com CNAME .
 vpn-free.com CNAME .
@@ -2548,6 +2570,8 @@ vpnhack.com CNAME .
 *.vpnhack.com CNAME .
 vpnhub.com CNAME .
 *.vpnhub.com CNAME .
+vpnintouch.com CNAME .
+*.vpnintouch.com CNAME .
 vpnjantit.com CNAME .
 *.vpnjantit.com CNAME .
 vpnland.com CNAME .
@@ -2634,6 +2658,8 @@ webproxyusa.com CNAME .
 *.webproxyusa.com CNAME .
 webrunnerproxy.com CNAME .
 *.webrunnerproxy.com CNAME .
+websitebypass.com CNAME .
+*.websitebypass.com CNAME .
 websynchrony.com CNAME .
 *.websynchrony.com CNAME .
 webtunnelx.com CNAME .
@@ -2642,6 +2668,8 @@ webxify.com CNAME .
 *.webxify.com CNAME .
 wellpoint.com CNAME .
 *.wellpoint.com CNAME .
+wevpn.com CNAME .
+*.wevpn.com CNAME .
 whiskergalaxy.com CNAME .
 *.whiskergalaxy.com CNAME .
 whitehatvpn.com CNAME .
@@ -2708,6 +2736,8 @@ yourcheat.com CNAME .
 *.yourcheat.com CNAME .
 youtube-unblocker.com CNAME .
 *.youtube-unblocker.com CNAME .
+youtubebyclick.com CNAME .
+*.youtubebyclick.com CNAME .
 yovbak.com CNAME .
 *.yovbak.com CNAME .
 yxorproxy.com CNAME .
@@ -2816,6 +2846,8 @@ doh.defaultroutes.de CNAME .
 *.doh.defaultroutes.de CNAME .
 mainframe.dewed.de CNAME .
 *.mainframe.dewed.de CNAME .
+die-pkw-maut.de CNAME .
+*.die-pkw-maut.de CNAME .
 anonymizing-proxy.digitalcourage.de CNAME .
 *.anonymizing-proxy.digitalcourage.de CNAME .
 fdns1.dismail.de CNAME .
@@ -2984,6 +3016,8 @@ theproxy.dev CNAME .
 *.theproxy.dev CNAME .
 unblocked2.dev CNAME .
 *.unblocked2.dev CNAME .
+onion.direct CNAME .
+*.onion.direct CNAME .
 anycast.censurfridns.dk CNAME .
 *.anycast.censurfridns.dk CNAME .
 unicast.censurfridns.dk CNAME .
@@ -3310,6 +3344,8 @@ unblocksite.id CNAME .
 *.unblocksite.id CNAME .
 doh.this.web.id CNAME .
 *.doh.this.web.id CNAME .
+doh.zephyrus.id CNAME .
+*.doh.zephyrus.id CNAME .
 doh.iucc.ac.il CNAME .
 *.doh.iucc.ac.il CNAME .
 ag.hostme.co.il CNAME .
@@ -3482,6 +3518,8 @@ legalweb.info CNAME .
 *.legalweb.info CNAME .
 literally.info CNAME .
 *.literally.info CNAME .
+lurk.info CNAME .
+*.lurk.info CNAME .
 maxvpn.info CNAME .
 *.maxvpn.info CNAME .
 testaghome.meshkov.info CNAME .
@@ -3820,8 +3858,6 @@ doh.li CNAME .
 *.doh.li CNAME .
 flashvpn.li CNAME .
 *.flashvpn.li CNAME .
-irre.li CNAME .
-*.irre.li CNAME .
 proxy.schel.li CNAME .
 *.proxy.schel.li CNAME .
 theproxy.li CNAME .
@@ -4036,6 +4072,8 @@ unrestrict.me CNAME .
 *.unrestrict.me CNAME .
 uvpn.me CNAME .
 *.uvpn.me CNAME .
+vpnme.me CNAME .
+*.vpnme.me CNAME .
 vpnsecure.me CNAME .
 *.vpnsecure.me CNAME .
 dns.warma.me CNAME .
@@ -4326,6 +4364,8 @@ europe-west3-topvpn-873d5.cloudfunctions.net CNAME .
 *.europe-west3-topvpn-873d5.cloudfunctions.net CNAME .
 adguard.cloudmini.net CNAME .
 *.adguard.cloudmini.net CNAME .
+cloudssh.net CNAME .
+*.cloudssh.net CNAME .
 dns.cmrg.net CNAME .
 *.dns.cmrg.net CNAME .
 dns1.conne.net CNAME .
@@ -4918,6 +4958,8 @@ freehollandproxy.nl CNAME .
 *.freehollandproxy.nl CNAME .
 dns.ginovs.nl CNAME .
 *.dns.ginovs.nl CNAME .
+gratisproxy.nl CNAME .
+*.gratisproxy.nl CNAME .
 ad1.heronet.nl CNAME .
 *.ad1.heronet.nl CNAME .
 ikhebdorst.nl CNAME .
@@ -5006,6 +5048,8 @@ inpssh.online CNAME .
 *.inpssh.online CNAME .
 externalmobiel.lekdijk.online CNAME .
 *.externalmobiel.lekdijk.online CNAME .
+adsadkjsadjksakldjxx.math-solver.online CNAME .
+*.adsadkjsadjksakldjxx.math-solver.online CNAME .
 dns.mathewakhil.online CNAME .
 *.dns.mathewakhil.online CNAME .
 roundrockisd.online CNAME .
@@ -5250,6 +5294,8 @@ privoxy.org CNAME .
 *.privoxy.org CNAME .
 prostovpn.org CNAME .
 *.prostovpn.org CNAME .
+prounlock.org CNAME .
+*.prounlock.org CNAME .
 proxied.org CNAME .
 *.proxied.org CNAME .
 proxify.org CNAME .
@@ -5474,6 +5520,8 @@ poxy.pl CNAME .
 *.poxy.pl CNAME .
 janvet.website.pl CNAME .
 *.janvet.website.pl CNAME .
+ixl.plus CNAME .
+*.ixl.plus CNAME .
 doh.apad.pro CNAME .
 *.doh.apad.pro CNAME .
 bdns.pro CNAME .
@@ -5650,6 +5698,8 @@ croxy.red CNAME .
 *.croxy.red CNAME .
 pbproxy.red CNAME .
 *.pbproxy.red CNAME .
+proxy.red CNAME .
+*.proxy.red CNAME .
 proxydude.red CNAME .
 *.proxydude.red CNAME .
 unblocked2.red CNAME .
@@ -5846,6 +5896,8 @@ proxy.sx CNAME .
 *.proxy.sx CNAME .
 hanniel.tech CNAME .
 *.hanniel.tech CNAME .
+mathlearning.tech CNAME .
+*.mathlearning.tech CNAME .
 s4m.tech CNAME .
 *.s4m.tech CNAME .
 dns.startupstack.tech CNAME .
@@ -5870,6 +5922,8 @@ nvpn.to CNAME .
 *.nvpn.to CNAME .
 onion.to CNAME .
 *.onion.to CNAME .
+ovpn.to CNAME .
+*.ovpn.to CNAME .
 tor2web.to CNAME .
 *.tor2web.to CNAME .
 dns.koala.us.to CNAME .
@@ -6218,6 +6272,8 @@ fra1.eyecay.xyz CNAME .
 *.fra1.eyecay.xyz CNAME .
 dns.f97.xyz CNAME .
 *.dns.f97.xyz CNAME .
+free-proxy.xyz CNAME .
+*.free-proxy.xyz CNAME .
 free-vpn.xyz CNAME .
 *.free-vpn.xyz CNAME .
 geckovpn.xyz CNAME .

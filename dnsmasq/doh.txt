@@ -5,10 +5,10 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 7 days
-# Last modified: 16 May 2024 23:23 UTC
-# Version: 2024.0516.2323.59
+# Last modified: 17 May 2024 23:16 UTC
+# Version: 2024.0517.2316.05
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 1086
+# Number of entries: 1091
 #
 local=/ns.00dani.me/
 local=/cdn.0ms.dev/
@@ -349,6 +349,13 @@ local=/dnsenc.com/
 local=/dnsforfamily.com/
 local=/dnsforge.de/
 local=/dns.dnshome.de/
+local=/doh.dnslify.com/
+local=/a.ns.dnslify.com/
+local=/b.ns.dnslify.com/
+local=/a.family.ns.dnslify.com/
+local=/b.family.ns.dnslify.com/
+local=/a.safe.ns.dnslify.com/
+local=/b.safe.ns.dnslify.com/
 local=/dnslow.me/
 local=/dns.dnsoverhttps.net/
 local=/dns.dnssilo.top/
@@ -461,7 +468,6 @@ local=/dns.api.integration.globuscs.info/
 local=/dns.api.sandbox.globuscs.info/
 local=/dns.api.staging.globuscs.info/
 local=/dns.api.test.globuscs.info/
-local=/dns.glorydns.com/
 local=/dns.gnb09.id/
 local=/privacydns.go6lab.si/
 local=/dns.goldplate.org/
@@ -542,7 +548,6 @@ local=/dns.interhub.cc/
 local=/iot-dns.com/
 local=/ipoac.nl/
 local=/dns.ipv6dns.com/
-local=/irre.li/
 local=/dns1.irumatech.com/
 local=/dns.islandnet.com/
 local=/pdns.itxe.net/
@@ -552,7 +557,6 @@ local=/jackyes.ovh/
 local=/tj.jamesxue.xyz/
 local=/dns.janl.eu/
 local=/doh.jeroenhd.nl/
-local=/adguard.jfchenier.ca/
 local=/dns.jinwoo.dev/
 local=/adg.jnorton.us/
 local=/green2.jnraptor.net/
@@ -1091,6 +1095,7 @@ local=/yovbak.com/
 local=/dns.daemon.za.net/
 local=/adguard.zachitect.com/
 local=/zburger.top/
+local=/doh.zephyrus.id/
 local=/adguard-kartoffel.zernico.de/
 local=/dns.zfsystem.tech/
 local=/zougloub.eu/

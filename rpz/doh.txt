@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1715901780 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1715987760 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 16 May 2024 23:23 UTC
-; Version: 2024.0516.2323.59
+; Last modified: 17 May 2024 23:16 UTC
+; Version: 2024.0517.2316.05
 ; Syntax: RPZ
-; Number of entries: 2172
+; Number of entries: 2182
 ;
 shield.afixer.app CNAME .
 *.shield.afixer.app CNAME .
@@ -82,8 +82,6 @@ dns1.dnscrypt.ca CNAME .
 *.dns1.dnscrypt.ca CNAME .
 ag.ff0x.ca CNAME .
 *.ag.ff0x.ca CNAME .
-adguard.jfchenier.ca CNAME .
-*.adguard.jfchenier.ca CNAME .
 dot.tooli.ca CNAME .
 *.dot.tooli.ca CNAME .
 sriedmueadguard.casa CNAME .
@@ -340,6 +338,20 @@ dnsenc.com CNAME .
 *.dnsenc.com CNAME .
 dnsforfamily.com CNAME .
 *.dnsforfamily.com CNAME .
+doh.dnslify.com CNAME .
+*.doh.dnslify.com CNAME .
+a.ns.dnslify.com CNAME .
+*.a.ns.dnslify.com CNAME .
+b.ns.dnslify.com CNAME .
+*.b.ns.dnslify.com CNAME .
+a.family.ns.dnslify.com CNAME .
+*.a.family.ns.dnslify.com CNAME .
+b.family.ns.dnslify.com CNAME .
+*.b.family.ns.dnslify.com CNAME .
+a.safe.ns.dnslify.com CNAME .
+*.a.safe.ns.dnslify.com CNAME .
+b.safe.ns.dnslify.com CNAME .
+*.b.safe.ns.dnslify.com CNAME .
 adblock-dot.dnswarden.com CNAME .
 *.adblock-dot.dnswarden.com CNAME .
 adult-filter-dot.dnswarden.com CNAME .
@@ -380,8 +392,6 @@ gclouddns.com CNAME .
 *.gclouddns.com CNAME .
 sdns22.gkonuralp.com CNAME .
 *.sdns22.gkonuralp.com CNAME .
-dns.glorydns.com CNAME .
-*.dns.glorydns.com CNAME .
 doh-primary-pool.goodbyegambling.com CNAME .
 *.doh-primary-pool.goodbyegambling.com CNAME .
 dns.google.com CNAME .
@@ -1012,6 +1022,8 @@ doh.runsel.id CNAME .
 *.doh.runsel.id CNAME .
 doh.this.web.id CNAME .
 *.doh.this.web.id CNAME .
+doh.zephyrus.id CNAME .
+*.doh.zephyrus.id CNAME .
 doh.iucc.ac.il CNAME .
 *.doh.iucc.ac.il CNAME .
 ag.hostme.co.il CNAME .
@@ -1146,8 +1158,6 @@ dns.njal.la CNAME .
 *.dns.njal.la CNAME .
 doh.li CNAME .
 *.doh.li CNAME .
-irre.li CNAME .
-*.irre.li CNAME .
 tor.vasi.li CNAME .
 *.tor.vasi.li CNAME .
 dns.txq.life CNAME .

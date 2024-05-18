@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1715901960 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1715987880 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 16 May 2024 23:26 UTC
-; Version: 2024.0516.2326.16
+; Last modified: 17 May 2024 23:18 UTC
+; Version: 2024.0517.2318.11
 ; Syntax: RPZ
-; Number of entries: 3654
+; Number of entries: 3680
 ;
 download.ac CNAME .
 *.download.ac CNAME .
@@ -471,6 +471,8 @@ beplaced.com CNAME .
 *.beplaced.com CNAME .
 bizhat.com CNAME .
 *.bizhat.com CNAME .
+blackapplehost.com CNAME .
+*.blackapplehost.com CNAME .
 blazingblog.com CNAME .
 *.blazingblog.com CNAME .
 bleepblogs.com CNAME .
@@ -519,6 +521,8 @@ blogars.com CNAME .
 *.blogars.com CNAME .
 blogblog.com CNAME .
 *.blogblog.com CNAME .
+blogcdn.com CNAME .
+*.blogcdn.com CNAME .
 blogchaat.com CNAME .
 *.blogchaat.com CNAME .
 blogcheese.com CNAME .
@@ -941,6 +945,8 @@ forumactif.com CNAME .
 *.forumactif.com CNAME .
 forumer.com CNAME .
 *.forumer.com CNAME .
+forumil.com CNAME .
+*.forumil.com CNAME .
 forummotion.com CNAME .
 *.forummotion.com CNAME .
 forumno.com CNAME .
@@ -949,6 +955,8 @@ forumotion.com CNAME .
 *.forumotion.com CNAME .
 forumperso.com CNAME .
 *.forumperso.com CNAME .
+forumps.com CNAME .
+*.forumps.com CNAME .
 fotosdefrases.com CNAME .
 *.fotosdefrases.com CNAME .
 free-blogz.com CNAME .
@@ -1503,6 +1511,8 @@ thezenweb.com CNAME .
 *.thezenweb.com CNAME .
 thisistap.com CNAME .
 *.thisistap.com CNAME .
+tianyablog.com CNAME .
+*.tianyablog.com CNAME .
 tildacdn.com CNAME .
 *.tildacdn.com CNAME .
 timeforchangecounselling.com CNAME .
@@ -1923,6 +1933,8 @@ erlegen.de CNAME .
 *.erlegen.de CNAME .
 ev.de CNAME .
 *.ev.de CNAME .
+fasthoster.de CNAME .
+*.fasthoster.de CNAME .
 for-ladys.de CNAME .
 *.for-ladys.de CNAME .
 forum7.de CNAME .
@@ -2025,6 +2037,8 @@ schulserver.de CNAME .
 *.schulserver.de CNAME .
 seite77.de CNAME .
 *.seite77.de CNAME .
+server4free.de CNAME .
+*.server4free.de CNAME .
 shop2.de CNAME .
 *.shop2.de CNAME .
 skul.de CNAME .
@@ -2703,6 +2717,8 @@ domain.lc CNAME .
 *.domain.lc CNAME .
 dvd.lc CNAME .
 *.dvd.lc CNAME .
+english.lc CNAME .
+*.english.lc CNAME .
 eur.lc CNAME .
 *.eur.lc CNAME .
 euro.lc CNAME .
@@ -2851,6 +2867,8 @@ world.mu CNAME .
 *.world.mu CNAME .
 blogspot.mx CNAME .
 *.blogspot.mx CNAME .
+cableonline.com.mx CNAME .
+*.cableonline.com.mx CNAME .
 tripod.com.mx CNAME .
 *.tripod.com.mx CNAME .
 webnode.mx CNAME .
@@ -2931,6 +2949,8 @@ cwqso.net CNAME .
 *.cwqso.net CNAME .
 dbblog.net CNAME .
 *.dbblog.net CNAME .
+dnip.net CNAME .
+*.dnip.net CNAME .
 eklablog.net CNAME .
 *.eklablog.net CNAME .
 eu5.net CNAME .
@@ -2965,12 +2985,16 @@ gigarocket.net CNAME .
 *.gigarocket.net CNAME .
 gqnu.net CNAME .
 *.gqnu.net CNAME .
+graffiti.net CNAME .
+*.graffiti.net CNAME .
 great-site.net CNAME .
 *.great-site.net CNAME .
 hiblogger.net CNAME .
 *.hiblogger.net CNAME .
 imblogs.net CNAME .
 *.imblogs.net CNAME .
+imess.net CNAME .
+*.imess.net CNAME .
 inbox24.net CNAME .
 *.inbox24.net CNAME .
 infinityfree.net CNAME .
@@ -3415,6 +3439,8 @@ blog.ru CNAME .
 *.blog.ru CNAME .
 blogspot.ru CNAME .
 *.blogspot.ru CNAME .
+corolain.ru CNAME .
+*.corolain.ru CNAME .
 da.ru CNAME .
 *.da.ru CNAME .
 dax.ru CNAME .

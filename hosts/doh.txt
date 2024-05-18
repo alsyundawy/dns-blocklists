@@ -5,10 +5,10 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 7 days
-# Last modified: 16 May 2024 23:23 UTC
-# Version: 2024.0516.2323.59
+# Last modified: 17 May 2024 23:16 UTC
+# Version: 2024.0517.2316.05
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 1243
+# Number of entries: 1248
 #
 0.0.0.0 ns.00dani.me
 0.0.0.0 cdn.0ms.dev
@@ -443,6 +443,13 @@
 0.0.0.0 dnsforge.de
 0.0.0.0 clean.dnsforge.de
 0.0.0.0 dns.dnshome.de
+0.0.0.0 doh.dnslify.com
+0.0.0.0 a.ns.dnslify.com
+0.0.0.0 b.ns.dnslify.com
+0.0.0.0 a.family.ns.dnslify.com
+0.0.0.0 b.family.ns.dnslify.com
+0.0.0.0 a.safe.ns.dnslify.com
+0.0.0.0 b.safe.ns.dnslify.com
 0.0.0.0 dnslow.me
 0.0.0.0 dns.dnsoverhttps.net
 0.0.0.0 dns.dnssilo.top
@@ -570,7 +577,6 @@
 0.0.0.0 dns.api.sandbox.globuscs.info
 0.0.0.0 dns.api.staging.globuscs.info
 0.0.0.0 dns.api.test.globuscs.info
-0.0.0.0 dns.glorydns.com
 0.0.0.0 dns.gnb09.id
 0.0.0.0 privacydns.go6lab.si
 0.0.0.0 dns.goldplate.org
@@ -653,7 +659,6 @@
 0.0.0.0 iot-dns.com
 0.0.0.0 ipoac.nl
 0.0.0.0 dns.ipv6dns.com
-0.0.0.0 irre.li
 0.0.0.0 dns1.irumatech.com
 0.0.0.0 dns.islandnet.com
 0.0.0.0 pdns.itxe.net
@@ -664,7 +669,6 @@
 0.0.0.0 tj.jamesxue.xyz
 0.0.0.0 dns.janl.eu
 0.0.0.0 doh.jeroenhd.nl
-0.0.0.0 adguard.jfchenier.ca
 0.0.0.0 dns.jinwoo.dev
 0.0.0.0 adg.jnorton.us
 0.0.0.0 green2.jnraptor.net
@@ -1248,6 +1252,7 @@
 0.0.0.0 adguard.zachitect.com
 0.0.0.0 zburger.top
 0.0.0.0 www.zburger.top
+0.0.0.0 doh.zephyrus.id
 0.0.0.0 adguard-kartoffel.zernico.de
 0.0.0.0 dns.zfsystem.tech
 0.0.0.0 zougloub.eu
