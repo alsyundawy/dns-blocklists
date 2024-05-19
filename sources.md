@@ -116,8 +116,6 @@ https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-f
 https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-ios-specific.txt
 https://raw.githubusercontent.com/braveinnovators/ukrainian-security-filter/main/lists/domains.txt
 https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
-https://raw.githubusercontent.com/cbuijs/accomplist/master/chris/nrd-30-days.list
-https://raw.githubusercontent.com/cbuijs/accomplist/master/chris/nrd-7-days.list
 https://raw.githubusercontent.com/cbuijs/ut1/master/ddos/domains
 https://raw.githubusercontent.com/cbuijs/ut1/master/gambling/domains
 https://raw.githubusercontent.com/cbuijs/ut1/master/malware/domains
