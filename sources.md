@@ -296,6 +296,7 @@ https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-doma
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-esentire.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-eset.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-fortinet.txt
+https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-genians.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-googlecloud.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-group-ib.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-hp.txt

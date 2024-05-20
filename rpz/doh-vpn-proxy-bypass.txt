@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1716072900 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1716158940 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 18 May 2024 22:55 UTC
-; Version: 2024.0518.2255.29
+; Last modified: 19 May 2024 22:49 UTC
+; Version: 2024.0519.2249.31
 ; Syntax: RPZ
-; Number of entries: 6364
+; Number of entries: 6376
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -254,8 +254,6 @@ vpnoffice.co.cc CNAME .
 *.vpnoffice.co.cc CNAME .
 dns.flymc.cc CNAME .
 *.dns.flymc.cc CNAME .
-us-ny-alula.heliumcloud.cc CNAME .
-*.us-ny-alula.heliumcloud.cc CNAME .
 dns.interhub.cc CNAME .
 *.dns.interhub.cc CNAME .
 maxfong.cc CNAME .
@@ -1192,6 +1190,8 @@ globalchatinc.com CNAME .
 *.globalchatinc.com CNAME .
 globaltrx.com CNAME .
 *.globaltrx.com CNAME .
+dns.glorydns.com CNAME .
+*.dns.glorydns.com CNAME .
 glype.com CNAME .
 *.glype.com CNAME .
 gobestvpn.com CNAME .
@@ -1802,6 +1802,8 @@ kronos.plan9-dns.com CNAME .
 *.kronos.plan9-dns.com CNAME .
 pluton.plan9-dns.com CNAME .
 *.pluton.plan9-dns.com CNAME .
+play5r.com CNAME .
+*.play5r.com CNAME .
 playproxy.com CNAME .
 *.playproxy.com CNAME .
 secure-dns.pleumkungz.com CNAME .
@@ -1814,6 +1816,8 @@ polandgrows.com CNAME .
 *.polandgrows.com CNAME .
 polargrizzly.com CNAME .
 *.polargrizzly.com CNAME .
+portalssh.com CNAME .
+*.portalssh.com CNAME .
 dns.porteii.com CNAME .
 *.dns.porteii.com CNAME .
 portssh.com CNAME .
@@ -1880,8 +1884,12 @@ proxy4down.com CNAME .
 *.proxy4down.com CNAME .
 proxy4freedom.com CNAME .
 *.proxy4freedom.com CNAME .
+proxyarab.com CNAME .
+*.proxyarab.com CNAME .
 proxybros.com CNAME .
 *.proxybros.com CNAME .
+proxybrowsing.com CNAME .
+*.proxybrowsing.com CNAME .
 proxybuss.com CNAME .
 *.proxybuss.com CNAME .
 proxycloyd.com CNAME .
@@ -3598,6 +3606,8 @@ proxythis.info CNAME .
 *.proxythis.info CNAME .
 redproxy.info CNAME .
 *.redproxy.info CNAME .
+redschool.info CNAME .
+*.redschool.info CNAME .
 redus.info CNAME .
 *.redus.info CNAME .
 revko.info CNAME .
@@ -3894,6 +3904,8 @@ youtubeunblocked.live CNAME .
 *.youtubeunblocked.live CNAME .
 artclass.lol CNAME .
 *.artclass.lol CNAME .
+stuffyschicken.isreallycool.lol CNAME .
+*.stuffyschicken.isreallycool.lol CNAME .
 myproxy.lol CNAME .
 *.myproxy.lol CNAME .
 proxy.lol CNAME .
