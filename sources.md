@@ -379,6 +379,7 @@ https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_plus.tx
 https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_privacy.txt
 https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock.txt
 https://raw.githubusercontent.com/velesila/yhosts/master/hosts
+https://raw.githubusercontent.com/WindowsAurora/FMHYFilterlist/main/filterlist-abp.txt
 https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt
 https://raw.githubusercontent.com/xRuffKez/NXPhish/main/nxphish.agh
 https://raw.githubusercontent.com/YanFung/Ads/master/Mobile
