@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1716418140 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1716476580 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 22 May 2024 22:49 UTC
-; Version: 2024.0522.2249.15
+; Last modified: 23 May 2024 15:03 UTC
+; Version: 2024.0523.1503.45
 ; Syntax: RPZ
-; Number of entries: 19864
+; Number of entries: 19872
 ;
 altadefinizione.ac CNAME .
 *.altadefinizione.ac CNAME .
@@ -5531,6 +5531,8 @@ onlytorrents.com CNAME .
 *.onlytorrents.com CNAME .
 onnosomoy.com CNAME .
 *.onnosomoy.com CNAME .
+onstreamapp.com CNAME .
+*.onstreamapp.com CNAME .
 oomoviz.com CNAME .
 *.oomoviz.com CNAME .
 openbittorrent.com CNAME .
@@ -16917,6 +16919,8 @@ kickass.so CNAME .
 *.kickass.so CNAME .
 limetorrents.so CNAME .
 *.limetorrents.so CNAME .
+onstream.so CNAME .
+*.onstream.so CNAME .
 sportsonline.so CNAME .
 *.sportsonline.so CNAME .
 torrent9.so CNAME .
@@ -17645,6 +17649,8 @@ ololo.to CNAME .
 *.ololo.to CNAME .
 onionplay.to CNAME .
 *.onionplay.to CNAME .
+onstreamapp.to CNAME .
+*.onstreamapp.to CNAME .
 pelis24.to CNAME .
 *.pelis24.to CNAME .
 pepecine.to CNAME .
@@ -18675,6 +18681,8 @@ thebytestore.co.uk CNAME .
 *.thebytestore.co.uk CNAME .
 thepb.co.uk CNAME .
 *.thepb.co.uk CNAME .
+tracker.draatman.uk CNAME .
+*.tracker.draatman.uk CNAME .
 eurostreaming.uk CNAME .
 *.eurostreaming.uk CNAME .
 filmstreaming.uk CNAME .
