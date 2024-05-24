@@ -762,9 +762,9 @@ Made with :heartbeat: for a safer and cleaner internet.*
 
 #### :email: Contact <a name="contact"></a>
 
-| Telegram | Mail |
-|:--------:|:----:|
-| [@hagezi](https://t.me/hagezi) | <hagezi@protonmail.com> |
+| Mail |
+|:----:|
+| <hagezi@protonmail.com> |
 
 #### :family: Groups <a name="groups"></a>
 

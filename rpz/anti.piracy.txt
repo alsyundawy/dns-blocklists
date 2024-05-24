@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1716504540 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1716562800 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 23 May 2024 22:49 UTC
-; Version: 2024.0523.2249.06
+; Last modified: 24 May 2024 15:00 UTC
+; Version: 2024.0524.1500.59
 ; Syntax: RPZ
-; Number of entries: 19872
+; Number of entries: 19878
 ;
 altadefinizione.ac CNAME .
 *.altadefinizione.ac CNAME .
@@ -1403,6 +1403,8 @@ yify-torrent.cc CNAME .
 *.yify-torrent.cc CNAME .
 yifytorrent.cc CNAME .
 *.yifytorrent.cc CNAME .
+ytmp3.cc CNAME .
+*.ytmp3.cc CNAME .
 ytmp3juices.cc CNAME .
 *.ytmp3juices.cc CNAME .
 yts-movie.cc CNAME .
@@ -7191,6 +7193,8 @@ warezaccess.com CNAME .
 *.warezaccess.com CNAME .
 warezbox.com CNAME .
 *.warezbox.com CNAME .
+warezchristian.com CNAME .
+*.warezchristian.com CNAME .
 warezcidayi.com CNAME .
 *.warezcidayi.com CNAME .
 warezcities.com CNAME .
@@ -7443,6 +7447,8 @@ yamgo.com CNAME .
 *.yamgo.com CNAME .
 yasdl.com CNAME .
 *.yasdl.com CNAME .
+yeeshkul.com CNAME .
+*.yeeshkul.com CNAME .
 yellownetbd.com CNAME .
 *.yellownetbd.com CNAME .
 tracker.yemekyedim.com CNAME .
