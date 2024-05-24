@@ -284,6 +284,7 @@ https://raw.githubusercontent.com/rodanmaharjan/ThreatIntelligence/main/Ursnif.t
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-ahnlab.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-akamai.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-alternate.txt
+https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-antiy.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-bitdefender.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-certagid.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-certua.txt
