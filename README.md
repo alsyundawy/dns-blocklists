@@ -48,11 +48,11 @@
 
 | Version | Entries | Pro++ | Pro | Nor<br>mal | Light | [Fake](#fake) | [TIF](#tif) | [Nat<br>ive](#native) | [PopUp<br>Ads](#popupads) | Bug<br>Tracker |
 |:--------|---:|:------:|:-----:|:----:|:----:|:---:|:------:|:----------:|:----:|:----:|
-| :green_book:[Light](#light)             | 135931<br>67407     |  |   |   | :green_circle:  |  | |  :yellow_square: | | |
-| :blue_book:[Normal](#normal)       | 414661<br>140179     |  |   | :green_circle: | :green_circle: |  | :yellow_square: | :yellow_square: | :yellow_square: | |
-| :ledger:[Pro](#pro)              | 474825<br>160597         |  | :green_circle: | :green_circle: | :green_circle: |  | :yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
-| :orange_book:[Pro++](#proplus)    | 573735<br>183011 | :green_circle: | :green_circle: | :green_circle: | :green_circle: |  |:yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
-| :closed_book:[Ultimate](#ultimate)    | 613022<br>197069 | :green_circle: | :green_circle: | :green_circle: | :green_circle: |  | :yellow_square: | :green_circle: | :yellow_square: | :green_circle: |
+| :green_book:[Light](#light)             | 135446<br>67473     |  |   |   | :green_circle:  |  | |  :yellow_square: | | |
+| :blue_book:[Normal](#normal)       | 414962<br>140296     |  |   | :green_circle: | :green_circle: |  | :yellow_square: | :yellow_square: | :yellow_square: | |
+| :ledger:[Pro](#pro)              | 475187<br>160739         |  | :green_circle: | :green_circle: | :green_circle: |  | :yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
+| :orange_book:[Pro++](#proplus)    | 574066<br>183148 | :green_circle: | :green_circle: | :green_circle: | :green_circle: |  |:yellow_square: | :yellow_square: | :yellow_square: | :green_circle: |
+| :closed_book:[Ultimate](#ultimate)    | 613368<br>197217 | :green_circle: | :green_circle: | :green_circle: | :green_circle: |  | :yellow_square: | :green_circle: | :yellow_square: | :green_circle: |
 
 :green_circle: contains the list named in the column caption
 :yellow_square: partially contains the list named in the column caption
@@ -79,7 +79,7 @@
 > [!NOTE]
 > *Does not block error trackers such as Bugsnag, Crashlytics, Firebase, Instabug, Sentry, ... and other app-specific crash trackers. These are only blocked from the Pro version onwards.*
 
-**Entries:** *135931 domains/hosts - 67407 compressed domains*
+**Entries:** *135446 domains/hosts - 67473 compressed domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -101,7 +101,7 @@
 > [!NOTE]
 > *Does not block error trackers such as Bugsnag, Crashlytics, Firebase, Instabug, Sentry, ... and other app-specific crash trackers. These are only blocked from the Pro version onwards.*
 
-**Entries:** *414661 domains/hosts - 140179 compressed domains*
+**Entries:** *414962 domains/hosts - 140296 compressed domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -119,7 +119,7 @@
 
 *Big broom - Cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tracking, Metrics, Telemetry, Phishing, Malware, Scam, Fake, Coins and other "Crap".*
 
-**Entries:** *474825 domains/hosts - 160597 compressed domains*
+**Entries:** *475187 domains/hosts - 160739 compressed domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -137,7 +137,7 @@
 
 *Size-optimised version for DNS/Browser adblockers. This list only contains domains from the Pro full that have been found on Top 1M lists (Umbrella, Cloudflare, Tranco, Chrome, ...) in the last 12 months.*
 
-**Entries:** *79102 compressed domains*
+**Entries:** *79243 compressed domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -156,7 +156,7 @@
 > [!NOTE]
 > *More aggressive version of the Multi PRO blocklist. It may contain a few false positive domains that limit functionality. Therefore it should only be used by experienced users. Furthermore, an admin should be available to unblock incorrectly blocked domains. Reported false positive domains will be removed from the list!*
 
-**Entries:** *573735 domains/hosts - 183011 compressed domains*
+**Entries:** *574066 domains/hosts - 183148 compressed domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -174,7 +174,7 @@
 
 *Size-optimised version for DNS/Browser adblockers. This list only contains domains from the Pro++ full that have been found on Top 1M lists (Umbrella, Cloudflare, Tranco, Chrome, ...) in the last 12 months.*
 
-**Entries:** *90746 compressed domains*
+**Entries:** *90917 compressed domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -196,7 +196,7 @@
 > [!WARNING]
 > *META trackers are blocked in Ultimate. This restricts the use of Facebook/Instagram and Facebook Messenger apps. To use Facebook/Instagram apps with Ultimate, unblock the following domains: [META Tracker](share/facebook.txt)*
 
-**Entries:** *613022 domains/hosts - 197069 compressed domains*
+**Entries:** *613368 domains/hosts - 197217 compressed domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -214,7 +214,7 @@
 
 *Size-optimised version for DNS/Browser adblockers. This list only contains domains from the Ultimate full that have been found on Top 1M lists (Umbrella, Cloudflare, Tranco, Chrome, ...) in the last 12 months.*
 
-**Entries:** *101528 compressed domains*
+**Entries:** *101729 compressed domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -240,7 +240,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** *40913 compressed domains*
+**Entries:** *30712 compressed domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -269,7 +269,7 @@
 > [!NOTE]
 > *In the combination of the Pro or higher and additionally the Threat Intelligence Feeds (TIF), all domains from the Pop-Up Ads list are included. This means that if you use the Pro or higher and also the TIF full, you no longer need to add this list separately.*
 
-**Entries:** *81621 compressed domains*
+**Entries:** *81662 compressed domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -295,7 +295,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** *1250744 domains/hosts - 705554 compressed domains*
+**Entries:** *1183056 domains/hosts - 668520 compressed domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -319,7 +319,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** *180550 compressed domains*
+**Entries:** *180559 compressed domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -358,7 +358,7 @@
 
 #### :new: ***Domains registered in the last 10 days*** <a name="nrd10"></a>
 
-**Entries:** *1405721 domains*
+**Entries:** *1428318 domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -368,7 +368,7 @@
 
 #### :new: ***Domains registered in the last 30 days*** <a name="nrd30"></a>
 
-**Entries:** *3364937 domains*
+**Entries:** *3387300 domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -397,7 +397,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** *3184 compressed domains*
+**Entries:** *3139 compressed domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -419,7 +419,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** *1244 domains/hosts - 1087 compressed domains*
+**Entries:** *1236 domains/hosts - 1079 compressed domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -457,7 +457,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** *232 compressed domains*
+**Entries:** *227 compressed domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -483,7 +483,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** *1473 compressed domains*
+**Entries:** *1458 compressed domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -509,7 +509,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** *1840 compressed domains*
+**Entries:** *1829 compressed domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -558,7 +558,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** *9769 compressed domains*
+**Entries:** *9770 compressed domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -584,7 +584,7 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** *285650 compressed domains*
+**Entries:** *285662 compressed domains*
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
