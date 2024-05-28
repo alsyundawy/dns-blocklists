@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1716821700 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1716849360 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 27 May 2024 14:55 UTC
-; Version: 2024.0527.1455.53
+; Last modified: 27 May 2024 22:36 UTC
+; Version: 2024.0527.2236.14
 ; Syntax: RPZ
-; Number of entries: 19540
+; Number of entries: 19542
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -11817,6 +11817,8 @@ gameslay.net CNAME .
 *.gameslay.net CNAME .
 gamewala.net CNAME .
 *.gamewala.net CNAME .
+www.gamezlinks.net CNAME .
+*.www.gamezlinks.net CNAME .
 gay-torrents.net CNAME .
 *.gay-torrents.net CNAME .
 gazellegames.net CNAME .
