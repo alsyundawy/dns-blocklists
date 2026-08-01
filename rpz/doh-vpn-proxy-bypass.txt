@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785582180 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785606600 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 01 Aug 2026 11:03 UTC
-; Version: 2026.0801.1103.09
+; Last modified: 01 Aug 2026 17:50 UTC
+; Version: 2026.0801.1750.04
 ; Syntax: RPZ
-; Number of entries: 35070
+; Number of entries: 35062
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -18601,8 +18601,6 @@ dns.bitgeek.in CNAME .
 *.dns.bitgeek.in CNAME .
 dns.bofh.in CNAME .
 *.dns.bofh.in CNAME .
-btunnel.in CNAME .
-*.btunnel.in CNAME .
 dnscrypt-cert.captnemo.in CNAME .
 *.dnscrypt-cert.captnemo.in CNAME .
 doh.captnemo.in CNAME .
@@ -21255,8 +21253,6 @@ bebrik.men CNAME .
 *.bebrik.men CNAME .
 touching.diddy.men CNAME .
 *.touching.diddy.men CNAME .
-ababaershop67thatscostaquartar.404.mn CNAME .
-*.ababaershop67thatscostaquartar.404.mn CNAME .
 notfound-google.404.mn CNAME .
 *.notfound-google.404.mn CNAME .
 spaceis.bad.mn CNAME .
@@ -26019,6 +26015,8 @@ dns.lermer.nl CNAME .
 *.dns.lermer.nl CNAME .
 adguard.lucarius.nl CNAME .
 *.adguard.lucarius.nl CNAME .
+meganerd.nl CNAME .
+*.meganerd.nl CNAME .
 dns.melvin2204.nl CNAME .
 *.dns.melvin2204.nl CNAME .
 dns.mikopono.nl CNAME .
@@ -29901,10 +29899,6 @@ unblockit.rsvp CNAME .
 *.24checklifeapp.ru CNAME .
 24helpappip.ru CNAME .
 *.24helpappip.ru CNAME .
-blubby.3d-mart.ru CNAME .
-*.blubby.3d-mart.ru CNAME .
-masorooni.3d-mart.ru CNAME .
-*.masorooni.3d-mart.ru CNAME .
 51576162.ru CNAME .
 *.51576162.ru CNAME .
 5mdvpn.ru CNAME .
@@ -33025,8 +33019,6 @@ lmaozev.0rg.us CNAME .
 *.lmaozev.0rg.us CNAME .
 2fastsurfer.us CNAME .
 *.2fastsurfer.us CNAME .
-for.3cm.us CNAME .
-*.for.3cm.us CNAME .
 vbox.3cm.us CNAME .
 *.vbox.3cm.us CNAME .
 3proxy.us CNAME .

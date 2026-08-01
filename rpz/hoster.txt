@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785493680 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785609540 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 31 Jul 2026 10:28 UTC
-; Version: 2026.0731.1028.50
+; Last modified: 01 Aug 2026 18:39 UTC
+; Version: 2026.0801.1839.43
 ; Syntax: RPZ
-; Number of entries: 2474
+; Number of entries: 2468
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -1266,8 +1266,6 @@ zx9.de CNAME .
 *.zx9.de CNAME .
 edgeone.dev CNAME .
 *.edgeone.dev CNAME .
-hashnode.dev CNAME .
-*.hashnode.dev CNAME .
 webwave.dev CNAME .
 *.webwave.dev CNAME .
 chat.dj CNAME .
@@ -1690,8 +1688,6 @@ eu.ki CNAME .
 *.0pe.kr CNAME .
 blogspot.kr CNAME .
 *.blogspot.kr CNAME .
-dothome.co.kr CNAME .
-*.dothome.co.kr CNAME .
 me2.kr CNAME .
 *.me2.kr CNAME .
 n-e.kr CNAME .
@@ -1942,8 +1938,6 @@ bigheadhosting.net CNAME .
 *.bigheadhosting.net CNAME .
 bitly.net CNAME .
 *.bitly.net CNAME .
-blog5.net CNAME .
-*.blog5.net CNAME .
 builderall.net CNAME .
 *.builderall.net CNAME .
 creatorlink.net CNAME .
