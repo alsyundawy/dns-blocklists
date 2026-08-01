@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785567720 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785578340 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 01 Aug 2026 07:02 UTC
-; Version: 2026.0801.0702.00
+; Last modified: 01 Aug 2026 09:59 UTC
+; Version: 2026.0801.0959.47
 ; Syntax: RPZ
-; Number of entries: 33666
+; Number of entries: 33664
 ;
 prosperi.academy CNAME .
 *.prosperi.academy CNAME .
@@ -32462,8 +32462,6 @@ sandgo.shop CNAME .
 *.sandgo.shop CNAME .
 sbnaf.shop CNAME .
 *.sbnaf.shop CNAME .
-schilderei.shop CNAME .
-*.schilderei.shop CNAME .
 schockemohleonlinestore.shop CNAME .
 *.schockemohleonlinestore.shop CNAME .
 scoutandspark.shop CNAME .
