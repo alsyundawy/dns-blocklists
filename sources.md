@@ -191,6 +191,7 @@ https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt
 https://raw.githubusercontent.com/phishdestroy/destroylist/main/list.txt
 https://raw.githubusercontent.com/realodix/adblockid/main/dist/adblockid.adfl.txt
 https://raw.githubusercontent.com/remad0/TurkHosts404/refs/heads/main/dns-blocklists/adblock.txt
+https://raw.githubusercontent.com/smed79/blacklist/refs/heads/master/abp.txt
 https://raw.githubusercontent.com/spmedia/Crypto-Scam-and-Crypto-Phishing-Threat-Intel-Feed/refs/heads/main/detected_urls.txt
 https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt
 https://raw.githubusercontent.com/stamparm/aux/master/maltrail-static-trails.txt
