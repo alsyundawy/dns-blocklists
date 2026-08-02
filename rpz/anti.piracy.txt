@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785657660 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785693060 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 02 Aug 2026 08:01 UTC
-; Version: 2026.0802.0801.34
+; Last modified: 02 Aug 2026 17:51 UTC
+; Version: 2026.0802.1751.48
 ; Syntax: RPZ
-; Number of entries: 77004
+; Number of entries: 77002
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -3146,6 +3146,8 @@ altadefinizione.bond CNAME .
 *.altadefinizione.bond CNAME .
 altadefinizionegratis.bond CNAME .
 *.altadefinizionegratis.bond CNAME .
+animeze.bond CNAME .
+*.animeze.bond CNAME .
 bollyflix.bond CNAME .
 *.bollyflix.bond CNAME .
 casa-cinema.bond CNAME .
@@ -18592,8 +18594,6 @@ altadefinizionegratis.fun CNAME .
 *.altadefinizionegratis.fun CNAME .
 altadefinizionex.fun CNAME .
 *.altadefinizionex.fun CNAME .
-animeplex.fun CNAME .
-*.animeplex.fun CNAME .
 animexstream.fun CNAME .
 *.animexstream.fun CNAME .
 bolshoy-potentsial-lordfilm.fun CNAME .
@@ -19736,8 +19736,6 @@ newalbumreleases.unblockit.how CNAME .
 *.1nd.hu CNAME .
 beload.hu CNAME .
 *.beload.hu CNAME .
-bemusic.hu CNAME .
-*.bemusic.hu CNAME .
 bestfriends.hu CNAME .
 *.bestfriends.hu CNAME .
 bitcity.hu CNAME .
@@ -47558,8 +47556,6 @@ banshey-lordfilm.online CNAME .
 *.banshey-lordfilm.online CNAME .
 batmanstream.online CNAME .
 *.batmanstream.online CNAME .
-bednye-smejutsja-bogatye-plachut-lordfilm.online CNAME .
-*.bednye-smejutsja-bogatye-plachut-lordfilm.online CNAME .
 tracker.belmult.online CNAME .
 *.tracker.belmult.online CNAME .
 best-2026-lordfilm.online CNAME .
@@ -50864,6 +50860,8 @@ kinox.pet CNAME .
 *.kinox.pet CNAME .
 mycima.pet CNAME .
 *.mycima.pet CNAME .
+streaming-community.pet CNAME .
+*.streaming-community.pet CNAME .
 streamingcommunity.pet CNAME .
 *.streamingcommunity.pet CNAME .
 streamingcommunityz.pet CNAME .
