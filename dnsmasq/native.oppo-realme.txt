@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 02 Aug 2026 18:05 UTC
-# Version: 2026.0802.1805.57
+# Last modified: 03 Aug 2026 07:07 UTC
+# Version: 2026.0803.0707.52
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 463
+# Number of entries: 484
 #
 local=/classify-app-eu.allawnos.com/
 local=/classify-app-in.allawnos.com/
@@ -52,8 +52,17 @@ local=/gui-server-in.allawnos.com/
 local=/gui-server-sg.allawnos.com/
 local=/gui-server-us.allawnos.com/
 local=/icosa-service-eu.allawnos.com/
+local=/icosa-service-fr-01.allawnos.com/
+local=/icosa-service-fr-02.allawnos.com/
+local=/icosa-service-fr-03.allawnos.com/
 local=/icosa-service-in.allawnos.com/
+local=/icosa-service-in-01.allawnos.com/
+local=/icosa-service-in-02.allawnos.com/
+local=/icosa-service-in-03.allawnos.com/
 local=/icosa-service-sg.allawnos.com/
+local=/icosa-service-sg-01.allawnos.com/
+local=/icosa-service-sg-02.allawnos.com/
+local=/icosa-service-sg-03.allawnos.com/
 local=/icosa-service-us.allawnos.com/
 local=/icota-service-eu.allawnos.com/
 local=/icota-service-in.allawnos.com/
@@ -128,6 +137,7 @@ local=/appconf-ocs-us.heytapdl.com/
 local=/appconf-sgp.heytapdl.com/
 local=/conf-in-dc.heytapdl.com/
 local=/conf-sg-dc.heytapdl.com/
+local=/file-intl-push.heytapdl.com/
 local=/mdp-appconf-ae.heytapdl.com/
 local=/mdp-appconf-af.heytapdl.com/
 local=/mdp-appconf-apc.heytapdl.com/
@@ -431,10 +441,15 @@ local=/cloudconf-app-vn.heytapmobile.com/
 local=/cloudconf-app-za.heytapmobile.com/
 local=/conf-in-dc.heytapmobile.com/
 local=/dc.heytapmobile.com/
+local=/dc-dragate-sg.heytapmobile.com/
 local=/dc-stat-in.heytapmobile.com/
 local=/dragate-in-dc.heytapmobile.com/
 local=/mdp-usertrace-in.heytapmobile.com/
 local=/mdp-usertrace-sg.heytapmobile.com/
+local=/obus-conf-fr.heytapmobile.com/
+local=/obus-conf-in.heytapmobile.com/
+local=/obus-conf-sg.heytapmobile.com/
+local=/obus-conf-us.heytapmobile.com/
 local=/obus-dc-eu.heytapmobile.com/
 local=/obus-dc-ru.heytapmobile.com/
 local=/obus-dc-us.heytapmobile.com/
@@ -448,6 +463,7 @@ local=/obus-dc20305-in.heytapmobile.com/
 local=/obus-dc20305-sg.heytapmobile.com/
 local=/obus-dctech-in.heytapmobile.com/
 local=/obus-dctech-sg.heytapmobile.com/
+local=/obus-dcyitai-sg.heytapmobile.com/
 local=/obus-jssdk-fr.heytapmobile.com/
 local=/obus-jssdk-in.heytapmobile.com/
 local=/obus-jssdk-sg.heytapmobile.com/
@@ -459,6 +475,10 @@ local=/slb-apisnd-in.heytapmobile.com/
 local=/sms-ads-in.heytapmobile.com/
 local=/sms-ads-ru.heytapmobile.com/
 local=/stgdata-ads-fr.heytapmobile.com/
+local=/video-api-fr.heytapmobile.com/
+local=/video-api-gl.heytapmobile.com/
+local=/video-api-in.heytapmobile.com/
+local=/video-api-ru.heytapmobile.com/
 local=/dragate.dc.oppomobile.com/
 local=/dragate-br.dc.oppomobile.com/
 local=/dragate-sg.dc.oppomobile.com/
@@ -470,6 +490,7 @@ local=/dhfs-in.oppomobile.com/
 local=/dhfs-th.oppomobile.com/
 local=/dhfs-vn.oppomobile.com/
 local=/dhfsf.oppomobile.com/
+local=/sea-log-rcv.vansound.com/
 local=/h4g3z1-native.oppo-realme.web.app/
 local=/finosfin.com/
 local=/hizonetech.com/
