@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785770220 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785793740 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 03 Aug 2026 15:17 UTC
-; Version: 2026.0803.1517.02
+; Last modified: 03 Aug 2026 21:49 UTC
+; Version: 2026.0803.2149.06
 ; Syntax: RPZ
-; Number of entries: 77828
+; Number of entries: 77834
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -30386,6 +30386,8 @@ lordfilmbmf.life CNAME .
 *.lordfilmbmf.life CNAME .
 lordfilmbot.life CNAME .
 *.lordfilmbot.life CNAME .
+lordfilmbox.life CNAME .
+*.lordfilmbox.life CNAME .
 lordfilmbrc.life CNAME .
 *.lordfilmbrc.life CNAME .
 lordfilmbsmu.life CNAME .
@@ -52992,6 +52994,8 @@ tabula-rasa.pw CNAME .
 *.tabula-rasa.pw CNAME .
 tb-cdn.pw CNAME .
 *.tb-cdn.pw CNAME .
+torrentcontrol.pw CNAME .
+*.torrentcontrol.pw CNAME .
 tsundere.pw CNAME .
 *.tsundere.pw CNAME .
 unblocked.pw CNAME .
@@ -74410,6 +74414,8 @@ solarmovies.vip CNAME .
 *.solarmovies.vip CNAME .
 streamingcommunity.vip CNAME .
 *.streamingcommunity.vip CNAME .
+streamingunity.vip CNAME .
+*.streamingunity.vip CNAME .
 streamm4u.vip CNAME .
 *.streamm4u.vip CNAME .
 strumyk.vip CNAME .

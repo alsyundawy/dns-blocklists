@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 01 Aug 2026 18:03 UTC
-# Version: 2026.0801.1803.15
+# Last modified: 03 Aug 2026 17:41 UTC
+# Version: 2026.0803.1741.00
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 583
+# Number of entries: 604
 #
 local=/analytics.us.tiktok.com.bytedance.akadns.net/
 local=/p16-tiktok-ads-sg.tiktokcdn.com.bytegeo.akadns.net/
@@ -76,8 +76,10 @@ local=/mon.capcutapi.us/
 local=/mon-boot.capcutapi.com/
 local=/mon-sg.capcutapi.com/
 local=/mon-v2-boot.capcutapi.com/
+local=/mon-va.capcutapi.com/
 local=/mon16-normal-sg.capcutapi.com/
 local=/mon16-normal-us-ttp.capcutapi.us/
+local=/mon16-normal-us-ttp2.capcutapi.us/
 local=/mon32-normal-sg.capcutapi.com/
 local=/mssdk.capcutapi.us/
 local=/mssdk-boot.capcutapi.com/
@@ -92,6 +94,7 @@ local=/pc-mon-boot.capcutapi.com/
 local=/pc-mon-normal-sg.capcutapi.com/
 local=/pc-mon-v2-boot.capcutapi.com/
 local=/pc-mon16-normal-us-ttp.capcutapi.us/
+local=/pc-mon16-normal-us-ttp2.capcutapi.us/
 local=/tnc-boot.capcutapi.com/
 local=/tnc-sg.capcutapi.com/
 local=/tnc-v2-boot.capcutapi.com/
@@ -120,6 +123,13 @@ local=/mcs-va.tiktokv.com.edgekey.net/
 local=/mcs-va-useast2a.tiktokv.com.edgekey.net/
 local=/mon-boot.tiktokv.com.edgekey.net/
 local=/mssdk-boot.tiktokv.com.edgekey.net/
+local=/mon-boot.capcutapi.com.edgesuite.net/
+local=/mon-sg.capcutapi.com.edgesuite.net/
+local=/mon-v2-boot.capcutapi.com.edgesuite.net/
+local=/mon16-normal-sg.capcutapi.com.edgesuite.net/
+local=/pc-mon-boot.capcutapi.com.edgesuite.net/
+local=/pc-mon-normal-sg.capcutapi.com.edgesuite.net/
+local=/pc-mon-v2-boot.capcutapi.com.edgesuite.net/
 local=/analytics.us.tiktok.com.edgesuite.net/
 local=/analytics-exp.us.tiktok.com.edgesuite.net/
 local=/analytics-ttp2.us.tiktok.com.edgesuite.net/
@@ -146,6 +156,10 @@ local=/analytics16-normal-useastred.tiktokw.eu.edgesuite.net/
 local=/mcs-ie2.tiktokw.eu.edgesuite.net/
 local=/mcs16-normal-no1a.tiktokw.eu.edgesuite.net/
 local=/mcs16-normal-useastred.tiktokw.eu.edgesuite.net/
+local=/mon.capcutapi.us.edgesuite.net/
+local=/mon16-normal-us-ttp.capcutapi.us.edgesuite.net/
+local=/mon16-normal-us-ttp2.capcutapi.us.edgesuite.net/
+local=/pc-mon16-normal-us-ttp.capcutapi.us.edgesuite.net/
 local=/frontier.capcutw.us.edgesuite.net/
 local=/ad-instantpage.tiktokv.us.edgesuite.net/
 local=/ad-instantpage-ttp2.tiktokv.us.edgesuite.net/
@@ -577,6 +591,13 @@ local=/mcs16-normal-useastred.tiktokw.eu/
 local=/mssdk.tiktokw.eu/
 local=/mssdk.tiktokw.us/
 local=/mssdk16-normal-useastred.tiktokw.eu/
+local=/mon-boot.capcutapi.com.ttdns2.com/
+local=/mon-sg.capcutapi.com.ttdns2.com/
+local=/mon-v2-boot.capcutapi.com.ttdns2.com/
+local=/mon-va.capcutapi.com.ttdns2.com/
+local=/pc-mon-boot.capcutapi.com.ttdns2.com/
+local=/pc-mon-normal-sg.capcutapi.com.ttdns2.com/
+local=/pc-mon-v2-boot.capcutapi.com.ttdns2.com/
 local=/analytics.tiktok.com.ttdns2.com/
 local=/analytics-exp-ru.tiktok.com.ttdns2.com/
 local=/analytics-ru.tiktok.com.ttdns2.com/
