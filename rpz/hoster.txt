@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785609540 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785883260 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 01 Aug 2026 18:39 UTC
-; Version: 2026.0801.1839.43
+; Last modified: 04 Aug 2026 22:41 UTC
+; Version: 2026.0804.2241.22
 ; Syntax: RPZ
-; Number of entries: 2468
+; Number of entries: 2514
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -40,6 +40,8 @@ dr.ag CNAME .
 *.dr.ag CNAME .
 freehost.ag CNAME .
 *.freehost.ag CNAME .
+blogspot.al CNAME .
+*.blogspot.al CNAME .
 blogspot.am CNAME .
 *.blogspot.am CNAME .
 fr.am CNAME .
@@ -68,6 +70,8 @@ zapier.app CNAME .
 *.zapier.app CNAME .
 zeabur.app CNAME .
 *.zeabur.app CNAME .
+blogspot.com.ar CNAME .
+*.blogspot.com.ar CNAME .
 114.at CNAME .
 *.114.at CNAME .
 115.at CNAME .
@@ -98,6 +102,8 @@ zeabur.app CNAME .
 *.989.at CNAME .
 24.co.at CNAME .
 *.24.co.at CNAME .
+blogspot.co.at CNAME .
+*.blogspot.co.at CNAME .
 com24.at CNAME .
 *.com24.at CNAME .
 kilu.at CNAME .
@@ -152,6 +158,8 @@ encurtador.com.br CNAME .
 *.encurtador.com.br CNAME .
 vpn.net.br CNAME .
 *.vpn.net.br CNAME .
+blogspot.com.by CNAME .
+*.blogspot.com.by CNAME .
 files.bz CNAME .
 *.files.bz CNAME .
 fw.bz CNAME .
@@ -226,6 +234,8 @@ iplogger.cn CNAME .
 *.2no.co CNAME .
 bityl.co CNAME .
 *.bityl.co CNAME .
+blogspot.com.co CNAME .
+*.blogspot.com.co CNAME .
 fleek.co CNAME .
 *.fleek.co CNAME .
 iplogger.co CNAME .
@@ -660,6 +670,8 @@ imageurlhost.com CNAME .
 *.imageurlhost.com CNAME .
 infinityfreeapp.com CNAME .
 *.infinityfreeapp.com CNAME .
+inmotionhosting.com CNAME .
+*.inmotionhosting.com CNAME .
 instantfreesite.com CNAME .
 *.instantfreesite.com CNAME .
 invoicenotices.com CNAME .
@@ -682,6 +694,8 @@ janhost.com CNAME .
 *.janhost.com CNAME .
 jcmemoryscan.com CNAME .
 *.jcmemoryscan.com CNAME .
+jimdofree.com CNAME .
+*.jimdofree.com CNAME .
 just-allen.com CNAME .
 *.just-allen.com CNAME .
 justicewasgreen.com CNAME .
@@ -1278,8 +1292,12 @@ lnk.do CNAME .
 *.lnk.do CNAME .
 job.ec CNAME .
 *.job.ec CNAME .
+blogspot.com.ee CNAME .
+*.blogspot.com.ee CNAME .
 paste.ee CNAME .
 *.paste.ee CNAME .
+blogspot.com.eg CNAME .
+*.blogspot.com.eg CNAME .
 blogspot.com.es CNAME .
 *.blogspot.com.es CNAME .
 24.org.es CNAME .
@@ -1558,6 +1576,12 @@ pe.hu CNAME .
 *.pe.hu CNAME .
 mediafirex.icu CNAME .
 *.mediafirex.icu CNAME .
+blogspot.co.id CNAME .
+*.blogspot.co.id CNAME .
+blogspot.ie CNAME .
+*.blogspot.ie CNAME .
+blogspot.co.il CNAME .
+*.blogspot.co.il CNAME .
 de.im CNAME .
 *.de.im CNAME .
 00m.in CNAME .
@@ -1644,6 +1668,8 @@ wstd.io CNAME .
 *.wstd.io CNAME .
 yu3.io CNAME .
 *.yu3.io CNAME .
+blogspot.is CNAME .
+*.blogspot.is CNAME .
 fwh.is CNAME .
 *.fwh.is CNAME .
 135.it CNAME .
@@ -1668,6 +1694,8 @@ xo.je CNAME .
 *.xo.je CNAME .
 blogspot.jp CNAME .
 *.blogspot.jp CNAME .
+blogspot.co.ke CNAME .
+*.blogspot.co.ke CNAME .
 ch.kg CNAME .
 *.ch.kg CNAME .
 gr.kg CNAME .
@@ -1716,8 +1744,6 @@ b2b.lc CNAME .
 *.b2b.lc CNAME .
 bilder.lc CNAME .
 *.bilder.lc CNAME .
-bitly.lc CNAME .
-*.bitly.lc CNAME .
 blog.lc CNAME .
 *.blog.lc CNAME .
 clan.lc CNAME .
@@ -1904,12 +1930,16 @@ zya.me CNAME .
 *.zya.me CNAME .
 de.mg CNAME .
 *.de.mg CNAME .
+blogspot.mk CNAME .
+*.blogspot.mk CNAME .
 clan.mn CNAME .
 *.clan.mn CNAME .
 muf.mobi CNAME .
 *.muf.mobi CNAME .
 ju.mp CNAME .
 *.ju.mp CNAME .
+blogspot.com.mt CNAME .
+*.blogspot.com.mt CNAME .
 24.mu CNAME .
 *.24.mu CNAME .
 world.mu CNAME .
@@ -2068,6 +2098,8 @@ free.nf CNAME .
 *.free.nf CNAME .
 us.nf CNAME .
 *.us.nf CNAME .
+blogspot.com.ng CNAME .
+*.blogspot.com.ng CNAME .
 24.nl CNAME .
 *.24.nl CNAME .
 blogspot.nl CNAME .
@@ -2090,6 +2122,8 @@ uk.nu CNAME .
 *.uk.nu CNAME .
 virtue.nu CNAME .
 *.virtue.nu CNAME .
+blogspot.co.nz CNAME .
+*.blogspot.co.nz CNAME .
 azl.one CNAME .
 *.azl.one CNAME .
 trim.one CNAME .
@@ -2224,8 +2258,12 @@ psce.pw CNAME .
 *.psce.pw CNAME .
 verifypass.pw CNAME .
 *.verifypass.pw CNAME .
+blogspot.qa CNAME .
+*.blogspot.qa CNAME .
 cli.re CNAME .
 *.cli.re CNAME .
+blogspot.ro CNAME .
+*.blogspot.ro CNAME .
 fanclub.rocks CNAME .
 *.fanclub.rocks CNAME .
 blogspot.rs CNAME .
@@ -2406,6 +2444,8 @@ wapka.top CNAME .
 *.wapka.top CNAME .
 ygrrvlvvgf.top CNAME .
 *.ygrrvlvvgf.top CNAME .
+blogspot.com.tr CNAME .
+*.blogspot.com.tr CNAME .
 mobile.web.tr CNAME .
 *.mobile.web.tr CNAME .
 blogspot.tw CNAME .
@@ -2414,6 +2454,8 @@ kl.com.ua CNAME .
 *.kl.com.ua CNAME .
 zzz.com.ua CNAME .
 *.zzz.com.ua CNAME .
+blogspot.ug CNAME .
+*.blogspot.ug CNAME .
 123freehost.co.uk CNAME .
 *.123freehost.co.uk CNAME .
 all.co.uk CNAME .
@@ -2436,6 +2478,8 @@ my-place.us CNAME .
 *.my-place.us CNAME .
 phpnet.us CNAME .
 *.phpnet.us CNAME .
+blogspot.com.uy CNAME .
+*.blogspot.com.uy CNAME .
 1.vg CNAME .
 *.1.vg CNAME .
 110.vg CNAME .
@@ -2480,5 +2524,7 @@ mightyurl.mightyscripts.xyz CNAME .
 *.mightyurl.mightyscripts.xyz CNAME .
 tggame.xyz CNAME .
 *.tggame.xyz CNAME .
+blogspot.co.za CNAME .
+*.blogspot.co.za CNAME .
 thamboli.co.za CNAME .
 *.thamboli.co.za CNAME .
