@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785984660 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1786349220 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 06 Aug 2026 02:51 UTC
-; Version: 2026.0806.0251.22
+; Last modified: 10 Aug 2026 08:07 UTC
+; Version: 2026.0810.0807.37
 ; Syntax: RPZ
-; Number of entries: 3048
+; Number of entries: 3046
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -2348,8 +2348,6 @@ zverovich.net CNAME .
 *.zverovich.net CNAME .
 mil.nf CNAME .
 *.mil.nf CNAME .
-pride.ngo CNAME .
-*.pride.ngo CNAME .
 isamotherfucking.ninja CNAME .
 *.isamotherfucking.ninja CNAME .
 vpnx.nl CNAME .

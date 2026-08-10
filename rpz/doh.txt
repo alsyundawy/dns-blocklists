@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1786231620 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1786349280 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 08 Aug 2026 23:27 UTC
-; Version: 2026.0808.2327.15
+; Last modified: 10 Aug 2026 08:08 UTC
+; Version: 2026.0810.0808.18
 ; Syntax: RPZ
-; Number of entries: 6768
+; Number of entries: 6760
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1407,8 +1407,6 @@ dns.nguyendn.com CNAME .
 *.dns.nguyendn.com CNAME .
 dns.nhtsky.com CNAME .
 *.dns.nhtsky.com CNAME .
-d.niaox.com CNAME .
-*.d.niaox.com CNAME .
 dns.niffelen.com CNAME .
 *.dns.niffelen.com CNAME .
 sinkdns.nihatkalfazade.com CNAME .
@@ -3279,8 +3277,6 @@ guidetoworld.link CNAME .
 *.guidetoworld.link CNAME .
 intertop.link CNAME .
 *.intertop.link CNAME .
-dns.pmxu.link CNAME .
-*.dns.pmxu.link CNAME .
 adguard.ihatemy.live CNAME .
 *.adguard.ihatemy.live CNAME .
 lifeisa.live CNAME .
@@ -4167,8 +4163,6 @@ dns.otezz.net CNAME .
 *.dns.otezz.net CNAME .
 padermail.net CNAME .
 *.padermail.net CNAME .
-dns.paliska.net CNAME .
-*.dns.paliska.net CNAME .
 rpz-public-resolver1.rrdns.pch.net CNAME .
 *.rpz-public-resolver1.rrdns.pch.net CNAME .
 dns.pernika.net CNAME .
@@ -6383,8 +6377,6 @@ adguard.quydang.name.vn CNAME .
 *.adguard.quydang.name.vn CNAME .
 tran.net.vn CNAME .
 *.tran.net.vn CNAME .
-dns.ntccloud.vn CNAME .
-*.dns.ntccloud.vn CNAME .
 phongg.vn CNAME .
 *.phongg.vn CNAME .
 dns.valbatos.pro.vn CNAME .
