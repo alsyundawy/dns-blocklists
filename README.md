@@ -39,9 +39,10 @@ If you like the project and you can benefit from it, leave a :star: (top right) 
 25. [About](#about) : [Repository](#repository) - [Referral Domains](#referral) - [Support](#support)
 26. [FAQ](https://github.com/hagezi/dns-blocklists/wiki/FAQ) - Frequently Asked Questions
 27. [Discussions](https://github.com/hagezi/dns-blocklists/discussions)
-28. [Sources](sources.md)
-29. [Disclaimer](#disclaimer)
-30. [Contact](#contact)
+28. [Official mirrors](#mirrors)
+29. [Sources](sources.md)
+30. [Disclaimer](#disclaimer)
+31. [Contact](#contact)
 
 ### :books: **Multi - Cleans the Internet and protects your privacy!** <a name="overview"></a>
 
@@ -971,6 +972,16 @@ Feedback, ideas, domain reports, false-positive reports, and any other kind of s
 Found a wrongly blocked domain, or one that needs blocking? Report it via the [issue tracker](https://github.com/hagezi/dns-blocklists/issues) or email [support@hagezi.org](mailto:support@hagezi.org). You can also use the official public [Matrix support chat](https://matrix.to/#/#hagezi-support:tchncs.de?via=tchncs.de).
                                
 **Thank you for being part of the community!**
+
+---
+
+### :floppy_disk: Official mirrors <a name="mirrors"></a>
+
+Official mirrors of the blocklist files:
+                  
+- https://hagezi-mirror.dnsbunker.org - updated every 4-8 hours and provided directly from the build system.
+- https://gitlab.com/hagezi/mirror - updated once a day.
+- https://codeberg.org/hagezi/mirror2 - updated once a day.
 
 ---
 
