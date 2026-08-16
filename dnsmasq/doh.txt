@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 15 Aug 2026 08:23 UTC
-# Version: 2026.0815.0823.14
+# Last modified: 16 Aug 2026 08:26 UTC
+# Version: 2026.0816.0826.07
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 3353
+# Number of entries: 3365
 #
 local=/ss.0001.xyz/
 local=/ns.00dani.me/
@@ -176,7 +176,13 @@ local=/adguard.ajinga.net/
 local=/rdjdns.ajraspi.xyz/
 local=/dns.akbxr.com/
 local=/dns.albony.xyz/
+local=/dns.alekberg.net/
+local=/dns2.alekberg.net/
+local=/dnses.alekberg.net/
 local=/dnsnl.alekberg.net/
+local=/dnsnl-noads.alekberg.net/
+local=/dnsse.alekberg.net/
+local=/dnsse-noads.alekberg.net/
 local=/odoh-target.alekberg.net/
 local=/odoh-target-noads-se.alekberg.net/
 local=/odoh-target-se.alekberg.net/
@@ -388,6 +394,7 @@ local=/81.brudnowski.eu/
 local=/81xyz.brudnowski.eu/
 local=/doh.bt.com/
 local=/goose.buckyfan.net/
+local=/doh.bugdns.com/
 local=/stratus.bugz.fr/
 local=/dns.burgas.pro/
 local=/dns.busold.ws/
@@ -476,6 +483,7 @@ local=/kirov.unicom.cloudns.be/
 local=/adguard.veanswart.cloudns.be/
 local=/9132706292.cloudns.be/
 local=/zeusvps.cloudns.nz/
+local=/dns-secondary.cloudnx.cloud/
 local=/dns.cloudseriousshit.com/
 local=/dns.cloudtrust.solutions/
 local=/ca.doh.cloudveil.org/
@@ -1294,6 +1302,7 @@ local=/vps.grussenmeyer.com/
 local=/dns.gsmseti.net/
 local=/bigseal1.gu-natee.uk/
 local=/dns.guard.io/
+local=/dns.guardmydns.com/
 local=/dns2.guidocioni.it/
 local=/homedns.gumeniuk.com/
 local=/dns.gupthabrothers.in/
@@ -1955,6 +1964,7 @@ local=/positif4.cross.net.id/
 local=/guard-jkt-225.glosindo.net.id/
 local=/dns1.gms.net.id/
 local=/dns2.gms.net.id/
+local=/doh.infotek.net.id/
 local=/br.lfac.net.br/
 local=/us.lfac.net.br/
 local=/doh.max.net.id/
@@ -2035,6 +2045,7 @@ local=/us.novali.date/
 local=/dns.novg.net/
 local=/dns.npe.bz/
 local=/adguard.npglocal.com/
+local=/dns.npsolution.it/
 local=/xpen.ns01.info/
 local=/x.ns1net.com/
 local=/dnscache0.ns71.net/
@@ -2728,6 +2739,7 @@ local=/dns.wang.art/
 local=/dmit.wangjiaqi.store/
 local=/dns.wargan.io/
 local=/abel.waringer-atg.de/
+local=/dns.warma.me/
 local=/dns.warpnine.de/
 local=/dns.warrior.fr/
 local=/dooh.waterfox.net/
