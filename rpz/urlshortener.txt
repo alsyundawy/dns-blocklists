@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1786863960 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1786950900 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 16 Aug 2026 07:06 UTC
-; Version: 2026.0816.0706.55
+; Last modified: 17 Aug 2026 07:15 UTC
+; Version: 2026.0817.0715.40
 ; Syntax: RPZ
-; Number of entries: 19698
+; Number of entries: 19750
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -847,6 +847,8 @@ go.scotsalbury.nsw.edu.au CNAME .
 *.go.scotsalbury.nsw.edu.au CNAME .
 go.vic.gov.au CNAME .
 *.go.vic.gov.au CNAME .
+lnkr.au CNAME .
+*.lnkr.au CNAME .
 weflex.net.au CNAME .
 *.weflex.net.au CNAME .
 newquote.au CNAME .
@@ -1053,6 +1055,8 @@ kazma.bio CNAME .
 *.kazma.bio CNAME .
 keepo.bio CNAME .
 *.keepo.bio CNAME .
+korek.bio CNAME .
+*.korek.bio CNAME .
 la.bio CNAME .
 *.la.bio CNAME .
 lihat.bio CNAME .
@@ -1701,6 +1705,8 @@ lync.cc CNAME .
 *.lync.cc CNAME .
 mawar500.cc CNAME .
 *.mawar500.cc CNAME .
+mchek.cc CNAME .
+*.mchek.cc CNAME .
 mtws.cc CNAME .
 *.mtws.cc CNAME .
 mybiz.cc CNAME .
@@ -1863,6 +1869,8 @@ blogshare.cfd CNAME .
 *.blogshare.cfd CNAME .
 masuk.cfd CNAME .
 *.masuk.cfd CNAME .
+minggu.cfd CNAME .
+*.minggu.cfd CNAME .
 tapthelink.cfd CNAME .
 *.tapthelink.cfd CNAME .
 nlab.cg CNAME .
@@ -2219,6 +2227,8 @@ kfurl.cn CNAME .
 *.kfurl.cn CNAME .
 liurl.cn CNAME .
 *.liurl.cn CNAME .
+n7i.cn CNAME .
+*.n7i.cn CNAME .
 ock.cn CNAME .
 *.ock.cn CNAME .
 ooa.cn CNAME .
@@ -4407,6 +4417,8 @@ gempixel.com CNAME .
 *.gempixel.com CNAME .
 links.geneasens.com CNAME .
 *.links.geneasens.com CNAME .
+generatemyqr.com CNAME .
+*.generatemyqr.com CNAME .
 geniuslink.com CNAME .
 *.geniuslink.com CNAME .
 genvalo.com CNAME .
@@ -4479,6 +4491,8 @@ gomakethings.com CNAME .
 *.gomakethings.com CNAME .
 gomyly.com CNAME .
 *.gomyly.com CNAME .
+goo-id.com CNAME .
+*.goo-id.com CNAME .
 goo2url.com CNAME .
 *.goo2url.com CNAME .
 goodwinlink.com CNAME .
@@ -4753,6 +4767,8 @@ isc-vn.com CNAME .
 *.isc-vn.com CNAME .
 ishortie.com CNAME .
 *.ishortie.com CNAME .
+ishortify.com CNAME .
+*.ishortify.com CNAME .
 ishorturl.com CNAME .
 *.ishorturl.com CNAME .
 isinstance.com CNAME .
@@ -4789,6 +4805,8 @@ ivtshort.com CNAME .
 *.ivtshort.com CNAME .
 izumikanagata.com CNAME .
 *.izumikanagata.com CNAME .
+jaecoomy.com CNAME .
+*.jaecoomy.com CNAME .
 jaglil.com CNAME .
 *.jaglil.com CNAME .
 jalanpintas4d.com CNAME .
@@ -5043,6 +5061,8 @@ linkjust.com CNAME .
 *.linkjust.com CNAME .
 linkkl.com CNAME .
 *.linkkl.com CNAME .
+linkkp.com CNAME .
+*.linkkp.com CNAME .
 linkku-bp.com CNAME .
 *.linkku-bp.com CNAME .
 linkku-dn.com CNAME .
@@ -5177,6 +5197,8 @@ linkyvicky.com CNAME .
 *.linkyvicky.com CNAME .
 linmetrics.com CNAME .
 *.linmetrics.com CNAME .
+linply.com CNAME .
+*.linply.com CNAME .
 linqry.com CNAME .
 *.linqry.com CNAME .
 lintlink.com CNAME .
@@ -5737,6 +5759,8 @@ yxe3d.paulchavady.com CNAME .
 *.yxe3d.paulchavady.com CNAME .
 pavleka.com CNAME .
 *.pavleka.com CNAME .
+payfca.com CNAME .
+*.payfca.com CNAME .
 go.paykassma.com CNAME .
 *.go.paykassma.com CNAME .
 pcsgt.com CNAME .
@@ -9859,6 +9883,8 @@ kutt.in CNAME .
 *.kutt.in CNAME .
 labb.in CNAME .
 *.labb.in CNAME .
+lcut.in CNAME .
+*.lcut.in CNAME .
 lelink.in CNAME .
 *.lelink.in CNAME .
 link-ease.in CNAME .
@@ -9897,12 +9923,16 @@ lnkiy.in CNAME .
 *.lnkiy.in CNAME .
 lnnk.in CNAME .
 *.lnnk.in CNAME .
+longurl.in CNAME .
+*.longurl.in CNAME .
 luang.in CNAME .
 *.luang.in CNAME .
 lynko.in CNAME .
 *.lynko.in CNAME .
 lynks.in CNAME .
 *.lynks.in CNAME .
+lynkz.in CNAME .
+*.lynkz.in CNAME .
 make-t.in CNAME .
 *.make-t.in CNAME .
 mayocl.in CNAME .
@@ -10269,6 +10299,8 @@ klicklink.info CNAME .
 *.klicklink.info CNAME .
 klik-ini.info CNAME .
 *.klik-ini.info CNAME .
+kliks.info CNAME .
+*.kliks.info CNAME .
 krete.info CNAME .
 *.krete.info CNAME .
 kyaa.info CNAME .
@@ -10281,6 +10313,8 @@ lf8.info CNAME .
 *.lf8.info CNAME .
 lihat.info CNAME .
 *.lihat.info CNAME .
+linkly.info CNAME .
+*.linkly.info CNAME .
 linktexas.info CNAME .
 *.linktexas.info CNAME .
 liscr.info CNAME .
@@ -10781,6 +10815,8 @@ linksplit.io CNAME .
 *.linksplit.io CNAME .
 linksqueeze.io CNAME .
 *.linksqueeze.io CNAME .
+linksy.io CNAME .
+*.linksy.io CNAME .
 littl.io CNAME .
 *.littl.io CNAME .
 s.livstick.io CNAME .
@@ -11735,6 +11771,8 @@ crwdstr.ke CNAME .
 *.crwdstr.ke CNAME .
 liy.ke CNAME .
 *.liy.ke CNAME .
+lnk.ke CNAME .
+*.lnk.ke CNAME .
 qt.ke CNAME .
 *.qt.ke CNAME .
 hit.kg CNAME .
@@ -12219,6 +12257,8 @@ iyc.life CNAME .
 *.iyc.life CNAME .
 jeso.life CNAME .
 *.jeso.life CNAME .
+livesport88.life CNAME .
+*.livesport88.life CNAME .
 mainaku.life CNAME .
 *.mainaku.life CNAME .
 monghainam.life CNAME .
@@ -13849,6 +13889,8 @@ goo-gl.me CNAME .
 *.goo-gl.me CNAME .
 goqr.me CNAME .
 *.goqr.me CNAME .
+gotlink.me CNAME .
+*.gotlink.me CNAME .
 gourl.me CNAME .
 *.gourl.me CNAME .
 govhub.me CNAME .
@@ -14719,6 +14761,8 @@ latingram.my CNAME .
 *.latingram.my CNAME .
 lick.my CNAME .
 *.lick.my CNAME .
+linkcepat.my CNAME .
+*.linkcepat.my CNAME .
 lnkz.my CNAME .
 *.lnkz.my CNAME .
 lock.my CNAME .
@@ -15101,6 +15145,8 @@ linkok.net CNAME .
 *.linkok.net CNAME .
 linkrex.net CNAME .
 *.linkrex.net CNAME .
+linksehat.net CNAME .
+*.linksehat.net CNAME .
 linksfly.net CNAME .
 *.linksfly.net CNAME .
 linkshortener.net CNAME .
@@ -17583,6 +17629,8 @@ mas.so CNAME .
 *.mas.so CNAME .
 mcp.so CNAME .
 *.mcp.so CNAME .
+mrw.so CNAME .
+*.mrw.so CNAME .
 muz.so CNAME .
 *.muz.so CNAME .
 ntn.so CNAME .
@@ -17631,6 +17679,8 @@ kaileevllocmki.space CNAME .
 *.kaileevllocmki.space CNAME .
 link.space CNAME .
 *.link.space CNAME .
+linkbio.space CNAME .
+*.linkbio.space CNAME .
 shrinkme.space CNAME .
 *.shrinkme.space CNAME .
 mou.sr CNAME .
@@ -18489,6 +18539,8 @@ e2link.tr CNAME .
 *.e2link.tr CNAME .
 invest.tr CNAME .
 *.invest.tr CNAME .
+klni.tr CNAME .
+*.klni.tr CNAME .
 linkcut.tr CNAME .
 *.linkcut.tr CNAME .
 mdpl.tr CNAME .

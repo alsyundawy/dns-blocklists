@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 16 Aug 2026 08:26 UTC
-# Version: 2026.0816.0826.07
+# Last modified: 17 Aug 2026 08:42 UTC
+# Version: 2026.0817.0842.24
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 3365
+# Number of entries: 3370
 #
 local=/ss.0001.xyz/
 local=/ns.00dani.me/
@@ -184,6 +184,7 @@ local=/dnsnl-noads.alekberg.net/
 local=/dnsse.alekberg.net/
 local=/dnsse-noads.alekberg.net/
 local=/odoh-target.alekberg.net/
+local=/odoh-target-noads.alekberg.net/
 local=/odoh-target-noads-se.alekberg.net/
 local=/odoh-target-se.alekberg.net/
 local=/agh.alematho.de/
@@ -1445,6 +1446,7 @@ local=/sec.iamninja.ru/
 local=/dns-public.ibakerserver.pt/
 local=/dns.iblockads.net/
 local=/dns-us.ibmcloud.top/
+local=/mask.icloud.com/
 local=/mask-canary.icloud.com/
 local=/mask-h2.icloud.com/
 local=/dns.pttien.id.vn/
@@ -2181,6 +2183,7 @@ local=/doh.plaawan.uk/
 local=/helios.plan9-dns.com/
 local=/kronos.plan9-dns.com/
 local=/pluton.plan9-dns.com/
+local=/hydra.plan9-ns1.com/
 local=/draco.plan9-ns2.com/
 local=/door.plasmadancer.ru/
 local=/secure-dns.pleumkungz.com/
@@ -2827,6 +2830,7 @@ local=/agh-hetzner.yasirafique.com/
 local=/dns.yatima.tv/
 local=/adguard.yavuztutcu.net/
 local=/adguardhome.yavuztutcu.net/
+local=/lion.yazilimatolye.com/
 local=/biba.ydns.eu/
 local=/adguard.ygd.lol/
 local=/ns6.ygy.ru/
@@ -3096,6 +3100,7 @@ local=/hexxitcompany.com/
 local=/hfgx.shop/
 local=/hg8.asia/
 local=/hgrps.eu/
+local=/himedns.com/
 local=/hitian.me/
 local=/hnsdoh.com/
 local=/home-server.store/

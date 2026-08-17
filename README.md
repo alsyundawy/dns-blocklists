@@ -1,69 +1,80 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/hagezi/dns-blocklists)![GitHub issues](https://img.shields.io/github/issues/hagezi/dns-blocklists)![GitHub closed issues](https://img.shields.io/github/issues-closed/hagezi/dns-blocklists)![GitHub repo size](https://img.shields.io/github/repo-size/hagezi/dns-blocklists)[![shields.io Stars](https://img.shields.io/github/stars/hagezi/dns-blocklists)](https://github.com/hagezi/dns-blocklists/stargazers)
 
-## :zap: DNS Blocklists - For a better internet!
+## :zap: DNS Blocklists - Let's make the internet a nicer place!
 
-### Made with :heartbeat: for a safer and cleaner internet! It always seems impossible until it’s done.
+### Built with :heartbeat: for a safer, cleaner internet. It always looks impossible until someone actually does it.
 
-Privacy is not a crime, protect yourself. Privacy matters. Privacy is what allows us to determine who we are and who we want to be :bangbang:
+Privacy isn't a crime, so go protect yours. It's what lets you decide who you are and who you want to be :bangbang:
 
-If you like the project and you can benefit from it, leave a :star: (top right) and become a stargazer! Thanks for your support!
+Like this project? If it's been useful to you, drop a :star: (top right) and join the stargazers club! Every star genuinely helps.
 
 ---
 
 ### :bookmark_tabs: Table of Contents
 
 1. [Overview](#overview)
-2. [Multi light](#light) - Hand brush: Light protection
-3. [Multi normal](#normal) - Broom: All-round protection
-4. [Multi pro](#pro) - Big broom: Extended protection (Recommended) : [Full](#pro) - [Mini](#promini)
-5. [Multi pro++](#proplus) - Sweeper: Maximum protection (more aggressive) : [Full](#proplus) - [Mini](#proplusmini)
-6. [Multi ultimate](#ultimate) - Ultimate Sweeper: Aggressive protection : [Full](#ultimate) - [Mini](#ultimatemini)
-7. [Fake](#fake) - Protects against internet scams, traps & fakes!
-8. [Pop-Up Ads](#popupads) - Protects against annoying and malicious pop-up ads!
-9. [Threat Intelligence Feeds](#tif) - Increases security significantly! (Recommended) : [Full](#tif) - [Medium](#tifmedium) - [Mini](#tifmini) - [IPs](#tifips)
-10. [Newly Registered Domains - NRD/DGA](#nrd) - Favoured by threat actors to launch malicious campaigns!
-11. [DoH/VPN/TOR/Proxy Bypass](#bypass) - Prevent methods to bypass your DNS! : [Full](#bypass_all) - [DoH only](#bypass_dns) - [DoH IPs](#bypass_ips)
-12. [Safesearch not supported](#safesearch) - Prevent the use of search engines that do not support Safesearch!
-13. [Dynamic DNS](#dyndns) - Protects against the malicious use of dynamic DNS services!
-14. [Badware Hoster](#hoster) - Protects against the malicious use of host services!
-15. [URL Shortener](#urlshortener) - Blocks link/URL shortener!
-16. [Most Abused TLDs](#tlds) - Protects against known malicious Top Level Domains!
-17. [DNS Rebind Protection](#dnsrebind) - Prevents attackers from resolving domains to local IPs!
-18. [Anti Piracy](#piracy) - Protects against piracy!
-19. [Gambling](#gambling) - Protects against gambling content! : [Full](#gambling) - [Medium](#gamblingmedium) - [Mini](#gamblingmini)
+2. [Multi light](#light) - Hand brush: light protection
+3. [Multi normal](#normal) - Broom: all-round protection
+4. [Multi pro](#pro) - Big broom: extended protection (recommended): [Full](#pro) - [Mini](#promini)
+5. [Multi pro++](#proplus) - Sweeper: maximum protection (more aggressive): [Full](#proplus) - [Mini](#proplusmini)
+6. [Multi ultimate](#ultimate) - Ultimate sweeper: aggressive protection: [Full](#ultimate) - [Mini](#ultimatemini)
+7. [Fake](#fake) - Blocks scams, traps, and fake sites!
+8. [Pop-Up Ads](#popupads) - Stops annoying and malicious pop-ups!
+9. [Threat Intelligence Feeds](#tif) - A serious security boost (recommended): [Full](#tif) - [Medium](#tifmedium) - [Mini](#tifmini) - [IPs](#tifips)
+10. [Newly Registered Domains - NRD/DGA](#nrd) - A favorite tool of threat actors for launching attacks!
+11. [DoH/VPN/TOR/Proxy Bypass](#bypass) - Stop people from sneaking around your DNS: [Full](#bypass_all) - [DoH only](#bypass_dns) - [DoH IPs](#bypass_ips)
+12. [Safesearch not supported](#safesearch) - Block search engines that skip Safesearch!
+13. [Dynamic DNS](#dyndns) - Guard against dynamic DNS abuse!
+14. [Badware Hoster](#hoster) - Guard against malicious hosting services!
+15. [URL Shortener](#urlshortener) - Blocks link/URL shorteners!
+16. [Most Abused TLDs](#tlds) - Blocks known shady top-level domains!
+17. [DNS Rebind Protection](#dnsrebind) - Stops attackers from pointing domains at your local network!
+18. [Anti Piracy](#piracy) - Blocks piracy sites!
+19. [Gambling](#gambling) - Blocks gambling content: [Full](#gambling) - [Medium](#gamblingmedium) - [Mini](#gamblingmini)
 20. [Social Networks](#social) - Blocks access to social networks!
-21. [NSFW](#nsfw) - Protects against adult content!
-22. [Native Tracker](#native) - Broadband tracker of devices, services and operating systems
-23. [Recommendation](#recommendation) - [Which version of the lists should I use?](https://github.com/hagezi/dns-blocklists/wiki/FAQ#whatshouldiuse)
-24. [Online DNS Services](#dnsservices) : [HaGeZi DNS](#hagezidns) - [DNS Bunker](#dnsbunker)
-25. [About](#about) : [Repository](#repository) - [Referral Domains](#referral) - [Support](#support)
-26. [FAQ](https://github.com/hagezi/dns-blocklists/wiki/FAQ) - Frequently Asked Questions
+21. [NSFW](#nsfw) - Blocks adult content!
+22. [Native Tracker](#native) - Built-in trackers from devices, apps, and OSes
+23. [Recommendation](#recommendation) - [Which list version should I actually use?](FAQ.md#whatshouldiuse)
+24. [Online DNS Services](#dnsservices): [HaGeZi DNS](#hagezidns) - [DNS Bunker](#dnsbunker)
+25. [About](#about): [Repository](#repository) - [Referral Domains](#referral) - [Support](#support)
+26. [FAQ](FAQ.md) - Frequently asked questions
+    1. [Where does the data come from, and how are the lists built?](FAQ.md#sources)
+    2. [Which list version should I use?](FAQ.md#whatshouldiuse)
+    3. [Which format should I use for my ad blocker or DNS server?](FAQ.md#formats)
+    4. [Quick setup guide](FAQ.md#quicksetup)
+    5. [Why aren't referral domains blocked?](FAQ.md#referral)
+    6. [Why aren't CMPs (cookie consent tools) blocked?](FAQ.md#cmps)
+    7. [Which lists are available on which DNS services?](FAQ.md#availablelists)
+    8. [How current is the data, and where can I get it?](FAQ.md#mirrors)
+    9. [Licensing and liability](FAQ.md#licensing)
+    10. [Getting help and reporting issues](FAQ.md#support)
+    11. [Glossary](FAQ.md#glossary)
 27. [Discussions](https://github.com/hagezi/dns-blocklists/discussions)
-28. [Official mirrors](#mirrors)
+28. [Update Interval/Official Mirrors](#mirrors)
 29. [Sources](sources.md)
 30. [Disclaimer](#disclaimer)
 31. [Contact](#contact)
 
-### :books: **Multi - Cleans the Internet and protects your privacy!** <a name="overview"></a>
+### :books: **Multi - Cleans up the internet and protects your privacy!** <a name="overview"></a>
 
-An all-in-one DNS blocklist in **various versions (light, normal, pro, pro++ and ultimate)**. It can be used as a standalone blocklist. For every region. Blocks ads, affiliate, tracking, metrics, telemetry, fake, phishing, malware, scam, cryptojacking and other "crap". Based on [various blocklists](sources.md). No, they are not just block lists cobbled together from different sources. They have been optimized and extended to efficiently "clean the Internet" in all areas.             
+This is an all-in-one DNS blocklist that comes in **several versions (light, normal, pro, pro++, and ultimate)**. You can run it as a standalone blocklist, and it works for any region. It blocks ads, affiliate links, trackers, metrics, telemetry, fake sites, phishing, malware, scams, cryptojacking, and other junk. It's built on [various source blocklists](sources.md), but that doesn't mean it's just a bunch of lists glued together. Everything here has been optimized and extended to properly clean up the internet across the board.
 
-See also: [Which sources are used for the lists and how are the lists compiled on the basis of these sources?](https://github.com/hagezi/dns-blocklists/wiki/FAQ#sources)
+Curious about the sources? Check out: [Which sources are used for the lists and how are they compiled?](FAQ.md#sources)
 
-#### **Blocklist version and size overview:**
+#### **Blocklist versions and sizes at a glance:**
 
 | Version | Entries | Pro++ | Pro | Nor<br>mal | Light | [Fake](#fake) | [TIF](#tif) | [Nat<br>ive](#native) | [PopUp<br>Ads](#popupads) | Bug<br>Tracker |
 |:--------|---:|:------:|:-----:|:----:|:----:|:---:|:------:|:----------:|:----:|:----:|
-| :green_book:[Light](#light)             | 40943     |  |   |   | :green_circle:  |  | |  :yellow_square: | :yellow_square: | |
-| :blue_book:[Normal](#normal)       | 182539     |  |   | :green_circle: | :green_circle: | :green_circle: | :yellow_square: | :yellow_square: | :yellow_square: | |
-| :ledger:[Pro](#pro)              | 216432         |  | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :yellow_square: | :yellow_square: | :green_circle: | :green_circle: |
-| :orange_book:[Pro++](#proplus)    | 240026 | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle: |:yellow_square: | :yellow_square: | :green_circle: | :green_circle: |
-| :closed_book:[Ultimate](#ultimate)    | 264550 | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle:  | :yellow_square: | :green_circle: | :green_circle: | :green_circle: |
+| :green_book:[Light](#light)             | 41528     |  |   |   | :green_circle:  |  | |  :yellow_square: | :yellow_square: | |
+| :blue_book:[Normal](#normal)       | 183588     |  |   | :green_circle: | :green_circle: | :green_circle: | :yellow_square: | :yellow_square: | :yellow_square: | |
+| :ledger:[Pro](#pro)              | 217939         |  | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :yellow_square: | :yellow_square: | :green_circle: | :green_circle: |
+| :orange_book:[Pro++](#proplus)    | 241676 | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle: |:yellow_square: | :yellow_square: | :green_circle: | :green_circle: |
+| :closed_book:[Ultimate](#ultimate)    | 266389 | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle:  | :yellow_square: | :green_circle: | :green_circle: | :green_circle: |
 
-:green_circle: contains the list named in the column caption
-:yellow_square: partially contains the list named in the column caption
+:green_circle: fully includes the list named in the column header
+:yellow_square: partially includes the list named in the column header
 
-#### **Blocking level:**
+#### **Blocking intensity:**
 
 | Version | Blocking<br>level | Blocking<br>type |
 |:--------|:---------------|:--------------|
@@ -74,173 +85,177 @@ See also: [Which sources are used for the lists and how are the lists compiled o
 | :closed_book:[Ultimate](#ultimate) | :closed_book::closed_book::closed_book::closed_book::closed_book::closed_book::closed_book: | Aggressive |
 
 > [!TIP]
-> :information_desk_person: [Which version of the lists should I use?](https://github.com/hagezi/dns-blocklists/wiki/FAQ#whatshouldiuse)
+> :information_desk_person: [Not sure which version fits you? Check this out.](FAQ.md#whatshouldiuse)
 
 ---
 
 ### :green_book: **Multi LIGHT** - **Basic protection** <a name="light"></a>
 
-Hand brush - Cleans the Internet and protects your privacy! Blocks Ads, Tracking, Metrics and some Badware. A size-optimized version of the Multi NORMAL.
+Hand brush edition. Cleans up the internet and protects your privacy without going overboard. Blocks ads, trackers, metrics, and some badware. It's basically a size-optimized version of Multi NORMAL.
 
 > [!NOTE]
-> **Blocking type:** Relaxed              
-> This list version should not lead to any restrictions. It is particularly suitable for environments in which there is no admin nearby who can unblock something and if you have to pay attention to the size of the list, because the AdBlocker does not support large lists.
+> **Blocking type:** Relaxed
+> This version shouldn't cause any real restrictions. Great if there's no admin around to unblock stuff for you, or if your ad blocker chokes on big lists.
 
 > [!IMPORTANT]
-> Does not block error trackers such as Bugsnag, Crashlytics, Firebase, Instabug, Sentry, ... and other app-specific crash trackers. These are only blocked from the Pro version onwards.
+> Doesn't block error trackers like Bugsnag, Crashlytics, Firebase, Instabug, Sentry, and similar app crash reporters. Those only get blocked starting with the Pro version.
 
-**Entries:** 40943
+**Entries:** 41528
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/light.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam, Little Snitch Mini |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/light.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/light.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/light.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam, Little Snitch Mini |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/light.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/light.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/light-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/light.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 ### :blue_book: **Multi NORMAL** - **All-round protection** <a name="normal"></a>
 
-Broom - Cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tracking, Metrics, Telemetry, Phishing, Malware, Scam, Fake, Cryptojacking and other "Crap".
+Broom edition. Cleans up the internet and protects your privacy. Blocks ads, affiliate links, trackers, metrics, telemetry, phishing, malware, scams, fakes, cryptojacking, and other junk.
 
 > [!NOTE]
-> **Blocking type:** Relaxed/Balanced              
-> This list version should not lead to any restrictions for the most part. It is particularly suitable for environments in which there is no admin nearby who can unblock something.
+> **Blocking type:** Relaxed/Balanced
+> This one mostly won't cause restrictions either. Good pick if you don't have an admin handy to unblock anything.
 
 > [!IMPORTANT]
-> Does not block error trackers such as Bugsnag, Crashlytics, Firebase, Instabug, Sentry, ... and other app-specific crash trackers. These are only blocked from the Pro version onwards.
+> Doesn't block error trackers like Bugsnag, Crashlytics, Firebase, Instabug, Sentry, and similar app crash reporters. Those only get blocked starting with the Pro version.
 
-**Entries:** 182539
+**Entries:** 183588
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam, Little Snitch Mini |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/multi.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/multi.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam, Little Snitch Mini |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/multi.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/multi.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/multi-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/multi.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
-### :ledger: **Multi PRO** - **Extended protection (Recommended)** <a name="pro"></a>
+### :ledger: **Multi PRO** - **Extended protection (recommended)** <a name="pro"></a>
 
-Big broom - Cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tracking, Metrics, Telemetry, Phishing, Malware, Scam, Fake, Cryptojacking and other "Crap".
+Big broom edition. Cleans up the internet and protects your privacy. Blocks ads, affiliate links, trackers, metrics, telemetry, phishing, malware, scams, fakes, cryptojacking, and other junk.
 
 > [!NOTE]
-> **Blocking type:** Balanced            
-> This list version should only very rarely lead to restrictions. It is suitable for environments where there is an admin nearby who can unblock something. My personal recommendation for mostly problem-free adblocking with good privacy protection.
+> **Blocking type:** Balanced
+> Restrictions here are rare. Works best if you've got an admin nearby who can unblock something if needed. This is my personal go-to recommendation for solid ad blocking with good privacy without much hassle.
 
-**Entries:** 216432
+> [!WARNING]
+> **Referral domains (affiliate and tracking links):**
+> Most referral domains are still allowed here, but a handful get blocked anyway, mainly ones that double as regular trackers or are commonly tied to scam and spam links. Details: [Referral domains](FAQ.md#referral)
+
+**Entries:** 217939
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/pro.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
-#### :ledger: **Multi PRO mini (Recommended for browser/mobile adblockers)** <a name="promini"></a>
+#### :ledger: **Multi PRO mini (best for browser/mobile ad blockers)** <a name="promini"></a>
 
-Size-optimised version for DNS/Browser adblockers, e.g. for devices with less RAM. This list only contains domains from the Pro full that have been found on Top 1/10M lists (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop).
+A size-optimized version made for DNS or browser blockers, like devices with limited RAM. This only contains domains from the full Pro list that show up on Top 1M/10M lists (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop).
 
-**Entries:** 54350
+**Entries:** 55550
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.mini.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam, Little Snitch Mini |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.mini.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.mini.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.mini.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam, Little Snitch Mini |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.mini.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.mini.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.mini-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/pro.mini.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 ### :orange_book: **Multi PRO++** - **Maximum protection** <a name="proplus"></a>
 
-Sweeper - Aggressive cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tracking, Metrics, Telemetry, Phishing, Malware, Scam, Fake, Cryptojacking and other "Crap".
+Sweeper edition. This one cleans up the internet aggressively and protects your privacy hard. Blocks ads, affiliate links, trackers, metrics, telemetry, phishing, malware, scams, fakes, cryptojacking, and other junk.
 
 > [!NOTE]
-> **Blocking type:** Balanced/Aggressive              
-> More aggressive version of the Multi PRO blocklist. It may contain a few false positive domains that limit functionality. Therefore it should only be used by experienced users. Furthermore, an admin should be available to unblock incorrectly blocked domains.
+> **Blocking type:** Balanced/Aggressive
+> This is the more aggressive sibling of Multi PRO. It might block a few legit domains by mistake, so it's best for experienced users. Ideally have an admin ready to unblock things that break.
 
 > [!WARNING]
-> **Referral domains (affiliate and tracking links):**           
-> A few referral domains that also function as normal trackers are blocked. For further details see: [Referral domains](https://github.com/hagezi/dns-blocklists/wiki/FAQ#referral)
+> **Referral domains (affiliate and tracking links):**
+> A handful of referral domains that double as regular trackers are blocked here too. Details: [Referral domains](FAQ.md#referral)
 
-**Entries:** 240026
+**Entries:** 241676
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.plus.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.plus.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.plus.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.plus.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.plus-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/pro.plus.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 #### :orange_book: **Multi PRO++ mini** <a name="proplusmini"></a>
 
-Size-optimised version for DNS/Browser adblockers, e.g. for devices with less RAM. This list only contains domains from the Pro++ full that have been found on Top 1/10M lists (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop).
+A size-optimized version made for DNS or browser blockers, like devices with limited RAM. Contains only domains from the full Pro++ list that appear on Top 1M/10M lists (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop).
 
-**Entries:** 65594
+**Entries:** 66892
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.mini.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam, Little Snitch Mini |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.plus.mini.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.plus.mini.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.mini.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam, Little Snitch Mini |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.plus.mini.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.plus.mini.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.plus.mini-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/pro.plus.mini.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 ### :closed_book: **Multi ULTIMATE** - **Aggressive protection** <a name="ultimate"></a>
 
-Ultimate Sweeper - Strictly cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tracking, Metrics, Telemetry, Phishing, Malware, Scam, Fake, Cryptojacking and other "Crap".
+Ultimate sweeper edition. Strictly cleans up the internet and locks down your privacy. Blocks ads, affiliate links, trackers, metrics, telemetry, phishing, malware, scams, fakes, cryptojacking, and other junk.
 
 > [!NOTE]
-> **Blocking type:** Aggressive              
-> Stricter version of the Multi PRO++ blocklist. It contains domains that limit functionality in apps and on websites - some popular trackers, that lead to restrictions, are blocked in this list. Therefore it should only be used by experienced users. Furthermore, an admin should be available to unblock incorrectly blocked domains.       
+> **Blocking type:** Aggressive
+> This is a stricter version of Multi PRO++. It contains domains that can limit app or website functionality, including some popular trackers that will cause hiccups. Only use this if you know what you're doing, and make sure someone can unblock things when needed.
 
 > [!WARNING]
-> **Referral domains (affiliate and tracking links):**           
-> A few referral domains that also function as normal trackers are blocked. For further details see: [Referral domains](https://github.com/hagezi/dns-blocklists/wiki/FAQ#referral)
->                   
-> **Facebook:**          
-> Some META trackers are blocked in Ultimate. This restricts the use of Facebook and Facebook Messenger apps. Furthermore, the Whatsapp graph trackers are blocked, which leads to restrictions when creating avatars, using the in-app helpcenter and using video effects. Otherwise, blocking has no effect on Whatsapp functionalities. To use META apps with Ultimate, unblock the following domains if necessary: [META Tracker](share/facebook.txt)
->           
-> **Windows/XBox:**          
-> Some Microsoft trackers are blocked in Ultimate, which lead to restrictions, e.g. Windows Spotlight, XBox Live Achievements Activity History and others. For details and which domains must be unblocked for which function, see: [Microsoft Tracker](share/microsoft.txt).
->                   
-> **Location and IP trackers:**                           
-> Certain location and IP trackers used by websites to identify or monitor your IP address and geographic location are blocked. This enhances privacy but may lead to issues such as incorrect regional settings, additional CAPTCHAs, or reduced website functionality. These trackers are commonly employed for hidden analytics and targeted advertising.
->                    
->**Miscellaneous:**          
-> Details on other known issues can be found [here](share/ultimate-known-issues.txt).  
-                   
-**Entries:** 264550
+> **Referral domains (affiliate and tracking links):**
+> A few referral domains that also act as regular trackers get blocked. Details: [Referral domains](FAQ.md#referral)
+>
+> **Facebook:**
+> Ultimate blocks some META trackers, which limits Facebook and Facebook Messenger app functionality. It also blocks WhatsApp's graph trackers, which can mess with avatar creation, the in-app help center, and video effects. Other than that, WhatsApp works fine. If you use META apps alongside Ultimate, unblock these domains as needed: [META Tracker](share/facebook.txt)
+>
+> **Windows/Xbox:**
+> Some Microsoft trackers are blocked too, which can affect things like Windows Spotlight and Xbox Live Achievements Activity History. Check here for details on which domains to unblock for which feature: [Microsoft Tracker](share/microsoft.txt).
+>
+> **Location and IP trackers:**
+> Certain trackers that websites use to pin down your IP or location get blocked. Great for privacy, but it might trigger wrong regional settings, extra CAPTCHAs, or reduced site functionality here and there. These trackers are usually used for hidden analytics and ad targeting.
+>
+> **Anything else:**
+> More known quirks are listed [here](share/ultimate-known-issues.txt).
+
+**Entries:** 266389
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/ultimate.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/ultimate.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/ultimate.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 #### :closed_book: **Multi ULTIMATE mini** <a name="ultimatemini"></a>
 
-Size-optimised version for DNS/Browser adblockers, e.g. for devices with less RAM. This list only contains domains from the Ultimate full that have been found on Top 1/10M lists (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop).
+A size-optimized version made for DNS or browser blockers, like devices with limited RAM. Contains only domains from the full Ultimate list that appear on Top 1M/10M lists (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop).
 
-**Entries:** 80474
+**Entries:** 81908
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.mini.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam, Little Snitch Mini |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/ultimate.mini.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate.mini.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.mini.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam, Little Snitch Mini |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/ultimate.mini.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate.mini.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate.mini-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/ultimate.mini.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 ---
 
-### :trollface: **Fake - Protects against internet scams, traps & fakes!** <a name="fake"></a>
+### :trollface: **Fake - Blocks scams, traps, and fake sites!** <a name="fake"></a>
 
-A blocklist for blocking fake stores, -streaming, rip-offs, cost traps and co.
+This blocklist targets fake stores, fake streaming sites, rip-offs, subscription traps, and similar scams.
 
 |             | Light | Normal          | Pro            | Pro++          | Ultimate       | TIF<br>TIF medium |
 |:-----------:|:-----:|:---------------:|:--------------:|:--------------:|:--------------:|:--------------:|
@@ -248,43 +263,43 @@ A blocklist for blocking fake stores, -streaming, rip-offs, cost traps and co.
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 16750
+**Entries:** 16861
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam, Little Snitch Mini |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/fake.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/fake.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam, Little Snitch Mini |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/fake.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/fake.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/fake-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/fake.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 ---
 
-### :tada: **Pop-Up Ads - Protects against annoying and malicious pop-up ads!** <a name="popupads"></a>
+### :tada: **Pop-Up Ads - Stops annoying and malicious pop-ups!** <a name="popupads"></a>
 
-A blocklist for annoying and malicious pop-up ads.
+Targets pop-up ads that range from annoying to outright malicious.
 
 |             | Light          | Normal         | Pro            | Pro++          | Ultimate       | TIF      |
-|:-----------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------:|
+|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------:|
 | Included in | :yellow_square: | :yellow_square: | :green_circle: | :green_circle: | :green_circle: | :x: |
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 52895
+**Entries:** 53493
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam, Little Snitch Mini |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/popupads.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/popupads.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam, Little Snitch Mini |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/popupads.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/popupads.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/popupads-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/popupads.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 ---
 
-### :closed_lock_with_key: **Threat Intelligence Feeds - Increases security significantly! (Recommended)** <a name="tif"></a>
+### :closed_lock_with_key: **Threat Intelligence Feeds - A serious security boost (recommended)** <a name="tif"></a>
 
-A blocklist for blocking Malware, Cryptojacking, Scam, Spam and Phishing. Blocks domains known to spread malware, launch phishing attacks and host command-and-control servers.
+This blocklist targets malware, cryptojacking, scams, spam, and phishing. It blocks domains known for spreading malware, running phishing attacks, and hosting command-and-control servers.
 
 |             | Light           | Normal          | Pro             | Pro++           | Ultimate        |
 |:-----------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|
@@ -293,42 +308,42 @@ A blocklist for blocking Malware, Cryptojacking, Scam, Spam and Phishing. Blocks
 :green_circle: yes :yellow_square: partially :x: no
 
 > [!WARNING]
-> This blocklist is very large and may cause high memory usage depending on your ad blocker.          
-> For a more resource-friendly option, consider using the medium or mini versions.
-               
-**Entries:** 2051375
+> This list is huge and can eat up a lot of memory depending on your ad blocker.
+> If that's an issue, grab the medium or mini version instead.
+
+**Entries:** 2064237
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt) | Pi-hole, ~~AdGuard~~ (too big!), AdGuard Home ( :warning: only devices with >= 2GB RAM! :warning: ), eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt) | Pi-hole, ~~AdGuard~~ (too big!), AdGuard Home ( :warning: needs >= 2GB RAM! :warning: ), eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
-| RPZ<br>(splitted)| :one: [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif-1.txt)<br>:two: [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif-2.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound<br><br>:warning: **Note:** Due to its size, the list had to be split into two parts. Both parts are required. |
+| RPZ<br>(split)| :one: [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif-1.txt)<br>:two: [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif-2.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound<br><br>:warning: **Note:** this list had to be split into two parts because of its size. You need both. |
 
-#### :closed_lock_with_key: **Threat Intelligence Feeds - Medium version (Recommended for browser/mobile adblockers)** <a name="tifmedium"></a>
+#### :closed_lock_with_key: **Threat Intelligence Feeds - Medium version (best for browser/mobile ad blockers)** <a name="tifmedium"></a>
 
-A medium version of the Threat Intelligence Feeds list. Designed for Adblockers that have problems with the size of the full TIF list. Contains only important feeds.
+A medium-sized version of the TIF list, built for ad blockers that struggle with the full-size version. Includes only the most important feeds.
 
 |             | Light           | Normal          | Pro             | Pro++           | Ultimate        |
-|:-----------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|
+|:---------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|
 | Included in | :x: | :yellow_square: | :yellow_square: | :yellow_square: | :yellow_square: |
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 389588
+**Entries:** 391374
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt) | Pi-hole, ~~AdGuard~~ (too big!), AdGuard Home ( :warning: only devices with >= 1GB RAM! :warning: ), eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.medium.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt) | Pi-hole, ~~AdGuard~~ (too big!), AdGuard Home ( :warning: needs >= 1GB RAM! :warning: ), eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.medium.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif.medium.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 #### :closed_lock_with_key: **Threat Intelligence Feeds - Mini version** <a name="tifmini"></a>
 
-A size-optimised version of the Threat Intelligence Feeds Medium list. Designed for Adblockers that have problems with the size of the TIF Medium list.
+A size-optimized version of the TIF Medium list, for ad blockers that even struggle with that one.
 
 |             | Light           | Normal          | Pro             | Pro++           | Ultimate        |
 |:-----------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|
@@ -336,87 +351,87 @@ A size-optimised version of the Threat Intelligence Feeds Medium list. Designed 
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 169585
+**Entries:** 170098
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.mini.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam, Little Snitch Mini |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.mini.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.mini.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam, Little Snitch Mini |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.mini.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif.mini.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 #### :closed_lock_with_key: **Threat Intelligence Feeds - IPs** <a name="tifips"></a>
 
-IPv4 lists in [plain IP format](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/ips/tif.txt) for firewalls and [AdGuard Home format](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif-ips.txt) are also available as an extension to the TIF list.
+There's also an IPv4 version of this list, in [plain IP format](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/ips/tif.txt) for firewalls and [AdGuard Home format](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif-ips.txt), which extends the regular TIF list.
 
 > [!TIP]
-> If the IP list is used in AdGuard Home, all domains that would resolve to the blocked IP are blocked. To prevent the blocked domains from being resolved via IPv6, it is necessary to deactivate resolving via IPv6 in AdGuard Home:                        
+> If you use the IP list in AdGuard Home, it'll block any domain that resolves to a blocked IP. To stop domains from slipping through via IPv6, turn off IPv6 resolution in AdGuard Home:
 > `Settings > DNS settings > DNS server configuration > Disable resolving of IPv6 addresses`
 
 ---
 
 ### :new: **Newly Registered Domains (NRD/DGA)** <a name="nrd"></a>
 
-Newly registered domains (NRDs) are commonly used by threat actors for phishing, malware, and command-and-control infrastructure due to their disposable nature, which helps evade detection.
-        
-Two variants are available:  
-- **NRDs:** Include all newly registered domains.  
-- **Entropy NRDs/DGAs:** Contain only newly registered, high-entropy domains generated by Domain Generation Algorithms (DGAs) extracted from the NRD list. These domains display significant structural randomness and are commonly used by malware to establish resilient and evasive command-and-control channels.
+Newly registered domains (NRDs) are a favorite tool for threat actors running phishing, malware, and command-and-control operations, since these domains are easy to throw away and help dodge detection.
+
+There are two variants:
+- **NRDs:** every newly registered domain, no filtering.
+- **Entropy NRDs/DGAs:** only newly registered domains with high entropy, meaning they were likely generated by a Domain Generation Algorithm (DGA). These have a random-looking structure and are commonly used by malware for resilient command-and-control channels.
 
 > [!WARNING]
-> These lists are very large and resource-intensive. They may cause high memory usage and contain false positives, since some legitimate domains are newly registered. Use with caution and whitelist critical services as needed.
-             
+> These lists are big and resource-heavy. They can spike memory usage and include false positives, since some legit domains are new too. Use with care and whitelist important services if needed.
+
 > [!CAUTION]
-> Use at your own risk. The NRD lists are provided as-is, without guarantees, support, or a process for removing false positives.
+> Use these at your own risk. NRD lists come as-is, with no guarantees, no support, and no formal process for fixing false positives.
 
 > [!IMPORTANT]
-> The base data for these lists is provided by [Stamus Labs](https://www.stamus-networks.com/stamus-labs/subscribe-to-threat-intel-feed).                
-> Stamus Labs do not guarantee daily updates, and in some cases, data may be delayed by several days.            
->               
-> Current status of the data provided:
-> - Stamus Labs: :green_circle: - Sun, 16 Aug 2026 04:24:02 UTC / 10494058 domains                
-                   
-#### :new: **NRDs:** Include all newly registered domains     
+> The base data comes from [Stamus Labs](https://www.stamus-networks.com/stamus-labs/subscribe-to-threat-intel-feed).
+> Stamus Labs doesn't promise daily updates, so the data can sometimes lag by a few days.
+>
+> Current status of the data:
+> - Stamus Labs: :green_circle: - Mon, 17 Aug 2026 04:11:18 UTC / 10503908 domains
 
-| Time<br>period | Entries | Format<br>AdBlock | Format<br>Domains |         
+#### :new: **NRDs:** all newly registered domains, unfiltered
+
+| Time<br>period | Entries | Format<br>AdBlock | Format<br>Domains |
 |:--------------:|:--------|:-----------------:|:-----------------:|
-| 7 days ago to yesterday    | 3049039 | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/adblock/nrd7.txt) | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd7.txt) |
-| 14 days ago to 8 days ago  | 2881591 | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/adblock/nrd14-8.txt) | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd14-8.txt) |
-| 21 days ago to 15 days ago | 2346489 | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/adblock/nrd21-15.txt) | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd21-15.txt) |
-| 28 days ago to 22 days ago | 2368924 | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/adblock/nrd28-22.txt) | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd28-22.txt) |
-| 35 days ago to 29 days ago | 2641283 | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/adblock/nrd35-29.txt) | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd35-29.txt) |
-             
+| 7 days ago to yesterday    | 3005552 | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/adblock/nrd7.txt) | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd7.txt) |
+| 14 days ago to 8 days ago  | 2949418 | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/adblock/nrd14-8.txt) | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd14-8.txt) |
+| 21 days ago to 15 days ago | 2319698 | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/adblock/nrd21-15.txt) | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd21-15.txt) |
+| 28 days ago to 22 days ago | 2389823 | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/adblock/nrd28-22.txt) | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd28-22.txt) |
+| 35 days ago to 29 days ago | 2698146 | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/adblock/nrd35-29.txt) | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd35-29.txt) |
+
 > [!NOTE]
-> To block NRDs from the last 14 days, combine the domain lists from 7 days ago and 14 days ago. For blocking NRDs from the last 21 days, combine lists from 7, 14, and 21 days ago. Etc.
-           
+> Want to block NRDs from the last 14 days? Combine the 7-day and 14-day lists. For the last 21 days, add in the 21-day list too, and so on.
+
 > [!TIP]
-> In addition to the NRD list formats provided here, the NRDs are also available in other formats in external repositories:
+> Besides the formats here, NRDs are also available elsewhere:
 > - Wildcard (Asterisk): [Cebeerre/dnsblocklists](https://github.com/Cebeerre/dnsblocklists)
 
-#### :capital_abcd: **Entropy NRDs/DGAs:** Contain only newly registered, high-entropy domains generated by Domain Generation Algorithms (DGAs)    
+#### :capital_abcd: **Entropy NRDs/DGAs:** only newly registered, high-entropy domains generated by DGAs
 
 > [!NOTE]
-> These domains are already included in the full NRD list.
-                    
-| Time<br>period | Entries | Format<br>AdBlock | Format<br>Domains |         
+> These domains are already part of the full NRD list, just filtered down.
+
+| Time<br>period | Entries | Format<br>AdBlock | Format<br>Domains |
 |:--------------:|:--------|:-----------------:|:-----------------:|
-| Past 7 days    | 552558 | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/adblock/dga7.txt) | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga7.txt) |
-| Past 14 days   | 1181936 | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/adblock/dga14.txt) | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga14.txt) |
-| Past 30 days   | 2478782 | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/adblock/dga30.txt) | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga30.txt) |
+| Past 7 days    | 554751 | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/adblock/dga7.txt) | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga7.txt) |
+| Past 14 days   | 1193427 | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/adblock/dga14.txt) | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga14.txt) |
+| Past 30 days   | 2473339 | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/adblock/dga30.txt) | [Link](https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga30.txt) |
 
 ---
 
-### :outbox_tray: **DoH/VPN/TOR/Proxy Bypass - Prevent methods to bypass your DNS!** <a name="bypass"></a>
+### :outbox_tray: **DoH/VPN/TOR/Proxy Bypass - Stop people from sneaking around your DNS!** <a name="bypass"></a>
 
-Prevent methods to bypass your DNS.
+Blocks common ways to bypass your DNS setup.
 
 > [!NOTE]
-> To ensure the bootstrap is your DNS server you must redirect or block standard DNS outbound (TCP/UDP 53) and block all DNS over TLS/QUIC (TCP/UDP 853) outbound.
+> To make sure your DNS server is actually the one being used, you'll need to redirect or block standard DNS traffic (TCP/UDP 53) and also block DNS over TLS/QUIC (TCP/UDP 853) outbound.
 
-**The block list exists in two versions:**
+**This list comes in two flavors:**
 
-#### **Complete Edition - Encrypted DNS Servers, VPN, TOR, Proxies** <a name="bypass_all"></a>
+#### **Complete edition: encrypted DNS servers, VPN, TOR, proxies** <a name="bypass_all"></a>
 
 |             | Light | Normal | Pro | Pro++ | Ultimate |
 |:-----------:|:-----:|:------:|:---:|:-----:|:--------:|
@@ -424,17 +439,17 @@ Prevent methods to bypass your DNS.
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 16557
+**Entries:** 16593
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam, Little Snitch Mini |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/doh-vpn-proxy-bypass.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-vpn-proxy-bypass.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam, Little Snitch Mini |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/doh-vpn-proxy-bypass.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-vpn-proxy-bypass.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-vpn-proxy-bypass-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/doh-vpn-proxy-bypass.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
-#### :outbox_tray: **Encrypted DNS Servers only** <a name="bypass_dns"></a>
+#### :outbox_tray: **Encrypted DNS servers only** <a name="bypass_dns"></a>
 
 |             | Light | Normal | Pro | Pro++ | Ultimate |
 |:-----------:|:-----:|:------:|:---:|:-----:|:--------:|
@@ -442,29 +457,29 @@ Prevent methods to bypass your DNS.
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 3365
+**Entries:** 3370
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam, Little Snitch Mini |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/doh.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam, Little Snitch Mini |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/doh.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/doh.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
-#### :outbox_tray: **Encrypted DNS Servers IPs** <a name="bypass_ips"></a>
+#### :outbox_tray: **Encrypted DNS server IPs** <a name="bypass_ips"></a>
 
-IPv4 lists in [plain IP format](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/ips/doh.txt) for firewalls and [AdGuard Home format](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-ips.txt) are also available.
+There's also an IPv4 version in [plain IP format](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/ips/doh.txt) for firewalls, and an [AdGuard Home format](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-ips.txt).
 
 > [!TIP]
-> If the IP list is used in AdGuard Home, all domains that would resolve to the blocked IP are blocked. To prevent the blocked domains from being resolved via IPv6, it is necessary to deactivate resolving via IPv6 in AdGuard Home:                   
+> If you use the IP list in AdGuard Home, it'll block any domain that resolves to a blocked IP. To stop domains from slipping through via IPv6, turn off IPv6 resolution in AdGuard Home:
 > `Settings > DNS settings > DNS server configuration > Disable resolving of IPv6 addresses`
 
 ---
 
-### :mag: **Safesearch not supported - Prevent the use of search engines that do not support Safesearch!** <a name="safesearch"></a>
+### :mag: **Safesearch not supported - Blocks search engines that skip Safesearch!** <a name="safesearch"></a>
 
-A blocklist for blocking search engines that do not support Safesearch.
+Blocks search engines that don't support Safesearch.
 
 |             | Light | Normal | Pro | Pro++ | Ultimate |
 |:-----------:|:-----:|:------:|:---:|:-----:|:--------:|
@@ -476,17 +491,17 @@ A blocklist for blocking search engines that do not support Safesearch.
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nosafesearch.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam, Little Snitch Mini |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/nosafesearch.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nosafesearch.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nosafesearch.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam, Little Snitch Mini |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/nosafesearch.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nosafesearch.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nosafesearch-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/nosafesearch.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 ---
 
-### :lock_with_ink_pen: **Dynamic DNS blocking - Protects against the malicious use of dynamic DNS services!** <a name="dyndns"></a>
+### :lock_with_ink_pen: **Dynamic DNS blocking - Guards against dynamic DNS abuse!** <a name="dyndns"></a>
 
-A blocklist for blocking dynamic DNS services to protect against malicious use in phishing campaigns and others.
+Blocks dynamic DNS services that get abused for phishing campaigns and other shady activity.
 
 |             | Light | Normal | Pro | Pro++ | Ultimate |
 |:-----------:|:-----:|:------:|:---:|:-----:|:--------:|
@@ -494,29 +509,29 @@ A blocklist for blocking dynamic DNS services to protect against malicious use i
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 1520
+**Entries:** 1521
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam, Little Snitch Mini |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/dyndns.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/dyndns.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam, Little Snitch Mini |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/dyndns.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/dyndns.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/dyndns-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/dyndns.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 ---
 
-### :computer: **Badware Hoster blocking - Protects against the malicious use of host services!** <a name="hoster"></a>
+### :computer: **Badware Hoster blocking - Guards against malicious hosting services!** <a name="hoster"></a>
 
-A blocklist for blocking known hosters that also host badware via user content to prevent the use of these hosters for malicious purposes.
+Blocks known hosting providers that repeatedly host badware through user-uploaded content.
 
 > [!IMPORTANT]
-> This list blocks the root domains of all hosting providers that occasionally appear in threat intelligence feeds due to malicious subdomains. Please be aware that this will also block legitimate sites hosted by these providers. Consider this carefully before using the list.
->                 
-> When using this list, users are responsible for unblocking any required subdomains themselves.
- 
+> This list blocks the root domains of hosting providers that keep showing up in threat feeds because of malicious subdomains. That means legit sites hosted there will get blocked too, so think it through before using this one.
+>
+> If you use this list, you're on your own for unblocking any subdomains you actually need.
+
 > [!CAUTION]
-> Blocking entire hosting providers is impractical in normal environments and may disrupt legitimate services. In sensitive environments, however, stricter blocking can be justified to maximize security.
+> Blocking whole hosting providers is overkill for most setups and can break legit services. In high-security environments though, that trade-off might make sense.
 
 |             | Light | Normal | Pro | Pro++ | Ultimate | TIF |
 |:-----------:|:-----:|:------:|:---:|:-----:|:--------:|:---:|
@@ -528,23 +543,23 @@ A blocklist for blocking known hosters that also host badware via user content t
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam, Little Snitch Mini |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/hoster.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/hoster.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam, Little Snitch Mini |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/hoster.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/hoster.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/hoster-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/hoster.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 | ControlD | [Link](https://github.com/hagezi/dns-blocklists/blob/main/controld/badware-hoster-folder.json)| ControlD folder |
 
 ---
 
-### :calling: **URL Shortener - Blocks link shortener!** <a name="urlshortener"></a>
+### :calling: **URL Shortener - Blocks link shorteners!** <a name="urlshortener"></a>
 
-A blocklist for blocking all known URL/link shortener.
+Blocks every known URL/link shortener out there.
 
 > [!WARNING]
-> Not suitable for use in standard environments. Blocking all URL shorteners is recommended mainly in highly sensitive environments, as they can hide link destinations and facilitate attacks. In less sensitive settings, monitoring, selective blocking, or user education usually suffice to manage risks.
->                 
-> When using this list, users are responsible for unblocking any required domains themselves.
+> Not really meant for everyday setups. Blocking all URL shorteners makes the most sense in high-security environments, since shorteners can hide where a link actually leads and help enable attacks. In lower-risk settings, keeping an eye on things or just being careful usually does the job.
+>
+> If you use this list, you're on your own for unblocking any domains you actually need.
 
 |             | Light | Normal | Pro | Pro++ | Ultimate | TIF |
 |:-----------:|:-----:|:------:|:---:|:-----:|:--------:|:---:|
@@ -552,29 +567,29 @@ A blocklist for blocking all known URL/link shortener.
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 9849
+**Entries:** 9875
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/urlshortener.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam, Little Snitch Mini |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/urlshortener.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/urlshortener.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/urlshortener.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam, Little Snitch Mini |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/urlshortener.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/urlshortener.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/urlshortener-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/urlshortener.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 ---
 
-### :crystal_ball: **Most Abused TLDs - Protects against known malicious Top Level Domains! (Recommended)** <a name="tlds"></a>
+### :crystal_ball: **Most Abused TLDs - Blocks known shady top-level domains! (recommended)** <a name="tlds"></a>
 
-A blocklist for blocking Top Most Abused Top Level Domains, merged from Cloudflare Radar, Netcraft and SpamHaus.
+Blocks the most abused top-level domains, combining data from Cloudflare Radar, Netcraft, and SpamHaus.
 
 > [!WARNING]
-> The Most Abused TLDs list is designed to block entire top-level domains (such as *.top, *.shop, *.gdn) with poor reputations. While this may also block some legitimate sites, it is highly effective at preventing spam, scams, phishing, malware, and other malicious content. Users should be aware of which sites are affected by this list.
+> This list blocks entire top-level domains (like *.top, *.shop, *.gdn) that have a bad reputation overall. Yes, that means some legit sites get caught in the crossfire too, but it's really effective against spam, scams, phishing, malware, and other garbage. Know what you're signing up for.
 >
-> Only widely-used, reputable domains, such as those appearing on major top lists (Umbrella, Cloudflare, Tranco, Chrome, DomCop, etc.) or those essential for popular apps and services will be considered for exclusion. Illegal domains, including those related to piracy, will not be unblocked. Domains that do not meet these criteria are reviewed individually; if exclusion is not justified, they remain blocked. Users who need access to such domains should add them to their personal allowlist.
+> Only well-known, reputable domains that show up on major top lists (Umbrella, Cloudflare, Tranco, Chrome, DomCop, etc.) or are essential for popular apps get considered for exclusion. Illegal domains, including piracy sites, stay blocked no matter what. Anything that doesn't clearly qualify gets reviewed case by case, and if there's no good reason to unblock it, it stays blocked. If you need access to something specific, add it to your personal allowlist.
 >
-> This selective approach is necessary because AdGuard and uBlock Origin have technical limits on rule length when using denyallow/domain modifiers. Attempting to exclude every legitimate domain would eventually break important rules, so exclusions must be limited and carefully chosen.
-              
+> This selective approach exists because AdGuard and uBlock Origin have technical limits on rule length when using denyallow/domain modifiers. Trying to exclude every legit domain would eventually break important rules, so exclusions have to stay limited and carefully picked.
+
 |             | Light | Normal | Pro | Pro++ | Ultimate |
 |:-----------:|:-----:|:------:|:---:|:-----:|:--------:|
 | Included in | :x:   | :x:    | :x: | :x:   | :x:      |
@@ -585,25 +600,25 @@ A blocklist for blocking Top Most Abused Top Level Domains, merged from Cloudfla
 |:-------|:-----|:----------------|
 | AdGuard | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds.txt) | AdGuard, AdGuard Home |
 | uBlock Origin  | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-ublock.txt) | uBlock Origin, Adblock Plus |
-| AdBlock  | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt) | Pi-hole, TechnitiumDNS<br>Contains only spam TLDs that do not have any exclusions. |
+| AdBlock  | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt) | Pi-hole, TechnitiumDNS<br>Only includes spam TLDs with no exclusions. |
 | AdBlock<br>(Aggressive)<br><br>Allowlist<br><br> | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock-aggressive.txt)<br><br>[Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock-allow.txt) | Pi-hole, TechnitiumDNS |
 | Wildcard<br>Domains<br><br>Allowlist<br><br> | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/spam-tlds-onlydomains.txt)<br><br>[Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/spam-tlds-allow-onlydomains.txt) | DNSCrypt |
-| RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/spam-tlds-rpz.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound<br>Contains only spam TLDs that do not have any exclusions. |
-| RPZ<br>(Aggressive) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/spam-tlds-rpz-aggressive.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound<br>Contains all spam TLDs, corresponds to the AdGuard and uBlock Origin version without exclusions. |
+| RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/spam-tlds-rpz.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound<br>Only includes spam TLDs with no exclusions. |
+| RPZ<br>(Aggressive) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/spam-tlds-rpz-aggressive.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound<br>Includes all spam TLDs, matching the AdGuard/uBlock Origin version without exclusions. |
 | ControlD | [Link](https://github.com/hagezi/dns-blocklists/blob/main/controld/spam-tlds-combined-folder.json) | ControlD folder |
 
 ---
 
-### :shield: **DNS Rebind Protection - Prevents attackers from resolving domains to local IPs!** <a name="dnsrebind"></a>
+### :shield: **DNS Rebind Protection - Stops attackers from pointing domains at your local network!** <a name="dnsrebind"></a>
 
-DNS Rebind Protection is a security mechanism that prevents attackers from manipulating DNS responses to make a domain resolve to private or local IP addresses, thereby blocking malicious scripts from accessing internal networks through DNS rebinding attacks.
+DNS Rebind Protection stops attackers from messing with DNS responses to make a domain point to a private or local IP address. This blocks malicious scripts from using DNS rebinding attacks to reach your internal network.
 
 > [!IMPORTANT]
-> This list is only compatible with AdGuard/AdGuard Home and can also be selected in AdGuard DNS.                  
-> Other DNS blockers may include built‑in DNS rebinding protection.            
->          
-> Since rebinding protection blocks all domains resolving to local IPs, internal hostnames may also be affected.           
-> In AdGuard, you should therefore whitelist your local domains, for example: `@@||fritz.box^`
+> This only works with AdGuard/AdGuard Home, and it's also selectable in AdGuard DNS.
+> Other DNS blockers may already have their own rebind protection built in.
+>
+> Since rebind protection blocks anything resolving to a local IP, your internal hostnames might get caught too.
+> In AdGuard, whitelist your local domains, something like: `@@||fritz.box^`
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -611,9 +626,9 @@ DNS Rebind Protection is a security mechanism that prevents attackers from manip
 
 ---
 
-### :skull: **Anti Piracy - Protects against piracy!** <a name="piracy"></a>
+### :skull: **Anti Piracy - Blocks piracy sites!** <a name="piracy"></a>
 
-Blocks websites and services that are mainly used for the illegal distribution of copyrighted content.
+Blocks sites and services mainly used for illegally distributing copyrighted content.
 
 |             | Light | Normal | Pro | Pro++ | Ultimate |
 |:-----------:|:-----:|:------:|:---:|:-----:|:--------:|
@@ -621,21 +636,21 @@ Blocks websites and services that are mainly used for the illegal distribution o
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 41256
+**Entries:** 41599
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam, Little Snitch Mini |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/anti.piracy.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/anti.piracy.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam, Little Snitch Mini |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/anti.piracy.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/anti.piracy.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/anti.piracy-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/anti.piracy.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 ---
 
-### :slot_machine: **Gambling - Protects against gambling content!** <a name="gambling"></a>
+### :slot_machine: **Gambling - Blocks gambling content!** <a name="gambling"></a>
 
-Blocks gambling content.
+Blocks gambling-related sites.
 
 |             | Light | Normal | Pro | Pro++ | Ultimate |
 |:-----------:|:-----:|:------:|:---:|:-----:|:--------:|
@@ -643,19 +658,19 @@ Blocks gambling content.
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 444758
+**Entries:** 450018
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/gambling.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/gambling.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/gambling.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 #### :slot_machine: **Gambling - Medium version** <a name="gamblingmedium"></a>
 
-A medium version of the Gambling list. Designed for Adblockers that have problems with the size of the full Gambling list.
+A medium-sized version for ad blockers that have trouble with the full gambling list.
 
 |             | Light | Normal | Pro | Pro++ | Ultimate |
 |:-----------:|:-----:|:------:|:---:|:-----:|:--------:|
@@ -663,19 +678,19 @@ A medium version of the Gambling list. Designed for Adblockers that have problem
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 152861
+**Entries:** 154739
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.medium.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam, Little Snitch Mini |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/gambling.medium.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.medium.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.medium.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam, Little Snitch Mini |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/gambling.medium.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.medium.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.medium-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/gambling.medium.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 #### :slot_machine: **Gambling - Mini version** <a name="gamblingmini"></a>
 
-A size-optimised version of the Gambling Medium list. This list only contains domains that have been found on Top 1/10M lists (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop).
+A size-optimized version of the Gambling Medium list. Only contains domains that show up on Top 1M/10M lists (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop).
 
 |             | Light | Normal | Pro | Pro++ | Ultimate |
 |:-----------:|:-----:|:------:|:---:|:-----:|:--------:|
@@ -683,13 +698,13 @@ A size-optimised version of the Gambling Medium list. This list only contains do
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 104600
+**Entries:** 105922
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.mini.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam, Little Snitch Mini |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/gambling.mini.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.mini.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.mini.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam, Little Snitch Mini |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/gambling.mini.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.mini.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.mini-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/gambling.mini.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
@@ -697,11 +712,11 @@ A size-optimised version of the Gambling Medium list. This list only contains do
 
 ### :speech_balloon: **Social Networks - Blocks access to social networks!** <a name="social"></a>
 
-Blocks access to social networks (Facebook, Instagram, TikTok, X (formerly Twitter), Snapchat, ...).
-                  
+Blocks social networks like Facebook, Instagram, TikTok, X (formerly Twitter), Snapchat, and others.
+
 > [!NOTE]
-> This list does not block messaging services such as WhatsApp or streaming platforms like Twitch. The blocking is strictly limited to traditional social networking sites only.
-                 
+> This list won't block messaging apps like WhatsApp or streaming platforms like Twitch. It's strictly aimed at classic social networking sites.
+
 |             | Light | Normal | Pro | Pro++ | Ultimate |
 |:-----------:|:-----:|:------:|:---:|:-----:|:--------:|
 | Included in | :x:   | :x:    | :x: | :x:   | :x:      |
@@ -712,15 +727,15 @@ Blocks access to social networks (Facebook, Instagram, TikTok, X (formerly Twitt
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/social.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam, Little Snitch Mini |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/social.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/social.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/social.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam, Little Snitch Mini |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/social.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/social.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/social-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/social.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 ---
 
-### :underage: **NSFW - Protects against adult content!** <a name="nsfw"></a>
+### :underage: **NSFW - Blocks adult content!** <a name="nsfw"></a>
 
 Blocks adult content.
 
@@ -730,21 +745,21 @@ Blocks adult content.
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 111785
+**Entries:** 112390
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdBlock-Fast, AdNauseam |
-| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/nsfw.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
-| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nsfw.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam |
+| DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/nsfw.txt) | DNSMasq (v2.86+), Diversion (v5+) |
+| Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nsfw.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nsfw-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/nsfw.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 ---
 
-### :calling: **Native Tracker - Broadband tracker of devices, services and operating systems** <a name="native"></a>
+### :calling: **Native Tracker - Built-in trackers from devices, apps, and OSes** <a name="native"></a>
 
-Blocks native broadband tracker from devices, services and operating systems that track your activity.
+Blocks the native trackers baked into devices, services, and operating systems that quietly track what you do.
 
 |             | Light | Normal | Pro | Pro++ | Ultimate |
 |:-----------:|:-----:|:------:|:---:|:-----:|:--------:|
@@ -753,15 +768,15 @@ Blocks native broadband tracker from devices, services and operating systems tha
 :green_circle: yes :yellow_square: partially :x: no
 
 > [!IMPORTANT]
-> The native tracker lists encompass all trackers used for monitoring user activity, which may also result in certain restrictions. These lists are integrated across the standard tiers—Light, Normal, Pro, Pro++, and Ultimate—each providing different levels of blocking:
->          
-> - Light to Pro: These lists only block native trackers that do not interfere with functionality, ensuring a smooth experience.
-> - Pro++ (Aggressive): This list blocks additional native trackers that may cause some restrictions or limit certain features.
-> - Ultimate: This list provides the most comprehensive blocking, including all native trackers for maximum privacy.
->           
-> By choosing a specific list version, you can control how aggressively native trackers are blocked according to your preferences.
->               
-> When combining native tracker lists with standard lists, you may need to manually unblock certain native trackers as required.
+> Native tracker lists cover everything used to monitor user activity, which can occasionally limit functionality too. They're integrated across all the standard tiers (Light, Normal, Pro, Pro++, Ultimate), each at a different blocking level:
+>
+> - Light through Pro: only block native trackers that won't break functionality, for a smooth experience.
+> - Pro++ (aggressive): blocks extra native trackers that might cause some restrictions or limit certain features.
+> - Ultimate: the most thorough option, blocking all native trackers for max privacy.
+>
+> Pick whichever tier matches how aggressive you want to be about native tracker blocking.
+>
+> When combining native tracker lists with the standard lists, you might need to manually unblock a specific tracker here or there.
 
 | Device/Service | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:-------|:--------:|:--------:|:---------:|:--------:|:--------:|
@@ -782,23 +797,24 @@ Blocks native broadband tracker from devices, services and operating systems tha
 
 ### :bulb: **Recommendation** <a name="recommendation"></a>
 
-As a network-wide DNS blocker, I recommend using [Adguard Home](https://adguard.com), [Pi-hole](https://pi-hole.net/), [TechnitiumDNS](https://technitium.com/dns/), [Blocky](https://github.com/0xERR0R/blocky) (advanced users), [adblock-lean](https://github.com/lynxthecat/adblock-lean) (OpenWrt) or [eBlocker](https://eblocker.org/).
+For network-wide DNS blocking, I'd recommend [AdGuard Home](https://adguard.com), [Pi-hole](https://pi-hole.net/), [TechnitiumDNS](https://technitium.com/dns/), [Blocky](https://github.com/0xERR0R/blocky) (if you're comfortable with advanced setups), [adblock-lean](https://github.com/lynxthecat/adblock-lean) (for OpenWrt), or [eBlocker](https://eblocker.org/).
 
-DNS blockers offer good protection of privacy by blocking tracking, metrics and telemetry. They can be used to block the vast majority of ads, malware, scam, fake and co, but not everything can be blocked at the DNS level!
-Therefore, I **additionally** recommend the use of a browser content blocker such as [AdGuard](https://adguard.com), [uBlock Origin](https://github.com/uBlockOrigin/) or [Ghostery](https://www.ghostery.com/).
+DNS blockers do a great job protecting your privacy by cutting off trackers, metrics, and telemetry. They can also block most ads, malware, scams, and fake sites, but they can't catch everything since some of that stuff doesn't work through DNS.
 
-Check out Yokoffing's [Recommended Filters for uBlock Origin](https://github.com/yokoffing/filterlists) for content blocker filter lists.
+That's why I **also** recommend pairing this with a browser content blocker like [AdGuard](https://adguard.com), [uBlock Origin](https://github.com/uBlockOrigin/), or [Ghostery](https://www.ghostery.com/).
+
+Check out Yokoffing's [Recommended Filters for uBlock Origin](https://github.com/yokoffing/filterlists) for good content blocker filter lists.
 
 > [!TIP]
-> :information_desk_person: [Which version of the lists should I use?](https://github.com/hagezi/dns-blocklists/wiki/FAQ#whatshouldiuse)
+> :information_desk_person: [Still not sure which version to pick?](FAQ.md#whatshouldiuse)
 
 ---
 
 ### :department_store: **Online DNS Services** <a name="dnsservices"></a>
 
-If you don't run your own DNS server on your home network or if you are looking for additional protection for your mobile devices when they are not connected to the home network, then you can use one of the following DNS services.
+Don't run your own DNS server at home, or want extra protection for your phone when it's off your home network? These DNS services have you covered.
 
-**Availability of the lists in the respective DNS services:** <a name="availablelists"></a>
+**Which lists are available where:** <a name="availablelists"></a>
 
 | Service | Light | Nor<br>mal | Pro | Pro<br>++ | Ulti<br>mate | TIF | By<br>pass | Dyn<br>DNS | Hoster | TLDs | Anti<br>Piracy | Gam<br>bling | ... |
 | :----- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
@@ -807,24 +823,24 @@ If you don't run your own DNS server on your home network or if you are looking 
 | Rethink<br>DNS          | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle:   | :green_circle: | :x:            | :x:              | :x: | :x: |
 | DNS<br>warden           | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :x:              | :x:              | :x:            | :x:            | :x:              | :x:              | :x: |
 
-:yellow_square: Are included in the ControlD native lists of the respective category.                        
-:notebook: Available as [ControlD folder](https://github.com/hagezi/dns-blocklists/tree/main/controld).
+:yellow_square: Included as part of ControlD's native category lists.
+:notebook: Available as a [ControlD folder](https://github.com/hagezi/dns-blocklists/tree/main/controld).
 
-#### :department_store: **AdGuardDNS - limited free/unlimited trial/paid** <a name="adguarddns"></a>
+#### :department_store: **AdGuardDNS - limited free / unlimited trial / paid** <a name="adguarddns"></a>
 
-In [AdGuardDNS](https://adguard-dns.io) you can use my:
+On [AdGuardDNS](https://adguard-dns.io) you can use:
 
 - Normal, Pro, Pro++, Ultimate
-- Threat-Intelligence-Feeds (TIF), Most Abused TLDs, Badware Hoster, DynDNS, DNS Rebind Protection, URLshortener
+- Threat Intelligence Feeds (TIF), Most Abused TLDs, Badware Hoster, DynDNS, DNS Rebind Protection, URL Shortener
 - DoH/VPN/TOR/Proxy Bypass
 - Gambling
 - Anti Piracy
 - Native Tracker (Apple, OPPO & Realme, Samsung, Vivo, Windows/Office, Xiaomi)
 - Allowlist Referral
 
-#### :department_store: **ControlD - free/paid** <a name="controld"></a>
+#### :department_store: **ControlD - free / paid** <a name="controld"></a>
 
-In [ControlD](https://controld.com) you can use my Light, Normal, Pro, Pro++, Ultimate and TIF lists.
+On [ControlD](https://controld.com) you can use Light, Normal, Pro, Pro++, Ultimate, and TIF.
 
 **Free:**
 
@@ -839,64 +855,64 @@ In [ControlD](https://controld.com) you can use my Light, Normal, Pro, Pro++, Ul
 
 **Paid:**
 
-Check out Yokoffing's [ControlD Config Guide](https://github.com/yokoffing/Control-D-Config) for recommended [ControlD](https://controld.com) configuration settings.
+Check out Yokoffing's [ControlD Config Guide](https://github.com/yokoffing/Control-D-Config) for good [ControlD](https://controld.com) settings.
 
 **Automation:**
 
-[controld-hagezi-sync](https://github.com/0x11DFE/controld-hagezi-sync) - Automatically sync HaGeZi folder blocklists to ControlD profiles via API. Supports TOML configuration, dry-run mode, multi-profile mappings, and GitHub Actions for daily unattended syncs.
+[controld-hagezi-sync](https://github.com/0x11DFE/controld-hagezi-sync): automatically syncs HaGeZi folder blocklists to ControlD profiles via API. Supports TOML config, dry-run mode, multi-profile mappings, and daily GitHub Actions syncs.
 
-#### :department_store: **HaGeZi DNS (EU: Germany/Finland - balanced blocking level) - free** <a name="hagezidns"></a>
+#### :department_store: **HaGeZi DNS (EU: Germany/Finland, balanced blocking) - free** <a name="hagezidns"></a>
 
-HaGeZi DNS provides free, non-commercial public resolvers for Europe, combining privacy and security with minimal restrictions using Multi Pro and Threat Intelligence Feed blocklists.
+HaGeZi DNS runs free, non-commercial public resolvers for Europe, mixing privacy and security with minimal restrictions using the Multi Pro and Threat Intelligence Feed lists.
 
-For details, visit the [project repository](https://github.com/hagezi/dns-servers).                
+More details in the [project repository](https://github.com/hagezi/dns-servers).
 
-#### Blocks Ads, Tracking, Analytics, Metrics, Telemetry, Phishing, Malware, Scam, Fake, Cryptojacking and other harmful domains:
-                  
+#### Blocks ads, trackers, analytics, metrics, telemetry, phishing, malware, scams, fakes, cryptojacking, and other harmful domains:
+
 | Location           | Protocols     | Endpoint/URL                          | Apple<br>Config        | Recommended for    |
 |--------------------|---------------|-------------------------------------|-----------------------|-------------------------|
-| Germany, Falkenstein| DoH/DoH3      | `https://root.hagezi.org/dns-query`   | [Link](https://raw.githubusercontent.com/hagezi/dns-servers/refs/heads/main/mobileconfig/root-hagezi-org.mobileconfig) [QR](/mobileconfig/root-hagezi-org.mobileconfig.png)    | AT, BA, BE, BG, CH, CZ, DE, DK, FR, GB, HU, IE, IT, LU, NL, PL, RO, SI, SK | 
+| Germany, Falkenstein| DoH/DoH3      | `https://root.hagezi.org/dns-query`   | [Link](https://raw.githubusercontent.com/hagezi/dns-servers/refs/heads/main/mobileconfig/root-hagezi-org.mobileconfig) [QR](/mobileconfig/root-hagezi-org.mobileconfig.png)    | AT, BA, BE, BG, CH, CZ, DE, DK, FR, GB, HU, IE, IT, LU, NL, PL, RO, SI, SK |
 |                    | DoT/QUIC      | `root.hagezi.org`                     |                       |                         |
 |                    | Do53      | `188.34.161.210`<br>`2a01:4f8:c17:1c66::1` |                       |                         |
-| Germany, Nuremberg| DoH/DoH3      | `https://wurzn.hagezi.org/dns-query`   | [Link](https://raw.githubusercontent.com/hagezi/dns-servers/refs/heads/main/mobileconfig/wurzn-hagezi-org.mobileconfig) [QR](/mobileconfig/wurzn-hagezi-org.mobileconfig.png)    | AT, BA, BE, BG, CH, CZ, DE, DK, ES, FR, GB, GR, HR, HU, IE, IT, LU, MD, MK, MT, NL, PL, PT, RO, RS, SI, SK, TR, UA | 
+| Germany, Nuremberg| DoH/DoH3      | `https://wurzn.hagezi.org/dns-query`   | [Link](https://raw.githubusercontent.com/hagezi/dns-servers/refs/heads/main/mobileconfig/wurzn-hagezi-org.mobileconfig) [QR](/mobileconfig/wurzn-hagezi-org.mobileconfig.png)    | AT, BA, BE, BG, CH, CZ, DE, DK, ES, FR, GB, GR, HR, HU, IE, IT, LU, MD, MK, MT, NL, PL, PT, RO, RS, SI, SK, TR, UA |
 |                    | DoT/QUIC      | `wurzn.hagezi.org`                     |                       |                         |
 |                    | Do53      | `159.69.155.94`<br>`2a01:4f8:1c1c:d363::1` |                       |                         |
-| Finland, Helsinki   | DoH/DoH3      | `https://juuri.hagezi.org/dns-query`  | [Link](https://raw.githubusercontent.com/hagezi/dns-servers/refs/heads/main/mobileconfig/juuri-hagezi-org.mobileconfig) [QR](/mobileconfig/juuri-hagezi-org.mobileconfig.png)    | DK, EE, FI, LT, LV, NO, SE | 
+| Finland, Helsinki   | DoH/DoH3      | `https://juuri.hagezi.org/dns-query`  | [Link](https://raw.githubusercontent.com/hagezi/dns-servers/refs/heads/main/mobileconfig/juuri-hagezi-org.mobileconfig) [QR](/mobileconfig/juuri-hagezi-org.mobileconfig.png)    | DK, EE, FI, LT, LV, NO, SE |
 |                    | DoT/QUIC      | `juuri.hagezi.org`                    |                       |                         |
 |                    | Do53      | `95.217.163.17`<br>`2a01:4f9:c013:dc4e::1` |                       |                         |
 
-#### Blocks ONLY Phishing, Malware, Scam, Fake, Cryptojacking and other harmful domains:
+#### Blocks ONLY phishing, malware, scams, fakes, cryptojacking, and other harmful domains:
 
 | Location           | Protocols     | Endpoint/URL                          | Apple<br>Config        | Recommended for    |
 |--------------------|---------------|-------------------------------------|-----------------------|-------------------------|
-| Germany, Nuremberg| DoH/DoH3      | `https://ctif.hagezi.org/dns-query`  | [Link](https://raw.githubusercontent.com/hagezi/dns-servers/refs/heads/main/mobileconfig/ctif-hagezi-org.mobileconfig) [QR](/mobileconfig/ctif-hagezi-org.mobileconfig.png) | AT, BA, BE, BG, CH, CZ, DE, DK, ES, FR, GB, GR, HR, HU, IE, IT, LU, MD, MK, MT, NL, PL, PT, RO, RS, SI, SK, TR, UA | 
+| Germany, Nuremberg| DoH/DoH3      | `https://ctif.hagezi.org/dns-query`  | [Link](https://raw.githubusercontent.com/hagezi/dns-servers/refs/heads/main/mobileconfig/ctif-hagezi-org.mobileconfig) [QR](/mobileconfig/ctif-hagezi-org.mobileconfig.png) | AT, BA, BE, BG, CH, CZ, DE, DK, ES, FR, GB, GR, HR, HU, IE, IT, LU, MD, MK, MT, NL, PL, PT, RO, RS, SI, SK, TR, UA |
 |                    | DoT/QUIC      | `ctif.hagezi.org`                     |                       |                         |
 |                    | Do53      | `162.55.58.40`<br>`2a01:4f8:1c19:6c19::1` |                       |                         |
-                      
-#### :department_store: **DNSBUNKER.org (EU: Germany - balanced blocking level ) - free** <a name="dnsbunker"></a>
 
-[DNSBUNKER.org](https://dnsbunker.org/) is a hardened, privacy-first DNS resolver located in Germany.
-              
+#### :department_store: **DNSBUNKER.org (EU: Germany, balanced blocking) - free** <a name="dnsbunker"></a>
+
+[DNSBUNKER.org](https://dnsbunker.org/) is a hardened, privacy-first DNS resolver based in Germany.
+
 | Blocklists | DNS-over-HTTPS/3 | DNS-over-TLS/QUIC | Apple |
 |:-----------|:---------------|:------------------|:--------|
 | Pro + TIF | `https://dnsbunker.org/dns-query` | `dnsbunker.org ` | [Link](https://dnsbunker.org/doh.mobileconfig) |
 
-#### :department_store: **Public RDNS (EU: Finland - family-safe - aggressive blocking level) - free** <a name="publicrdns"></a>
+#### :department_store: **Public RDNS (EU: Finland, family-safe, aggressive blocking) - free** <a name="publicrdns"></a>
 
-[Public RDNS](https://public-rdns.com/), a free, no-log recursive resolver for families, using HaGeZi lists to aggressively block ads, trackers, malware, NSFW content, piracy, gambling, and other unwanted domains.
-                       
-For further details, visit the [project page](https://public-rdns.com).
+[Public RDNS](https://public-rdns.com/) is a free, no-log recursive resolver for families that uses HaGeZi lists to aggressively block ads, trackers, malware, NSFW content, piracy, gambling, and other unwanted domains.
 
-#### :department_store: **RobinGroppe.de (EU: Germany - threat blocking) - free** <a name="robingroppe"></a>
+More info on the [project page](https://public-rdns.com).
 
-[RobinGroppe.de DNS](https://www.robingroppe.de/serverzeug/dns-server) is a free DNS service designed for privacy-conscious users. It does not log your DNS queries and helps protect your connection by blocking malware, phishing, and other online threats using the HaGeZi Threat Intelligence Feeds.
+#### :department_store: **RobinGroppe.de (EU: Germany, threat blocking) - free** <a name="robingroppe"></a>
+
+[RobinGroppe.de DNS](https://www.robingroppe.de/serverzeug/dns-server) is a free, privacy-focused DNS service. It doesn't log your queries and protects your connection by blocking malware, phishing, and other online threats using the HaGeZi Threat Intelligence Feeds.
 
 #### :department_store: **RethinkDNS - free** <a name="rethinkdns"></a>
 
-In [RethinkDNS](https://rethinkdns.com) you can use my Light, Normal, Pro, Pro++, Ultimate, TIF, DynDNS and Badware Hoster lists.
+On [RethinkDNS](https://rethinkdns.com) you can use Light, Normal, Pro, Pro++, Ultimate, TIF, DynDNS, and Badware Hoster.
 
 > [!NOTE]
-> The lists in RethinkDNS are only updated once a week.
+> RethinkDNS only updates its lists once a week.
 
 | Blocklists | DNS-over-HTTPS | DNS-over-TLS/QUIC |
 |:-----------|:---------------|:-------------|
@@ -908,7 +924,7 @@ In [RethinkDNS](https://rethinkdns.com) you can use my Light, Normal, Pro, Pro++
 
 #### :department_store: **DNSwarden - free** <a name="dnswarden"></a>
 
-In [DNSwarden](https://dnswarden.com/customfilter.html) you can use my Light, Normal, Pro, Pro++, Ultimate and TIF lists.
+On [DNSwarden](https://dnswarden.com/customfilter.html) you can use Light, Normal, Pro, Pro++, Ultimate, and TIF.
 
 | Blocklists | DNS-over-HTTPS | DNS-over-TLS/QUIC |
 |:-----------|:---------------|:------------------|
@@ -920,9 +936,9 @@ In [DNSwarden](https://dnswarden.com/customfilter.html) you can use my Light, No
 
 #### :department_store: **OpenBLD.net - free** <a name="openbld"></a>
 
-[OpenBLD.net](https://openbld.net/docs/get-started/third-party-filters/hagezi/) uses my Pro in combination with the TIF blocklist.
+[OpenBLD.net](https://openbld.net/docs/get-started/third-party-filters/hagezi/) combines the Pro list with the TIF blocklist.
 
-| Blocklists | DNS-over-HTTPS | 
+| Blocklists | DNS-over-HTTPS |
 |:-----------|:---------------|
 | Pro + TIF  | `https://ric.openbld.net/dns-query/hagezi` |
 
@@ -931,16 +947,16 @@ In [DNSwarden](https://dnswarden.com/customfilter.html) you can use my Light, No
 ### :loudspeaker: **About** <a name="about"></a>
 
 <p align="center"><a href="https://github.com/hagezi/dns-blocklists/graphs/contributors"><img src="https://contrib.rocks/image?repo=hagezi/dns-blocklists&max=1" /></a></p>
-<p align="center"><i><b>"If the plan doesn‘t work, change the plan but never the goal."<br>There's no place like 127.0.0.1!</b></i></p>
+<p align="center"><i><b>"If the plan doesn't work, change the plan, not the goal."<br>There's no place like 127.0.0.1!</b></i></p>
 
-The blocklists are based on [various sources](sources.md) and my own denylists/extensions. They were designed to avoid false positive domains as much as possible without losing effectiveness and efficiency. Dead hosts are regularly removed from the lists to keep them as small as possible.
-Made with :heartbeat: for a safer and cleaner internet.
+These blocklists are built on [various sources](sources.md) plus my own denylists and extensions. The goal has always been to avoid false positives as much as possible without giving up effectiveness. Dead entries get pruned regularly to keep the lists lean.
+Built with :heartbeat: for a safer, cleaner internet.
 
-All lists were tested against 10000 websites from the Cisco Umbrella Top 1 million list. It was checked whether the pages load, the page content is displayed correctly, navigation links work, images load, videos start and much more.
+Every list gets tested against 10,000 websites from the Cisco Umbrella Top 1 million list. I check whether pages load properly, content displays correctly, navigation works, images load, videos play, and so on.
 
-No, they are not just block lists cobbled together from different sources. They have been optimized and extended to efficiently "clean the Internet" in all areas. See also: [Which sources are used for the lists and how are the lists compiled on the basis of these sources?](https://github.com/hagezi/dns-blocklists/wiki/FAQ#sources)
+So no, these aren't just random lists stitched together from other sources. They've been optimized and extended to genuinely clean up the internet across every category. Curious how? Check out: [Which sources are used and how are the lists compiled?](FAQ.md#sources)
 
-The results of a test against the 10000 [whotracks.me](https://whotracks.me/websites.html) pages. All pages were opened and fully loaded via batch in Edge with privacy features turned off. Cookies were all accepted.
+Here's how each version performed against the 10,000 [whotracks.me](https://whotracks.me/websites.html) pages. All pages were opened and fully loaded in batch via Edge with privacy features turned off, and cookies accepted.
 
 | **List**     | Total queries | Blocked queries | % blocked | % gap to light |
 |-------------:|--------------:|----------------:|----------:|---------------:|
@@ -951,52 +967,58 @@ The results of a test against the 10000 [whotracks.me](https://whotracks.me/webs
 | **Light**    | 299646        | 92576           | 30.90     |                |
 | **----**     | 299646        | 67888           | 22.66     | -8.24          |
 
-Test them, give feedback and [report blockable or incorrectly blocked](https://github.com/hagezi/dns-blocklists/issues) domains.
+Give it a try, share your feedback, and [report anything that should (or shouldn't) be blocked](https://github.com/hagezi/dns-blocklists/issues).
 
 #### :octocat: Repository <a name="repository"></a>
 
-The repository is occasionally compressed (reinitialised) to reduce the overall size. Among other things, this invalidates forks and cleans up the commit history.
+The repository gets compressed (reinitialized) every now and then to keep its size in check. Heads up: this invalidates forks and wipes the commit history.
 
 #### :cyclone: Referral Domains <a name="referral"></a>
 
-[Why are referral domains (affiliate and tracking links) not blocked in the lists?](https://github.com/hagezi/dns-blocklists/wiki/FAQ#referral)
+Wondering why referral domains (affiliate and tracking links) aren't blocked? Here's the answer: [FAQ on referral domains](FAQ.md#referral)
 
 #### :dizzy: Support <a name="support"></a>
 
-If you like this project and find it useful, please leave a :star: (top right) and become a stargazer!
-                      
-This project exists because of a thoughtful and supportive community. It is freely available to everyone and stays current thanks to ongoing care, updates, and the contributions of people who want to make a difference.
-                     
-Feedback, ideas, domain reports, false-positive reports, and any other kind of support are always appreciated. Every contribution, no matter how big or small, helps make the internet a little safer and cleaner for everyone.
+If this project has been useful to you, drop a :star: (top right) and join the stargazers!
 
-Found a wrongly blocked domain, or one that needs blocking? Report it via the [issue tracker](https://github.com/hagezi/dns-blocklists/issues) or email [support@hagezi.org](mailto:support@hagezi.org). You can also use the official public [Matrix support chat](https://matrix.to/#/#hagezi-support:tchncs.de?via=tchncs.de).
-                               
-**Thank you for being part of the community!**
+This project only exists because of a genuinely supportive community. It's free for everyone and stays up to date thanks to ongoing care, updates, and contributions from people who actually want to make things better.
+
+Feedback, ideas, domain reports, false-positive reports, whatever you've got, it's all appreciated. Every bit of help, big or small, makes the internet a little safer and cleaner for everyone.
+
+See: [Getting help and reporting issues](FAQ.md#support)
+
+**Thanks for being part of this!**
 
 ---
 
-### :floppy_disk: Official mirrors <a name="mirrors"></a>
+### :floppy_disk: Update Interval/Official Mirrors <a name="mirrors"></a>
 
-Official mirrors of the blocklist files:
-                  
-- https://hagezi-mirror.dnsbunker.org - updated every 4-8 hours and provided directly from the build system.
-- https://gitlab.com/hagezi/mirror - updated once a day.
-- https://codeberg.org/hagezi/mirror2 - updated once a day.
+The primary source for all lists is the GitHub repository. The GitHub repository and its two full mirrors, GitLab and Codeberg, are updated in sync, once a day:
+
+| Source | Update frequency |
+|:---|:---|
+| GitHub/jsDelivr (primary) | Once a day |
+| [gitlab.com/hagezi/mirror](https://gitlab.com/hagezi/mirror) | Once a day, in sync with GitHub |
+| [codeberg.org/hagezi/mirror2](https://codeberg.org/hagezi/mirror2) | Once a day, in sync with GitHub |
+| [hagezi-mirror.dnsbunker.org](https://hagezi-mirror.dnsbunker.org) | Every 4 to 8 hours |
+
+> [!TIP]
+> If you need the freshest possible data, use [hagezi-mirror.dnsbunker.org](https://hagezi-mirror.dnsbunker.org). It's connected directly to the build system and receives each new list version as soon as it's built, ahead of the daily GitHub, GitLab, and Codeberg update.
 
 ---
 
 ### :warning: Disclaimer <a name="disclaimer"></a>
 
 > [!IMPORTANT]
-> **No Warranty**. The DNS blocklists provided herein ("the Lists") are made available free of charge, "as is" and "as available," without warranty of any kind, whether express, implied, or statutory. The creator and/or operator of the Lists ("the Provider") makes no representations or warranties regarding the accuracy, completeness, timeliness, reliability, or fitness for any particular purpose of the information contained therein. No guarantee is provided that all malicious, harmful, or unwanted domains are identified and included, nor that legitimate domains will not be inadvertently or erroneously blocked.
+> **No warranty.** These DNS blocklists ("the Lists") are provided free of charge, "as is" and "as available," with no warranty of any kind, express, implied, or statutory. The creator/operator of the Lists ("the Provider") makes no promises about accuracy, completeness, timeliness, reliability, or fitness for any particular purpose. There's no guarantee that every malicious or unwanted domain is covered, and no guarantee that legitimate domains won't get blocked by mistake.
 >
-> **Assumption of Risk**. Use of the Lists is undertaken entirely at the user's own risk. The Provider expressly disclaims any and all direct, indirect, incidental, consequential, or other liability for material or non-material damages arising from the use, misuse, or inability to use the Lists — except where such damages are demonstrably the result of willful misconduct or gross negligence on the part of the Provider.
+> **Assumption of risk.** Using the Lists is entirely at your own risk. The Provider disclaims any and all direct, indirect, incidental, or consequential liability for damages arising from using, misusing, or being unable to use the Lists, except where such damages result from willful misconduct or gross negligence on the Provider's part.
 >
->**Supplementary Control, Not a Substitute**. The Lists are intended to serve as one supplementary, non-exclusive security control within a broader defense-in-depth strategy. They do not replace the user's own obligation to exercise due diligence, conduct independent risk assessment, or deploy additional protective mechanisms (e.g., firewalls, antivirus/EDR solutions, IDS/IPS systems). No guarantee is made regarding compatibility with any specific system, software platform, or deployment scenario.
+> **A supplement, not a substitute.** The Lists are meant to be one part of a broader defense-in-depth strategy, not the whole thing. They don't replace your own responsibility to do due diligence, run your own risk assessments, or use additional protections (firewalls, antivirus/EDR, IDS/IPS, etc.). There's no guarantee of compatibility with any specific system, platform, or setup.
 >
->**Redistribution and Licensing**. Redistribution, modification, and adaptation of the Lists are permitted solely in accordance with the terms of the applicable open-source license under which they are published. It is the sole responsibility of the user to review, understand, and comply with all applicable license terms and conditions prior to use or redistribution.
+> **Redistribution and licensing.** You can redistribute, modify, and adapt the Lists only under the terms of the open-source license they're published under. It's on you to read, understand, and follow those license terms before using or redistributing anything.
 >
->**Acceptance of Terms**. By accessing, downloading, or otherwise using the DNS blocklists, the user expressly acknowledges and agrees to be bound by the terms set forth in this disclaimer.
+> **Accepting these terms.** By accessing, downloading, or using these DNS blocklists, you agree to everything laid out in this disclaimer.
 
 ---
 
