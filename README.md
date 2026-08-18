@@ -335,7 +335,7 @@ A medium-sized version of the TIF list, built for ad blockers that struggle with
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt) | Pi-hole, AdGuard ( warning: too big for iOS AdGuard Mobile!), AdGuard Home ( :warning: needs >= 1GB RAM!), eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam |
+| Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt) | Pi-hole, AdGuard ( :warning: too big for iOS AdGuard Mobile!), AdGuard Home ( :warning: needs >= 1GB RAM!), eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam |
 | DNSMasq | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.medium.txt) | DNSMasq (v2.86+), Diversion (v5+) |
 | Wildcard<br>Asterisk | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium.txt) | Blocky (v0.23+), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium-onlydomains.txt) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS >= v8.40), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
