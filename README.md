@@ -1010,15 +1010,25 @@ The primary source for all lists is the GitHub repository. The GitHub repository
 ### :warning: Disclaimer <a name="disclaimer"></a>
 
 > [!IMPORTANT]
-> **No warranty.** These DNS blocklists ("the Lists") are provided free of charge, "as is" and "as available," with no warranty of any kind, express, implied, or statutory. The creator/operator of the Lists ("the Provider") makes no promises about accuracy, completeness, timeliness, reliability, or fitness for any particular purpose. There's no guarantee that every malicious or unwanted domain is covered, and no guarantee that legitimate domains won't get blocked by mistake.
+> **Scope.** This disclaimer applies only to these DNS blocklists ("the Lists"). It does not extend to any other services the Provider may separately operate (e.g., public DNS resolvers), which may be subject to their own terms.
 >
-> **Assumption of risk.** Using the Lists is entirely at your own risk. The Provider disclaims any and all direct, indirect, incidental, or consequential liability for damages arising from using, misusing, or being unable to use the Lists, except where such damages result from willful misconduct or gross negligence on the Provider's part.
+> **No warranty.** The Lists are provided free of charge, "as is" and "as available," with no warranty of any kind, express, implied, or statutory. The creator/operator of the Lists ("the Provider") makes no promises about accuracy, completeness, timeliness, reliability, or fitness for any particular purpose. There's no guarantee that every malicious or unwanted domain is covered, and no guarantee that legitimate domains won't get blocked by mistake. The Lists are compiled in part from third-party sources; the Provider does not control and is not responsible for errors originating in those sources.
+>
+> **Assumption of risk.** Using the Lists is entirely at your own risk. The Provider disclaims any and all direct, indirect, incidental, or consequential liability for damages arising from using, misusing, or being unable to use the Lists, except where such damages result from willful misconduct or gross negligence on the Provider's part, or from death or personal injury caused by the Provider's negligence.
 >
 > **A supplement, not a substitute.** The Lists are meant to be one part of a broader defense-in-depth strategy, not the whole thing. They don't replace your own responsibility to do due diligence, run your own risk assessments, or use additional protections (firewalls, antivirus/EDR, IDS/IPS, etc.). There's no guarantee of compatibility with any specific system, platform, or setup.
 >
-> **Redistribution and licensing.** You can redistribute, modify, and adapt the Lists only under the terms of the open-source license they're published under. It's on you to read, understand, and follow those license terms before using or redistributing anything.
+> **No guarantee of availability, fair use.** The Lists are a free, personal/community project, made available internationally, and no one is automatically entitled to their continued availability. The Provider may modify, suspend, restrict, or discontinue the Lists (in whole or in part) at any time and for any reason — including excessive query volume, abusive, or disproportionate use — without notice and without liability, and is under no obligation to maintain, update, or continue providing them. The Provider makes reasonable efforts to fix faults once discovered, but does not guarantee any particular response or resolution time.
 >
-> **Accepting these terms.** By accessing, downloading, or using these DNS blocklists, you agree to everything laid out in this disclaimer.
+> **Redistribution and licensing.** The Lists are published under the [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.html). You may redistribute, modify, and adapt the Lists only under the terms of that license. This disclaimer applies in addition to, and does not replace, the warranty and liability terms already contained in the GPL-3.0 (Sections 15–16). It's on you to read, understand, and follow the license terms before using or redistributing anything.
+>
+> **Governing law.** The Provider is based in Germany, and the Lists are made available for international use. This disclaimer is governed by the laws of Germany, without regard to conflict-of-law principles, to the extent permitted by applicable law. Nothing in this disclaimer limits any mandatory consumer-protection rights you may have under the law of your country of residence.
+>
+> **Severability.** If any provision of this disclaimer is found invalid or unenforceable, the remaining provisions remain in full force and effect, and the invalid provision will be replaced by a valid one that most closely reflects its intended effect.
+>
+> **Changes to this disclaimer.** The Provider may update this disclaimer from time to time. The version published alongside the Lists at the time of your access or use applies. Continued use of the Lists after an update constitutes acceptance of the updated disclaimer.
+>
+> **Accepting these terms.** By accessing, downloading, or using these DNS blocklists, you agree to be bound by everything laid out in this disclaimer. If you do not agree, do not access, download, or use the Lists.
 
 ---
 
