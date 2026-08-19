@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1787042700 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1787067720 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 18 Aug 2026 08:45 UTC
-; Version: 2026.0818.0845.30
+; Last modified: 18 Aug 2026 15:42 UTC
+; Version: 2026.0818.1542.59
 ; Syntax: RPZ
-; Number of entries: 33260
+; Number of entries: 33294
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -4231,6 +4231,8 @@ appleproxy.com CNAME .
 *.appleproxy.com CNAME .
 applevpnapp.com CNAME .
 *.applevpnapp.com CNAME .
+application-vpnzo.com CNAME .
+*.application-vpnzo.com CNAME .
 appo-kuailian.com CNAME .
 *.appo-kuailian.com CNAME .
 apps-kuailian.com CNAME .
@@ -14485,6 +14487,8 @@ xmrth.com CNAME .
 *.xmrth.com CNAME .
 xmyjsq.com CNAME .
 *.xmyjsq.com CNAME .
+xn--1qqp3f85dcwcez1inzc.com CNAME .
+*.xn--1qqp3f85dcwcez1inzc.com CNAME .
 xn--44q907fa2408a.com CNAME .
 *.xn--44q907fa2408a.com CNAME .
 xn--4gq62f52gdss.com CNAME .
@@ -14493,6 +14497,8 @@ xn--6nq44r2uh9rhj7f.com CNAME .
 *.xn--6nq44r2uh9rhj7f.com CNAME .
 xn--9kq050gk1z.com CNAME .
 *.xn--9kq050gk1z.com CNAME .
+xn--9kqr48j.com CNAME .
+*.xn--9kqr48j.com CNAME .
 xn--9kqrm7t.com CNAME .
 *.xn--9kqrm7t.com CNAME .
 xn--9kqu74cfu3b.com CNAME .
@@ -14527,12 +14533,20 @@ xn--fiqs8s9rjgsr.com CNAME .
 *.xn--fiqs8s9rjgsr.com CNAME .
 xn--fiqy4bl9l81zp7skjc1xd.com CNAME .
 *.xn--fiqy4bl9l81zp7skjc1xd.com CNAME .
+xn--h5q36vepk.com CNAME .
+*.xn--h5q36vepk.com CNAME .
+xn--h5q84a86ft33f1ej.com CNAME .
+*.xn--h5q84a86ft33f1ej.com CNAME .
 xn--huajicloud-cn3r594m.com CNAME .
 *.xn--huajicloud-cn3r594m.com CNAME .
 xn--kbtz2zn3ab56c.com CNAME .
 *.xn--kbtz2zn3ab56c.com CNAME .
 xn--mes358aby2apfg.com CNAME .
 *.xn--mes358aby2apfg.com CNAME .
+xn--mes358akvk7hn.com CNAME .
+*.xn--mes358akvk7hn.com CNAME .
+xn--mes358ar69azba.com CNAME .
+*.xn--mes358ar69azba.com CNAME .
 xn--mest5a943ag8x.com CNAME .
 *.xn--mest5a943ag8x.com CNAME .
 xn--mesz5hn9e3rh.com CNAME .
@@ -14545,6 +14559,8 @@ xn--prome-h02iv96g.com CNAME .
 *.xn--prome-h02iv96g.com CNAME .
 xn--rsso18bk2j97ggmu.com CNAME .
 *.xn--rsso18bk2j97ggmu.com CNAME .
+xn--ssrdog-u40k507h.com CNAME .
+*.xn--ssrdog-u40k507h.com CNAME .
 xn--v3csa3bs8i.com CNAME .
 *.xn--v3csa3bs8i.com CNAME .
 xn--vpn-0m8e007c.com CNAME .
@@ -14603,8 +14619,18 @@ xn--yfrp5enpj81a6w4d.com CNAME .
 *.xn--yfrp5enpj81a6w4d.com CNAME .
 xn--yfrw1g0upg04amnn.com CNAME .
 *.xn--yfrw1g0upg04amnn.com CNAME .
+xn--yfrw1g210bq2x1bg.com CNAME .
+*.xn--yfrw1g210bq2x1bg.com CNAME .
+xn--yfrw1ghyc0w6f55d.com CNAME .
+*.xn--yfrw1ghyc0w6f55d.com CNAME .
+xn--yfrw1gnycd39eggi.com CNAME .
+*.xn--yfrw1gnycd39eggi.com CNAME .
+xn--yfrw1gow2d4chrxa.com CNAME .
+*.xn--yfrw1gow2d4chrxa.com CNAME .
 xn--yfrw1goy3egzffc.com CNAME .
 *.xn--yfrw1goy3egzffc.com CNAME .
+xn--yfrx4ay7cq52em5r.com CNAME .
+*.xn--yfrx4ay7cq52em5r.com CNAME .
 xn--yrs494l.com CNAME .
 *.xn--yrs494l.com CNAME .
 xn--yun-2t1ej483a.com CNAME .
@@ -14613,6 +14639,8 @@ xn--z4vu10a.com CNAME .
 *.xn--z4vu10a.com CNAME .
 xn--zuup71g88ae4i.com CNAME .
 *.xn--zuup71g88ae4i.com CNAME .
+xn--zwwa296b.com CNAME .
+*.xn--zwwa296b.com CNAME .
 xonlrnrujxbx.com CNAME .
 *.xonlrnrujxbx.com CNAME .
 xorbiadns.com CNAME .
@@ -27547,6 +27575,12 @@ xftld.org CNAME .
 *.xftld.org CNAME .
 dns.xiumu.org CNAME .
 *.dns.xiumu.org CNAME .
+xn--9kq10ek4nfj1bly0a.org CNAME .
+*.xn--9kq10ek4nfj1bly0a.org CNAME .
+xn--h5q13wxxnwubd52b.org CNAME .
+*.xn--h5q13wxxnwubd52b.org CNAME .
+xn--yfrw1gu5rpi5bscj.org CNAME .
+*.xn--yfrw1gu5rpi5bscj.org CNAME .
 look.xshentx.org CNAME .
 *.look.xshentx.org CNAME .
 edge-intl.ygjs.org CNAME .
