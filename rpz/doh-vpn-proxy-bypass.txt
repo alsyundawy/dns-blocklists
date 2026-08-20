@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1787215080 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1787240520 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 20 Aug 2026 08:38 UTC
-; Version: 2026.0820.0838.13
+; Last modified: 20 Aug 2026 15:42 UTC
+; Version: 2026.0820.1542.09
 ; Syntax: RPZ
-; Number of entries: 33296
+; Number of entries: 33292
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -12771,10 +12771,6 @@ jashwin.is.wierd.spacejamhd.com CNAME .
 *.jashwin.is.wierd.spacejamhd.com CNAME .
 wormhole.is.your-savior.spacejamhd.com CNAME .
 *.wormhole.is.your-savior.spacejamhd.com CNAME .
-spaceship.com CNAME .
-*.spaceship.com CNAME .
-spaceship-cdn.com CNAME .
-*.spaceship-cdn.com CNAME .
 doh-01.spectrum.com CNAME .
 *.doh-01.spectrum.com CNAME .
 doh-02.spectrum.com CNAME .

@@ -1,4 +1,4 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/hagezi/dns-blocklists)![GitHub issues](https://img.shields.io/github/issues/hagezi/dns-blocklists)![GitHub closed issues](https://img.shields.io/github/issues-closed/hagezi/dns-blocklists)![GitHub repo size](https://img.shields.io/github/repo-size/hagezi/dns-blocklists)[![shields.io Stars](https://img.shields.io/github/stars/hagezi/dns-blocklists)](https://github.com/hagezi/dns-blocklists/stargazers)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)![GitHub last commit](https://img.shields.io/github/last-commit/hagezi/dns-blocklists)![GitHub issues](https://img.shields.io/github/issues/hagezi/dns-blocklists)![GitHub closed issues](https://img.shields.io/github/issues-closed/hagezi/dns-blocklists)![GitHub repo size](https://img.shields.io/github/repo-size/hagezi/dns-blocklists)[![shields.io Stars](https://img.shields.io/github/stars/hagezi/dns-blocklists)](https://github.com/hagezi/dns-blocklists/stargazers)
 
 ## :zap: DNS Blocklists, let's make the internet a nicer place!
 
@@ -34,10 +34,19 @@ Like this project? If it's helped you out, drop a :star: (top right) and join th
 20. [Social Networks](#social), blocks access to social networks!
 21. [NSFW](#nsfw), blocks adult content!
 22. [Native Tracker](#native), built-in trackers from devices, apps, and OSes
-23. [Recommendation](#recommendation): [Which list version should I actually use?](FAQ.md#whatshouldiuse)
-24. [Online DNS Services](#dnsservices): [HaGeZi DNS](#hagezidns) - [DNS Bunker](#dnsbunker)
-25. [About](#about): [Repository](#repository) - [Referral Domains](#referral) - [Support](#support)
-26. [FAQ](FAQ.md), frequently asked questions
+23. [Blocklists Cheat Sheet](CHEATSHEET.md), quick reference table for every list at a glance
+    1. [Quick Decision Guide](CHEATSHEET.md#quickguide)
+    2. [Multi (all-in-one protection)](CHEATSHEET.md#cheat_multi)
+    3. [Security and Threat Protection](CHEATSHEET.md#cheat_security)
+    4. [Bypass and Access Control](CHEATSHEET.md#cheat_bypass)
+    5. [Content and Lifestyle Filters](CHEATSHEET.md#cheat_content)
+    6. [Native Trackers and Referral Domains](CHEATSHEET.md#cheat_native)
+    7. [Inclusion Matrix](CHEATSHEET.md#inclusionmatrix)
+    8. [Recommended Combos](CHEATSHEET.md#combos)
+24. [Recommendation](#recommendation): [Which list version should I actually use?](FAQ.md#whatshouldiuse)
+25. [Online DNS Services](#dnsservices): [HaGeZi DNS](#hagezidns) - [DNS Bunker](#dnsbunker)
+26. [About](#about): [Repository](#repository) - [Referral Domains](#referral) - [Support](#support)
+27. [FAQ](FAQ.md), frequently asked questions
     1. [Where does the data come from, and how are the lists built?](FAQ.md#sources)
     2. [Which list version should I use?](FAQ.md#whatshouldiuse)
     3. [Which format should I use for my ad blocker or DNS server?](FAQ.md#formats)
@@ -48,12 +57,13 @@ Like this project? If it's helped you out, drop a :star: (top right) and join th
     8. [How current is the data, and where can I get it?](FAQ.md#mirrors)
     9. [Licensing and liability](FAQ.md#licensing)
     10. [Getting help and reporting issues](FAQ.md#support)
-    11. [Glossary](FAQ.md#glossary)
-27. [Discussions](https://github.com/hagezi/dns-blocklists/discussions)
-28. [Update Interval/Official Mirrors](#mirrors)
-29. [Sources](sources.md)
-30. [Disclaimer](#disclaimer)
-31. [Contact](#contact)
+    11. [How do mini variants, NRD/DGA, and the bypass lists relate to each other?](FAQ.md#listrelationships)
+    12. [Glossary](FAQ.md#glossary)
+28. [Discussions](https://github.com/hagezi/dns-blocklists/discussions)
+29. [Update Interval/Official Mirrors](#mirrors)
+30. [Sources](sources.md)
+31. [Disclaimer](#disclaimer)
+32. [Contact](#contact)
 
 ### :books: **Multi, cleans up the internet and protects your privacy!** <a name="overview"></a>
 
@@ -65,11 +75,11 @@ Curious about the sources? Check out: [Which sources are used for the lists and 
 
 | Version | Entries | Pro++ | Pro | Nor<br>mal | Light | [Fake](#fake) | [TIF](#tif) | [Nat<br>ive](#native) | [PopUp<br>Ads](#popupads) | Bug<br>Tracker |
 |:--------|---:|:------:|:-----:|:----:|:----:|:---:|:------:|:----------:|:----:|:----:|
-| :green_book:[Light](#light)             | 42550     |  |   |   | :green_circle:  |  | |  :yellow_square: | :yellow_square: | |
-| :blue_book:[Normal](#normal)       | 187031     |  |   | :green_circle: | :green_circle: | :green_circle: | :yellow_square: | :yellow_square: | :yellow_square: | |
-| :ledger:[Pro](#pro)              | 222977         |  | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :yellow_square: | :yellow_square: | :green_circle: | :green_circle: |
-| :orange_book:[Pro++](#proplus)    | 247048 | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle: |:yellow_square: | :yellow_square: | :green_circle: | :green_circle: |
-| :closed_book:[Ultimate](#ultimate)    | 271949 | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle:  | :yellow_square: | :green_circle: | :green_circle: | :green_circle: |
+| :green_book:[Light](#light)             | 42566     |  |   |   | :green_circle:  |  | |  :yellow_square: | :yellow_square: | |
+| :blue_book:[Normal](#normal)       | 187069     |  |   | :green_circle: | :green_circle: | :green_circle: | :yellow_square: | :yellow_square: | :yellow_square: | |
+| :ledger:[Pro](#pro)              | 223097         |  | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :yellow_square: | :yellow_square: | :green_circle: | :green_circle: |
+| :orange_book:[Pro++](#proplus)    | 247119 | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle: |:yellow_square: | :yellow_square: | :green_circle: | :green_circle: |
+| :closed_book:[Ultimate](#ultimate)    | 272031 | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle:  | :yellow_square: | :green_circle: | :green_circle: | :green_circle: |
 
 :green_circle: fully includes the list named in the column header
 :yellow_square: partially includes the list named in the column header
@@ -100,7 +110,7 @@ Hand brush edition. Cleans up the internet and protects your privacy without goi
 > [!IMPORTANT]
 > Doesn't block error trackers like Bugsnag, Crashlytics, Firebase, Instabug, Sentry, and similar app crash reporters. Those only get blocked starting with the Pro version.
 
-**Entries:** 42550
+**Entries:** 42566
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -121,7 +131,7 @@ Broom edition. Cleans up the internet and protects your privacy. Blocks ads, aff
 > [!IMPORTANT]
 > Doesn't block error trackers like Bugsnag, Crashlytics, Firebase, Instabug, Sentry, and similar app crash reporters. Those only get blocked starting with the Pro version.
 
-**Entries:** 187031
+**Entries:** 187069
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -143,7 +153,7 @@ Big broom edition. Cleans up the internet and protects your privacy. Blocks ads,
 > **Referral domains (affiliate and tracking links):**
 > Most referral domains are still allowed here, but a handful get blocked anyway, mainly ones that double as regular trackers or are commonly tied to scam and spam links. Details: [Referral domains](FAQ.md#referral)
 
-**Entries:** 222977
+**Entries:** 223097
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -157,7 +167,7 @@ Big broom edition. Cleans up the internet and protects your privacy. Blocks ads,
 
 A size-optimized version made for DNS or browser blockers, like devices with limited RAM. This only contains domains from the full Pro list that show up on Top 1M/10M lists (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop).
 
-**Entries:** 57888
+**Entries:** 57939
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -179,7 +189,7 @@ Sweeper edition. This one cleans up the internet aggressively and protects your 
 > **Referral domains (affiliate and tracking links):**
 > A handful of referral domains that double as regular trackers are blocked here too. Details: [Referral domains](FAQ.md#referral)
 
-**Entries:** 247048
+**Entries:** 247119
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -193,7 +203,7 @@ Sweeper edition. This one cleans up the internet aggressively and protects your 
 
 A size-optimized version made for DNS or browser blockers, like devices with limited RAM. Contains only domains from the full Pro++ list that appear on Top 1M/10M lists (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop).
 
-**Entries:** 69380
+**Entries:** 69407
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -227,7 +237,7 @@ Ultimate sweeper edition. Strictly cleans up the internet and locks down your pr
 > **Anything else:**
 > More known quirks are listed [here](share/ultimate-known-issues.txt).
 
-**Entries:** 271949
+**Entries:** 272031
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -241,7 +251,7 @@ Ultimate sweeper edition. Strictly cleans up the internet and locks down your pr
 
 A size-optimized version made for DNS or browser blockers, like devices with limited RAM. Contains only domains from the full Ultimate list that appear on Top 1M/10M lists (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop).
 
-**Entries:** 84402
+**Entries:** 84442
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -263,7 +273,7 @@ This blocklist targets fake stores, fake streaming sites, rip-offs, subscription
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 16978
+**Entries:** 16975
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -281,11 +291,11 @@ Targets pop-up ads that range from annoying to outright malicious.
 
 |             | Light          | Normal         | Pro            | Pro++          | Ultimate       | TIF      |
 |:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------:|
-| Included in | :yellow_square: | :yellow_square: | :green_circle: | :green_circle: | :green_circle: | :x: |
+| Included in | :yellow_square: | :yellow_square: | :green_circle: | :green_circle: | :green_circle: | :yellow_square: |
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 54151
+**Entries:** 54144
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -311,7 +321,7 @@ This blocklist targets malware, cryptojacking, scams, spam, and phishing. It blo
 > This list is huge and can eat up a lot of memory depending on your ad blocker.
 > If that's an issue, grab the medium or mini version instead.
 
-**Entries:** 2125857
+**Entries:** 2135612
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -331,7 +341,7 @@ A medium-sized version of the TIF list, built for ad blockers that struggle with
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 439346
+**Entries:** 439845
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -351,7 +361,7 @@ A size-optimized version of the TIF Medium list, for ad blockers that even strug
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 175381
+**Entries:** 175308
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -439,7 +449,7 @@ Blocks common ways to bypass your DNS setup.
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 16648
+**Entries:** 16646
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -539,7 +549,7 @@ Blocks known hosting providers that repeatedly host badware through user-uploade
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 1239
+**Entries:** 1240
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -636,7 +646,7 @@ Blocks sites and services mainly used for illegally distributing copyrighted con
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 43018
+**Entries:** 43009
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -658,7 +668,7 @@ Blocks gambling-related sites.
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 460895
+**Entries:** 460873
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -678,7 +688,7 @@ A medium-sized version for ad blockers that have trouble with the full gambling 
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 156354
+**Entries:** 156327
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -698,7 +708,7 @@ A size-optimized version of the Gambling Medium list. Only contains domains that
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 109185
+**Entries:** 109167
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -745,7 +755,7 @@ Blocks adult content.
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 113784
+**Entries:** 114134
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|

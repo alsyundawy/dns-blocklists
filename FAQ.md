@@ -14,7 +14,8 @@ A practical guide to how these DNS blocklists get built, which version fits your
 8. [How current is the data, and where can I get it?](#mirrors)
 9. [Licensing and liability](#licensing)
 10. [Getting help and reporting issues](#support)
-11. [Glossary](#glossary)
+11. [How do mini variants, NRD/DGA, and the bypass lists relate to each other?](#listrelationships)
+12. [Glossary](#glossary)
 
 ---
 
@@ -65,9 +66,9 @@ The "risk of breakage" ratings below are a general guide, not exact error rates.
 > [!NOTE]
 > **You usually don't need to add the Fake or Pop-Up Ads lists separately, they're already baked in, though coverage varies by version:**
 > - The [Fake](README.md#fake) list (scam shops, fake streaming sites, cost traps) isn't included in Light at all. It's fully included in Normal, Pro, Pro++, Ultimate, and in TIF, TIF medium, and TIF mini.
-> - The [Pop-Up Ads](README.md#popupads) list is fully included in Pro, Pro++, and Ultimate. It's only partially covered in Normal and partially in TIF, so running Normal together with the full TIF list gets you full coverage.
+> - The [Pop-Up Ads](README.md#popupads) list is only partially covered in Light, Normal, and TIF. It's fully included in Pro, Pro++, and Ultimate.
 >
-> Two specialized lists sit outside the main tiers and aren't included anywhere by default: [URL Shortener](README.md#urlshortener) (mainly for high-security setups, since it can break legit short links) and [DNS Rebind Protection](README.md#dnsrebind) (AdGuard/AdGuard Home only, stops attackers from resolving external domains to your local network's private IP addresses). Only add these if your setup really needs them.
+> Two specialized lists sit outside the main tiers and aren't included anywhere by default: [URL Shortener](README.md#urlshortener) (mainly for high-security setups, since it can break legit short links) and [DNS Rebind Protection](README.md#dnsrebind) (works with AdGuard, AdGuard Home, and AdGuard DNS, stops attackers from resolving external domains to your local network's private IP addresses). Only add these if your setup really needs them.
 
 **[Back to top](#table-of-contents)**
 
@@ -87,11 +88,12 @@ Every list comes in five formats. Just pick the row that matches your ad blocker
 
 A few lists don't follow this pattern:
 
-- The full **TIF** list is too big for AdGuard (browser extension) and needs at least 2 GB of RAM in AdGuard Home. Its RPZ version is also split into two files, and you need both.
-- **Most Abused TLDs** comes in AdGuard-specific, uBlock Origin-specific, and RPZ-specific variants instead of the usual five, since it relies on exclusion rules that work differently across tools.
-- **DNS Rebind Protection** only works with AdGuard and AdGuard Home.
+- The full **TIF** list is too big for AdGuard Mobile for iOS and needs at least 2 GB of RAM in AdGuard Home. Its RPZ version is also split into two files, and you need both.
+- **Most Abused TLDs** comes in AdGuard-specific, uBlock Origin-specific, and RPZ-specific variants instead of the usual five, since it relies on exclusion rules that work differently across tools. It also has an aggressive/allowlist pair for both the AdBlock and Wildcard formats.
+- **DNS Rebind Protection** only works with AdGuard, AdGuard Home, and AdGuard DNS.
 - **NRD/DGA** lists only come as Adblock and plain domain lists.
-- A few lists (**Badware Hoster**, **Most Abused TLDs**, referral allow/block lists) also ship as a ControlD folder you can import straight into a ControlD profile.
+- The three [DoH/VPN/TOR/Proxy Bypass](README.md#bypass) lists build on each other: [Bypass Full](README.md#bypass_all) covers encrypted DNS servers plus VPN/TOR/proxy services, [DoH only](README.md#bypass_dns) is the narrower encrypted-DNS-only subset, and [DoH IPs](README.md#bypass_ips) is the IPv4 companion specifically for the DoH-only list, not for VPN/TOR/proxy services (which don't resolve to a fixed IP set).
+- **Badware Hoster** and **Most Abused TLDs** also ship as a ControlD folder you can import straight into a ControlD profile. Of the two referral lists (see [section 5](#referral)), only the Referral Allowlist has a ControlD folder, the Referral Blocklist doesn't.
 
 **[Back to top](#table-of-contents)**
 
@@ -135,7 +137,7 @@ Here's the breakdown by list version:
 | Wildcard<br>domains | [Download](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt) |
 | ControlD<br>folder | [Download](https://github.com/hagezi/dns-blocklists/blob/main/controld/referral-allow-folder.json) |
 
-Want to actually block referral domains anyway? (**Not recommended.**) Use the lists below. It's better to apply these in a browser content blocker like uBlock Origin instead of network-wide at the DNS level, since DNS-level blocking is a lot harder to fine-tune once it's live.
+Want to actually block referral domains anyway? (**Not recommended.**) Use the lists below. It's better to apply these in a browser content blocker like uBlock Origin instead of network-wide at the DNS level, since DNS-level blocking is a lot harder to fine-tune once it's live. Note that this list doesn't have a ControlD folder, only the Allowlist above does.
 
 | Format | Link |
 |:---|:---|
@@ -226,7 +228,34 @@ Got general questions or just want to chat? Head to the [GitHub Discussions](htt
 
 ---
 
-## <a name="glossary"></a> 11. Glossary
+## <a name="listrelationships"></a> 11. How do mini variants, NRD/DGA, and the bypass lists relate to each other?
+
+A few lists in this collection sound similar or get recommended together, but they aren't interchangeable and aren't always meant to be combined. Here's how they actually relate.
+
+**Mini variants aren't a universal category, each one is a size-optimized cut of exactly one specific list:**
+
+- [Light](README.md#light) is the README's own size-optimized version of **Normal** ("basically a size-optimized version of Multi NORMAL"), it just isn't named "Normal Mini".
+- [Pro Mini](README.md#promini), [Pro++ Mini](README.md#proplusmini), and [Ultimate Mini](README.md#ultimatemini) are each a cut of that exact tier only, limited to domains that also appear on the Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, or DomCop Top 1M/10M lists.
+- [TIF Mini](README.md#tifmini) is a cut of **TIF Medium**, not the full TIF list directly.
+- [Gambling Mini](README.md#gamblingmini) is a cut of **Gambling Medium**, not the full Gambling list directly.
+- Light has no further mini version of its own, it's already the leanest tier in the Multi family.
+
+> [!TIP]
+> Pick the mini version of the tier you actually want. Grabbing a random "mini" list without matching it to your target tier defeats the purpose, since each one only contains that specific tier's domains, shrunk down.
+
+**[NRD](README.md#nrd) and [DGA](README.md#nrd) are two alternatives, not two ingredients to combine.** DGA domains are already part of the full NRD list, just filtered down to the high-entropy subset likely generated by malware. Pick full NRD for broader coverage with more noise, or DGA alone for a narrower, lower-noise subset, not both at once.
+
+**The three [DoH/VPN/TOR/Proxy Bypass](README.md#bypass) lists build on each other:**
+
+- [Bypass Full](README.md#bypass_all) covers encrypted DNS servers plus VPN, TOR, and proxy services, the broadest of the three.
+- [DoH only](README.md#bypass_dns) is the narrower encrypted-DNS-only subset.
+- [DoH IPs](README.md#bypass_ips) is the IPv4 companion specifically for the DoH-only list, not for VPN/TOR/proxy services, since those don't resolve to a fixed, enumerable IP set the same way encrypted DNS servers do.
+
+**[Back to top](#table-of-contents)**
+
+---
+
+## <a name="glossary"></a> 12. Glossary
 
 | Term | What it means |
 |:---|:---|
@@ -243,7 +272,7 @@ Got general questions or just want to chat? Head to the [GitHub Discussions](htt
 | Denyallow / domain modifier | A rule type in filter lists used to carve out exceptions from a blocking rule. These modifiers have a technical length limit, so you can't cram unlimited exceptions into one rule, that's why exclusion lists sometimes stay short on purpose. |
 | DGA (Domain Generation Algorithm) | A technique malware uses to automatically generate tons of random-looking domains on the fly, making it harder for defenders to block all of them in advance. |
 | DNS (Domain Name System) | The system that translates website names, like example.com, into the numeric IP addresses computers use to find each other. Every blocklist works by intercepting these translations for unwanted domains. |
-| DNS rebind protection | A safeguard against DNS rebinding attacks, where an attacker tricks a public domain into suddenly pointing at a private, local IP address to sneak into your home network. Currently only available for AdGuard and AdGuard Home. |
+| DNS rebind protection | A safeguard against DNS rebinding attacks, where an attacker tricks a public domain into suddenly pointing at a private, local IP address to sneak into your home network. Available for AdGuard, AdGuard Home, and AdGuard DNS. |
 | DNS resolver | The server that actually performs the DNS lookup for your device. AdGuard DNS, ControlD, RethinkDNS, and DNSwarden are all examples of resolvers that support these blocklists. |
 | DNSMasq | A lightweight, widely used piece of software for DNS and DHCP, often running on routers or small home servers. One of the five formats these lists come in is built specifically for it. |
 | Do53 | The classic, unencrypted way of doing DNS, over port 53. The name literally means "DNS over port 53", as opposed to encrypted options like DoH or DoT. |
