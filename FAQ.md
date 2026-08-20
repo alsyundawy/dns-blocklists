@@ -204,11 +204,13 @@ The primary source for all lists is the [GitHub repository](https://github.com/h
 
 ## <a name="licensing"></a> 9. Licensing and liability
 
-The lists are published under the GPL-3.0 license, so you can redistribute, modify, or adapt them, but only within the terms of that license. Check the license in the repository before redistributing the lists as part of your own product or service.
+The lists are published under the [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.html), so you can redistribute, modify, or adapt them, but only within the terms of that license. Check the license in the repository before redistributing the lists as part of your own product or service.
 
-The maintainer publishes the lists as-is, with no warranty of accuracy, completeness, or fitness for any particular purpose, and no guarantee that every malicious domain is caught or that no legitimate domain ever gets blocked by mistake. You use them entirely at your own risk, and the maintainer isn't liable for damages from use or misuse, except in cases of willful misconduct or gross negligence.
+The maintainer ("the Provider") publishes the lists as-is, with no warranty of accuracy, completeness, or fitness for any particular purpose, and no guarantee that every malicious domain is caught or that no legitimate domain ever gets blocked by mistake. You use them entirely at your own risk, and the Provider isn't liable for damages from use or misuse, except in cases of willful misconduct, gross negligence, or death/personal injury caused by negligence.
 
-Basically, treat these lists as one layer in a bigger security setup, not a standalone fix. They don't replace firewalls, antivirus or EDR tools, intrusion detection systems, or your own judgment about risk. For the full legal text, check the [Disclaimer section](README.md#disclaimer) in the repository.
+Basically, treat these lists as one layer in a bigger security setup, not a standalone fix. They don't replace firewalls, antivirus or EDR tools, intrusion detection systems, or your own judgment about risk.
+
+This FAQ entry is a plain-language summary and doesn't cover every detail. The [Disclaimer section](README.md#disclaimer) in the repository is the full, legally binding version. If anything here ever conflicts with it, the Disclaimer section governs.
 
 **[Back to top](#table-of-contents)**
 
