@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785966960 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1787349600 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Social Networks DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 05 Aug 2026 21:56 UTC
-; Version: 2026.0805.2156.36
+; Last modified: 21 Aug 2026 22:00 UTC
+; Version: 2026.0821.2200.20
 ; Syntax: RPZ
-; Number of entries: 1796
+; Number of entries: 1800
 ;
 masto.ai CNAME .
 *.masto.ai CNAME .
@@ -802,6 +802,8 @@ p16-tiktok-poi-picture-sign-sg.ibyteimg.com CNAME .
 *.p16-tiktok-poi-picture-sign-sg.ibyteimg.com CNAME .
 p16-tiktok-va.ibyteimg.com CNAME .
 *.p16-tiktok-va.ibyteimg.com CNAME .
+p16-tiktok-web-ads-sg.ibyteimg.com CNAME .
+*.p16-tiktok-web-ads-sg.ibyteimg.com CNAME .
 igcdn.com CNAME .
 *.igcdn.com CNAME .
 igsonar.com CNAME .
@@ -994,6 +996,8 @@ redditmail.com CNAME .
 *.redditmail.com CNAME .
 redditmedia.com CNAME .
 *.redditmedia.com CNAME .
+redditstatic.com CNAME .
+*.redditstatic.com CNAME .
 redkix.com CNAME .
 *.redkix.com CNAME .
 rocksdb.com CNAME .

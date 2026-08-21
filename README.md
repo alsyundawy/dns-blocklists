@@ -75,11 +75,11 @@ Curious about the sources? Check out: [Which sources are used for the lists and 
 
 | Version | Entries | Pro++ | Pro | Nor<br>mal | Light | [Fake](#fake) | [TIF](#tif) | [Nat<br>ive](#native) | [PopUp<br>Ads](#popupads) | Bug<br>Tracker |
 |:--------|---:|:------:|:-----:|:----:|:----:|:---:|:------:|:----------:|:----:|:----:|
-| :green_book:[Light](#light)             | 42284     |  |   |   | :green_circle:  |  | |  :yellow_square: | :yellow_square: | |
-| :blue_book:[Normal](#normal)       | 187244     |  |   | :green_circle: | :green_circle: | :green_circle: | :yellow_square: | :yellow_square: | :yellow_square: | |
-| :ledger:[Pro](#pro)              | 223555         |  | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :yellow_square: | :yellow_square: | :green_circle: | :green_circle: |
-| :orange_book:[Pro++](#proplus)    | 247595 | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle: |:yellow_square: | :yellow_square: | :green_circle: | :green_circle: |
-| :closed_book:[Ultimate](#ultimate)    | 272569 | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle:  | :yellow_square: | :green_circle: | :green_circle: | :green_circle: |
+| :green_book:[Light](#light)             | 42373     |  |   |   | :green_circle:  |  | |  :yellow_square: | :yellow_square: | |
+| :blue_book:[Normal](#normal)       | 187763     |  |   | :green_circle: | :green_circle: | :green_circle: | :yellow_square: | :yellow_square: | :yellow_square: | |
+| :ledger:[Pro](#pro)              | 223971         |  | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :yellow_square: | :yellow_square: | :green_circle: | :green_circle: |
+| :orange_book:[Pro++](#proplus)    | 247997 | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle: |:yellow_square: | :yellow_square: | :green_circle: | :green_circle: |
+| :closed_book:[Ultimate](#ultimate)    | 273067 | :green_circle: | :green_circle: | :green_circle: | :green_circle: | :green_circle:  | :yellow_square: | :green_circle: | :green_circle: | :green_circle: |
 
 :green_circle: fully includes the list named in the column header
 :yellow_square: partially includes the list named in the column header
@@ -110,7 +110,7 @@ Hand brush edition. Cleans up the internet and protects your privacy without goi
 > [!IMPORTANT]
 > Doesn't block error trackers like Bugsnag, Crashlytics, Firebase, Instabug, Sentry, and similar app crash reporters. Those only get blocked starting with the Pro version.
 
-**Entries:** 42284
+**Entries:** 42373
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -131,7 +131,7 @@ Broom edition. Cleans up the internet and protects your privacy. Blocks ads, aff
 > [!IMPORTANT]
 > Doesn't block error trackers like Bugsnag, Crashlytics, Firebase, Instabug, Sentry, and similar app crash reporters. Those only get blocked starting with the Pro version.
 
-**Entries:** 187244
+**Entries:** 187763
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -153,7 +153,7 @@ Big broom edition. Cleans up the internet and protects your privacy. Blocks ads,
 > **Referral domains (affiliate and tracking links):**
 > Most referral domains are still allowed here, but a handful get blocked anyway, mainly ones that double as regular trackers or are commonly tied to scam and spam links. Details: [Referral domains](FAQ.md#referral)
 
-**Entries:** 223555
+**Entries:** 223971
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -167,7 +167,7 @@ Big broom edition. Cleans up the internet and protects your privacy. Blocks ads,
 
 A size-optimized version made for DNS or browser blockers, like devices with limited RAM. This only contains domains from the full Pro list that show up on Top 1M/10M lists (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop).
 
-**Entries:** 57638
+**Entries:** 57724
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -189,7 +189,7 @@ Sweeper edition. This one cleans up the internet aggressively and protects your 
 > **Referral domains (affiliate and tracking links):**
 > A handful of referral domains that double as regular trackers are blocked here too. Details: [Referral domains](FAQ.md#referral)
 
-**Entries:** 247595
+**Entries:** 247997
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -203,7 +203,7 @@ Sweeper edition. This one cleans up the internet aggressively and protects your 
 
 A size-optimized version made for DNS or browser blockers, like devices with limited RAM. Contains only domains from the full Pro++ list that appear on Top 1M/10M lists (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop).
 
-**Entries:** 69070
+**Entries:** 69153
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -237,7 +237,7 @@ Ultimate sweeper edition. Strictly cleans up the internet and locks down your pr
 > **Anything else:**
 > More known quirks are listed [here](share/ultimate-known-issues.txt).
 
-**Entries:** 272569
+**Entries:** 273067
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -251,7 +251,7 @@ Ultimate sweeper edition. Strictly cleans up the internet and locks down your pr
 
 A size-optimized version made for DNS or browser blockers, like devices with limited RAM. Contains only domains from the full Ultimate list that appear on Top 1M/10M lists (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop).
 
-**Entries:** 84133
+**Entries:** 84320
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -273,7 +273,7 @@ This blocklist targets fake stores, fake streaming sites, rip-offs, subscription
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 16973
+**Entries:** 16974
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -295,7 +295,7 @@ Targets pop-up ads that range from annoying to outright malicious.
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 54149
+**Entries:** 54153
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -321,7 +321,7 @@ This blocklist targets malware, cryptojacking, scams, spam, and phishing. It blo
 > This list is huge and can eat up a lot of memory depending on your ad blocker.
 > If that's an issue, grab the medium or mini version instead.
 
-**Entries:** 2138675
+**Entries:** 2139204
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -341,7 +341,7 @@ A medium-sized version of the TIF list, built for ad blockers that struggle with
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 405085
+**Entries:** 405443
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -361,7 +361,7 @@ A size-optimized version of the TIF Medium list, for ad blockers that even strug
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 175983
+**Entries:** 176161
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -668,7 +668,7 @@ Blocks gambling-related sites.
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 464299
+**Entries:** 464291
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -688,7 +688,7 @@ A medium-sized version for ad blockers that have trouble with the full gambling 
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 157358
+**Entries:** 157340
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -708,7 +708,7 @@ A size-optimized version of the Gambling Medium list. Only contains domains that
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 110322
+**Entries:** 110304
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -733,7 +733,7 @@ Blocks social networks like Facebook, Instagram, TikTok, X (formerly Twitter), S
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 898
+**Entries:** 900
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
@@ -755,7 +755,7 @@ Blocks adult content.
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 114737
+**Entries:** 114976
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
