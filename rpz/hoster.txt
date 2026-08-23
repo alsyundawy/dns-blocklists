@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1787237400 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1787470620 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 20 Aug 2026 14:50 UTC
-; Version: 2026.0820.1450.48
+; Last modified: 23 Aug 2026 07:37 UTC
+; Version: 2026.0823.0737.28
 ; Syntax: RPZ
-; Number of entries: 2480
+; Number of entries: 2476
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -1950,8 +1950,6 @@ bitly.net CNAME .
 *.bitly.net CNAME .
 builderall.net CNAME .
 *.builderall.net CNAME .
-creatorlink.net CNAME .
-*.creatorlink.net CNAME .
 cryptonight.net CNAME .
 *.cryptonight.net CNAME .
 cwqso.net CNAME .
@@ -2242,8 +2240,6 @@ fanclub.rocks CNAME .
 *.fanclub.rocks CNAME .
 blogspot.rs CNAME .
 *.blogspot.rs CNAME .
-mycpanel.rs CNAME .
-*.mycpanel.rs CNAME .
 bget.ru CNAME .
 *.bget.ru CNAME .
 blogspot.ru CNAME .
